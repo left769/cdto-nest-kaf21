@@ -1,0 +1,71 @@
+site_name: Довідник CDTO від кафедри Інформаційних систем та технологій
+site_author: Створено колективом кафедри №21
+copyright: '© 2026 Кафедра №21 - Bci права захищені'
+
+extra:
+  social:
+    - icon: material/web
+      link: https://mitit.mil.gov.ua/page/faculty2
+
+theme:
+  name: material
+  logo: assets/logo_dep21_white.png
+  favicon: assets/logo_dep21_white.ico
+  language: uk
+  palette: 
+    # Налаштування для світлої теми
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Перейти на темну тему
+    # Налаштування для темної теми
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Перейти на світлу тему
+  features:
+    # - navigation.tabs
+    # - content.code.copy
+    # - search.suggest
+    # - search.highlight
+    - navigation.tabs 
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+nav:
+  - 🏠 Головна:
+      - '👋Вступ': README.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+
+plugins:
+  - search
