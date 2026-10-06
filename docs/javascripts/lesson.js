@@ -46,12 +46,25 @@
       meta.remove();
     }
 
-    const words = article.textContent.trim().split(/\s+/).length;
+    const quiz = article.querySelector(".lesson-quiz");
+    const quizText = quiz ? quiz.textContent : "";
+    const countWords = (text) => (text.match(/\S+/g) || []).length;
+    const words = countWords(article.textContent) - countWords(quizText);
     const minutes = Math.max(1, Math.round(words / 180));
     const time = document.createElement("span");
     time.className = "lesson-eyebrow__time";
     time.textContent = `≈ ${minutes} хв читання`;
     eyebrow.append(time);
+
+    if (quiz) {
+      const count = quiz.querySelectorAll(".lesson-quiz__q").length;
+      const link = document.createElement("a");
+      link.className = "lesson-eyebrow__quiz";
+      link.href = "#perevirte-sebe";
+      const noun = count % 10 >= 2 && count % 10 <= 4 && (count % 100 < 12 || count % 100 > 14) ? "питання" : count % 10 === 1 && count % 100 !== 11 ? "питання" : "питань";
+      link.textContent = `Тест · ${count} ${noun}`;
+      eyebrow.append(link);
+    }
 
     h1.before(header);
     header.append(eyebrow, h1);
@@ -79,11 +92,30 @@
     });
   };
 
+  const quizResult = (slug) => {
+    try {
+      return JSON.parse(localStorage.getItem(`cdto-quiz:${slug}`));
+    } catch {
+      return null;
+    }
+  };
+
   const enhanceCatalog = () => {
     document.querySelectorAll(".portal-catalog li li > a").forEach((link) => {
-      const type = typeOf(link.getAttribute("href") || "");
-      if (type && !link.parentElement.querySelector(".lesson-chip")) {
-        link.after(chip(type));
+      const href = link.getAttribute("href") || "";
+      const type = typeOf(href);
+      if (!type || link.parentElement.querySelector(".lesson-chip")) return;
+      link.after(chip(type));
+
+      const result = quizResult(href.replace(/\/$/, "").split("/").pop().replace(/\.md$/, ""));
+      if (result?.passed) {
+        const done = document.createElement("span");
+        done.className = "lesson-done";
+        done.title = `Тест складено: ${result.score} з ${result.total}`;
+        done.innerHTML =
+          '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>' +
+          `<span class="portal-sr-only">тест складено, ${result.score} з ${result.total}</span>`;
+        link.append(done);
       }
     });
   };

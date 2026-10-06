@@ -5,6 +5,8 @@
   --portal-accent-soft: rgb(170 144 103 / 12%);
   --portal-warn: #9a4b2f;
   --portal-warn-soft: rgb(176 92 58 / 8%);
+  --portal-ok: #3f6b3a;
+  --portal-ok-soft: rgb(63 107 58 / 8%);
   --portal-paper: #faf9f6;
   --portal-line: #e8e5df;
 }
@@ -35,6 +37,8 @@
   --portal-accent-soft: rgb(205 183 145 / 9%);
   --portal-warn: #e0a080;
   --portal-warn-soft: rgb(224 160 128 / 8%);
+  --portal-ok: #a5cb98;
+  --portal-ok-soft: rgb(165 203 152 / 8%);
 }
 
 body {
@@ -97,11 +101,14 @@ body {
 
 /* Липкий заголовок розділу в бічному меню: щільний фон, щоб пункти не просвічували. */
 @media screen and (min-width: 76.25em) {
-  .md-nav--primary > .md-nav__list > .md-nav__item--active > .md-nav__link {
+  .md-nav--primary > .md-nav__list > .md-nav__item--active > .md-nav__link,
+  .md-nav--secondary > .md-nav__title {
     margin-top: 0;
     padding-block: 0.45rem;
     background-color: var(--md-default-bg-color);
-    box-shadow: 0 0.5rem 0.5rem -0.25rem var(--md-default-bg-color);
+    box-shadow:
+      0 -0.8rem 0 0 var(--md-default-bg-color),
+      0 0.5rem 0.5rem -0.25rem var(--md-default-bg-color);
   }
 }
 
@@ -589,6 +596,259 @@ body {
   margin-right: 0.8rem;
   opacity: 0.5;
   content: "·";
+}
+
+/* ---------- Тест «Перевірте себе» ---------- */
+
+.md-typeset .lesson-eyebrow__quiz {
+  padding: 0.1rem 0.5rem;
+  border: 1px solid var(--portal-line);
+  border-radius: 999px;
+  color: var(--portal-ink);
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.md-typeset .lesson-eyebrow__quiz:hover {
+  border-color: var(--portal-accent);
+  color: var(--portal-accent);
+}
+
+.md-typeset .lesson-quiz__intro {
+  color: var(--portal-muted);
+  font-size: 0.8rem;
+}
+
+.md-typeset .lesson-quiz__previous {
+  color: var(--portal-ink);
+}
+
+.md-typeset .lesson-quiz__q {
+  margin: 1rem 0;
+  padding: 1rem 1.2rem 0.8rem;
+  border: 1px solid var(--portal-line);
+  border-radius: 4px;
+  background: var(--portal-paper);
+  transition: border-color 150ms ease;
+}
+
+.md-typeset .lesson-quiz__q legend {
+  display: flex;
+  float: left;
+  gap: 0.7rem;
+  width: 100%;
+  margin: 0 0 0.5rem;
+  padding: 0;
+  color: var(--portal-ink);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.md-typeset .lesson-quiz__q legend + * {
+  clear: both;
+}
+
+.md-typeset .lesson-quiz__num {
+  display: grid;
+  flex: 0 0 1.5rem;
+  height: 1.5rem;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--portal-ink);
+  color: var(--md-default-bg-color);
+  font-size: 0.66rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.md-typeset .lesson-quiz__hint {
+  margin: 0 0 0.4rem;
+  color: var(--portal-muted);
+  font-size: 0.72rem;
+}
+
+.md-typeset .lesson-quiz__opt {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  margin: 0.4rem 0;
+  padding: 0.6rem 0.85rem;
+  border: 1px solid var(--portal-line);
+  border-radius: 4px;
+  background: var(--md-default-bg-color);
+  cursor: pointer;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  transition: border-color 150ms ease, background-color 150ms ease;
+}
+
+.md-typeset .lesson-quiz__opt:hover {
+  border-color: var(--portal-accent);
+}
+
+.md-typeset .lesson-quiz__opt:has(input:checked) {
+  border-color: var(--portal-accent);
+  background: var(--portal-accent-soft);
+}
+
+.md-typeset .lesson-quiz__opt input {
+  flex: none;
+  width: 1rem;
+  height: 1rem;
+  margin: 0.15rem 0 0;
+  accent-color: var(--portal-accent);
+  cursor: inherit;
+}
+
+.md-typeset .lesson-quiz__opt input:focus-visible {
+  outline: 3px solid var(--portal-accent);
+  outline-offset: 2px;
+}
+
+.md-typeset .lesson-quiz__opt:has(input:disabled) {
+  cursor: default;
+}
+
+.md-typeset .lesson-quiz__opt:has(input:disabled):hover {
+  border-color: var(--portal-line);
+}
+
+.md-typeset .lesson-quiz .lesson-quiz__opt.is-answer,
+.md-typeset .lesson-quiz .lesson-quiz__opt.is-answer:hover {
+  border-color: var(--portal-ok);
+  background: var(--portal-ok-soft);
+}
+
+.md-typeset .lesson-quiz .lesson-quiz__opt.is-picked-wrong,
+.md-typeset .lesson-quiz .lesson-quiz__opt.is-picked-wrong:hover {
+  border-color: var(--portal-warn);
+  background: var(--portal-warn-soft);
+}
+
+.md-typeset .lesson-quiz__q.is-missing {
+  border-color: var(--portal-warn);
+}
+
+.md-typeset .lesson-quiz__q.is-correct {
+  border-left: 3px solid var(--portal-ok);
+}
+
+.md-typeset .lesson-quiz__q.is-wrong {
+  border-left: 3px solid var(--portal-warn);
+}
+
+.md-typeset .lesson-quiz__feedback {
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+}
+
+.md-typeset .lesson-quiz__feedback p {
+  margin: 0.3rem 0;
+}
+
+.md-typeset :is(.lesson-quiz__verdict, .lesson-quiz__score) {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.md-typeset :is(.lesson-quiz__verdict, .lesson-quiz__score) svg {
+  flex: none;
+  width: 1.05em;
+  height: 1.05em;
+  align-self: center;
+  fill: currentColor;
+}
+
+.md-typeset .is-correct .lesson-quiz__verdict,
+.md-typeset .is-passed .lesson-quiz__score {
+  color: var(--portal-ok);
+}
+
+.md-typeset .is-wrong .lesson-quiz__verdict {
+  color: var(--portal-ink);
+}
+
+.md-typeset .is-wrong .lesson-quiz__verdict :is(strong, svg),
+.md-typeset .is-failed .lesson-quiz__score {
+  color: var(--portal-warn);
+}
+
+.md-typeset .lesson-quiz__summary:not(:empty) {
+  margin: 1.2rem 0 0.4rem;
+  padding: 0.8rem 1.1rem;
+  border: 1px solid var(--portal-line);
+  border-left-width: 3px;
+  border-radius: 0 4px 4px 0;
+}
+
+.md-typeset .lesson-quiz__summary:focus {
+  outline: none;
+}
+
+.md-typeset .lesson-quiz__summary:focus-visible {
+  outline: 3px solid var(--portal-accent);
+  outline-offset: 2px;
+}
+
+.md-typeset .lesson-quiz__summary p {
+  margin: 0.2rem 0;
+}
+
+.md-typeset .lesson-quiz__summary.is-passed {
+  border-left-color: var(--portal-ok);
+  background: var(--portal-ok-soft);
+}
+
+.md-typeset .lesson-quiz__summary:is(.is-failed, .is-warning) {
+  border-left-color: var(--portal-warn);
+  background: var(--portal-warn-soft);
+}
+
+.md-typeset .lesson-quiz__score {
+  font-size: 1.05rem;
+}
+
+.md-typeset .lesson-quiz__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.md-typeset .lesson-quiz__actions .md-button {
+  border-radius: 4px;
+  font-size: 0.72rem;
+}
+
+.md-typeset .lesson-quiz__actions .md-button[hidden] {
+  display: none;
+}
+
+/* Текст лише для скрінрідерів */
+.portal-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Позначка складеного тесту в каталозі */
+.md-typeset .portal-catalog .lesson-done {
+  display: inline-flex;
+  margin-left: 0.4rem;
+  color: var(--portal-ok);
+  vertical-align: -0.15em;
+}
+
+.md-typeset .portal-catalog .lesson-done svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
 }
 
 @media screen and (max-width: 600px) {

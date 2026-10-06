@@ -49,10 +49,19 @@ extra_css:
 extra_javascript:
   - javascripts/home-link.js
   - javascripts/lesson.js
+  - javascripts/quiz.js
 
 # Каталог занять — на головній; program.md лишається в репозиторії як текстовий перелік.
 exclude_docs: |
   program.md
+
+hooks:
+  - hooks/quiz.py
+
+# Тести лежать поза docs/ — просимо `mkdocs serve` стежити за ними.
+watch:
+  - quizzes
+  - hooks
 
 nav:
   - Головна: index.md
