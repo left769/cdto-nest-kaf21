@@ -1,8 +1,10 @@
-site_name: Довідник CDTO від кафедри Інформаційних систем та технологій
-site_author: Створено колективом кафедри №21
-copyright: '© 2026 Кафедра №21 - Bci права захищені'
+site_name: Навчальний портал CDTO
+site_description: Навчальні матеріали курсу цифрової трансформації для офіцерів CDTO
+site_author: Кафедра інформаційних систем та технологій
+copyright: '© 2026 Кафедра інформаційних систем та технологій. Усі права захищені.'
 
 extra:
+  generator: false
   social:
     - icon: material/web
       link: https://mitit.mil.gov.ua/page/faculty2
@@ -12,39 +14,84 @@ theme:
   logo: assets/logo_dep21_white.png
   favicon: assets/logo_dep21_white.ico
   language: uk
+  font:
+    text: Inter
+    code: JetBrains Mono
   palette: 
-    # Налаштування для світлої теми
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: blue grey
+      accent: amber
       toggle:
         icon: material/brightness-7
         name: Перейти на темну тему
-    # Налаштування для темної теми
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
-      accent: indigo
+      primary: blue grey
+      accent: amber
       toggle:
         icon: material/brightness-4
         name: Перейти на світлу тему
   features:
-    # - navigation.tabs
-    # - content.code.copy
-    # - search.suggest
-    # - search.highlight
-    - navigation.tabs 
+    - navigation.tabs
     - navigation.sections
-    - navigation.expand
+    - navigation.path
+    - navigation.footer
     - navigation.top
+    - toc.follow
     - content.code.copy
     - search.suggest
     - search.highlight
 
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/home-link.js
+  - javascripts/lesson.js
+
+# Каталог занять — на головній; program.md лишається в репозиторії як текстовий перелік.
+exclude_docs: |
+  program.md
+
 nav:
-  - 🏠 Головна:
-      - '👋Вступ': README.md
+  - Головна: index.md
+  - Заняття:
+      - Модуль 1 · Стратегічні засади ЦТ:
+          - Заняття 1 · Державна політика: CDTO_Meth_T1_Z1_Lecture.md
+          - Заняття 2 · Нормативно-правові акти: CDTO_Meth_T1_Z2_Seminar.md
+          - Заняття 3 · Організаційна структура: CDTO_Meth_T1_Z3_Lecture.md
+          - Заняття 4 · OKR: CDTO_Meth_T1_Z4_Practical_OKR.md
+      - Модуль 2 · Управління проєктами:
+          - Заняття 1 · Методології: CDTO_Meth_T2_Z1_Lecture.md
+          - Заняття 2 · Ініціювання та планування: CDTO_Meth_T2_Z2_Practical.md
+          - Заняття 3 · Моніторинг і контроль: CDTO_Meth_T2_Z3_Practical.md
+          - Заняття 4 · Ризик-менеджмент: CDTO_Meth_T2_Z4_Practical.md
+          - Заняття 5 · Команда та ресурси: CDTO_Meth_T2_Z5_Seminar.md
+          - Заняття 6 · Бюджет і фінансовий контроль: CDTO_Meth_T2_Z6_Lecture_Practical.md
+          - Заняття 7 · Залежності та інтеграція: CDTO_Meth_T2_Z7_Practical.md
+          - Заняття 8 · Governance та delivery: CDTO_Meth_T2_Z8_Practical.md
+      - Модуль 3 · Бізнес-аналіз:
+          - Заняття 1 · Основи бізнес-аналізу: CDTO_Meth_T3_Z1_Lecture.md
+          - Заняття 2 · Моделювання процесів: CDTO_Meth_T3_Z2_Practical.md
+          - Заняття 3 · Аналіз AS-IS / TO-BE: CDTO_Meth_T3_Z3_Practical.md
+          - Заняття 4 · Вимоги та Use Cases: CDTO_Meth_T3_Z4_Practical.md
+          - Заняття 5 · Аналітика зворотного зв’язку: CDTO_Meth_T3_Z5_Seminar.md
+      - Модуль 4 · Впровадження ІКС:
+          - Заняття 1 · Організація впровадження: CDTO_Meth_T4_Z1_Lecture.md
+          - Заняття 2 · Планування впровадження: CDTO_Meth_T4_Z2_Practical.md
+          - Заняття 3 · Управління стейкхолдерами: CDTO_Meth_T4_Z3_Lecture.md
+          - Заняття 4 · Комунікації та фасилітація: CDTO_Meth_T4_Z4_Practical.md
+      - Модуль 5 · Документи та захист інформації:
+          - Заняття 1 · Документообіг і захист: CDTO_Meth_T5_Z1_Lecture.md
+          - Заняття 2 · Аналітичні матеріали: CDTO_Meth_T5_Z2_Practical.md
+          - Заняття 3 · Ефективна презентація: CDTO_Meth_T5_Z3_Practical.md
+      - Модуль 6 · Цифрові інструменти та ШІ:
+          - Заняття 1 · Інструменти й хмарні сервіси: CDTO_Meth_T6_Z1_Practical.md
+          - Заняття 2 · Штучний інтелект: CDTO_Meth_T6_Z2_Practical.md
+      - Модуль 7 · Управлінські навички:
+          - Заняття 1 · Фасилітація та конфлікти: CDTO_Meth_T7_Z1_Practical.md
+          - Заняття 2 · Управління опором: CDTO_Meth_T7_Z2_Practical.md
 
 markdown_extensions:
   - pymdownx.highlight:
