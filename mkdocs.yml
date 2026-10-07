@@ -26,15 +26,15 @@ theme:
   palette: 
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue grey
-      accent: amber
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Перейти на темну тему
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue grey
-      accent: amber
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Перейти на світлу тему
@@ -67,6 +67,7 @@ not_in_nav: |
 
 hooks:
   - hooks/quiz.py
+  - hooks/workbook.py
 
 # Тести лежать поза docs/ — просимо `mkdocs serve` стежити за ними.
 watch:
@@ -111,6 +112,31 @@ nav:
       - Модуль 7 · Управлінські навички:
           - Заняття 1 · Фасилітація та конфлікти: CDTO_Meth_T7_Z1_Practical.md
           - Заняття 2 · Управління опором: CDTO_Meth_T7_Z2_Practical.md
+  - Робочий зошит:
+      - Про робочий зошит: workbook/index.md
+      - Легенда та кейси: workbook/cases.md
+      - Тема 1–2 · Цілі й управління:
+          - Крок 1 · Кейс, ролі, OKR: workbook/step-01-okr.md
+          - Крок 2 · Статут і план: workbook/step-02-charter.md
+          - Крок 3 · KPI і RAID-log: workbook/step-03-kpi.md
+          - Крок 4 · Ризики: workbook/step-04-risks.md
+          - Крок 5 · Бюджет: workbook/step-05-budget.md
+          - Крок 6 · Залежності: workbook/step-06-dependencies.md
+          - Крок 7 · Статус-звіт: workbook/step-07-status.md
+      - Тема 3 · Аналіз і вимоги:
+          - Крок 8 · Модель процесу: workbook/step-08-process.md
+          - Крок 9 · TO-BE і запит на зміну: workbook/step-09-to-be.md
+          - Крок 10 · Вимоги й ТЗ: workbook/step-10-requirements.md
+      - Тема 4–5 · Впровадження й документи:
+          - Крок 11 · План впровадження: workbook/step-11-rollout.md
+          - Крок 12 · Стейкхолдери: workbook/step-12-stakeholders.md
+          - Крок 13 · Аналітична записка: workbook/step-13-note.md
+          - Крок 14 · Презентація: workbook/step-14-presentation.md
+      - Тема 6–7 · Інструменти, ШІ, зміни:
+          - Крок 15 · Беклог і MVP: workbook/step-15-backlog.md
+          - Крок 16 · Прототип (MVP) і приймання: workbook/step-16-prototype.md
+          - Крок 17 · Сесія пріоритезації: workbook/step-17-session.md
+          - Крок 18 · Захист проєкту: workbook/step-18-defense.md
 
 markdown_extensions:
   - pymdownx.highlight:

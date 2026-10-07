@@ -876,3 +876,162 @@ body:has(.portal-contacts) {
     height: 1.5rem;
   }
 }
+
+/* ---------- Робочий зошит ---------- */
+
+.md-typeset .workbook-lead {
+  max-width: 760px;
+  color: var(--portal-muted);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.md-typeset .workbook-note {
+  color: var(--portal-muted);
+  font-size: 0.8rem;
+}
+
+/* Чотири факти «Як це працює» — прямокутні картки. */
+.md-typeset .workbook-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 0.8rem;
+  margin: 1.2rem 0 1.6rem;
+}
+
+.md-typeset .workbook-facts > div {
+  padding: 1rem 1.1rem;
+  border-top: 3px solid var(--mod-gold);
+  background: var(--portal-subtle);
+  font-size: 0.8rem;
+  line-height: 1.55;
+}
+
+.md-typeset .workbook-facts p {
+  margin: 0 0 0.4rem;
+}
+
+.md-typeset .workbook-facts strong {
+  display: block;
+  font-size: 0.9rem;
+}
+
+/* Паспорт кроку: заняття, хто веде, час, результат. */
+.md-typeset .workbook-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0 0 2rem;
+  border-top: 1px solid var(--portal-line);
+  border-left: 1px solid var(--portal-line);
+}
+
+.md-typeset .workbook-meta > div {
+  padding: 0.7rem 0.9rem;
+  border-right: 1px solid var(--portal-line);
+  border-bottom: 1px solid var(--portal-line);
+  font-size: 0.76rem;
+  line-height: 1.45;
+}
+
+.md-typeset .workbook-meta p {
+  margin: 0;
+}
+
+.md-typeset .workbook-meta strong {
+  color: var(--portal-muted);
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Заголовок шаблону над блоком коду — як ім’я файлу. */
+.md-typeset .highlight span.filename {
+  border-radius: 0;
+  background-color: var(--portal-section);
+  color: var(--portal-ink);
+  font-weight: 500;
+}
+
+/* Вставки Material — у палітрі теми, читабельним кеглем. */
+.md-typeset :is(.admonition, details)[class] {
+  border: 0;
+  border-left: 3px solid var(--portal-ink);
+  border-radius: 0;
+  background: var(--portal-subtle);
+  box-shadow: none;
+  font-size: 0.8rem;
+}
+
+.md-typeset :is(.admonition, details)[class] > :is(.admonition-title, summary) {
+  background: transparent;
+  font-weight: 500;
+}
+
+.md-typeset :is(.admonition, details)[class] > :is(.admonition-title, summary)::before,
+.md-typeset details[class] > summary::after {
+  background-color: var(--portal-ink);
+}
+
+.md-typeset :is(.admonition, details).warning {
+  border-left-color: var(--mod-gold);
+  background: rgb(255 189 27 / 14%);
+}
+
+/* Імена файлів у таблицях не розриваємо посередині. */
+.md-typeset td > code:only-child {
+  white-space: nowrap;
+}
+
+.md-typeset .workbook-meta code {
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 480px) {
+  .md-typeset .workbook-meta {
+    grid-template-columns: 1fr;
+  }
+}
+
+.md-typeset :is(.admonition, details)[class]:focus-within {
+  box-shadow: 0 0 0 0.2rem rgb(243 146 0 / 25%);
+}
+
+.md-typeset details.example[class] {
+  border: 1px solid var(--portal-line);
+  border-left: 3px solid var(--portal-line);
+  background: var(--md-default-bg-color);
+}
+
+.md-typeset details.example > summary {
+  cursor: pointer;
+}
+
+/* Блок «Наскрізний проєкт» на сторінці заняття. */
+.md-typeset .lesson-workbook {
+  margin: 1.2rem 0 2rem;
+  padding: 1.3rem 1.4rem;
+  background: var(--mod-graphite);
+  color: var(--mod-on-dark);
+}
+
+.md-typeset .lesson-workbook p {
+  margin: 0 0 0.6rem;
+}
+
+.md-typeset .lesson-workbook__kicker {
+  color: var(--mod-gold);
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.md-typeset .lesson-workbook__title {
+  font-size: 1.1rem;
+  line-height: 1.35;
+}
+
+.md-typeset .lesson-workbook .md-button {
+  margin-top: 0.4rem;
+}

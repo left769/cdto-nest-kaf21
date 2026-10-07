@@ -66,6 +66,14 @@
       eyebrow.append(link);
     }
 
+    if (article.querySelector(".lesson-workbook")) {
+      const link = document.createElement("a");
+      link.className = "lesson-eyebrow__quiz";
+      link.href = "#robochyi-zoshyt";
+      link.textContent = "Наскрізний проєкт";
+      eyebrow.append(link);
+    }
+
     h1.before(header);
     header.append(eyebrow, h1);
 

@@ -1,2 +1,5 @@
 .venv/
 /site/
+
+# Кеш Python (хуки MkDocs)
+__pycache__/
