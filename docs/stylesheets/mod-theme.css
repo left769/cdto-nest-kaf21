@@ -1,0 +1,878 @@
+/*
+ * Тема у стилістиці mod.gov.ua: чорна шапка, тепле світле тло, прямокутні
+ * білі картки, золоті кнопки-«пігулки», шрифт e-Ukraine.
+ * Підключається після extra.css і перевизначає лише кольори, шрифт і форму.
+ *
+ * Шрифт e-Ukraine © Міністерство цифрової трансформації України,
+ * ліцензія CC BY 4.0 (thedigital.gov.ua/fonts).
+ */
+
+@font-face {
+  font-family: "e-Ukraine";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../assets/fonts/e-Ukraine-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "e-Ukraine";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/e-Ukraine-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "e-Ukraine";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/fonts/e-Ukraine-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "e-Ukraine";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/e-Ukraine-Bold.woff2") format("woff2");
+}
+
+/* ---------- Токени ---------- */
+
+:root {
+  --mod-black: #141414;
+  --mod-graphite: #2c2c2c;
+  --mod-warm: #eeece7;
+  --mod-warm-light: #f5f5f2;
+  --mod-gold: #f39200;
+  --mod-yellow: #ffbd1b;
+  --mod-on-dark: #fff;
+  --mod-on-dark-muted: #b9b9b9;
+  --mod-pill: 80px;
+
+  --md-text-font: "e-Ukraine";
+  --portal-card: #fff;
+  --portal-section: var(--mod-warm);
+  --portal-subtle: var(--mod-warm-light);
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--mod-black);
+  --md-primary-fg-color--light: var(--mod-graphite);
+  --md-primary-fg-color--dark: var(--mod-black);
+  --md-accent-fg-color: var(--mod-gold);
+  --md-default-bg-color: #fff;
+  --md-default-fg-color: #11181c;
+  --md-typeset-a-color: #11181c;
+  --portal-ink: #11181c;
+  --portal-muted: #555;
+  --portal-accent: #11181c;
+  --portal-accent-soft: var(--mod-warm-light);
+  --portal-paper: var(--mod-warm-light);
+  --portal-line: #dcd9d1;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--mod-black);
+  --md-primary-fg-color--light: var(--mod-graphite);
+  --md-primary-fg-color--dark: var(--mod-black);
+  --md-accent-fg-color: var(--mod-gold);
+  --md-default-bg-color: var(--mod-black);
+  --md-default-fg-color: #eceae4;
+  --md-typeset-a-color: #eceae4;
+  --md-footer-bg-color: var(--mod-black);
+  --portal-ink: #eceae4;
+  --portal-muted: #a9a9a9;
+  --portal-accent: var(--mod-gold);
+  --portal-accent-soft: #1f1f1f;
+  --portal-paper: #1f1f1f;
+  --portal-line: #333;
+  --portal-card: var(--mod-graphite);
+  --portal-section: #1f1f1f;
+  --portal-subtle: #1f1f1f;
+}
+
+body,
+input {
+  font-family: "e-Ukraine", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* ---------- Шапка, вкладки, футер — чорні ---------- */
+
+.md-header,
+.md-tabs {
+  background-color: var(--mod-black);
+}
+
+.md-header {
+  box-shadow: none;
+}
+
+.md-header__title {
+  font-weight: 500;
+}
+
+.md-tabs {
+  border-bottom: 1px solid rgb(255 255 255 / 10%);
+}
+
+.md-tabs__link {
+  margin-top: 0.55rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.md-tabs__link--active,
+.md-tabs__item--active .md-tabs__link {
+  opacity: 1;
+  box-shadow: inset 0 -3px 0 var(--mod-gold);
+}
+
+.md-search__form {
+  border-radius: var(--mod-pill);
+  background-color: var(--mod-graphite);
+}
+
+.md-header__home-link {
+  color: var(--mod-on-dark);
+  font-weight: 500;
+}
+
+.md-footer {
+  background-color: var(--mod-black);
+}
+
+.md-footer-meta {
+  border-top: 1px solid rgb(255 255 255 / 10%);
+  background-color: var(--mod-black);
+}
+
+.md-footer__direction {
+  color: var(--mod-on-dark-muted);
+}
+
+.md-footer__title {
+  font-weight: 500;
+}
+
+.md-footer__button {
+  color: var(--mod-gold);
+}
+
+.md-copyright,
+.md-copyright__highlight {
+  color: var(--mod-on-dark-muted);
+}
+
+/* ---------- Фокус ---------- */
+
+.md-typeset a:focus-visible,
+.md-typeset button:focus-visible {
+  outline-color: var(--portal-ink);
+}
+
+.md-header a:focus-visible,
+.md-tabs a:focus-visible,
+.md-typeset .portal-hero a:focus-visible,
+[data-md-color-scheme="slate"] .md-typeset :is(a, button):focus-visible {
+  outline-color: var(--mod-gold);
+}
+
+/* ---------- Бічна навігація ---------- */
+
+.md-nav__link:is(:hover, .md-nav__link--active) {
+  color: var(--portal-ink);
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-nav--primary .md-nav__link--active {
+    border-radius: 0;
+    background: var(--portal-subtle);
+    box-shadow: inset 3px 0 0 var(--mod-gold);
+    font-weight: 500;
+  }
+
+  .md-nav--primary > .md-nav__list > .md-nav__item--active > .md-nav__link,
+  .md-nav--secondary > .md-nav__title {
+    font-weight: 500;
+  }
+}
+
+.md-sidebar .md-nav__item--section > .md-nav__link[for] {
+  font-weight: 500;
+}
+
+/* ---------- Типографіка ---------- */
+
+.md-typeset {
+  line-height: 1.7;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  color: var(--portal-ink);
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.md-typeset h1 {
+  font-size: clamp(1.5rem, 3.2vw, 2rem);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.md-typeset strong {
+  font-weight: 500;
+}
+
+/* Посилання в тексті: колір тексту + золоте підкреслення. */
+.md-typeset :where(a:not(.md-button, .headerlink)) {
+  text-decoration: underline;
+  text-decoration-color: var(--mod-gold);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
+}
+
+.md-typeset :where(a:not(.md-button, .headerlink)):hover {
+  color: var(--portal-ink);
+  text-decoration-color: currentColor;
+}
+
+.md-typeset :is(table:not([class]), .admonition, details) {
+  border-radius: 0;
+}
+
+.md-typeset table:not([class]) {
+  border-color: var(--portal-line);
+}
+
+.md-typeset table:not([class]) th {
+  background: var(--portal-section);
+  color: var(--portal-ink);
+  font-weight: 500;
+}
+
+.md-typeset blockquote {
+  border-left-color: var(--mod-gold);
+}
+
+/* ---------- Кнопки — «пігулки» ---------- */
+
+.md-typeset .md-button {
+  padding: 0.6em 2em;
+  border-radius: var(--mod-pill);
+  font-weight: 500;
+}
+
+.md-typeset .md-button--primary {
+  border-color: var(--mod-gold);
+  background-color: var(--mod-gold);
+  color: var(--mod-black);
+}
+
+.md-typeset .md-button--primary:is(:hover, :focus-visible) {
+  border-color: var(--mod-yellow);
+  background-color: var(--mod-yellow);
+  color: var(--mod-black);
+}
+
+/* ---------- Головна: тепле тло, як у секціях mod.gov.ua ---------- */
+
+body:has(.portal-hero) {
+  --md-default-bg-color: var(--portal-section);
+}
+
+/* Геройблок на всю ширину вікна, графітовий. */
+.md-typeset .portal-hero {
+  margin: -2.5rem 0 3rem;
+  padding: clamp(2.2rem, 5vw, 4rem) 0 clamp(2rem, 4vw, 3.2rem);
+  border: 0;
+  border-radius: 0;
+  background-color: var(--mod-graphite);
+  box-shadow: 0 0 0 100vmax var(--mod-graphite);
+  clip-path: inset(0 -100vmax);
+  color: var(--mod-on-dark);
+}
+
+.md-typeset .portal-brand .portal-kicker {
+  color: var(--mod-on-dark-muted);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.portal-brand .portal-kicker span {
+  color: var(--mod-gold);
+  opacity: 1;
+}
+
+.md-typeset .portal-hero h1 {
+  max-width: 900px;
+  color: var(--mod-on-dark);
+  font-size: clamp(1.6rem, 5vw, 2.8rem);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.15;
+  hyphens: manual;
+}
+
+.md-typeset .portal-hero .portal-lead {
+  color: var(--mod-on-dark-muted);
+}
+
+.md-typeset .portal-actions {
+  gap: 0.8rem;
+  margin-top: 1.8rem;
+}
+
+.md-typeset .portal-actions .md-button {
+  border-color: rgb(255 255 255 / 60%);
+  border-radius: var(--mod-pill);
+  color: var(--mod-on-dark);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.md-typeset .portal-actions .md-button--primary {
+  border-color: var(--mod-gold);
+  background: var(--mod-gold);
+  color: var(--mod-black);
+  font-weight: 500;
+}
+
+.md-typeset .portal-actions .md-button:hover {
+  border-color: var(--mod-yellow);
+  background: var(--mod-yellow);
+  color: var(--mod-black);
+}
+
+.md-typeset .portal-stats {
+  border-top-color: rgb(255 255 255 / 14%);
+}
+
+.portal-stats strong {
+  color: var(--mod-gold);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.portal-stats span {
+  color: var(--mod-on-dark-muted);
+}
+
+/* Заголовок секції — великий і тонкий, як «Сервіси» на mod.gov.ua. */
+.md-typeset .portal-section-heading {
+  max-width: none;
+  margin-bottom: 1.6rem;
+}
+
+.md-typeset .portal-section-heading .portal-kicker {
+  display: none;
+}
+
+.md-typeset .portal-section-heading h2 {
+  color: var(--portal-ink);
+  font-size: clamp(1.8rem, 4.5vw, 2.8rem);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+
+.md-typeset .portal-section-heading > p:last-child {
+  max-width: 680px;
+  margin-top: 0.8rem;
+  color: var(--portal-muted);
+}
+
+/* Модулі — білі прямокутні картки без тіней і рамок. */
+.md-typeset .portal-catalog > ul {
+  gap: 1rem;
+  border-top: 0;
+}
+
+.md-typeset .portal-catalog > ul > li {
+  padding: clamp(1.2rem, 2.5vw, 1.8rem);
+  border: 0;
+  background: var(--portal-card);
+}
+
+.md-typeset .portal-catalog .topic-number {
+  color: var(--portal-muted);
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+}
+
+.md-typeset .portal-catalog h3 {
+  margin-top: 0.5rem;
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.md-typeset .portal-catalog p strong {
+  color: var(--portal-ink);
+  font-weight: 500;
+}
+
+.md-typeset .portal-catalog ul ul li {
+  border-bottom: 1px solid var(--portal-section);
+}
+
+.md-typeset .portal-catalog ul ul li > a {
+  color: var(--portal-ink);
+}
+
+.md-typeset .portal-catalog ul ul li > a:hover {
+  color: var(--portal-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--mod-gold);
+  text-decoration-thickness: 2px;
+}
+
+.md-typeset .portal-note {
+  border: 0;
+  border-radius: 0;
+  background: var(--portal-card);
+}
+
+.portal-note-mark {
+  border-radius: 0;
+  background: var(--mod-black);
+  color: var(--mod-gold);
+}
+
+/* ---------- Мітки типу заняття: прямокутні, без кольорових «веселок» ---------- */
+
+.lesson-chip {
+  border-radius: 0;
+  font-weight: 500;
+}
+
+.lesson-chip--lecture,
+[data-md-color-scheme="slate"] .lesson-chip--lecture {
+  border-color: var(--mod-black);
+  background: var(--mod-black);
+  color: var(--mod-on-dark);
+}
+
+.lesson-chip--practical,
+[data-md-color-scheme="slate"] .lesson-chip--practical {
+  border-color: var(--mod-gold);
+  background: var(--mod-gold);
+  color: var(--mod-black);
+}
+
+.lesson-chip--seminar,
+[data-md-color-scheme="slate"] .lesson-chip--seminar {
+  border-color: currentColor;
+  background: transparent;
+  color: var(--portal-ink);
+}
+
+.lesson-chip--mixed,
+[data-md-color-scheme="slate"] .lesson-chip--mixed {
+  border-color: var(--mod-yellow);
+  background: var(--mod-yellow);
+  color: var(--mod-black);
+}
+
+[data-md-color-scheme="slate"] .lesson-chip--lecture {
+  border-color: #555;
+  background: #555;
+}
+
+/* ---------- Сторінка заняття ---------- */
+
+.md-typeset .lesson-eyebrow__quiz {
+  border: 0;
+  border-radius: 0;
+  color: var(--portal-ink);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: var(--mod-gold);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
+}
+
+.md-typeset .lesson-eyebrow__quiz:hover {
+  color: var(--portal-ink);
+}
+
+/* e-Ukraine ширший за Inter: рядок над заголовком переноситься,
+   тож крапку-розділювач прибираємо, лишаємо відступ. */
+.md-typeset .lesson-eyebrow__topic + .lesson-eyebrow__time::before {
+  display: none;
+}
+
+.md-typeset .lesson-takeaway,
+.md-typeset .lesson-example {
+  border-radius: 0;
+  background: var(--portal-subtle);
+}
+
+.md-typeset .lesson-takeaway {
+  border-left-color: var(--portal-ink);
+  font-weight: 400;
+}
+
+.md-typeset .lesson-example {
+  border-left-color: var(--portal-line);
+}
+
+.md-typeset .lesson-pitfalls {
+  border: 0;
+  border-left: 3px solid var(--mod-gold);
+  border-radius: 0;
+  background: rgb(255 189 27 / 14%);
+}
+
+.md-typeset .lesson-pitfalls > p {
+  color: var(--portal-ink);
+}
+
+/* ---------- Тест ---------- */
+
+.md-typeset .lesson-quiz__q {
+  border: 0;
+  border-radius: 0;
+  background: var(--portal-subtle);
+}
+
+.md-typeset .lesson-quiz__q legend {
+  font-weight: 500;
+}
+
+.md-typeset .lesson-quiz__num {
+  border-radius: 0;
+  background: var(--mod-black);
+  color: var(--mod-on-dark);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .lesson-quiz__num {
+  background: var(--mod-gold);
+  color: var(--mod-black);
+}
+
+.md-typeset .lesson-quiz__opt {
+  border-color: transparent;
+  border-radius: 0;
+  background: var(--portal-card);
+}
+
+.md-typeset .lesson-quiz__opt:hover,
+.md-typeset .lesson-quiz__opt:has(input:checked) {
+  border-color: var(--portal-ink);
+  background: var(--portal-card);
+}
+
+.md-typeset .lesson-quiz__opt input {
+  accent-color: var(--mod-black);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .lesson-quiz__opt input {
+  accent-color: var(--mod-gold);
+}
+
+.md-typeset .lesson-quiz__summary:not(:empty) {
+  border-radius: 0;
+}
+
+/* ---------- Мобільний ---------- */
+
+@media screen and (max-width: 600px) {
+  .md-typeset .portal-hero {
+    margin-inline: 0;
+    padding-inline: 0;
+    border-radius: 0;
+  }
+}
+
+/* ---------- Шапка: емблема | назва у два рядки, як на mod.gov.ua ---------- */
+
+.md-header__inner {
+  min-height: 3rem;
+}
+
+.portal-brand-link {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 0.7rem;
+  margin: 0 auto 0 0.4rem;
+  padding: 0.35rem 0;
+  color: var(--mod-on-dark);
+  text-decoration: none;
+}
+
+.portal-brand-link:hover {
+  color: var(--mod-on-dark);
+}
+
+.portal-brand-link:focus-visible {
+  outline: 3px solid var(--mod-gold);
+  outline-offset: 4px;
+}
+
+.portal-brand-link__logo {
+  width: auto;
+  height: 2.3rem;
+  flex: none;
+}
+
+.portal-brand-link__divider {
+  width: 1px;
+  height: 1.9rem;
+  flex: none;
+  background: rgb(255 255 255 / 35%);
+}
+
+.portal-brand-link__text {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.portal-brand-link__name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.portal-brand-link__sub {
+  overflow: hidden;
+  color: var(--mod-on-dark-muted);
+  font-size: 0.66rem;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* «Контакти» — праворуч у шапці, як на mod.gov.ua. */
+.portal-header-link {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: 0.4rem;
+  margin-right: 0.6rem;
+  padding: 0.4rem 0.2rem;
+  color: var(--mod-on-dark);
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.portal-header-link svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  fill: currentColor;
+}
+
+.portal-header-link:hover,
+.portal-header-link[aria-current="page"] {
+  color: var(--mod-on-dark);
+  box-shadow: inset 0 -3px 0 var(--mod-gold);
+}
+
+.portal-header-link:focus-visible {
+  outline: 3px solid var(--mod-gold);
+  outline-offset: 2px;
+}
+
+@media screen and (max-width: 76.234375em) {
+  .portal-brand-link {
+    margin-left: 0;
+  }
+
+  .portal-brand-link__logo {
+    height: 2rem;
+  }
+
+  .portal-brand-link__divider {
+    height: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .portal-brand-link {
+    gap: 0.5rem;
+  }
+
+  .portal-brand-link__logo {
+    height: 1.8rem;
+  }
+
+  /* На вузькому екрані назва сама переходить у два рядки, як на mod.gov.ua. */
+  .portal-brand-link__name {
+    font-size: 0.72rem;
+    white-space: normal;
+  }
+
+  .portal-brand-link__sub {
+    display: none;
+  }
+
+  .portal-header-link {
+    margin-right: 0;
+    padding: 0.4rem;
+  }
+
+  .portal-header-link__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+}
+
+/* ---------- Сторінка «Контакти» ---------- */
+
+body:has(.portal-contacts) {
+  --md-default-bg-color: var(--portal-section);
+}
+
+.md-typeset .portal-contacts h1 {
+  margin-bottom: 0.6rem;
+  font-size: clamp(1.8rem, 4.5vw, 2.8rem);
+}
+
+.md-typeset .portal-contacts__lead {
+  max-width: 640px;
+  margin: 0 0 2rem;
+  color: var(--portal-muted);
+}
+
+.md-typeset .portal-contacts__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: 1rem;
+}
+
+.md-typeset .portal-contacts__card {
+  padding: clamp(1.4rem, 3vw, 2rem);
+  background: var(--portal-card);
+}
+
+.md-typeset .portal-contacts__label {
+  margin: 0;
+  color: var(--portal-muted);
+  font-size: 0.66rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.md-typeset .portal-contacts__value {
+  margin: 0.5rem 0 1.4rem;
+  font-size: clamp(1.15rem, 3vw, 1.6rem);
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
+.md-typeset .portal-contacts__actions {
+  margin: 0;
+}
+
+@media screen and (max-width: 380px) {
+  .portal-brand-link__divider {
+    display: none;
+  }
+
+  .portal-brand-link__logo {
+    height: 1.6rem;
+  }
+
+  .portal-brand-link__name {
+    font-size: 0.68rem;
+  }
+}
+
+/* ---------- Повна / коротка назва в шапці ---------- */
+
+.portal-brand-link__text--full {
+  display: none;
+}
+
+@media screen and (min-width: 76.25em) {
+  .portal-brand-link__text--full {
+    display: flex;
+  }
+
+  .portal-brand-link__text--short {
+    display: none;
+  }
+
+  .portal-brand-link__text--full .portal-brand-link__name {
+    font-size: 1rem;
+  }
+
+  .portal-brand-link__text--full .portal-brand-link__sub {
+    font-size: 0.66rem;
+  }
+}
+
+/* ---------- Геройблок: офіційна назва курсу над заголовком ---------- */
+
+.md-typeset .portal-hero .portal-course {
+  display: flex;
+  max-width: 760px;
+  align-items: baseline;
+  gap: 0.8rem;
+  margin: 0 0 1.6rem;
+  color: var(--mod-on-dark-muted);
+  font-size: clamp(0.7rem, 1.4vw, 0.8rem);
+  line-height: 1.5;
+}
+
+.md-typeset .portal-hero .portal-course::before {
+  width: 1.6rem;
+  height: 3px;
+  flex: none;
+  transform: translateY(-0.25em);
+  background: var(--mod-gold);
+  content: "";
+}
+
+/* Бічні поля контенту: центрування в extra.css (margin-inline: auto) прибрало
+   стандартні поля Material, і на планшетах текст упирався в край екрана. */
+.md-content__inner {
+  padding-inline: 0.8rem;
+}
+
+/* ---------- CDTO Campus поруч з емблемою кафедри ---------- */
+
+.portal-brand-link__partner {
+  width: auto;
+  height: 1.8rem;
+  flex: none;
+}
+
+/* Назва відділена від логотипів відступом, як на mod.gov.ua. */
+.portal-brand-link img + .portal-brand-link__text {
+  margin-left: 0.4rem;
+}
+
+/* Нижче 1024 px текстова назва не вміщується поруч з двома логотипами —
+   лишаємо логотипи («CDTO Campus» на логотипі сам підписує портал). */
+@media screen and (max-width: 63.9844em) {
+  .portal-brand-link__text--short {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .portal-brand-link__divider {
+    display: block;
+  }
+
+  .portal-brand-link__partner {
+    height: 1.5rem;
+  }
+}

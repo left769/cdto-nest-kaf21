@@ -6,10 +6,7 @@ hide:
 
 <div class="portal-hero" markdown>
 
-<div class="portal-brand">
-  <img src="assets/logo_dep21_white.png" alt="Емблема кафедри інформаційних систем та технологій">
-  <p class="portal-kicker">КАФЕДРА ІНФОРМАЦІЙНИХ СИСТЕМ ТА ТЕХНОЛОГІЙ <span aria-hidden="true">/</span> CDTO</p>
-</div>
+<p class="portal-course">Курс підвищення кваліфікації офіцерів у сфері цифрового розвитку, цифрових трансформацій і цифровізації</p>
 
 # Цифрова трансформація починається з лідерства
 

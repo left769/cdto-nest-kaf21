@@ -1,0 +1,82 @@
+{#-
+  Шапка в стилістиці mod.gov.ua: емблема кафедри, вертикальний розділювач
+  і назва курсу у два рядки (extra.course у mkdocs.yml), яка не змінюється
+  під час прокручування. На вузьких екранах — коротка назва (site_name).
+  Основа — partials/header.html з mkdocs-material 9.7.7.
+-#}
+{% set class = "md-header" %}
+{% if "navigation.tabs.sticky" in features %}
+  {% set class = class ~ " md-header--shadow md-header--lifted" %}
+{% elif "navigation.tabs" not in features %}
+  {% set class = class ~ " md-header--shadow" %}
+{% endif %}
+{% set home_url = config.extra.homepage | d(nav.homepage.url, true) | url %}
+{% set contacts_url = "contacts/" | url %}
+<header class="{{ class }}" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
+    <label class="md-header__button md-icon" for="__drawer">
+      {% set icon = config.theme.icon.menu or "material/menu" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </label>
+    {% set course = config.extra.course | d({}) %}
+    {% set full_name = (course.title ~ " " ~ course.subtitle) if course.title else config.site_name %}
+    <a href="{{ home_url }}" class="portal-brand-link" aria-label="{% if config.extra.partner_logo %}CDTO Campus. {% endif %}{{ full_name }} — на головну" data-md-component="logo">
+      {#- Як «Тризуб | емблема» на mod.gov.ua: CDTO Campus, розділювач, емблема кафедри. -#}
+      {% if config.extra.partner_logo %}
+        <img class="portal-brand-link__partner" src="{{ config.extra.partner_logo | url }}" alt="">
+        {% if config.theme.logo %}
+          <span class="portal-brand-link__divider" aria-hidden="true"></span>
+          <img class="portal-brand-link__logo" src="{{ config.theme.logo | url }}" alt="">
+        {% endif %}
+      {% elif config.theme.logo %}
+        <img class="portal-brand-link__logo" src="{{ config.theme.logo | url }}" alt="">
+        <span class="portal-brand-link__divider" aria-hidden="true"></span>
+      {% endif %}
+      {#- Повна назва курсу — на широких екранах; коротка — на планшетах і телефонах. -#}
+      {% if course.title %}
+        <span class="portal-brand-link__text portal-brand-link__text--full" aria-hidden="true">
+          <span class="portal-brand-link__name">{{ course.title }}</span>
+          <span class="portal-brand-link__sub">{{ course.subtitle }}</span>
+        </span>
+      {% endif %}
+      <span class="portal-brand-link__text portal-brand-link__text--short" aria-hidden="true">
+        <span class="portal-brand-link__name">{{ config.site_name }}</span>
+      </span>
+    </a>
+    <a href="{{ contacts_url }}" class="portal-header-link" {% if page.file and page.file.src_uri == "contacts.md" %}aria-current="page"{% endif %}>
+      {% include ".icons/material/email-outline.svg" %}
+      <span class="portal-header-link__label">Контакти</span>
+    </a>
+    {% if config.theme.palette %}
+      {% if not config.theme.palette is mapping %}
+        {% include "partials/palette.html" %}
+      {% endif %}
+    {% endif %}
+    {% if not config.theme.palette is mapping %}
+      {% include "partials/javascripts/palette.html" %}
+    {% endif %}
+    {% if config.extra.alternate %}
+      {% include "partials/alternate.html" %}
+    {% endif %}
+    {% if "material/search" in config.plugins %}
+      {% set search = config.plugins["material/search"] | attr("config") %}
+      {% if search.enabled %}
+        <label class="md-header__button md-icon" for="__search">
+          {% set icon = config.theme.icon.search or "material/magnify" %}
+          {% include ".icons/" ~ icon ~ ".svg" %}
+        </label>
+        {% include "partials/search.html" %}
+      {% endif %}
+    {% endif %}
+    {% if config.repo_url %}
+      <div class="md-header__source">
+        {% include "partials/source.html" %}
+      </div>
+    {% endif %}
+  </nav>
+  {% if "navigation.tabs.sticky" in features %}
+    {% if "navigation.tabs" in features %}
+      {% include "partials/tabs.html" %}
+    {% endif %}
+  {% endif %}
+</header>
