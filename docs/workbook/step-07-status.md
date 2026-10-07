@@ -9,7 +9,7 @@ summary: Статус-звіт на одну сторінку для коман�
 <div class="workbook-meta" markdown>
 <div markdown>**Заняття**<br>[Тема 2 · Заняття 8. Governance і delivery](../CDTO_Meth_T2_Z8_Practical.md)</div>
 <div markdown>**Веде**<br>PM, за участі Technical Writer</div>
-<div markdown>**Обсяг роботи**<br>Малий</div>
+<div markdown>**Обсяг**<br>Малий</div>
 <div markdown>**Результат**<br>`07-status.md`</div>
 </div>
 

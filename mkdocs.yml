@@ -66,6 +66,7 @@ not_in_nav: |
   contacts.md
 
 hooks:
+  - hooks/cache_bust.py
   - hooks/quiz.py
   - hooks/workbook.py
 

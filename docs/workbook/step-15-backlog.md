@@ -9,7 +9,7 @@ summary: Беклог проєкту в Jira (або на будь-якій до
 <div class="workbook-meta" markdown>
 <div markdown>**Заняття**<br>[Тема 6 · Заняття 1. Інструменти й хмарні сервіси](../CDTO_Meth_T6_Z1_Practical.md)</div>
 <div markdown>**Веде**<br>PM і BA</div>
-<div markdown>**Обсяг роботи**<br>Малий</div>
+<div markdown>**Обсяг**<br>Малий</div>
 <div markdown>**Результат**<br>`15-beklog.md` + дошка</div>
 </div>
 

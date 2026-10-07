@@ -9,7 +9,7 @@ summary: Обрати кейс, розподілити ролі, побудув�
 <div class="workbook-meta" markdown>
 <div markdown>**Заняття**<br>[Тема 1 · Заняття 4. OKR для підрозділів ЦТ](../CDTO_Meth_T1_Z4_Practical_OKR.md)</div>
 <div markdown>**Веде**<br>DT Lead, уся команда</div>
-<div markdown>**Обсяг роботи**<br>Середній</div>
+<div markdown>**Обсяг**<br>Середній</div>
 <div markdown>**Результат**<br>`01-okr.md`</div>
 </div>
 

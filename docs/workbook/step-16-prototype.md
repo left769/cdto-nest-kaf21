@@ -9,7 +9,7 @@ summary: Передайте документи ШІ (для навчальних
 <div class="workbook-meta" markdown>
 <div markdown>**Заняття**<br>[Тема 6 · Заняття 2. ШІ для управлінських задач](../CDTO_Meth_T6_Z2_Practical.md)</div>
 <div markdown>**Веде**<br>BA і Product Support, усі учасники</div>
-<div markdown>**Обсяг роботи**<br>Великий</div>
+<div markdown>**Обсяг**<br>Великий</div>
 <div markdown>**Результат**<br>прототип + `16-pryimannia.md`</div>
 </div>
 

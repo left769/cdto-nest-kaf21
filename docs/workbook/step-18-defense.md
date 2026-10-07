@@ -9,7 +9,7 @@ summary: Комунікаційний план впровадження, зас�
 <div class="workbook-meta" markdown>
 <div markdown>**Заняття**<br>[Тема 7 · Заняття 2. Управління опором](../CDTO_Meth_T7_Z2_Practical.md)</div>
 <div markdown>**Веде**<br>DT Lead, уся команда</div>
-<div markdown>**Обсяг роботи**<br>Великий — разом із захистом</div>
+<div markdown>**Обсяг**<br>Великий — разом із захистом</div>
 <div markdown>**Результат**<br>`18-komunikatsii.md` + захист</div>
 </div>
 

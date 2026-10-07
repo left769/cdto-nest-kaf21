@@ -9,7 +9,7 @@ summary: Метрики AS-IS, неефективності, модель TO-BE,
 <div class="workbook-meta" markdown>
 <div markdown>**Заняття**<br>[Тема 3 · Заняття 3. Аналіз AS-IS / TO-BE](../CDTO_Meth_T3_Z3_Practical.md)</div>
 <div markdown>**Веде**<br>BA, за участі PM</div>
-<div markdown>**Обсяг роботи**<br>Великий</div>
+<div markdown>**Обсяг**<br>Великий</div>
 <div markdown>**Результат**<br>`09-to-be.md`</div>
 </div>
 

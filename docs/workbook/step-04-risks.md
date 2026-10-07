@@ -9,7 +9,7 @@ summary: Risk register проєкту з оцінкою, власниками, �
 <div class="workbook-meta" markdown>
 <div markdown>**Заняття**<br>[Тема 2 · Заняття 4. Ризик-менеджмент](../CDTO_Meth_T2_Z4_Practical.md)</div>
 <div markdown>**Веде**<br>PM</div>
-<div markdown>**Обсяг роботи**<br>Середній</div>
+<div markdown>**Обсяг**<br>Середній</div>
 <div markdown>**Результат**<br>`04-ryzyky.md`</div>
 </div>
 

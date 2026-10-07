@@ -9,7 +9,7 @@ summary: Фасилітована сесія пріоритезації дооп
 <div class="workbook-meta" markdown>
 <div markdown>**Заняття**<br>[Тема 7 · Заняття 1. Фасилітація та конфлікти](../CDTO_Meth_T7_Z1_Practical.md)</div>
 <div markdown>**Веде**<br>Фасилітатор — PM; уся команда</div>
-<div markdown>**Обсяг роботи**<br>Малий</div>
+<div markdown>**Обсяг**<br>Малий</div>
 <div markdown>**Результат**<br>`17-sesiia.md`</div>
 </div>
 

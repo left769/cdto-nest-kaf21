@@ -9,7 +9,7 @@ summary: Сценарій 7-хвилинної презентації проєк
 <div class="workbook-meta" markdown>
 <div markdown>**Заняття**<br>[Тема 5 · Заняття 3. Ефективна презентація](../CDTO_Meth_T5_Z3_Practical.md)</div>
 <div markdown>**Веде**<br>DT Lead, виступає 1–2 доповідачі</div>
-<div markdown>**Обсяг роботи**<br>Середній</div>
+<div markdown>**Обсяг**<br>Середній</div>
 <div markdown>**Результат**<br>`14-prezentatsiia.md` + слайди</div>
 </div>
 

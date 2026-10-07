@@ -9,7 +9,7 @@ summary: BPMN-модель поточного процесу (AS-IS) з дорі
 <div class="workbook-meta" markdown>
 <div markdown>**Заняття**<br>[Тема 3 · Заняття 2. Моделювання процесів](../CDTO_Meth_T3_Z2_Practical.md)</div>
 <div markdown>**Веде**<br>BA</div>
-<div markdown>**Обсяг роботи**<br>Середній</div>
+<div markdown>**Обсяг**<br>Середній</div>
 <div markdown>**Результат**<br>`08-protses.md` + діаграма</div>
 </div>
 

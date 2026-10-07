@@ -9,7 +9,7 @@ summary: User Stories, Use Cases, модель даних, ТЗ і матриц�
 <div class="workbook-meta" markdown>
 <div markdown>**Заняття**<br>[Тема 3 · Заняття 4. Від потреби до ТЗ](../CDTO_Meth_T3_Z4_Practical.md)</div>
 <div markdown>**Веде**<br>BA, за участі Data Analyst</div>
-<div markdown>**Обсяг роботи**<br>Великий — найбільший крок</div>
+<div markdown>**Обсяг**<br>Великий — найбільший крок</div>
 <div markdown>**Результат**<br>`10-vymohy.md`</div>
 </div>
 

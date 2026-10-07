@@ -9,7 +9,7 @@ summary: Дорожня карта впровадження з індикато�
 <div class="workbook-meta" markdown>
 <div markdown>**Заняття**<br>[Тема 4 · Заняття 2. Планування впровадження](../CDTO_Meth_T4_Z2_Practical.md)</div>
 <div markdown>**Веде**<br>PM і Product Support</div>
-<div markdown>**Обсяг роботи**<br>Середній</div>
+<div markdown>**Обсяг**<br>Середній</div>
 <div markdown>**Результат**<br>`11-vprovadzhennia.md`</div>
 </div>
 

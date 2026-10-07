@@ -9,7 +9,7 @@ summary: Статут проєкту, WBS, діаграма Ганта й roadma
 <div class="workbook-meta" markdown>
 <div markdown>**Заняття**<br>[Тема 2 · Заняття 2. Ініціювання та планування](../CDTO_Meth_T2_Z2_Practical.md)</div>
 <div markdown>**Веде**<br>PM, за участі DT Lead</div>
-<div markdown>**Обсяг роботи**<br>Великий</div>
+<div markdown>**Обсяг**<br>Великий</div>
 <div markdown>**Результат**<br>`02-statut.md`</div>
 </div>
 

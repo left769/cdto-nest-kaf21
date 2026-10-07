@@ -9,7 +9,7 @@ summary: Бюджет проєкту знизу-вгору за WBS, резер�
 <div class="workbook-meta" markdown>
 <div markdown>**Заняття**<br>[Тема 2 · Заняття 6. Бюджетне планування](../CDTO_Meth_T2_Z6_Lecture_Practical.md)</div>
 <div markdown>**Веде**<br>PM, за участі Data Analyst</div>
-<div markdown>**Обсяг роботи**<br>Середній</div>
+<div markdown>**Обсяг**<br>Середній</div>
 <div markdown>**Результат**<br>`05-biudzhet.md`</div>
 </div>
 

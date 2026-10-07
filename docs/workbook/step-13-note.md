@@ -9,7 +9,7 @@ summary: Аналітична записка командуванню з дан�
 <div class="workbook-meta" markdown>
 <div markdown>**Заняття**<br>[Тема 5 · Заняття 2. Аналітичні матеріали](../CDTO_Meth_T5_Z2_Practical.md)</div>
 <div markdown>**Веде**<br>BA і Technical Writer</div>
-<div markdown>**Обсяг роботи**<br>Середній</div>
+<div markdown>**Обсяг**<br>Середній</div>
 <div markdown>**Результат**<br>`13-zapyska.md`</div>
 </div>
 

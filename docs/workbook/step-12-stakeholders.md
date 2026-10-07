@@ -9,7 +9,7 @@ summary: Карта стейкхолдерів за впливом та інте
 <div class="workbook-meta" markdown>
 <div markdown>**Заняття**<br>[Тема 4 · Заняття 4. Комунікації та переговори](../CDTO_Meth_T4_Z4_Practical.md)</div>
 <div markdown>**Веде**<br>DT Lead, за участі BA</div>
-<div markdown>**Обсяг роботи**<br>Середній</div>
+<div markdown>**Обсяг**<br>Середній</div>
 <div markdown>**Результат**<br>`12-steikkholdery.md`</div>
 </div>
 
