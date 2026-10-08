@@ -89,9 +89,9 @@ nav:
           - Заняття 3 · Моніторинг і контроль: CDTO_Meth_T2_Z3_Practical.md
           - Заняття 4 · Ризик-менеджмент: CDTO_Meth_T2_Z4_Practical.md
           - Заняття 5 · Команда та ресурси: CDTO_Meth_T2_Z5_Seminar.md
-          - Заняття 6 · Бюджет і фінансовий контроль: CDTO_Meth_T2_Z6_Lecture_Practical.md
+          - Заняття 6 · Портфель ініціатив: CDTO_Meth_T2_Z6_Lecture_Practical.md
           - Заняття 7 · Залежності та інтеграція: CDTO_Meth_T2_Z7_Practical.md
-          - Заняття 8 · Governance та delivery: CDTO_Meth_T2_Z8_Practical.md
+          - Заняття 8 · Супровід виконавця: CDTO_Meth_T2_Z8_Practical.md
       - Модуль 3 · Бізнес-аналіз:
           - Заняття 1 · Основи бізнес-аналізу: CDTO_Meth_T3_Z1_Lecture.md
           - Заняття 2 · Моделювання процесів: CDTO_Meth_T3_Z2_Practical.md
@@ -121,9 +121,9 @@ nav:
           - Крок 2 · Статут і план: workbook/step-02-charter.md
           - Крок 3 · KPI і RAID-log: workbook/step-03-kpi.md
           - Крок 4 · Ризики: workbook/step-04-risks.md
-          - Крок 5 · Бюджет: workbook/step-05-budget.md
+          - Крок 5 · Проєкт у портфелі: workbook/step-05-portfolio.md
           - Крок 6 · Залежності: workbook/step-06-dependencies.md
-          - Крок 7 · Статус-звіт: workbook/step-07-status.md
+          - Крок 7 · Завдання виконавцю: workbook/step-07-contractor.md
       - Тема 3 · Аналіз і вимоги:
           - Крок 8 · Модель процесу: workbook/step-08-process.md
           - Крок 9 · TO-BE і запит на зміну: workbook/step-09-to-be.md

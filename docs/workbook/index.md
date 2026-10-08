@@ -45,9 +45,9 @@
 | 2 | Тема 2 · Заняття 2 | [Статут, WBS, Гант, roadmap](step-02-charter.md) | `02-statut.md` |
 | 3 | Тема 2 · Заняття 3 | [Система KPI, макет дашборда, RAID-log](step-03-kpi.md) | `03-kpi.md` |
 | 4 | Тема 2 · Заняття 4 | [Risk register](step-04-risks.md) | `04-ryzyky.md` |
-| 5 | Тема 2 · Заняття 6 | [Бюджет за WBS, аналіз відхилень](step-05-budget.md) | `05-biudzhet.md` |
+| 5 | Тема 2 · Заняття 6 | [Проєкт у портфелі підрозділу: трудовитрати, пріоритет, дорожня карта](step-05-portfolio.md) | `05-portfel.md` |
 | 6 | Тема 2 · Заняття 7 | [Dependency map](step-06-dependencies.md) | `06-zalezhnosti.md` |
-| 7 | Тема 2 · Заняття 8 | [Статус-звіт і журнали рішень](step-07-status.md) | `07-status.md` |
+| 7 | Тема 2 · Заняття 8 | [Постановка завдання виконавцю, приймальний протокол](step-07-contractor.md) | `07-vykonavets.md` |
 | 8 | Тема 3 · Заняття 2 | [BPMN-модель процесу, бізнес-правила](step-08-process.md) | `08-protses.md` |
 | 9 | Тема 3 · Заняття 3 | [AS-IS / TO-BE, gap-аналіз, запит на зміну статуту](step-09-to-be.md) | `09-to-be.md` |
 | 10 | Тема 3 · Заняття 4 | [User Stories, Use Cases, ТЗ, матриця трасовуваності](step-10-requirements.md) | `10-vymohy.md` |

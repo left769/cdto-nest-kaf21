@@ -51,7 +51,7 @@ hide:
 
     ### Управління проєктами у військовому середовищі
 
-    Від ініціювання й планування до управління ризиками та delivery.
+    Від ініціювання й планування до управління портфелем, ризиками та роботи з виконавцем.
 
     **8 занять**
 
@@ -60,9 +60,9 @@ hide:
     - [Моніторинг і контроль](CDTO_Meth_T2_Z3_Practical.md)
     - [Ризик-менеджмент](CDTO_Meth_T2_Z4_Practical.md)
     - [Управління командою та ресурсами](CDTO_Meth_T2_Z5_Seminar.md)
-    - [Бюджетне планування](CDTO_Meth_T2_Z6_Lecture_Practical.md)
+    - [Управління портфелем ініціатив](CDTO_Meth_T2_Z6_Lecture_Practical.md)
     - [Залежності та міжвідомча інтеграція](CDTO_Meth_T2_Z7_Practical.md)
-    - [Governance та управління delivery](CDTO_Meth_T2_Z8_Practical.md)
+    - [Супровід зовнішнього виконавця](CDTO_Meth_T2_Z8_Practical.md)
 
 -   <span class="topic-number">МОДУЛЬ 03</span>
 
