@@ -163,9 +163,9 @@ body {
   }
 }
 
+/* Без position/isolation: вони замикали мобільну бічну панель у шарі контенту,
+   і підкладка меню (.md-overlay) перекривала пункти — меню не реагувало. */
 .md-main {
-  position: relative;
-  isolation: isolate;
   margin-top: 0;
 }
 
