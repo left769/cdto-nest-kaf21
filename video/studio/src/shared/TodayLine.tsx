@@ -9,11 +9,12 @@ export const TODAY_X = 960;
  * Межа «сьогодні»: ліворуч те, що вже сталося, праворуч те, що може статися.
  * Горизонтальна вісь, вертикальна лінія й мітка «СЬОГОДНІ» з’являються на кадрі `at`.
  */
-export const TodayLine: React.FC<{ frame: number; at: number; left?: string; right?: string }> = ({
+export const TodayLine: React.FC<{ frame: number; at: number; left?: string; right?: string; tagTop?: number }> = ({
   frame,
   at,
   left = "вже сталося",
   right = "може статися",
+  tagTop = 790,
 }) => (
   <>
     <div style={{ position: "absolute", left: 120, right: 120, top: 175, display: "flex", justifyContent: "space-between" }}>
@@ -32,7 +33,7 @@ export const TodayLine: React.FC<{ frame: number; at: number; left?: string; rig
         ...fadeUp(frame, at, { dy: 0 }),
       }}
     />
-    <div style={{ position: "absolute", left: TODAY_X, top: 790, translate: "-50% 0px" }}>
+    <div style={{ position: "absolute", left: TODAY_X, top: tagTop, translate: "-50% 0px" }}>
       <div
         style={{
           background: C.ink,

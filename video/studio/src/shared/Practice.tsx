@@ -30,21 +30,34 @@ export const Practice: React.FC<{
   items: PracticeItem[];
   step: string;
   lessonLabel: string;
-  gap?: number;
-}> = ({ frame, cue, items, step, lessonLabel, gap = 26 }) => {
+  /** Щільніше компонування для 5 пунктів (4 вміщуються у звичайному). */
+  compact?: boolean;
+}> = ({ frame, cue, items, step, lessonLabel, compact = false }) => {
   const final = prog(frame, cue("template") - 6, 16);
   return (
     <>
-      <div style={{ position: "absolute", left: 120, top: 140, fontSize: F.big, fontWeight: 700, ...fadeUp(frame, 0) }}>
+      <div style={{ position: "absolute", left: 120, top: compact ? 130 : 140, fontSize: compact ? F.body : F.big, fontWeight: 700, ...fadeUp(frame, 0) }}>
         На практичному занятті
       </div>
-      <div style={{ position: "absolute", left: 120, right: 120, top: 262, display: "flex", flexDirection: "column", gap }}>
+      <div
+        style={{
+          position: "absolute",
+          left: 120,
+          right: 120,
+          top: compact ? 228 : 262,
+          display: "flex",
+          flexDirection: "column",
+          gap: compact ? 14 : 26,
+        }}
+      >
         {items.map((item) => (
           <div key={item.cue} style={{ display: "flex", gap: 40, alignItems: "flex-start", ...fadeUp(frame, cue(item.cue) - 6) }}>
             <Check progress={prog(frame, cue(item.cue) + 6, 12)} />
             <div>
-              <div style={{ fontSize: F.body, fontWeight: 700, lineHeight: 1.1 }}>{item.title}</div>
-              <div style={{ fontSize: F.small, color: C.muted, marginTop: 8 }}>{item.detail}</div>
+              <div style={{ fontSize: compact ? 60 : F.body, fontWeight: 700, lineHeight: 1.1 }}>{item.title}</div>
+              <div style={{ fontSize: F.small, color: C.muted, marginTop: compact ? 4 : 8, lineHeight: compact ? 1.15 : undefined }}>
+                {item.detail}
+              </div>
             </div>
           </div>
         ))}

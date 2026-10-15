@@ -2,9 +2,14 @@ import React from "react";
 import { Composition, Folder } from "remotion";
 import { T2Z3 } from "./lessons/t2z3/meta";
 import { T2Z3_VIDEO } from "./lessons/t2z3/Video";
+import { T2Z4 } from "./lessons/t2z4/meta";
+import { T2Z4_VIDEO } from "./lessons/t2z4/Video";
 import "./shared/fonts";
 
-const LESSON_VIDEOS = [{ meta: T2Z3, video: T2Z3_VIDEO }];
+const LESSON_VIDEOS = [
+  { meta: T2Z3, video: T2Z3_VIDEO },
+  { meta: T2Z4, video: T2Z4_VIDEO },
+];
 
 // Тривалості в <Composition> — заглушки: справжні рахує calculateMetadata
 // (голос із public/voiceover/<урок>/ або оцінка за кількістю слів).

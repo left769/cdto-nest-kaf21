@@ -1,0 +1,40 @@
+import type { LessonMeta } from "../../shared/lesson";
+import { PRONUNCIATION, toVoice } from "./pronunciation";
+import { GLOSSARY, LESSON, SCENES } from "./script";
+
+export const T2Z4: LessonMeta = {
+  id: LESSON,
+  label: "Тема 2 · Заняття 4",
+  composition: "T2-Z4-Risks",
+  outName: "t2z4-risks",
+  videoTitle: "Ризик-менеджмент: 6 понять · озвучення: elevenlabs.io",
+  glossary: GLOSSARY,
+  scenes: SCENES,
+  toVoice,
+  pronunciation: PRONUNCIATION,
+  step: "Крок 4",
+  keyframes: [
+    { scene: "s0-intro", name: "a-futures", anchor: "title", offset: -14 },
+    { scene: "s0-intro", name: "b-title", anchor: "end", offset: -20 },
+    { scene: "s1-risk-issue", name: "a-term", anchor: "start", offset: 30 },
+    { scene: "s1-risk-issue", name: "b-columns", anchor: "concrete", offset: -10 },
+    { scene: "s1-risk-issue", name: "c-categories", anchor: "end", offset: -20 },
+    { scene: "s2-matrix", name: "a-term", anchor: "start", offset: 30 },
+    { scene: "s2-matrix", name: "b-zones", anchor: "yellow", offset: 6 },
+    { scene: "s2-matrix", name: "c-risks", anchor: "end", offset: -20 },
+    { scene: "s3-emv", name: "a-term", anchor: "start", offset: 30 },
+    { scene: "s3-emv", name: "b-rows", anchor: "sum", offset: -8 },
+    { scene: "s3-emv", name: "c-reserve", anchor: "end", offset: -20 },
+    { scene: "s4-owner", name: "a-role", anchor: "notPm", offset: -10 },
+    { scene: "s4-owner", name: "b-table", anchor: "end", offset: -20 },
+    { scene: "s5-response", name: "a-term", anchor: "start", offset: 30 },
+    { scene: "s5-response", name: "b-mitigation", anchor: "became", offset: -10 },
+    { scene: "s5-response", name: "c-contingency", anchor: "careful", offset: -12 },
+    { scene: "s5-response", name: "d-careful", anchor: "end", offset: -20 },
+    { scene: "s6-escalation", name: "a-criteria", anchor: "formula", offset: -12 },
+    { scene: "s6-escalation", name: "b-message", anchor: "early", offset: -14 },
+    { scene: "s6-escalation", name: "c-early", anchor: "end", offset: -20 },
+    { scene: "s7-practice", name: "a-checklist", anchor: "template", offset: -8 },
+    { scene: "s7-practice", name: "b-final", anchor: "end", offset: -1 },
+  ],
+};
