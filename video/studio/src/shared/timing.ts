@@ -26,7 +26,24 @@ export type SceneDef = {
   fallbackSeconds: number;
   /** Якорі анімації: частка сцени (0–1), коли звучить фраза. */
   cues: Record<string, number>;
+  /** Якорі анімації: позиція фрази у voiceText (символ). */
+  cueChars: Record<string, number>;
 };
+
+/** Слово voiceText із часом звучання в MP3 (результат scripts/align.ts). */
+export type AlignedWord = {
+  text: string;
+  /** Позиція слова у voiceText (символ). */
+  start: number;
+  startMs: number;
+  endMs: number;
+  /** true — час узято з розпізнаного слова; false — інтерпольовано. */
+  matched: boolean;
+};
+
+/** Слова тексту з позиціями (розділювач — пробіли). */
+export const splitWords = (text: string) =>
+  [...text.matchAll(/\S+/g)].map((m) => ({ text: m[0], start: m.index ?? 0 }));
 
 export type SceneTiming = {
   id: string;
@@ -51,18 +68,21 @@ export const defineScene = (
 ): SceneDef => {
   const voiceText = toVoice(scene.subtitleText);
   const cues: Record<string, number> = {};
+  const cueChars: Record<string, number> = {};
   for (const [name, phrase] of Object.entries(scene.cues)) {
     const index = scene.subtitleText.indexOf(phrase);
     if (index === -1 || scene.subtitleText.indexOf(phrase, index + 1) !== -1) {
       throw new Error(`Сцена ${scene.id}: якір «${phrase}» не знайдено або він не єдиний`);
     }
-    cues[name] = toVoice(scene.subtitleText.slice(0, index)).length / voiceText.length;
+    cueChars[name] = toVoice(scene.subtitleText.slice(0, index)).length;
+    cues[name] = cueChars[name] / voiceText.length;
   }
   return {
     ...scene,
     voiceText,
     fallbackSeconds: countWords(voiceText) / WORDS_PER_SECOND + FALLBACK_EXTRA_SECONDS,
     cues,
+    cueChars,
   };
 };
 
@@ -77,18 +97,32 @@ const audioSeconds = async (lesson: string, sceneId: string) => {
   return input.computeDuration();
 };
 
+export const wordsPath = (lesson: string, sceneId: string) => `voiceover/${lesson}/${sceneId}.words.json`;
+
+const alignedWords = async (lesson: string, sceneId: string): Promise<AlignedWord[] | null> => {
+  const path = wordsPath(lesson, sceneId);
+  if (!getStaticFiles().some((f) => f.name === path)) {
+    return null;
+  }
+  const response = await fetch(staticFile(path));
+  return response.json();
+};
+
 export const computeSceneTiming = (
   lesson: string,
   scene: SceneDef,
   seconds: number | null,
   isLast: boolean,
+  words: AlignedWord[] | null = null,
 ): SceneTiming => {
   const speechFrames = Math.ceil(
     (seconds === null ? scene.fallbackSeconds - PAUSE_SECONDS : seconds) * FPS,
   );
   const cues: Record<string, number> = {};
   for (const [name, share] of Object.entries(scene.cues)) {
-    cues[name] = LEAD_IN + Math.round(share * speechFrames);
+    // Є вирівнювання голосу — якір на початку слова, інакше пропорційно символам.
+    const word = seconds === null ? undefined : words?.find((w) => w.start >= scene.cueChars[name]);
+    cues[name] = LEAD_IN + (word ? Math.round((word.startMs / 1000) * FPS) : Math.round(share * speechFrames));
   }
   return {
     id: scene.id,
@@ -103,7 +137,8 @@ export const computeSceneTiming = (
 
 export const loadTimings = async (lesson: string, scenes: SceneDef[]) => {
   const seconds = await Promise.all(scenes.map((s) => audioSeconds(lesson, s.id)));
-  return scenes.map((s, i) => computeSceneTiming(lesson, s, seconds[i], i === scenes.length - 1));
+  const words = await Promise.all(scenes.map((s) => alignedWords(lesson, s.id)));
+  return scenes.map((s, i) => computeSceneTiming(lesson, s, seconds[i], i === scenes.length - 1, words[i]));
 };
 
 /** Тривалість ролика з урахуванням накладання переходів. */
