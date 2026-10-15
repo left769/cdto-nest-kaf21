@@ -1,10 +1,9 @@
 // Таблиця вимови для синтезу (бриф 6). Субтитри не змінюються.
 // Після першої згенерованої сцени прослухати й за потреби уточнити.
 
-// \b не працює з кирилицею, тож межі слова — через Unicode-класи.
-const word = (s: string) => new RegExp(`(?<![\\p{L}\\p{N}])${s}(?![\\p{L}\\p{N}])`, "gu");
+import { makeToVoice, PronunciationTable, word } from "../../shared/pronunciation";
 
-export const PRONUNCIATION: [RegExp, string][] = [
+export const PRONUNCIATION: PronunciationTable = [
   [word("RAID-log"), "рейд-лог"],
   [word("Decision log"), "дісіжн-лог"],
   [word("Action log"), "екшн-лог"],
@@ -14,8 +13,8 @@ export const PRONUNCIATION: [RegExp, string][] = [
   [word("KPI"), "кей-пі-ай"],
   [word("SPI"), "ес-пі-ай"],
   [word("CPI"), "сі-пі-ай"],
-  [new RegExp(word("leading").source, "giu"), "лідинг"],
-  [new RegExp(word("lagging").source, "giu"), "легінг"],
+  [word("leading", "giu"), "лідинг"],
+  [word("lagging", "giu"), "легінг"],
   [word("Risk"), "ріск"],
   [word("Assumption"), "есамшн"],
   [word("Issue"), "іш’ю"],
@@ -32,14 +31,4 @@ export const PRONUNCIATION: [RegExp, string][] = [
   [/90%/gu, "дев’яносто відсотків"],
 ];
 
-// На початку речення заміна пишеться з великої літери («Дісіжн-лог фіксує…»).
-const sentenceStart = /(^|[.!?…]\s+)$/u;
-
-export const toVoice = (text: string) =>
-  PRONUNCIATION.reduce(
-    (out, [from, to]) =>
-      out.replace(from, (_match, offset: number, whole: string) =>
-        sentenceStart.test(whole.slice(0, offset)) ? to[0].toUpperCase() + to.slice(1) : to,
-      ),
-    text,
-  );
+export const toVoice = makeToVoice(PRONUNCIATION);

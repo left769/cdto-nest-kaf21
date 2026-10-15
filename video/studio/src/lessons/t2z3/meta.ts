@@ -1,0 +1,42 @@
+import type { LessonMeta } from "../../shared/lesson";
+import { PRONUNCIATION, toVoice } from "./pronunciation";
+import { GLOSSARY, LESSON, SCENES } from "./script";
+
+export const T2Z3: LessonMeta = {
+  id: LESSON,
+  label: "Тема 2 · Заняття 3",
+  composition: "T2-Z3-Terms",
+  outName: "t2z3-terms",
+  videoTitle: "Моніторинг і контроль: 6 понять · озвучення: elevenlabs.io",
+  glossary: GLOSSARY,
+  scenes: SCENES,
+  toVoice,
+  pronunciation: PRONUNCIATION,
+  step: "Крок 3",
+  keyframes: [
+    { scene: "s0-hook", name: "a-dialogue", anchor: "title", offset: -14 },
+    { scene: "s0-hook", name: "b-title", anchor: "end", offset: -20 },
+    { scene: "s1-kpi", name: "a-term", anchor: "start", offset: 30 },
+    { scene: "s1-kpi", name: "b-card", anchor: "test", offset: -12 },
+    { scene: "s1-kpi", name: "c-question", anchor: "end", offset: -20 },
+    { scene: "s2-leading-lagging", name: "a-term", anchor: "start", offset: 30 },
+    { scene: "s2-leading-lagging", name: "b-timeline", anchor: "ruleLag", offset: 30 },
+    { scene: "s2-leading-lagging", name: "c-columns", anchor: "end", offset: -20 },
+    { scene: "s3-earned-value", name: "a-term", anchor: "start", offset: 30 },
+    { scene: "s3-earned-value", name: "b-ev", anchor: "burndown", offset: -10 },
+    { scene: "s3-earned-value", name: "c-burndown", anchor: "end", offset: -20 },
+    { scene: "s4-raid", name: "a-letters", anchor: "mistake", offset: -10 },
+    { scene: "s4-raid", name: "b-today", anchor: "rule", offset: -10 },
+    { scene: "s4-raid", name: "c-log", anchor: "end", offset: -20 },
+    { scene: "s5-logs", name: "a-meeting", anchor: "decision", offset: -8 },
+    { scene: "s5-logs", name: "b-cards", anchor: "wish", offset: -6 },
+    { scene: "s5-logs", name: "c-wish", anchor: "next", offset: -6 },
+    { scene: "s5-logs", name: "d-end", anchor: "end", offset: -20 },
+    { scene: "s6-dashboard", name: "a-term", anchor: "start", offset: 30 },
+    { scene: "s6-dashboard", name: "b-grid", anchor: "showcase", offset: -8 },
+    { scene: "s6-dashboard", name: "c-showcase", anchor: "answer", offset: -12 },
+    { scene: "s6-dashboard", name: "d-answer", anchor: "end", offset: -20 },
+    { scene: "s7-practice", name: "a-checklist", anchor: "template", offset: -8 },
+    { scene: "s7-practice", name: "b-final", anchor: "end", offset: -1 },
+  ],
+};

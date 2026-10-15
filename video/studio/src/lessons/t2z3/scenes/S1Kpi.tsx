@@ -3,6 +3,7 @@ import { useCurrentFrame } from "remotion";
 import { fadeUp, inOut, prog, typed } from "../../../shared/anim";
 import { Card, Label } from "../../../shared/Card";
 import { Pill } from "../../../shared/Pill";
+import { StruckCard } from "../../../shared/StruckCard";
 import { TermCard } from "../../../shared/TermCard";
 import { C, F } from "../../../shared/theme";
 import { cueOf } from "../../../shared/timing";
@@ -120,19 +121,7 @@ export const S1Kpi: React.FC<SceneProps> = ({ timing }) => {
           ...fadeUp(frame, cue("noAnswer") - 4),
         }}
       >
-        <Card muted style={{ padding: "32px 56px", position: "relative" }}>
-          <div style={{ fontSize: F.body, fontWeight: 500, color: C.dim }}>Кількість проведених нарад</div>
-          <div
-            style={{
-              position: "absolute",
-              left: 40,
-              top: "50%",
-              height: 8,
-              width: `calc((100% - 80px) * ${prog(frame, cue("noAnswer") + 10, 14)})`,
-              background: C.muted,
-            }}
-          />
-        </Card>
+        <StruckCard strike={prog(frame, cue("noAnswer") + 10, 14)}>Кількість проведених нарад</StruckCard>
         <div style={fadeUp(frame, cue("forReport") - 4, { dx: -24, dy: 0 })}>
           <Pill tone="dim" size={F.small}>
             для звіту

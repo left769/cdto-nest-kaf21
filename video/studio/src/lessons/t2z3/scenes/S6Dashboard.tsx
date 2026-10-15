@@ -5,13 +5,13 @@ import { Bubble } from "../../../shared/Bubble";
 import { Card, Label } from "../../../shared/Card";
 import { cellCenter } from "../../../shared/GlossaryStrip";
 import { Pill } from "../../../shared/Pill";
+import { Letter } from "../../../shared/RiskLetter";
 import { TermCard } from "../../../shared/TermCard";
 import { TrafficLight } from "../../../shared/TrafficLight";
 import { C, F } from "../../../shared/theme";
 import { cueOf } from "../../../shared/timing";
 import { SceneProps, T2Z3Frame } from "../frame";
 import { GLOSSARY } from "../script";
-import { Letter } from "./S4Raid";
 
 // Сітка 2×2 у робочій зоні над смугою глосарію.
 const GRID = { left: 120, top: 140, w: 828, h: 380, gap: 24 };

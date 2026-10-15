@@ -1,17 +1,15 @@
-// Субтитри WebVTT і розділи ролика Т2·З3 (бриф 6–7) з фактичних тривалостей сцен.
-// Таймінг — за вирівняними словами голосу (public/voiceover/t2z3/<id>.words.json).
+// Субтитри WebVTT і розділи ролика уроку (бриф 6–7) з фактичних тривалостей сцен.
+// Таймінг — за вирівняними словами голосу (public/voiceover/<урок>/<id>.words.json).
 // Правила: не більше 2 рядків по 42 символи, кадр субтитру 1–6 с, цифри цифрами.
-// Запуск: npx tsx scripts/captions.ts → out/t2z3-terms.uk.vtt, out/t2z3-terms.chapters.json
+// Запуск: npx tsx scripts/captions.ts <урок> → out/<outName>.uk.vtt, out/<outName>.chapters.json
 
 import { bundle } from "@remotion/bundler";
 import { selectComposition } from "@remotion/renderer";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
-import { toVoice } from "../src/lessons/t2z3/pronunciation";
-import { LESSON, SCENES } from "../src/lessons/t2z3/script";
+import { lessonFromArgs } from "../src/lessons/registry";
 import { type AlignedWord, FPS, type SceneTiming, sceneStarts, splitWords, wordsPath } from "../src/shared/timing";
 
-const COMPOSITION = "T2-Z3-Terms";
 const OUT_DIR = path.join(process.cwd(), "out");
 const MAX_LINE = 42;
 const MAX_LINES = 2;
@@ -75,8 +73,10 @@ const stamp = (ms: number) => {
 };
 
 const main = async () => {
+  const { lesson } = lessonFromArgs();
+  const { id: LESSON, scenes: SCENES, toVoice } = lesson;
   const serveUrl = await bundle({ entryPoint: path.join(process.cwd(), "src", "index.ts") });
-  const composition = await selectComposition({ serveUrl, id: COMPOSITION, inputProps: {} });
+  const composition = await selectComposition({ serveUrl, id: lesson.composition, inputProps: {} });
   const timings = (composition.props as { timings: SceneTiming[] }).timings;
   const starts = sceneStarts(timings);
 
@@ -132,8 +132,8 @@ const main = async () => {
   const chapters = SCENES.map((s, i) => ({ title: s.title, start: Math.round((starts[i] / FPS) * 10) / 10 }));
 
   mkdirSync(OUT_DIR, { recursive: true });
-  writeFileSync(path.join(OUT_DIR, "t2z3-terms.uk.vtt"), vtt.join("\n"));
-  writeFileSync(path.join(OUT_DIR, "t2z3-terms.chapters.json"), JSON.stringify(chapters, null, 2) + "\n");
+  writeFileSync(path.join(OUT_DIR, `${lesson.outName}.uk.vtt`), vtt.join("\n"));
+  writeFileSync(path.join(OUT_DIR, `${lesson.outName}.chapters.json`), JSON.stringify(chapters, null, 2) + "\n");
 
   const durations = cues.map((c) => c.endMs - c.startMs);
   const lines = cues.flatMap((c) => wrap(join(c.words)) ?? [join(c.words)]);

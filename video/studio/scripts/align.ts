@@ -2,13 +2,13 @@
 // розпізнані слова зіставляються зі словами voiceText, і кожне слово тексту
 // отримує час початку й кінця. Результат — public/voiceover/<урок>/<id>.words.json,
 // з нього беруться якорі анімації та таймінг субтитрів.
-// Запуск: npx tsx scripts/align.ts [id сцени …]   (без аргументів — усі сцени з MP3)
+// Запуск: npx tsx scripts/align.ts <урок> [id сцени …]   (без id — усі сцени з MP3)
 
 import { toCaptions, downloadWhisperModel, installWhisperCpp, transcribe } from "@remotion/install-whisper-cpp";
 import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
-import { LESSON, SCENES } from "../src/lessons/t2z3/script";
+import { lessonFromArgs } from "../src/lessons/registry";
 import { audioPath, type AlignedWord, splitWords } from "../src/shared/timing";
 
 const WHISPER_DIR = path.join(process.cwd(), "whisper.cpp");
@@ -77,7 +77,9 @@ const alignWords = (expected: string[], heard: Heard[]) => {
 };
 
 const main = async () => {
-  const wanted = process.argv.slice(2);
+  const { lesson, rest: wanted } = lessonFromArgs();
+  const LESSON = lesson.id;
+  const SCENES = lesson.scenes;
   const scenes = SCENES.filter(
     (s) => (!wanted.length || wanted.includes(s.id)) && existsSync(path.join("public", audioPath(LESSON, s.id))),
   );
