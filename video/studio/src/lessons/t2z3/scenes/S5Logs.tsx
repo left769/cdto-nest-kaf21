@@ -50,7 +50,7 @@ const Field: React.FC<{
       flexDirection: stacked ? "column" : "row",
       alignItems: stacked ? "flex-start" : "center",
       gap: stacked ? 6 : 0,
-      padding: "18px 0",
+      padding: "12px 0",
       borderTop: `2px solid ${C.line}`,
       opacity: labelOpacity,
     }}
@@ -113,7 +113,7 @@ export const S5Logs: React.FC<SceneProps> = ({ timing }) => {
         style={{
           position: "absolute",
           left: 120,
-          top: 150,
+          top: 140,
           width: 820,
           opacity: dCard,
           translate: `${(1 - dCard) * 420}px ${(1 - dCard) * 120}px`,
@@ -133,6 +133,10 @@ export const S5Logs: React.FC<SceneProps> = ({ timing }) => {
           <Field label="Хто" labelOpacity={show("dWho")} valueOpacity={show("dExWho")}>
             DT Lead
           </Field>
+          {/* У Додатку 8 дати рішення немає — порожнє поле, як строк в action log. */}
+          <Field label="Коли" labelOpacity={show("dWhen")} valueOpacity={prog(frame, cue("dExWho") + 12, 10)}>
+            __.__
+          </Field>
           <Field label="Підстава" labelOpacity={show("dBasis")} valueOpacity={show("dExBasis")}>
             Строк
           </Field>
@@ -144,7 +148,7 @@ export const S5Logs: React.FC<SceneProps> = ({ timing }) => {
         style={{
           position: "absolute",
           left: 980,
-          top: 150,
+          top: 140,
           width: 820,
           opacity: aCard,
           translate: `${(1 - aCard) * -420}px ${(1 - aCard) * 120}px`,
@@ -195,7 +199,7 @@ export const S5Logs: React.FC<SceneProps> = ({ timing }) => {
         </Card>
       </div>
 
-      <div style={{ position: "absolute", left: 120, top: 860, ...fadeUp(frame, cue("next") + 40) }}>
+      <div style={{ position: "absolute", left: 120, top: 866, ...fadeUp(frame, cue("next") + 40) }}>
         <Label style={{ textTransform: "none", letterSpacing: 0, fontWeight: 400 }}>
           Є ще issue log і change log — див. текст заняття
         </Label>
