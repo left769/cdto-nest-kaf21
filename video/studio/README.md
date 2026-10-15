@@ -16,6 +16,7 @@
 npm i
 npx remotion studio --no-open        # перегляд у Studio
 npx tsx scripts/keyframes.ts         # ключові кадри у out/keyframes/*.png
+npx tsx scripts/voiceover-md.ts      # текст для ElevenLabs у voiceover/t2z3.md
 npx tsc --noEmit && npx eslint src scripts
 ```
 
