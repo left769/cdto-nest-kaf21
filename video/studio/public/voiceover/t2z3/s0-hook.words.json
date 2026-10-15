@@ -1,0 +1,275 @@
+[
+ {
+  "text": "Командир",
+  "start": 0,
+  "startMs": 80,
+  "endMs": 680,
+  "matched": true
+ },
+ {
+  "text": "питає:",
+  "start": 9,
+  "startMs": 680,
+  "endMs": 1330,
+  "matched": true
+ },
+ {
+  "text": "«Як",
+  "start": 16,
+  "startMs": 1330,
+  "endMs": 1360,
+  "matched": true
+ },
+ {
+  "text": "справи",
+  "start": 20,
+  "startMs": 1360,
+  "endMs": 1860,
+  "matched": true
+ },
+ {
+  "text": "з",
+  "start": 27,
+  "startMs": 1860,
+  "endMs": 2050,
+  "matched": true
+ },
+ {
+  "text": "проєктом?»",
+  "start": 29,
+  "startMs": 2050,
+  "endMs": 2760,
+  "matched": true
+ },
+ {
+  "text": "Ви",
+  "start": 40,
+  "startMs": 2760,
+  "endMs": 2980,
+  "matched": true
+ },
+ {
+  "text": "відповідаєте:",
+  "start": 43,
+  "startMs": 2980,
+  "endMs": 4290,
+  "matched": true
+ },
+ {
+  "text": "«Нормально».",
+  "start": 57,
+  "startMs": 4290,
+  "endMs": 5160,
+  "matched": true
+ },
+ {
+  "text": "Але",
+  "start": 70,
+  "startMs": 5160,
+  "endMs": 5510,
+  "matched": true
+ },
+ {
+  "text": "що",
+  "start": 74,
+  "startMs": 5510,
+  "endMs": 5740,
+  "matched": true
+ },
+ {
+  "text": "це",
+  "start": 77,
+  "startMs": 5740,
+  "endMs": 5970,
+  "matched": true
+ },
+ {
+  "text": "означає?",
+  "start": 80,
+  "startMs": 5970,
+  "endMs": 7000,
+  "matched": true
+ },
+ {
+  "text": "Встигаємо?",
+  "start": 89,
+  "startMs": 7000,
+  "endMs": 8040,
+  "matched": true
+ },
+ {
+  "text": "Вкладаємося",
+  "start": 100,
+  "startMs": 8040,
+  "endMs": 8730,
+  "matched": true
+ },
+ {
+  "text": "в",
+  "start": 112,
+  "startMs": 8730,
+  "endMs": 8800,
+  "matched": true
+ },
+ {
+  "text": "ресурс?",
+  "start": 114,
+  "startMs": 8800,
+  "endMs": 9360,
+  "matched": true
+ },
+ {
+  "text": "Що",
+  "start": 122,
+  "startMs": 9360,
+  "endMs": 9630,
+  "matched": true
+ },
+ {
+  "text": "робити",
+  "start": 125,
+  "startMs": 9630,
+  "endMs": 10210,
+  "matched": true
+ },
+ {
+  "text": "далі?",
+  "start": 132,
+  "startMs": 10210,
+  "endMs": 10840,
+  "matched": true
+ },
+ {
+  "text": "За",
+  "start": 138,
+  "startMs": 10840,
+  "endMs": 10957,
+  "matched": true
+ },
+ {
+  "text": "п’ять",
+  "start": 141,
+  "startMs": 10957,
+  "endMs": 11190,
+  "matched": false
+ },
+ {
+  "text": "хвилин",
+  "start": 147,
+  "startMs": 11190,
+  "endMs": 11790,
+  "matched": true
+ },
+ {
+  "text": "розберемо",
+  "start": 154,
+  "startMs": 11790,
+  "endMs": 12446,
+  "matched": true
+ },
+ {
+  "text": "шість",
+  "start": 164,
+  "startMs": 12446,
+  "endMs": 12840,
+  "matched": false
+ },
+ {
+  "text": "понять,",
+  "start": 170,
+  "startMs": 12840,
+  "endMs": 13520,
+  "matched": true
+ },
+ {
+  "text": "які",
+  "start": 178,
+  "startMs": 13520,
+  "endMs": 13770,
+  "matched": true
+ },
+ {
+  "text": "дають",
+  "start": 182,
+  "startMs": 13770,
+  "endMs": 14240,
+  "matched": true
+ },
+ {
+  "text": "точну",
+  "start": 188,
+  "startMs": 14240,
+  "endMs": 14610,
+  "matched": true
+ },
+ {
+  "text": "відповідь.",
+  "start": 194,
+  "startMs": 14610,
+  "endMs": 15400,
+  "matched": true
+ },
+ {
+  "text": "Приклад",
+  "start": 205,
+  "startMs": 15400,
+  "endMs": 16264,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 213,
+  "startMs": 16264,
+  "endMs": 16480,
+  "matched": false
+ },
+ {
+  "text": "проєкт",
+  "start": 215,
+  "startMs": 16480,
+  "endMs": 17080,
+  "matched": true
+ },
+ {
+  "text": "«Система",
+  "start": 222,
+  "startMs": 17080,
+  "endMs": 17640,
+  "matched": true
+ },
+ {
+  "text": "обліку",
+  "start": 231,
+  "startMs": 17640,
+  "endMs": 18140,
+  "matched": true
+ },
+ {
+  "text": "майна»",
+  "start": 238,
+  "startMs": 18140,
+  "endMs": 18490,
+  "matched": true
+ },
+ {
+  "text": "на",
+  "start": 245,
+  "startMs": 18490,
+  "endMs": 18640,
+  "matched": false
+ },
+ {
+  "text": "середині",
+  "start": 248,
+  "startMs": 18640,
+  "endMs": 19460,
+  "matched": true
+ },
+ {
+  "text": "реалізації.",
+  "start": 257,
+  "startMs": 19460,
+  "endMs": 20320,
+  "matched": true
+ }
+]

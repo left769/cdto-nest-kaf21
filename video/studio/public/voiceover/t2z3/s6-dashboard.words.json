@@ -1,0 +1,632 @@
+[
+ {
+  "text": "І",
+  "start": 0,
+  "startMs": 60,
+  "endMs": 120,
+  "matched": true
+ },
+ {
+  "text": "шосте",
+  "start": 2,
+  "startMs": 120,
+  "endMs": 720,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 8,
+  "startMs": 720,
+  "endMs": 920,
+  "matched": false
+ },
+ {
+  "text": "дашборд,",
+  "start": 10,
+  "startMs": 920,
+  "endMs": 1890,
+  "matched": true
+ },
+ {
+  "text": "де",
+  "start": 19,
+  "startMs": 1890,
+  "endMs": 1970,
+  "matched": true
+ },
+ {
+  "text": "все",
+  "start": 22,
+  "startMs": 1970,
+  "endMs": 2320,
+  "matched": true
+ },
+ {
+  "text": "сходиться.",
+  "start": 26,
+  "startMs": 2320,
+  "endMs": 3200,
+  "matched": true
+ },
+ {
+  "text": "Чотири",
+  "start": 37,
+  "startMs": 3200,
+  "endMs": 3820,
+  "matched": true
+ },
+ {
+  "text": "блоки.",
+  "start": 44,
+  "startMs": 3820,
+  "endMs": 4640,
+  "matched": true
+ },
+ {
+  "text": "Статус",
+  "start": 51,
+  "startMs": 4640,
+  "endMs": 5324,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 58,
+  "startMs": 5324,
+  "endMs": 5520,
+  "matched": false
+ },
+ {
+  "text": "світлофор",
+  "start": 60,
+  "startMs": 5520,
+  "endMs": 6190,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 70,
+  "startMs": 6190,
+  "endMs": 6380,
+  "matched": true
+ },
+ {
+  "text": "найближча",
+  "start": 72,
+  "startMs": 6380,
+  "endMs": 6950,
+  "matched": true
+ },
+ {
+  "text": "віха.",
+  "start": 82,
+  "startMs": 6950,
+  "endMs": 7360,
+  "matched": true
+ },
+ {
+  "text": "Строки",
+  "start": 88,
+  "startMs": 7360,
+  "endMs": 8340,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 95,
+  "startMs": 8340,
+  "endMs": 8620,
+  "matched": false
+ },
+ {
+  "text": "індекс",
+  "start": 97,
+  "startMs": 8620,
+  "endMs": 9106,
+  "matched": true
+ },
+ {
+  "text": "ес-пі-ай.",
+  "start": 104,
+  "startMs": 9106,
+  "endMs": 9800,
+  "matched": false
+ },
+ {
+  "text": "Результат",
+  "start": 114,
+  "startMs": 9800,
+  "endMs": 10467,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 124,
+  "startMs": 10467,
+  "endMs": 10600,
+  "matched": false
+ },
+ {
+  "text": "рівень",
+  "start": 126,
+  "startMs": 10600,
+  "endMs": 11130,
+  "matched": true
+ },
+ {
+  "text": "використання",
+  "start": 133,
+  "startMs": 11130,
+  "endMs": 12050,
+  "matched": true
+ },
+ {
+  "text": "системи",
+  "start": 146,
+  "startMs": 12050,
+  "endMs": 12640,
+  "matched": true
+ },
+ {
+  "text": "проти",
+  "start": 154,
+  "startMs": 12640,
+  "endMs": 13060,
+  "matched": true
+ },
+ {
+  "text": "цілі.",
+  "start": 160,
+  "startMs": 13060,
+  "endMs": 13520,
+  "matched": true
+ },
+ {
+  "text": "Ризики",
+  "start": 166,
+  "startMs": 13520,
+  "endMs": 14002,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 173,
+  "startMs": 14002,
+  "endMs": 14140,
+  "matched": false
+ },
+ {
+  "text": "критичні",
+  "start": 175,
+  "startMs": 14140,
+  "endMs": 14930,
+  "matched": true
+ },
+ {
+  "text": "записи",
+  "start": 184,
+  "startMs": 14930,
+  "endMs": 15460,
+  "matched": true
+ },
+ {
+  "text": "з",
+  "start": 191,
+  "startMs": 15460,
+  "endMs": 15580,
+  "matched": true
+ },
+ {
+  "text": "рейд-лог.",
+  "start": 193,
+  "startMs": 15580,
+  "endMs": 16480,
+  "matched": true
+ },
+ {
+  "text": "Головне:",
+  "start": 203,
+  "startMs": 16480,
+  "endMs": 17400,
+  "matched": true
+ },
+ {
+  "text": "кожен",
+  "start": 212,
+  "startMs": 17400,
+  "endMs": 18030,
+  "matched": true
+ },
+ {
+  "text": "блок",
+  "start": 218,
+  "startMs": 18030,
+  "endMs": 18530,
+  "matched": true
+ },
+ {
+  "text": "веде",
+  "start": 223,
+  "startMs": 18530,
+  "endMs": 19040,
+  "matched": true
+ },
+ {
+  "text": "до",
+  "start": 228,
+  "startMs": 19040,
+  "endMs": 19270,
+  "matched": true
+ },
+ {
+  "text": "дії.",
+  "start": 231,
+  "startMs": 19270,
+  "endMs": 19880,
+  "matched": true
+ },
+ {
+  "text": "Віха",
+  "start": 236,
+  "startMs": 19880,
+  "endMs": 20270,
+  "matched": true
+ },
+ {
+  "text": "під",
+  "start": 241,
+  "startMs": 20270,
+  "endMs": 20530,
+  "matched": true
+ },
+ {
+  "text": "загрозою",
+  "start": 245,
+  "startMs": 20530,
+  "endMs": 21152,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 254,
+  "startMs": 21152,
+  "endMs": 21290,
+  "matched": false
+ },
+ {
+  "text": "ескалуємо",
+  "start": 256,
+  "startMs": 21290,
+  "endMs": 22100,
+  "matched": true
+ },
+ {
+  "text": "погодження.",
+  "start": 266,
+  "startMs": 22100,
+  "endMs": 22558,
+  "matched": true
+ },
+ {
+  "text": "Ес-пі-ай",
+  "start": 278,
+  "startMs": 22558,
+  "endMs": 22901,
+  "matched": false
+ },
+ {
+  "text": "нуль",
+  "start": 287,
+  "startMs": 22901,
+  "endMs": 23091,
+  "matched": false
+ },
+ {
+  "text": "цілих",
+  "start": 292,
+  "startMs": 23091,
+  "endMs": 23320,
+  "matched": false
+ },
+ {
+  "text": "вісім",
+  "start": 298,
+  "startMs": 23320,
+  "endMs": 23549,
+  "matched": false
+ },
+ {
+  "text": "десятих",
+  "start": 304,
+  "startMs": 23549,
+  "endMs": 23854,
+  "matched": false
+ },
+ {
+  "text": "—",
+  "start": 312,
+  "startMs": 23854,
+  "endMs": 23930,
+  "matched": false
+ },
+ {
+  "text": "перерозподіляємо",
+  "start": 314,
+  "startMs": 23930,
+  "endMs": 26080,
+  "matched": true
+ },
+ {
+  "text": "ресурс.",
+  "start": 331,
+  "startMs": 26080,
+  "endMs": 27160,
+  "matched": true
+ },
+ {
+  "text": "Використання",
+  "start": 339,
+  "startMs": 27160,
+  "endMs": 28141,
+  "matched": true
+ },
+ {
+  "text": "сорок",
+  "start": 352,
+  "startMs": 28141,
+  "endMs": 28593,
+  "matched": false
+ },
+ {
+  "text": "п’ять",
+  "start": 358,
+  "startMs": 28593,
+  "endMs": 29046,
+  "matched": false
+ },
+ {
+  "text": "відсотків",
+  "start": 364,
+  "startMs": 29046,
+  "endMs": 29800,
+  "matched": false
+ },
+ {
+  "text": "при",
+  "start": 374,
+  "startMs": 29800,
+  "endMs": 30300,
+  "matched": true
+ },
+ {
+  "text": "цілі",
+  "start": 378,
+  "startMs": 30300,
+  "endMs": 30552,
+  "matched": true
+ },
+ {
+  "text": "дев’яносто",
+  "start": 383,
+  "startMs": 30552,
+  "endMs": 31106,
+  "matched": false
+ },
+ {
+  "text": "відсотків",
+  "start": 394,
+  "startMs": 31106,
+  "endMs": 31609,
+  "matched": false
+ },
+ {
+  "text": "—",
+  "start": 404,
+  "startMs": 31609,
+  "endMs": 31710,
+  "matched": false
+ },
+ {
+  "text": "посилюємо",
+  "start": 406,
+  "startMs": 31710,
+  "endMs": 32320,
+  "matched": true
+ },
+ {
+  "text": "навчання.",
+  "start": 416,
+  "startMs": 32320,
+  "endMs": 33120,
+  "matched": true
+ },
+ {
+  "text": "Дашборд,",
+  "start": 426,
+  "startMs": 33120,
+  "endMs": 34150,
+  "matched": true
+ },
+ {
+  "text": "де",
+  "start": 435,
+  "startMs": 34150,
+  "endMs": 34250,
+  "matched": true
+ },
+ {
+  "text": "двадцять",
+  "start": 438,
+  "startMs": 34250,
+  "endMs": 34550,
+  "matched": false
+ },
+ {
+  "text": "цифр",
+  "start": 447,
+  "startMs": 34550,
+  "endMs": 35010,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 452,
+  "startMs": 35010,
+  "endMs": 35100,
+  "matched": true
+ },
+ {
+  "text": "жодного",
+  "start": 454,
+  "startMs": 35100,
+  "endMs": 35880,
+  "matched": true
+ },
+ {
+  "text": "рішення,",
+  "start": 462,
+  "startMs": 35880,
+  "endMs": 36764,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 471,
+  "startMs": 36764,
+  "endMs": 36960,
+  "matched": false
+ },
+ {
+  "text": "це",
+  "start": 473,
+  "startMs": 36960,
+  "endMs": 37020,
+  "matched": true
+ },
+ {
+  "text": "вітрина,",
+  "start": 476,
+  "startMs": 37020,
+  "endMs": 37790,
+  "matched": true
+ },
+ {
+  "text": "а",
+  "start": 485,
+  "startMs": 37790,
+  "endMs": 37830,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 487,
+  "startMs": 37830,
+  "endMs": 37970,
+  "matched": true
+ },
+ {
+  "text": "інструмент.",
+  "start": 490,
+  "startMs": 37970,
+  "endMs": 38840,
+  "matched": true
+ },
+ {
+  "text": "Тепер",
+  "start": 502,
+  "startMs": 38840,
+  "endMs": 39240,
+  "matched": true
+ },
+ {
+  "text": "на",
+  "start": 508,
+  "startMs": 39240,
+  "endMs": 39400,
+  "matched": true
+ },
+ {
+  "text": "питання",
+  "start": 511,
+  "startMs": 39400,
+  "endMs": 39980,
+  "matched": true
+ },
+ {
+  "text": "командира",
+  "start": 519,
+  "startMs": 39980,
+  "endMs": 40790,
+  "matched": true
+ },
+ {
+  "text": "є",
+  "start": 529,
+  "startMs": 40790,
+  "endMs": 40810,
+  "matched": true
+ },
+ {
+  "text": "відповідь:",
+  "start": 531,
+  "startMs": 40810,
+  "endMs": 41720,
+  "matched": true
+ },
+ {
+  "text": "статус",
+  "start": 542,
+  "startMs": 41720,
+  "endMs": 42390,
+  "matched": true
+ },
+ {
+  "text": "жовтий,",
+  "start": 549,
+  "startMs": 42390,
+  "endMs": 43200,
+  "matched": true
+ },
+ {
+  "text": "відстаємо,",
+  "start": 557,
+  "startMs": 43200,
+  "endMs": 44120,
+  "matched": true
+ },
+ {
+  "text": "потрібне",
+  "start": 568,
+  "startMs": 44120,
+  "endMs": 44800,
+  "matched": true
+ },
+ {
+  "text": "рішення",
+  "start": 577,
+  "startMs": 44800,
+  "endMs": 45440,
+  "matched": true
+ },
+ {
+  "text": "щодо",
+  "start": 585,
+  "startMs": 45440,
+  "endMs": 45720,
+  "matched": true
+ },
+ {
+  "text": "погодження",
+  "start": 590,
+  "startMs": 45720,
+  "endMs": 46580,
+  "matched": true
+ },
+ {
+  "text": "те-зе.",
+  "start": 601,
+  "startMs": 46580,
+  "endMs": 46840,
+  "matched": true
+ }
+]

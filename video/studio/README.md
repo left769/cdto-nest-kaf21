@@ -21,6 +21,7 @@ npx remotion studio --no-open        # перегляд у Studio
 npx tsx scripts/keyframes.ts         # ключові кадри у out/keyframes/*.png
 npx tsx scripts/voiceover-md.ts      # текст для ElevenLabs у voiceover/t2z3.md
 npx tsx scripts/align.ts [id]         # вирівняти голос із текстом → public/voiceover/t2z3/<id>.words.json
+npx tsx scripts/captions.ts          # субтитри й розділи → out/t2z3-terms.uk.vtt, .chapters.json
 npx tsc --noEmit && npx eslint src scripts
 ```
 

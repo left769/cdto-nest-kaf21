@@ -1,0 +1,485 @@
+[
+ {
+  "text": "П’яте",
+  "start": 0,
+  "startMs": 0,
+  "endMs": 263,
+  "matched": false
+ },
+ {
+  "text": "—",
+  "start": 6,
+  "startMs": 263,
+  "endMs": 350,
+  "matched": false
+ },
+ {
+  "text": "журнали",
+  "start": 8,
+  "startMs": 350,
+  "endMs": 1170,
+  "matched": true
+ },
+ {
+  "text": "рішень",
+  "start": 16,
+  "startMs": 1170,
+  "endMs": 1870,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 23,
+  "startMs": 1870,
+  "endMs": 2130,
+  "matched": true
+ },
+ {
+  "text": "доручень.",
+  "start": 25,
+  "startMs": 2130,
+  "endMs": 3200,
+  "matched": true
+ },
+ {
+  "text": "Кожна",
+  "start": 35,
+  "startMs": 3200,
+  "endMs": 3520,
+  "matched": true
+ },
+ {
+  "text": "нарада",
+  "start": 41,
+  "startMs": 3520,
+  "endMs": 4020,
+  "matched": true
+ },
+ {
+  "text": "має",
+  "start": 48,
+  "startMs": 4020,
+  "endMs": 4260,
+  "matched": true
+ },
+ {
+  "text": "залишити",
+  "start": 52,
+  "startMs": 4260,
+  "endMs": 4920,
+  "matched": true
+ },
+ {
+  "text": "слід.",
+  "start": 61,
+  "startMs": 4920,
+  "endMs": 5368,
+  "matched": true
+ },
+ {
+  "text": "Дісіжн-лог",
+  "start": 67,
+  "startMs": 5368,
+  "endMs": 6190,
+  "matched": false
+ },
+ {
+  "text": "фіксує",
+  "start": 78,
+  "startMs": 6190,
+  "endMs": 7030,
+  "matched": true
+ },
+ {
+  "text": "рішення:",
+  "start": 85,
+  "startMs": 7030,
+  "endMs": 8180,
+  "matched": true
+ },
+ {
+  "text": "що",
+  "start": 94,
+  "startMs": 8180,
+  "endMs": 8310,
+  "matched": true
+ },
+ {
+  "text": "вирішили,",
+  "start": 97,
+  "startMs": 8310,
+  "endMs": 9200,
+  "matched": true
+ },
+ {
+  "text": "хто",
+  "start": 107,
+  "startMs": 9200,
+  "endMs": 9410,
+  "matched": true
+ },
+ {
+  "text": "ухвалив,",
+  "start": 111,
+  "startMs": 9410,
+  "endMs": 10500,
+  "matched": true
+ },
+ {
+  "text": "коли",
+  "start": 120,
+  "startMs": 10500,
+  "endMs": 10779,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 125,
+  "startMs": 10779,
+  "endMs": 10890,
+  "matched": false
+ },
+ {
+  "text": "на",
+  "start": 127,
+  "startMs": 10890,
+  "endMs": 11070,
+  "matched": true
+ },
+ {
+  "text": "якій",
+  "start": 130,
+  "startMs": 11070,
+  "endMs": 11430,
+  "matched": true
+ },
+ {
+  "text": "підставі.",
+  "start": 135,
+  "startMs": 11430,
+  "endMs": 12320,
+  "matched": true
+ },
+ {
+  "text": "Наприклад:",
+  "start": 145,
+  "startMs": 12320,
+  "endMs": 13060,
+  "matched": true
+ },
+ {
+  "text": "обрати",
+  "start": 156,
+  "startMs": 13060,
+  "endMs": 13500,
+  "matched": true
+ },
+ {
+  "text": "готове",
+  "start": 163,
+  "startMs": 13500,
+  "endMs": 13940,
+  "matched": true
+ },
+ {
+  "text": "програмне",
+  "start": 170,
+  "startMs": 13940,
+  "endMs": 14610,
+  "matched": true
+ },
+ {
+  "text": "забезпечення",
+  "start": 180,
+  "startMs": 14610,
+  "endMs": 15500,
+  "matched": true
+ },
+ {
+  "text": "замість",
+  "start": 193,
+  "startMs": 15500,
+  "endMs": 16010,
+  "matched": true
+ },
+ {
+  "text": "власної",
+  "start": 201,
+  "startMs": 16010,
+  "endMs": 16520,
+  "matched": true
+ },
+ {
+  "text": "розробки;",
+  "start": 209,
+  "startMs": 16520,
+  "endMs": 17260,
+  "matched": true
+ },
+ {
+  "text": "ухвалив",
+  "start": 219,
+  "startMs": 17260,
+  "endMs": 18258,
+  "matched": true
+ },
+ {
+  "text": "ді-ті",
+  "start": 227,
+  "startMs": 18258,
+  "endMs": 19006,
+  "matched": false
+ },
+ {
+  "text": "лід;",
+  "start": 233,
+  "startMs": 19006,
+  "endMs": 19630,
+  "matched": false
+ },
+ {
+  "text": "підстава",
+  "start": 238,
+  "startMs": 19630,
+  "endMs": 20407,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 247,
+  "startMs": 20407,
+  "endMs": 20580,
+  "matched": false
+ },
+ {
+  "text": "строк.",
+  "start": 249,
+  "startMs": 20580,
+  "endMs": 21022,
+  "matched": true
+ },
+ {
+  "text": "Екшн-лог",
+  "start": 256,
+  "startMs": 21022,
+  "endMs": 21590,
+  "matched": false
+ },
+ {
+  "text": "фіксує",
+  "start": 265,
+  "startMs": 21590,
+  "endMs": 22290,
+  "matched": true
+ },
+ {
+  "text": "доручення:",
+  "start": 272,
+  "startMs": 22290,
+  "endMs": 23530,
+  "matched": true
+ },
+ {
+  "text": "що",
+  "start": 283,
+  "startMs": 23530,
+  "endMs": 23690,
+  "matched": true
+ },
+ {
+  "text": "зробити,",
+  "start": 286,
+  "startMs": 23690,
+  "endMs": 24600,
+  "matched": true
+ },
+ {
+  "text": "хто",
+  "start": 295,
+  "startMs": 24600,
+  "endMs": 24780,
+  "matched": true
+ },
+ {
+  "text": "відповідає,",
+  "start": 299,
+  "startMs": 24780,
+  "endMs": 25910,
+  "matched": true
+ },
+ {
+  "text": "до",
+  "start": 311,
+  "startMs": 25910,
+  "endMs": 25930,
+  "matched": true
+ },
+ {
+  "text": "якого",
+  "start": 314,
+  "startMs": 25930,
+  "endMs": 26400,
+  "matched": true
+ },
+ {
+  "text": "строку",
+  "start": 320,
+  "startMs": 26400,
+  "endMs": 26950,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 327,
+  "startMs": 26950,
+  "endMs": 27060,
+  "matched": true
+ },
+ {
+  "text": "поточний",
+  "start": 329,
+  "startMs": 27060,
+  "endMs": 27790,
+  "matched": true
+ },
+ {
+  "text": "статус.",
+  "start": 338,
+  "startMs": 27790,
+  "endMs": 28580,
+  "matched": true
+ },
+ {
+  "text": "Доручення",
+  "start": 346,
+  "startMs": 28580,
+  "endMs": 29270,
+  "matched": true
+ },
+ {
+  "text": "без",
+  "start": 356,
+  "startMs": 29270,
+  "endMs": 29510,
+  "matched": true
+ },
+ {
+  "text": "відповідального",
+  "start": 360,
+  "startMs": 29510,
+  "endMs": 30720,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 376,
+  "startMs": 30720,
+  "endMs": 30900,
+  "matched": true
+ },
+ {
+  "text": "строку",
+  "start": 378,
+  "startMs": 30900,
+  "endMs": 31351,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 385,
+  "startMs": 31351,
+  "endMs": 31480,
+  "matched": false
+ },
+ {
+  "text": "це",
+  "start": 387,
+  "startMs": 31480,
+  "endMs": 31490,
+  "matched": true
+ },
+ {
+  "text": "побажання,",
+  "start": 390,
+  "startMs": 31490,
+  "endMs": 32280,
+  "matched": true
+ },
+ {
+  "text": "а",
+  "start": 401,
+  "startMs": 32280,
+  "endMs": 32360,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 403,
+  "startMs": 32360,
+  "endMs": 32600,
+  "matched": true
+ },
+ {
+  "text": "доручення.",
+  "start": 406,
+  "startMs": 32600,
+  "endMs": 33500,
+  "matched": true
+ },
+ {
+  "text": "А",
+  "start": 417,
+  "startMs": 33500,
+  "endMs": 33710,
+  "matched": true
+ },
+ {
+  "text": "наступна",
+  "start": 419,
+  "startMs": 33710,
+  "endMs": 34130,
+  "matched": true
+ },
+ {
+  "text": "нарада",
+  "start": 428,
+  "startMs": 34130,
+  "endMs": 34550,
+  "matched": true
+ },
+ {
+  "text": "починається",
+  "start": 435,
+  "startMs": 34550,
+  "endMs": 35320,
+  "matched": true
+ },
+ {
+  "text": "з",
+  "start": 447,
+  "startMs": 35320,
+  "endMs": 35390,
+  "matched": true
+ },
+ {
+  "text": "перевірки",
+  "start": 449,
+  "startMs": 35390,
+  "endMs": 36020,
+  "matched": true
+ },
+ {
+  "text": "виконання",
+  "start": 459,
+  "startMs": 36020,
+  "endMs": 36690,
+  "matched": true
+ },
+ {
+  "text": "попередніх.",
+  "start": 469,
+  "startMs": 36690,
+  "endMs": 37460,
+  "matched": true
+ }
+]
