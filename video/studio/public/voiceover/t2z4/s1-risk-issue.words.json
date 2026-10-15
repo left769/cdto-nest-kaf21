@@ -1,0 +1,555 @@
+[
+ {
+  "text": "Перше",
+  "start": 0,
+  "startMs": 100,
+  "endMs": 610,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 6,
+  "startMs": 610,
+  "endMs": 780,
+  "matched": false
+ },
+ {
+  "text": "ризик",
+  "start": 8,
+  "startMs": 780,
+  "endMs": 1210,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 14,
+  "startMs": 1210,
+  "endMs": 1300,
+  "matched": true
+ },
+ {
+  "text": "проблема:",
+  "start": 16,
+  "startMs": 1300,
+  "endMs": 2500,
+  "matched": true
+ },
+ {
+  "text": "ріск",
+  "start": 26,
+  "startMs": 2500,
+  "endMs": 3140,
+  "matched": true
+ },
+ {
+  "text": "та",
+  "start": 31,
+  "startMs": 3140,
+  "endMs": 3420,
+  "matched": true
+ },
+ {
+  "text": "іш’ю.",
+  "start": 34,
+  "startMs": 3420,
+  "endMs": 4000,
+  "matched": true
+ },
+ {
+  "text": "Ризик",
+  "start": 40,
+  "startMs": 4000,
+  "endMs": 4878,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 46,
+  "startMs": 4878,
+  "endMs": 5170,
+  "matched": false
+ },
+ {
+  "text": "можлива",
+  "start": 48,
+  "startMs": 5170,
+  "endMs": 5680,
+  "matched": true
+ },
+ {
+  "text": "майбутня",
+  "start": 56,
+  "startMs": 5680,
+  "endMs": 6320,
+  "matched": true
+ },
+ {
+  "text": "подія,",
+  "start": 65,
+  "startMs": 6320,
+  "endMs": 6820,
+  "matched": true
+ },
+ {
+  "text": "що",
+  "start": 72,
+  "startMs": 6820,
+  "endMs": 6970,
+  "matched": true
+ },
+ {
+  "text": "вплине",
+  "start": 75,
+  "startMs": 6970,
+  "endMs": 7360,
+  "matched": true
+ },
+ {
+  "text": "на",
+  "start": 82,
+  "startMs": 7360,
+  "endMs": 7490,
+  "matched": true
+ },
+ {
+  "text": "проєкт.",
+  "start": 85,
+  "startMs": 7490,
+  "endMs": 8000,
+  "matched": true
+ },
+ {
+  "text": "Ключове",
+  "start": 93,
+  "startMs": 8000,
+  "endMs": 8650,
+  "matched": true
+ },
+ {
+  "text": "слово",
+  "start": 101,
+  "startMs": 8650,
+  "endMs": 9033,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 107,
+  "startMs": 9033,
+  "endMs": 9160,
+  "matched": false
+ },
+ {
+  "text": "«можлива»:",
+  "start": 109,
+  "startMs": 9160,
+  "endMs": 10000,
+  "matched": true
+ },
+ {
+  "text": "ризик",
+  "start": 120,
+  "startMs": 10000,
+  "endMs": 10700,
+  "matched": true
+ },
+ {
+  "text": "ще",
+  "start": 126,
+  "startMs": 10700,
+  "endMs": 10850,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 129,
+  "startMs": 10850,
+  "endMs": 11100,
+  "matched": true
+ },
+ {
+  "text": "настав,",
+  "start": 132,
+  "startMs": 11100,
+  "endMs": 12160,
+  "matched": true
+ },
+ {
+  "text": "тому",
+  "start": 140,
+  "startMs": 12160,
+  "endMs": 12330,
+  "matched": true
+ },
+ {
+  "text": "ним",
+  "start": 145,
+  "startMs": 12330,
+  "endMs": 12580,
+  "matched": true
+ },
+ {
+  "text": "можна",
+  "start": 149,
+  "startMs": 12580,
+  "endMs": 13000,
+  "matched": true
+ },
+ {
+  "text": "керувати",
+  "start": 155,
+  "startMs": 13000,
+  "endMs": 13480,
+  "matched": true
+ },
+ {
+  "text": "завчасно.",
+  "start": 164,
+  "startMs": 13480,
+  "endMs": 14000,
+  "matched": true
+ },
+ {
+  "text": "Іш’ю",
+  "start": 174,
+  "startMs": 14000,
+  "endMs": 14507,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 179,
+  "startMs": 14507,
+  "endMs": 14710,
+  "matched": false
+ },
+ {
+  "text": "проблема,",
+  "start": 181,
+  "startMs": 14710,
+  "endMs": 15680,
+  "matched": true
+ },
+ {
+  "text": "що",
+  "start": 191,
+  "startMs": 15680,
+  "endMs": 15700,
+  "matched": true
+ },
+ {
+  "text": "вже",
+  "start": 194,
+  "startMs": 15700,
+  "endMs": 16030,
+  "matched": true
+ },
+ {
+  "text": "настала:",
+  "start": 198,
+  "startMs": 16030,
+  "endMs": 17080,
+  "matched": true
+ },
+ {
+  "text": "на",
+  "start": 207,
+  "startMs": 17080,
+  "endMs": 17180,
+  "matched": true
+ },
+ {
+  "text": "неї",
+  "start": 210,
+  "startMs": 17180,
+  "endMs": 17520,
+  "matched": true
+ },
+ {
+  "text": "реагують",
+  "start": 214,
+  "startMs": 17520,
+  "endMs": 18170,
+  "matched": true
+ },
+ {
+  "text": "негайно.",
+  "start": 223,
+  "startMs": 18170,
+  "endMs": 19000,
+  "matched": true
+ },
+ {
+  "text": "«Підрядник",
+  "start": 232,
+  "startMs": 19000,
+  "endMs": 19770,
+  "matched": true
+ },
+ {
+  "text": "може",
+  "start": 243,
+  "startMs": 19770,
+  "endMs": 20100,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 248,
+  "startMs": 20100,
+  "endMs": 20280,
+  "matched": true
+ },
+ {
+  "text": "встигнути»",
+  "start": 251,
+  "startMs": 20280,
+  "endMs": 21042,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 262,
+  "startMs": 21042,
+  "endMs": 21180,
+  "matched": false
+ },
+ {
+  "text": "це",
+  "start": 264,
+  "startMs": 21180,
+  "endMs": 21340,
+  "matched": true
+ },
+ {
+  "text": "ризик.",
+  "start": 267,
+  "startMs": 21340,
+  "endMs": 22000,
+  "matched": true
+ },
+ {
+  "text": "«Підрядник",
+  "start": 274,
+  "startMs": 22000,
+  "endMs": 22990,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 285,
+  "startMs": 22990,
+  "endMs": 23220,
+  "matched": true
+ },
+ {
+  "text": "надав",
+  "start": 288,
+  "startMs": 23220,
+  "endMs": 23740,
+  "matched": true
+ },
+ {
+  "text": "систему",
+  "start": 294,
+  "startMs": 23740,
+  "endMs": 24530,
+  "matched": true
+ },
+ {
+  "text": "вчора»",
+  "start": 302,
+  "startMs": 24530,
+  "endMs": 25082,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 309,
+  "startMs": 25082,
+  "endMs": 25240,
+  "matched": false
+ },
+ {
+  "text": "це",
+  "start": 311,
+  "startMs": 25240,
+  "endMs": 25460,
+  "matched": true
+ },
+ {
+  "text": "іш’ю.",
+  "start": 314,
+  "startMs": 25460,
+  "endMs": 26000,
+  "matched": true
+ },
+ {
+  "text": "Формулюйте",
+  "start": 320,
+  "startMs": 26000,
+  "endMs": 26910,
+  "matched": true
+ },
+ {
+  "text": "ризик",
+  "start": 331,
+  "startMs": 26910,
+  "endMs": 27400,
+  "matched": true
+ },
+ {
+  "text": "конкретно:",
+  "start": 337,
+  "startMs": 27400,
+  "endMs": 28330,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 348,
+  "startMs": 28330,
+  "endMs": 28510,
+  "matched": true
+ },
+ {
+  "text": "«щось",
+  "start": 351,
+  "startMs": 28510,
+  "endMs": 28910,
+  "matched": true
+ },
+ {
+  "text": "піде",
+  "start": 357,
+  "startMs": 28910,
+  "endMs": 29280,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 362,
+  "startMs": 29280,
+  "endMs": 29450,
+  "matched": true
+ },
+ {
+  "text": "так»,",
+  "start": 365,
+  "startMs": 29450,
+  "endMs": 30410,
+  "matched": true
+ },
+ {
+  "text": "а",
+  "start": 371,
+  "startMs": 30410,
+  "endMs": 31040,
+  "matched": true
+ },
+ {
+  "text": "«затримка",
+  "start": 373,
+  "startMs": 31040,
+  "endMs": 31800,
+  "matched": true
+ },
+ {
+  "text": "погодження",
+  "start": 383,
+  "startMs": 31800,
+  "endMs": 32730,
+  "matched": true
+ },
+ {
+  "text": "те-зе",
+  "start": 394,
+  "startMs": 32730,
+  "endMs": 32920,
+  "matched": true
+ },
+ {
+  "text": "органом",
+  "start": 400,
+  "startMs": 32920,
+  "endMs": 33496,
+  "matched": true
+ },
+ {
+  "text": "зе-і».",
+  "start": 408,
+  "startMs": 33496,
+  "endMs": 34000,
+  "matched": false
+ },
+ {
+  "text": "І",
+  "start": 415,
+  "startMs": 34000,
+  "endMs": 34080,
+  "matched": true
+ },
+ {
+  "text": "шукайте",
+  "start": 417,
+  "startMs": 34080,
+  "endMs": 34670,
+  "matched": true
+ },
+ {
+  "text": "в",
+  "start": 425,
+  "startMs": 34670,
+  "endMs": 34750,
+  "matched": true
+ },
+ {
+  "text": "усіх",
+  "start": 427,
+  "startMs": 34750,
+  "endMs": 35080,
+  "matched": true
+ },
+ {
+  "text": "категоріях:",
+  "start": 432,
+  "startMs": 35080,
+  "endMs": 35950,
+  "matched": true
+ },
+ {
+  "text": "технічні,",
+  "start": 444,
+  "startMs": 35950,
+  "endMs": 36700,
+  "matched": true
+ },
+ {
+  "text": "організаційні,",
+  "start": 454,
+  "startMs": 36700,
+  "endMs": 38050,
+  "matched": true
+ },
+ {
+  "text": "нормативні,",
+  "start": 469,
+  "startMs": 38050,
+  "endMs": 39060,
+  "matched": true
+ },
+ {
+  "text": "ресурсні,",
+  "start": 481,
+  "startMs": 39060,
+  "endMs": 39910,
+  "matched": true
+ },
+ {
+  "text": "безпекові.",
+  "start": 491,
+  "startMs": 39910,
+  "endMs": 41000,
+  "matched": true
+ }
+]
