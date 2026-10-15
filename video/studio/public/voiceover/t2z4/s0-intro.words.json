@@ -1,0 +1,338 @@
+[
+ {
+  "text": "Проєкт",
+  "start": 0,
+  "startMs": 90,
+  "endMs": 760,
+  "matched": true
+ },
+ {
+  "text": "«Система",
+  "start": 7,
+  "startMs": 760,
+  "endMs": 1380,
+  "matched": true
+ },
+ {
+  "text": "обліку",
+  "start": 16,
+  "startMs": 1380,
+  "endMs": 1920,
+  "matched": true
+ },
+ {
+  "text": "майна».",
+  "start": 23,
+  "startMs": 1920,
+  "endMs": 2580,
+  "matched": true
+ },
+ {
+  "text": "Погодження",
+  "start": 31,
+  "startMs": 2580,
+  "endMs": 3740,
+  "matched": true
+ },
+ {
+  "text": "те-зе",
+  "start": 42,
+  "startMs": 3740,
+  "endMs": 3960,
+  "matched": true
+ },
+ {
+  "text": "органом",
+  "start": 48,
+  "startMs": 3960,
+  "endMs": 4588,
+  "matched": true
+ },
+ {
+  "text": "зе-і",
+  "start": 56,
+  "startMs": 4588,
+  "endMs": 4980,
+  "matched": false
+ },
+ {
+  "text": "затримується,",
+  "start": 61,
+  "startMs": 4980,
+  "endMs": 6670,
+  "matched": true
+ },
+ {
+  "text": "віха",
+  "start": 75,
+  "startMs": 6670,
+  "endMs": 6950,
+  "matched": true
+ },
+ {
+  "text": "пілоту",
+  "start": 80,
+  "startMs": 6950,
+  "endMs": 7520,
+  "matched": true
+ },
+ {
+  "text": "під",
+  "start": 87,
+  "startMs": 7520,
+  "endMs": 7810,
+  "matched": true
+ },
+ {
+  "text": "загрозою.",
+  "start": 91,
+  "startMs": 7810,
+  "endMs": 8820,
+  "matched": true
+ },
+ {
+  "text": "Про",
+  "start": 101,
+  "startMs": 8820,
+  "endMs": 9130,
+  "matched": true
+ },
+ {
+  "text": "це",
+  "start": 105,
+  "startMs": 9130,
+  "endMs": 9220,
+  "matched": true
+ },
+ {
+  "text": "можна",
+  "start": 108,
+  "startMs": 9220,
+  "endMs": 9620,
+  "matched": true
+ },
+ {
+  "text": "дізнатися",
+  "start": 114,
+  "startMs": 9620,
+  "endMs": 10340,
+  "matched": true
+ },
+ {
+  "text": "в",
+  "start": 124,
+  "startMs": 10340,
+  "endMs": 10420,
+  "matched": true
+ },
+ {
+  "text": "день",
+  "start": 126,
+  "startMs": 10420,
+  "endMs": 10790,
+  "matched": true
+ },
+ {
+  "text": "віхи",
+  "start": 131,
+  "startMs": 10790,
+  "endMs": 11047,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 136,
+  "startMs": 11047,
+  "endMs": 11150,
+  "matched": false
+ },
+ {
+  "text": "і",
+  "start": 138,
+  "startMs": 11150,
+  "endMs": 11180,
+  "matched": true
+ },
+ {
+  "text": "гасити",
+  "start": 140,
+  "startMs": 11180,
+  "endMs": 11780,
+  "matched": true
+ },
+ {
+  "text": "пожежу.",
+  "start": 147,
+  "startMs": 11780,
+  "endMs": 12560,
+  "matched": true
+ },
+ {
+  "text": "А",
+  "start": 155,
+  "startMs": 12560,
+  "endMs": 12680,
+  "matched": true
+ },
+ {
+  "text": "можна",
+  "start": 157,
+  "startMs": 12680,
+  "endMs": 13120,
+  "matched": true
+ },
+ {
+  "text": "знати",
+  "start": 163,
+  "startMs": 13120,
+  "endMs": 13590,
+  "matched": true
+ },
+ {
+  "text": "заздалегідь",
+  "start": 169,
+  "startMs": 13590,
+  "endMs": 14620,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 181,
+  "startMs": 14620,
+  "endMs": 14780,
+  "matched": true
+ },
+ {
+  "text": "вже",
+  "start": 183,
+  "startMs": 14780,
+  "endMs": 14990,
+  "matched": true
+ },
+ {
+  "text": "мати",
+  "start": 187,
+  "startMs": 14990,
+  "endMs": 15350,
+  "matched": true
+ },
+ {
+  "text": "план.",
+  "start": 192,
+  "startMs": 15350,
+  "endMs": 15960,
+  "matched": true
+ },
+ {
+  "text": "Різницю",
+  "start": 198,
+  "startMs": 15960,
+  "endMs": 16520,
+  "matched": true
+ },
+ {
+  "text": "робить",
+  "start": 206,
+  "startMs": 16520,
+  "endMs": 17410,
+  "matched": true
+ },
+ {
+  "text": "ризик-менеджмент.",
+  "start": 213,
+  "startMs": 17410,
+  "endMs": 18420,
+  "matched": true
+ },
+ {
+  "text": "За",
+  "start": 231,
+  "startMs": 18420,
+  "endMs": 18553,
+  "matched": true
+ },
+ {
+  "text": "п’ять",
+  "start": 234,
+  "startMs": 18553,
+  "endMs": 18820,
+  "matched": false
+ },
+ {
+  "text": "хвилин",
+  "start": 240,
+  "startMs": 18820,
+  "endMs": 19217,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 247,
+  "startMs": 19217,
+  "endMs": 19330,
+  "matched": false
+ },
+ {
+  "text": "шість",
+  "start": 249,
+  "startMs": 19330,
+  "endMs": 19670,
+  "matched": false
+ },
+ {
+  "text": "понять,",
+  "start": 255,
+  "startMs": 19670,
+  "endMs": 20440,
+  "matched": true
+ },
+ {
+  "text": "з",
+  "start": 263,
+  "startMs": 20440,
+  "endMs": 20510,
+  "matched": true
+ },
+ {
+  "text": "якими",
+  "start": 265,
+  "startMs": 20510,
+  "endMs": 20870,
+  "matched": true
+ },
+ {
+  "text": "ви",
+  "start": 271,
+  "startMs": 20870,
+  "endMs": 21080,
+  "matched": true
+ },
+ {
+  "text": "складете",
+  "start": 274,
+  "startMs": 21080,
+  "endMs": 21600,
+  "matched": true
+ },
+ {
+  "text": "ріск-реджистер",
+  "start": 283,
+  "startMs": 21600,
+  "endMs": 22540,
+  "matched": true
+ },
+ {
+  "text": "свого",
+  "start": 298,
+  "startMs": 22540,
+  "endMs": 22900,
+  "matched": true
+ },
+ {
+  "text": "проєкту.",
+  "start": 304,
+  "startMs": 22900,
+  "endMs": 23620,
+  "matched": true
+ }
+]

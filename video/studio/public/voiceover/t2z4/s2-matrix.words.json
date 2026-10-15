@@ -1,0 +1,443 @@
+[
+ {
+  "text": "Друге",
+  "start": 0,
+  "startMs": 60,
+  "endMs": 990,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 6,
+  "startMs": 990,
+  "endMs": 1300,
+  "matched": false
+ },
+ {
+  "text": "ризик-матриця.",
+  "start": 8,
+  "startMs": 1300,
+  "endMs": 2320,
+  "matched": true
+ },
+ {
+  "text": "Кожен",
+  "start": 23,
+  "startMs": 2320,
+  "endMs": 2760,
+  "matched": true
+ },
+ {
+  "text": "ризик",
+  "start": 29,
+  "startMs": 2760,
+  "endMs": 3240,
+  "matched": true
+ },
+ {
+  "text": "оцінюють",
+  "start": 35,
+  "startMs": 3240,
+  "endMs": 4040,
+  "matched": true
+ },
+ {
+  "text": "за",
+  "start": 44,
+  "startMs": 4040,
+  "endMs": 4200,
+  "matched": true
+ },
+ {
+  "text": "двома",
+  "start": 47,
+  "startMs": 4200,
+  "endMs": 4600,
+  "matched": true
+ },
+ {
+  "text": "вимірами:",
+  "start": 53,
+  "startMs": 4600,
+  "endMs": 5400,
+  "matched": true
+ },
+ {
+  "text": "ймовірність",
+  "start": 63,
+  "startMs": 5400,
+  "endMs": 6380,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 75,
+  "startMs": 6380,
+  "endMs": 6420,
+  "matched": true
+ },
+ {
+  "text": "вплив,",
+  "start": 77,
+  "startMs": 6420,
+  "endMs": 7210,
+  "matched": true
+ },
+ {
+  "text": "за",
+  "start": 84,
+  "startMs": 7210,
+  "endMs": 7390,
+  "matched": true
+ },
+ {
+  "text": "шкалою",
+  "start": 87,
+  "startMs": 7390,
+  "endMs": 7930,
+  "matched": true
+ },
+ {
+  "text": "«низький,",
+  "start": 94,
+  "startMs": 7930,
+  "endMs": 8880,
+  "matched": true
+ },
+ {
+  "text": "середній,",
+  "start": 104,
+  "startMs": 8880,
+  "endMs": 9480,
+  "matched": true
+ },
+ {
+  "text": "високий».",
+  "start": 114,
+  "startMs": 9480,
+  "endMs": 10200,
+  "matched": true
+ },
+ {
+  "text": "Перетин",
+  "start": 124,
+  "startMs": 10200,
+  "endMs": 11070,
+  "matched": true
+ },
+ {
+  "text": "показує",
+  "start": 132,
+  "startMs": 11070,
+  "endMs": 11950,
+  "matched": true
+ },
+ {
+  "text": "зону.",
+  "start": 140,
+  "startMs": 11950,
+  "endMs": 12650,
+  "matched": true
+ },
+ {
+  "text": "Червона",
+  "start": 146,
+  "startMs": 12650,
+  "endMs": 13346,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 154,
+  "startMs": 13346,
+  "endMs": 13520,
+  "matched": false
+ },
+ {
+  "text": "обов’язкове",
+  "start": 156,
+  "startMs": 13520,
+  "endMs": 14200,
+  "matched": true
+ },
+ {
+  "text": "реагування",
+  "start": 168,
+  "startMs": 14200,
+  "endMs": 15010,
+  "matched": true
+ },
+ {
+  "text": "з",
+  "start": 179,
+  "startMs": 15010,
+  "endMs": 15090,
+  "matched": true
+ },
+ {
+  "text": "власником",
+  "start": 181,
+  "startMs": 15090,
+  "endMs": 15820,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 191,
+  "startMs": 15820,
+  "endMs": 15900,
+  "matched": true
+ },
+ {
+  "text": "планом.",
+  "start": 193,
+  "startMs": 15900,
+  "endMs": 16600,
+  "matched": true
+ },
+ {
+  "text": "Жовта",
+  "start": 201,
+  "startMs": 16600,
+  "endMs": 16953,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 207,
+  "startMs": 16953,
+  "endMs": 17070,
+  "matched": false
+ },
+ {
+  "text": "моніторинг.",
+  "start": 209,
+  "startMs": 17070,
+  "endMs": 18300,
+  "matched": true
+ },
+ {
+  "text": "Зелена",
+  "start": 221,
+  "startMs": 18300,
+  "endMs": 18930,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 228,
+  "startMs": 18930,
+  "endMs": 19110,
+  "matched": false
+ },
+ {
+  "text": "приймаємо.",
+  "start": 230,
+  "startMs": 19110,
+  "endMs": 20280,
+  "matched": true
+ },
+ {
+  "text": "Затримка",
+  "start": 241,
+  "startMs": 20280,
+  "endMs": 21080,
+  "matched": true
+ },
+ {
+  "text": "погодження",
+  "start": 250,
+  "startMs": 21080,
+  "endMs": 22090,
+  "matched": true
+ },
+ {
+  "text": "те-зе:",
+  "start": 261,
+  "startMs": 22090,
+  "endMs": 22340,
+  "matched": true
+ },
+ {
+  "text": "ймовірність",
+  "start": 268,
+  "startMs": 22340,
+  "endMs": 23450,
+  "matched": true
+ },
+ {
+  "text": "висока,",
+  "start": 280,
+  "startMs": 23450,
+  "endMs": 24340,
+  "matched": true
+ },
+ {
+  "text": "вплив",
+  "start": 288,
+  "startMs": 24340,
+  "endMs": 24640,
+  "matched": true
+ },
+ {
+  "text": "високий",
+  "start": 294,
+  "startMs": 24640,
+  "endMs": 25352,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 302,
+  "startMs": 25352,
+  "endMs": 25530,
+  "matched": false
+ },
+ {
+  "text": "критична",
+  "start": 304,
+  "startMs": 25530,
+  "endMs": 26210,
+  "matched": true
+ },
+ {
+  "text": "зона.",
+  "start": 313,
+  "startMs": 26210,
+  "endMs": 27040,
+  "matched": true
+ },
+ {
+  "text": "Надмірний",
+  "start": 319,
+  "startMs": 27040,
+  "endMs": 27590,
+  "matched": true
+ },
+ {
+  "text": "доступ",
+  "start": 329,
+  "startMs": 27590,
+  "endMs": 28130,
+  "matched": true
+ },
+ {
+  "text": "до",
+  "start": 336,
+  "startMs": 28130,
+  "endMs": 28310,
+  "matched": true
+ },
+ {
+  "text": "даних",
+  "start": 339,
+  "startMs": 28310,
+  "endMs": 28760,
+  "matched": true
+ },
+ {
+  "text": "про",
+  "start": 345,
+  "startMs": 28760,
+  "endMs": 29030,
+  "matched": true
+ },
+ {
+  "text": "майно:",
+  "start": 349,
+  "startMs": 29030,
+  "endMs": 29540,
+  "matched": true
+ },
+ {
+  "text": "ймовірність",
+  "start": 356,
+  "startMs": 29540,
+  "endMs": 30510,
+  "matched": true
+ },
+ {
+  "text": "середня,",
+  "start": 368,
+  "startMs": 30510,
+  "endMs": 31230,
+  "matched": true
+ },
+ {
+  "text": "вплив",
+  "start": 377,
+  "startMs": 31230,
+  "endMs": 31680,
+  "matched": true
+ },
+ {
+  "text": "високий",
+  "start": 383,
+  "startMs": 31680,
+  "endMs": 32216,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 391,
+  "startMs": 32216,
+  "endMs": 32350,
+  "matched": false
+ },
+ {
+  "text": "теж",
+  "start": 393,
+  "startMs": 32350,
+  "endMs": 32610,
+  "matched": true
+ },
+ {
+  "text": "червона.",
+  "start": 397,
+  "startMs": 32610,
+  "endMs": 33340,
+  "matched": true
+ },
+ {
+  "text": "Так",
+  "start": 406,
+  "startMs": 33340,
+  "endMs": 33660,
+  "matched": true
+ },
+ {
+  "text": "перелік",
+  "start": 410,
+  "startMs": 33660,
+  "endMs": 34220,
+  "matched": true
+ },
+ {
+  "text": "ризиків",
+  "start": 418,
+  "startMs": 34220,
+  "endMs": 34820,
+  "matched": true
+ },
+ {
+  "text": "перетворюється",
+  "start": 426,
+  "startMs": 34820,
+  "endMs": 35900,
+  "matched": true
+ },
+ {
+  "text": "на",
+  "start": 441,
+  "startMs": 35900,
+  "endMs": 36060,
+  "matched": true
+ },
+ {
+  "text": "пріоритети.",
+  "start": 444,
+  "startMs": 36060,
+  "endMs": 37000,
+  "matched": true
+ }
+]

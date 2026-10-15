@@ -1,0 +1,394 @@
+[
+ {
+  "text": "Четверте",
+  "start": 0,
+  "startMs": 80,
+  "endMs": 857,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 9,
+  "startMs": 857,
+  "endMs": 1030,
+  "matched": false
+ },
+ {
+  "text": "власник",
+  "start": 11,
+  "startMs": 1030,
+  "endMs": 1940,
+  "matched": true
+ },
+ {
+  "text": "ризику,",
+  "start": 19,
+  "startMs": 1940,
+  "endMs": 2564,
+  "matched": true
+ },
+ {
+  "text": "ріск-оунер.",
+  "start": 27,
+  "startMs": 2564,
+  "endMs": 3500,
+  "matched": false
+ },
+ {
+  "text": "Він",
+  "start": 39,
+  "startMs": 3500,
+  "endMs": 3770,
+  "matched": true
+ },
+ {
+  "text": "стежить",
+  "start": 43,
+  "startMs": 3770,
+  "endMs": 4400,
+  "matched": true
+ },
+ {
+  "text": "за",
+  "start": 51,
+  "startMs": 4400,
+  "endMs": 4580,
+  "matched": true
+ },
+ {
+  "text": "ризиком",
+  "start": 54,
+  "startMs": 4580,
+  "endMs": 5240,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 62,
+  "startMs": 5240,
+  "endMs": 5310,
+  "matched": true
+ },
+ {
+  "text": "виконує",
+  "start": 64,
+  "startMs": 5310,
+  "endMs": 5840,
+  "matched": true
+ },
+ {
+  "text": "план",
+  "start": 72,
+  "startMs": 5840,
+  "endMs": 6150,
+  "matched": true
+ },
+ {
+  "text": "реагування.",
+  "start": 77,
+  "startMs": 6150,
+  "endMs": 7140,
+  "matched": true
+ },
+ {
+  "text": "Ризик",
+  "start": 89,
+  "startMs": 7140,
+  "endMs": 7560,
+  "matched": true
+ },
+ {
+  "text": "без",
+  "start": 95,
+  "startMs": 7560,
+  "endMs": 7820,
+  "matched": true
+ },
+ {
+  "text": "власника",
+  "start": 99,
+  "startMs": 7820,
+  "endMs": 8510,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 108,
+  "startMs": 8510,
+  "endMs": 8680,
+  "matched": true
+ },
+ {
+  "text": "контролюється.",
+  "start": 111,
+  "startMs": 8680,
+  "endMs": 10000,
+  "matched": true
+ },
+ {
+  "text": "Власник",
+  "start": 126,
+  "startMs": 10000,
+  "endMs": 10512,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 134,
+  "startMs": 10512,
+  "endMs": 10640,
+  "matched": false
+ },
+ {
+  "text": "не",
+  "start": 136,
+  "startMs": 10640,
+  "endMs": 10760,
+  "matched": true
+ },
+ {
+  "text": "обов’язково",
+  "start": 139,
+  "startMs": 10760,
+  "endMs": 11660,
+  "matched": true
+ },
+ {
+  "text": "керівник",
+  "start": 151,
+  "startMs": 11660,
+  "endMs": 12350,
+  "matched": true
+ },
+ {
+  "text": "проєкту,",
+  "start": 160,
+  "startMs": 12350,
+  "endMs": 13000,
+  "matched": true
+ },
+ {
+  "text": "а",
+  "start": 169,
+  "startMs": 13000,
+  "endMs": 13160,
+  "matched": true
+ },
+ {
+  "text": "той,",
+  "start": 171,
+  "startMs": 13160,
+  "endMs": 13450,
+  "matched": true
+ },
+ {
+  "text": "хто",
+  "start": 176,
+  "startMs": 13450,
+  "endMs": 13810,
+  "matched": true
+ },
+ {
+  "text": "найкраще",
+  "start": 180,
+  "startMs": 13810,
+  "endMs": 14440,
+  "matched": true
+ },
+ {
+  "text": "може",
+  "start": 189,
+  "startMs": 14440,
+  "endMs": 14800,
+  "matched": true
+ },
+ {
+  "text": "вплинути",
+  "start": 194,
+  "startMs": 14800,
+  "endMs": 15520,
+  "matched": true
+ },
+ {
+  "text": "на",
+  "start": 203,
+  "startMs": 15520,
+  "endMs": 15700,
+  "matched": true
+ },
+ {
+  "text": "ризик.",
+  "start": 206,
+  "startMs": 15700,
+  "endMs": 16240,
+  "matched": true
+ },
+ {
+  "text": "Затримка",
+  "start": 213,
+  "startMs": 16240,
+  "endMs": 17480,
+  "matched": true
+ },
+ {
+  "text": "погодження",
+  "start": 222,
+  "startMs": 17480,
+  "endMs": 19040,
+  "matched": true
+ },
+ {
+  "text": "те-зе",
+  "start": 233,
+  "startMs": 19040,
+  "endMs": 19288,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 239,
+  "startMs": 19288,
+  "endMs": 19371,
+  "matched": false
+ },
+ {
+  "text": "пі-ем.",
+  "start": 241,
+  "startMs": 19371,
+  "endMs": 19660,
+  "matched": false
+ },
+ {
+  "text": "Надмірний",
+  "start": 248,
+  "startMs": 19660,
+  "endMs": 20680,
+  "matched": true
+ },
+ {
+  "text": "доступ",
+  "start": 258,
+  "startMs": 20680,
+  "endMs": 21260,
+  "matched": true
+ },
+ {
+  "text": "до",
+  "start": 265,
+  "startMs": 21260,
+  "endMs": 21570,
+  "matched": true
+ },
+ {
+  "text": "даних",
+  "start": 268,
+  "startMs": 21570,
+  "endMs": 21894,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 274,
+  "startMs": 21894,
+  "endMs": 22002,
+  "matched": false
+ },
+ {
+  "text": "бі-ей.",
+  "start": 276,
+  "startMs": 22002,
+  "endMs": 22380,
+  "matched": false
+ },
+ {
+  "text": "Несумісність",
+  "start": 283,
+  "startMs": 22380,
+  "endMs": 23390,
+  "matched": true
+ },
+ {
+  "text": "форматів",
+  "start": 296,
+  "startMs": 23390,
+  "endMs": 23987,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 305,
+  "startMs": 23987,
+  "endMs": 24120,
+  "matched": false
+ },
+ {
+  "text": "дейта-аналіст.",
+  "start": 307,
+  "startMs": 24120,
+  "endMs": 25260,
+  "matched": true
+ },
+ {
+  "text": "А",
+  "start": 322,
+  "startMs": 25260,
+  "endMs": 25480,
+  "matched": true
+ },
+ {
+  "text": "ризик",
+  "start": 324,
+  "startMs": 25480,
+  "endMs": 25940,
+  "matched": true
+ },
+ {
+  "text": "ротації",
+  "start": 330,
+  "startMs": 25940,
+  "endMs": 26750,
+  "matched": true
+ },
+ {
+  "text": "самого",
+  "start": 338,
+  "startMs": 26750,
+  "endMs": 27203,
+  "matched": true
+ },
+ {
+  "text": "пі-ем",
+  "start": 345,
+  "startMs": 27203,
+  "endMs": 27591,
+  "matched": false
+ },
+ {
+  "text": "—",
+  "start": 351,
+  "startMs": 27591,
+  "endMs": 27720,
+  "matched": false
+ },
+ {
+  "text": "у",
+  "start": 353,
+  "startMs": 27720,
+  "endMs": 27800,
+  "matched": true
+ },
+ {
+  "text": "ді-ті",
+  "start": 355,
+  "startMs": 27800,
+  "endMs": 28170,
+  "matched": true
+ },
+ {
+  "text": "лід.",
+  "start": 361,
+  "startMs": 28170,
+  "endMs": 28800,
+  "matched": true
+ }
+]

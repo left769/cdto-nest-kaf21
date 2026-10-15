@@ -23,8 +23,11 @@ type Cue = { words: Word[]; startMs: number; endMs: number };
 
 const join = (ws: Word[]) => ws.map((w) => w.text).join(" ");
 
-/** Рівномірний перенос на ≤ 2 рядки; null — не вміщується. */
-const wrap = (text: string): string[] | null => {
+/**
+ * Рівномірний перенос на ≤ 2 рядки; null — не вміщується. У строгому режимі
+ * не дозволяє лишити коротке слово («не», «і», «з»…) в кінці першого рядка.
+ */
+const wrap = (text: string, strict = false): string[] | null => {
   if (text.length <= MAX_LINE) return [text];
   const words = text.split(" ");
   let best: string[] | null = null;
@@ -33,6 +36,7 @@ const wrap = (text: string): string[] | null => {
     const a = words.slice(0, k).join(" ");
     const b = words.slice(k).join(" ");
     if (a.length > MAX_LINE || b.length > MAX_LINE || words[k] === "—") continue;
+    if (strict && CLINGY.test(words[k - 1])) continue;
     const score = Math.abs(a.length - b.length) + (CLINGY.test(words[k - 1]) ? 30 : 0);
     if (score < bestScore) {
       bestScore = score;
@@ -42,7 +46,7 @@ const wrap = (text: string): string[] | null => {
   return best && best.length <= MAX_LINES ? best : null;
 };
 
-const fits = (ws: Word[]) => wrap(join(ws)) !== null && ws[ws.length - 1].endMs - ws[0].startMs <= MAX_MS;
+const fits = (ws: Word[]) => wrap(join(ws), true) !== null && ws[ws.length - 1].endMs - ws[0].startMs <= MAX_MS;
 
 /** Ділить фрагмент речення там, де пауза природна: після коми, двокрапки, тире. */
 const split = (ws: Word[]): Word[][] => {

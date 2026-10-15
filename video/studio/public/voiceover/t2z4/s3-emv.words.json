@@ -1,0 +1,541 @@
+[
+ {
+  "text": "Третє",
+  "start": 0,
+  "startMs": 100,
+  "endMs": 445,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 6,
+  "startMs": 445,
+  "endMs": 560,
+  "matched": false
+ },
+ {
+  "text": "кількісна",
+  "start": 8,
+  "startMs": 560,
+  "endMs": 1550,
+  "matched": true
+ },
+ {
+  "text": "оцінка:",
+  "start": 18,
+  "startMs": 1550,
+  "endMs": 2390,
+  "matched": true
+ },
+ {
+  "text": "і-ем-ві,",
+  "start": 26,
+  "startMs": 2390,
+  "endMs": 2970,
+  "matched": true
+ },
+ {
+  "text": "очікувані",
+  "start": 35,
+  "startMs": 2970,
+  "endMs": 4010,
+  "matched": true
+ },
+ {
+  "text": "втрати.",
+  "start": 45,
+  "startMs": 4010,
+  "endMs": 4760,
+  "matched": true
+ },
+ {
+  "text": "Формула",
+  "start": 53,
+  "startMs": 4760,
+  "endMs": 5390,
+  "matched": true
+ },
+ {
+  "text": "проста:",
+  "start": 61,
+  "startMs": 5390,
+  "endMs": 5970,
+  "matched": true
+ },
+ {
+  "text": "ймовірність",
+  "start": 69,
+  "startMs": 5970,
+  "endMs": 7030,
+  "matched": true
+ },
+ {
+  "text": "помножити",
+  "start": 81,
+  "startMs": 7030,
+  "endMs": 7770,
+  "matched": true
+ },
+ {
+  "text": "на",
+  "start": 91,
+  "startMs": 7770,
+  "endMs": 7980,
+  "matched": true
+ },
+ {
+  "text": "вплив.",
+  "start": 94,
+  "startMs": 7980,
+  "endMs": 8520,
+  "matched": true
+ },
+ {
+  "text": "Затримка",
+  "start": 101,
+  "startMs": 8520,
+  "endMs": 9560,
+  "matched": true
+ },
+ {
+  "text": "погодження",
+  "start": 110,
+  "startMs": 9560,
+  "endMs": 10800,
+  "matched": true
+ },
+ {
+  "text": "те-зе:",
+  "start": 121,
+  "startMs": 10800,
+  "endMs": 11059,
+  "matched": true
+ },
+ {
+  "text": "п’ятдесят",
+  "start": 128,
+  "startMs": 11059,
+  "endMs": 11430,
+  "matched": false
+ },
+ {
+  "text": "відсотків",
+  "start": 138,
+  "startMs": 11430,
+  "endMs": 11800,
+  "matched": false
+ },
+ {
+  "text": "на",
+  "start": 148,
+  "startMs": 11800,
+  "endMs": 12070,
+  "matched": true
+ },
+ {
+  "text": "20",
+  "start": 151,
+  "startMs": 12070,
+  "endMs": 12550,
+  "matched": true
+ },
+ {
+  "text": "днів",
+  "start": 154,
+  "startMs": 12550,
+  "endMs": 13250,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 159,
+  "startMs": 13250,
+  "endMs": 13530,
+  "matched": false
+ },
+ {
+  "text": "10",
+  "start": 161,
+  "startMs": 13530,
+  "endMs": 13650,
+  "matched": true
+ },
+ {
+  "text": "днів",
+  "start": 164,
+  "startMs": 13650,
+  "endMs": 14000,
+  "matched": true
+ },
+ {
+  "text": "очікуваних",
+  "start": 169,
+  "startMs": 14000,
+  "endMs": 14980,
+  "matched": true
+ },
+ {
+  "text": "втрат.",
+  "start": 180,
+  "startMs": 14980,
+  "endMs": 15520,
+  "matched": true
+ },
+ {
+  "text": "Несумісність",
+  "start": 187,
+  "startMs": 15520,
+  "endMs": 17580,
+  "matched": true
+ },
+ {
+  "text": "форматів:",
+  "start": 200,
+  "startMs": 17580,
+  "endMs": 18028,
+  "matched": true
+ },
+ {
+  "text": "тридцять",
+  "start": 210,
+  "startMs": 18028,
+  "endMs": 18432,
+  "matched": false
+ },
+ {
+  "text": "відсотків",
+  "start": 219,
+  "startMs": 18432,
+  "endMs": 18880,
+  "matched": false
+ },
+ {
+  "text": "на",
+  "start": 229,
+  "startMs": 18880,
+  "endMs": 19160,
+  "matched": true
+ },
+ {
+  "text": "15",
+  "start": 232,
+  "startMs": 19160,
+  "endMs": 19720,
+  "matched": true
+ },
+ {
+  "text": "днів",
+  "start": 235,
+  "startMs": 19720,
+  "endMs": 19935,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 240,
+  "startMs": 19935,
+  "endMs": 20022,
+  "matched": false
+ },
+ {
+  "text": "чотири",
+  "start": 242,
+  "startMs": 20022,
+  "endMs": 20323,
+  "matched": false
+ },
+ {
+  "text": "з",
+  "start": 249,
+  "startMs": 20323,
+  "endMs": 20409,
+  "matched": false
+ },
+ {
+  "text": "половиною",
+  "start": 251,
+  "startMs": 20409,
+  "endMs": 20840,
+  "matched": false
+ },
+ {
+  "text": "дні.",
+  "start": 261,
+  "startMs": 20840,
+  "endMs": 21360,
+  "matched": true
+ },
+ {
+  "text": "Ротація",
+  "start": 266,
+  "startMs": 21360,
+  "endMs": 22410,
+  "matched": true
+ },
+ {
+  "text": "пі-ем:",
+  "start": 274,
+  "startMs": 22410,
+  "endMs": 22760,
+  "matched": true
+ },
+ {
+  "text": "двадцять",
+  "start": 281,
+  "startMs": 22760,
+  "endMs": 23210,
+  "matched": false
+ },
+ {
+  "text": "відсотків",
+  "start": 290,
+  "startMs": 23210,
+  "endMs": 23710,
+  "matched": false
+ },
+ {
+  "text": "на",
+  "start": 300,
+  "startMs": 23710,
+  "endMs": 23970,
+  "matched": true
+ },
+ {
+  "text": "10",
+  "start": 303,
+  "startMs": 23970,
+  "endMs": 24430,
+  "matched": true
+ },
+ {
+  "text": "днів",
+  "start": 306,
+  "startMs": 24430,
+  "endMs": 25030,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 311,
+  "startMs": 25030,
+  "endMs": 25270,
+  "matched": false
+ },
+ {
+  "text": "2",
+  "start": 313,
+  "startMs": 25270,
+  "endMs": 25390,
+  "matched": true
+ },
+ {
+  "text": "дні.",
+  "start": 315,
+  "startMs": 25390,
+  "endMs": 26380,
+  "matched": true
+ },
+ {
+  "text": "Разом",
+  "start": 320,
+  "startMs": 26380,
+  "endMs": 26558,
+  "matched": true
+ },
+ {
+  "text": "шістнадцять",
+  "start": 326,
+  "startMs": 26558,
+  "endMs": 26914,
+  "matched": false
+ },
+ {
+  "text": "з",
+  "start": 338,
+  "startMs": 26914,
+  "endMs": 26973,
+  "matched": false
+ },
+ {
+  "text": "половиною",
+  "start": 340,
+  "startMs": 26973,
+  "endMs": 27270,
+  "matched": false
+ },
+ {
+  "text": "днів",
+  "start": 350,
+  "startMs": 27270,
+  "endMs": 27620,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 355,
+  "startMs": 27620,
+  "endMs": 27760,
+  "matched": false
+ },
+ {
+  "text": "це",
+  "start": 357,
+  "startMs": 27760,
+  "endMs": 27980,
+  "matched": true
+ },
+ {
+  "text": "резерв",
+  "start": 360,
+  "startMs": 27980,
+  "endMs": 28670,
+  "matched": true
+ },
+ {
+  "text": "часу",
+  "start": 367,
+  "startMs": 28670,
+  "endMs": 29080,
+  "matched": true
+ },
+ {
+  "text": "під",
+  "start": 372,
+  "startMs": 29080,
+  "endMs": 29410,
+  "matched": true
+ },
+ {
+  "text": "конкретні",
+  "start": 376,
+  "startMs": 29410,
+  "endMs": 30400,
+  "matched": true
+ },
+ {
+  "text": "ризики,",
+  "start": 386,
+  "startMs": 30400,
+  "endMs": 31320,
+  "matched": true
+ },
+ {
+  "text": "а",
+  "start": 394,
+  "startMs": 31320,
+  "endMs": 31350,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 396,
+  "startMs": 31350,
+  "endMs": 31580,
+  "matched": true
+ },
+ {
+  "text": "запас",
+  "start": 399,
+  "startMs": 31580,
+  "endMs": 32150,
+  "matched": true
+ },
+ {
+  "text": "«на",
+  "start": 405,
+  "startMs": 32150,
+  "endMs": 32380,
+  "matched": true
+ },
+ {
+  "text": "око».",
+  "start": 409,
+  "startMs": 32380,
+  "endMs": 32920,
+  "matched": true
+ },
+ {
+  "text": "А",
+  "start": 415,
+  "startMs": 32920,
+  "endMs": 33180,
+  "matched": true
+ },
+ {
+  "text": "найбільші",
+  "start": 417,
+  "startMs": 33180,
+  "endMs": 33660,
+  "matched": true
+ },
+ {
+  "text": "втрати",
+  "start": 427,
+  "startMs": 33660,
+  "endMs": 34110,
+  "matched": true
+ },
+ {
+  "text": "показують,",
+  "start": 434,
+  "startMs": 34110,
+  "endMs": 34920,
+  "matched": true
+ },
+ {
+  "text": "куди",
+  "start": 445,
+  "startMs": 34920,
+  "endMs": 35210,
+  "matched": true
+ },
+ {
+  "text": "спрямувати",
+  "start": 450,
+  "startMs": 35210,
+  "endMs": 35960,
+  "matched": true
+ },
+ {
+  "text": "основний",
+  "start": 461,
+  "startMs": 35960,
+  "endMs": 36560,
+  "matched": true
+ },
+ {
+  "text": "ресурс",
+  "start": 470,
+  "startMs": 36560,
+  "endMs": 37010,
+  "matched": true
+ },
+ {
+  "text": "реагування:",
+  "start": 477,
+  "startMs": 37010,
+  "endMs": 37960,
+  "matched": true
+ },
+ {
+  "text": "на",
+  "start": 489,
+  "startMs": 37960,
+  "endMs": 38010,
+  "matched": true
+ },
+ {
+  "text": "затримку",
+  "start": 492,
+  "startMs": 38010,
+  "endMs": 38680,
+  "matched": true
+ },
+ {
+  "text": "погодження.",
+  "start": 501,
+  "startMs": 38680,
+  "endMs": 39680,
+  "matched": true
+ }
+]
