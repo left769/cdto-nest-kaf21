@@ -22,6 +22,7 @@ npx tsx scripts/keyframes.ts         # ключові кадри у out/keyframe
 npx tsx scripts/voiceover-md.ts      # текст для ElevenLabs у voiceover/t2z3.md
 npx tsx scripts/align.ts [id]         # вирівняти голос із текстом → public/voiceover/t2z3/<id>.words.json
 npx tsx scripts/captions.ts          # субтитри й розділи → out/t2z3-terms.uk.vtt, .chapters.json
+npx tsx scripts/render.ts v1 18      # MP4 (CRF 18, faststart, назва з атрибуцією) і постер у out/
 npx tsc --noEmit && npx eslint src scripts
 ```
 
