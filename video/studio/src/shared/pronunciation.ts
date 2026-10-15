@@ -19,6 +19,13 @@ export const makeToVoice = (table: PronunciationTable) => (text: string) =>
   );
 
 /** Які заміни з таблиці трапляються в тексті: «KPI → кей-пі-ай». */
-export const usedReplacements = (table: PronunciationTable, text: string) => [
-  ...new Set(table.flatMap(([from, to]) => [...text.matchAll(new RegExp(from.source, from.flags))].map((m) => `${m[0]} → ${to}`))),
-];
+export const usedReplacements = (table: PronunciationTable, text: string) => {
+  const seen = new Map<string, string>();
+  for (const [from, to] of table) {
+    for (const m of text.matchAll(new RegExp(from.source, from.flags))) {
+      const key = m[0].toLowerCase();
+      if (!seen.has(key)) seen.set(key, `${m[0]} → ${to}`);
+    }
+  }
+  return [...seen.values()];
+};
