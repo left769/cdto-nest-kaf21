@@ -12,7 +12,7 @@ const OUT = path.join(process.cwd(), "voiceover", `${LESSON}.md`);
 const total = SCENES.reduce((sum, s) => sum + s.voiceText.length, 0);
 const file = (id: string) => `public/${audioPath(LESSON, id)}`;
 // Цифри, яких немає в таблиці вимови: їх варто послухати.
-const digits = (text: string) => [...new Set(text.match(/\d[\d,]*/g) ?? [])];
+const digits = (text: string) => [...new Set(text.match(/\d+(?:,\d+)?/g) ?? [])];
 
 const lines = [
   "# Озвучка · Тема 2 · Заняття 3",

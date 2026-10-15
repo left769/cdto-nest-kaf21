@@ -16,10 +16,10 @@ export const PRONUNCIATION: [RegExp, string][] = [
   [word("CPI"), "сі-пі-ай"],
   [new RegExp(word("leading").source, "giu"), "лідинг"],
   [new RegExp(word("lagging").source, "giu"), "легінг"],
-  [word("Risk"), "Ріск"],
-  [word("Assumption"), "Есамшн"],
-  [word("Issue"), "Іш’ю"],
-  [word("Dependency"), "Діпенденсі"],
+  [word("Risk"), "ріск"],
+  [word("Assumption"), "есамшн"],
+  [word("Issue"), "іш’ю"],
+  [word("Dependency"), "діпенденсі"],
   [word("ТЗ"), "те-зе"],
   [word("ЗІ"), "зе-і"],
   [word("ПЗ"), "пе-зе"],
@@ -32,5 +32,14 @@ export const PRONUNCIATION: [RegExp, string][] = [
   [/90%/gu, "дев’яносто відсотків"],
 ];
 
+// На початку речення заміна пишеться з великої літери («Дісіжн-лог фіксує…»).
+const sentenceStart = /(^|[.!?…]\s+)$/u;
+
 export const toVoice = (text: string) =>
-  PRONUNCIATION.reduce((out, [from, to]) => out.replace(from, to), text);
+  PRONUNCIATION.reduce(
+    (out, [from, to]) =>
+      out.replace(from, (_match, offset: number, whole: string) =>
+        sentenceStart.test(whole.slice(0, offset)) ? to[0].toUpperCase() + to.slice(1) : to,
+      ),
+    text,
+  );
