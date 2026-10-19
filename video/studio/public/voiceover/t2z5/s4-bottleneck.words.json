@@ -1,0 +1,408 @@
+[
+ {
+  "text": "Четверте",
+  "start": 0,
+  "startMs": 50,
+  "endMs": 786,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 9,
+  "startMs": 786,
+  "endMs": 950,
+  "matched": false
+ },
+ {
+  "text": "вузьке",
+  "start": 11,
+  "startMs": 950,
+  "endMs": 1450,
+  "matched": true
+ },
+ {
+  "text": "місце,",
+  "start": 18,
+  "startMs": 1450,
+  "endMs": 2216,
+  "matched": true
+ },
+ {
+  "text": "ботлнек.",
+  "start": 25,
+  "startMs": 2216,
+  "endMs": 3200,
+  "matched": false
+ },
+ {
+  "text": "За",
+  "start": 34,
+  "startMs": 3200,
+  "endMs": 3460,
+  "matched": true
+ },
+ {
+  "text": "теорією",
+  "start": 37,
+  "startMs": 3460,
+  "endMs": 4230,
+  "matched": true
+ },
+ {
+  "text": "обмежень",
+  "start": 45,
+  "startMs": 4230,
+  "endMs": 5210,
+  "matched": true
+ },
+ {
+  "text": "швидкість",
+  "start": 54,
+  "startMs": 5210,
+  "endMs": 5720,
+  "matched": true
+ },
+ {
+  "text": "проєкту",
+  "start": 64,
+  "startMs": 5720,
+  "endMs": 6220,
+  "matched": true
+ },
+ {
+  "text": "визначає",
+  "start": 72,
+  "startMs": 6220,
+  "endMs": 6890,
+  "matched": true
+ },
+ {
+  "text": "найвужча",
+  "start": 81,
+  "startMs": 6890,
+  "endMs": 7550,
+  "matched": true
+ },
+ {
+  "text": "ланка.",
+  "start": 90,
+  "startMs": 7550,
+  "endMs": 8140,
+  "matched": true
+ },
+ {
+  "text": "Її",
+  "start": 97,
+  "startMs": 8140,
+  "endMs": 8420,
+  "matched": true
+ },
+ {
+  "text": "ознака",
+  "start": 100,
+  "startMs": 8420,
+  "endMs": 8863,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 107,
+  "startMs": 8863,
+  "endMs": 8990,
+  "matched": false
+ },
+ {
+  "text": "там",
+  "start": 109,
+  "startMs": 8990,
+  "endMs": 9590,
+  "matched": true
+ },
+ {
+  "text": "накопичується",
+  "start": 113,
+  "startMs": 9590,
+  "endMs": 10680,
+  "matched": true
+ },
+ {
+  "text": "черга,",
+  "start": 127,
+  "startMs": 10680,
+  "endMs": 11360,
+  "matched": true
+ },
+ {
+  "text": "а",
+  "start": 134,
+  "startMs": 11360,
+  "endMs": 11380,
+  "matched": true
+ },
+ {
+  "text": "інші",
+  "start": 136,
+  "startMs": 11380,
+  "endMs": 11780,
+  "matched": true
+ },
+ {
+  "text": "ланки",
+  "start": 141,
+  "startMs": 11780,
+  "endMs": 12320,
+  "matched": true
+ },
+ {
+  "text": "простоюють",
+  "start": 147,
+  "startMs": 12320,
+  "endMs": 13370,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 158,
+  "startMs": 13370,
+  "endMs": 13410,
+  "matched": true
+ },
+ {
+  "text": "чекають.",
+  "start": 160,
+  "startMs": 13410,
+  "endMs": 14240,
+  "matched": true
+ },
+ {
+  "text": "Типові",
+  "start": 169,
+  "startMs": 14240,
+  "endMs": 15020,
+  "matched": true
+ },
+ {
+  "text": "обмеження",
+  "start": 176,
+  "startMs": 15020,
+  "endMs": 16330,
+  "matched": true
+ },
+ {
+  "text": "в",
+  "start": 186,
+  "startMs": 16330,
+  "endMs": 16430,
+  "matched": true
+ },
+ {
+  "text": "проєктах",
+  "start": 188,
+  "startMs": 16430,
+  "endMs": 17096,
+  "matched": true
+ },
+ {
+  "text": "це-те",
+  "start": 197,
+  "startMs": 17096,
+  "endMs": 17540,
+  "matched": false
+ },
+ {
+  "text": "зе-ес-у",
+  "start": 203,
+  "startMs": 17540,
+  "endMs": 18132,
+  "matched": false
+ },
+ {
+  "text": "—",
+  "start": 211,
+  "startMs": 18132,
+  "endMs": 18280,
+  "matched": false
+ },
+ {
+  "text": "цикли",
+  "start": 213,
+  "startMs": 18280,
+  "endMs": 18580,
+  "matched": true
+ },
+ {
+  "text": "погоджень,",
+  "start": 219,
+  "startMs": 18580,
+  "endMs": 19400,
+  "matched": true
+ },
+ {
+  "text": "дефіцит",
+  "start": 230,
+  "startMs": 19400,
+  "endMs": 19990,
+  "matched": true
+ },
+ {
+  "text": "профільних",
+  "start": 238,
+  "startMs": 19990,
+  "endMs": 20630,
+  "matched": true
+ },
+ {
+  "text": "фахівців,",
+  "start": 249,
+  "startMs": 20630,
+  "endMs": 21420,
+  "matched": true
+ },
+ {
+  "text": "затримки",
+  "start": 259,
+  "startMs": 21420,
+  "endMs": 21820,
+  "matched": true
+ },
+ {
+  "text": "фінансування",
+  "start": 268,
+  "startMs": 21820,
+  "endMs": 22626,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 281,
+  "startMs": 22626,
+  "endMs": 22750,
+  "matched": false
+ },
+ {
+  "text": "закупівель.",
+  "start": 283,
+  "startMs": 22750,
+  "endMs": 23600,
+  "matched": true
+ },
+ {
+  "text": "Ресурс",
+  "start": 295,
+  "startMs": 23600,
+  "endMs": 24160,
+  "matched": true
+ },
+ {
+  "text": "спрямовують",
+  "start": 302,
+  "startMs": 24160,
+  "endMs": 25050,
+  "matched": true
+ },
+ {
+  "text": "саме",
+  "start": 314,
+  "startMs": 25050,
+  "endMs": 25400,
+  "matched": true
+ },
+ {
+  "text": "на",
+  "start": 319,
+  "startMs": 25400,
+  "endMs": 25580,
+  "matched": true
+ },
+ {
+  "text": "обмеження:",
+  "start": 322,
+  "startMs": 25580,
+  "endMs": 26640,
+  "matched": true
+ },
+ {
+  "text": "додати",
+  "start": 333,
+  "startMs": 26640,
+  "endMs": 27070,
+  "matched": true
+ },
+ {
+  "text": "людей,",
+  "start": 340,
+  "startMs": 27070,
+  "endMs": 27760,
+  "matched": true
+ },
+ {
+  "text": "спростити",
+  "start": 347,
+  "startMs": 27760,
+  "endMs": 28420,
+  "matched": true
+ },
+ {
+  "text": "чи",
+  "start": 357,
+  "startMs": 28420,
+  "endMs": 28590,
+  "matched": true
+ },
+ {
+  "text": "ескалувати",
+  "start": 360,
+  "startMs": 28590,
+  "endMs": 29400,
+  "matched": true
+ },
+ {
+  "text": "погодження.",
+  "start": 371,
+  "startMs": 29400,
+  "endMs": 30520,
+  "matched": true
+ },
+ {
+  "text": "Оптимізація",
+  "start": 383,
+  "startMs": 30520,
+  "endMs": 31440,
+  "matched": true
+ },
+ {
+  "text": "інших",
+  "start": 395,
+  "startMs": 31440,
+  "endMs": 31860,
+  "matched": true
+ },
+ {
+  "text": "ланок",
+  "start": 401,
+  "startMs": 31860,
+  "endMs": 32440,
+  "matched": true
+ },
+ {
+  "text": "проєкт",
+  "start": 407,
+  "startMs": 32440,
+  "endMs": 32860,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 414,
+  "startMs": 32860,
+  "endMs": 32990,
+  "matched": true
+ },
+ {
+  "text": "прискорить.",
+  "start": 417,
+  "startMs": 32990,
+  "endMs": 34080,
+  "matched": true
+ }
+]

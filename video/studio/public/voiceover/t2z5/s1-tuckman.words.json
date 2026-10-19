@@ -1,0 +1,457 @@
+[
+ {
+  "text": "Перше",
+  "start": 0,
+  "startMs": 120,
+  "endMs": 780,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 6,
+  "startMs": 780,
+  "endMs": 1000,
+  "matched": false
+ },
+ {
+  "text": "модель",
+  "start": 8,
+  "startMs": 1000,
+  "endMs": 1450,
+  "matched": true
+ },
+ {
+  "text": "Такмана:",
+  "start": 15,
+  "startMs": 1450,
+  "endMs": 2080,
+  "matched": true
+ },
+ {
+  "text": "команда",
+  "start": 24,
+  "startMs": 2080,
+  "endMs": 2640,
+  "matched": true
+ },
+ {
+  "text": "проходить",
+  "start": 32,
+  "startMs": 2640,
+  "endMs": 3340,
+  "matched": true
+ },
+ {
+  "text": "чотири",
+  "start": 42,
+  "startMs": 3340,
+  "endMs": 3770,
+  "matched": true
+ },
+ {
+  "text": "етапи.",
+  "start": 49,
+  "startMs": 3770,
+  "endMs": 4320,
+  "matched": true
+ },
+ {
+  "text": "Формування",
+  "start": 56,
+  "startMs": 4320,
+  "endMs": 5369,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 67,
+  "startMs": 5369,
+  "endMs": 5560,
+  "matched": false
+ },
+ {
+  "text": "знайомство",
+  "start": 69,
+  "startMs": 5560,
+  "endMs": 6300,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 80,
+  "startMs": 6300,
+  "endMs": 6370,
+  "matched": true
+ },
+ {
+  "text": "невизначеність:",
+  "start": 82,
+  "startMs": 6370,
+  "endMs": 7520,
+  "matched": true
+ },
+ {
+  "text": "керівник",
+  "start": 98,
+  "startMs": 7520,
+  "endMs": 8280,
+  "matched": true
+ },
+ {
+  "text": "задає",
+  "start": 107,
+  "startMs": 8280,
+  "endMs": 8760,
+  "matched": true
+ },
+ {
+  "text": "цілі",
+  "start": 113,
+  "startMs": 8760,
+  "endMs": 9096,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 118,
+  "startMs": 9096,
+  "endMs": 9230,
+  "matched": false
+ },
+ {
+  "text": "ролі.",
+  "start": 120,
+  "startMs": 9230,
+  "endMs": 9760,
+  "matched": true
+ },
+ {
+  "text": "Конфлікт,",
+  "start": 126,
+  "startMs": 9760,
+  "endMs": 10633,
+  "matched": true
+ },
+ {
+  "text": "сторминг,",
+  "start": 136,
+  "startMs": 10633,
+  "endMs": 11505,
+  "matched": false
+ },
+ {
+  "text": "—",
+  "start": 146,
+  "startMs": 11505,
+  "endMs": 11680,
+  "matched": false
+ },
+ {
+  "text": "зіткнення",
+  "start": 148,
+  "startMs": 11680,
+  "endMs": 12320,
+  "matched": true
+ },
+ {
+  "text": "підходів:",
+  "start": 158,
+  "startMs": 12320,
+  "endMs": 13120,
+  "matched": true
+ },
+ {
+  "text": "керівник",
+  "start": 168,
+  "startMs": 13120,
+  "endMs": 13680,
+  "matched": true
+ },
+ {
+  "text": "модерує",
+  "start": 177,
+  "startMs": 13680,
+  "endMs": 14170,
+  "matched": true
+ },
+ {
+  "text": "розбіжності,",
+  "start": 185,
+  "startMs": 14170,
+  "endMs": 15080,
+  "matched": true
+ },
+ {
+  "text": "а",
+  "start": 198,
+  "startMs": 15080,
+  "endMs": 15140,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 200,
+  "startMs": 15140,
+  "endMs": 15350,
+  "matched": true
+ },
+ {
+  "text": "уникає",
+  "start": 203,
+  "startMs": 15350,
+  "endMs": 15980,
+  "matched": true
+ },
+ {
+  "text": "їх.",
+  "start": 210,
+  "startMs": 15980,
+  "endMs": 16400,
+  "matched": true
+ },
+ {
+  "text": "Нормалізація",
+  "start": 214,
+  "startMs": 16400,
+  "endMs": 17605,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 227,
+  "startMs": 17605,
+  "endMs": 17790,
+  "matched": false
+ },
+ {
+  "text": "команда",
+  "start": 229,
+  "startMs": 17790,
+  "endMs": 18210,
+  "matched": true
+ },
+ {
+  "text": "виробляє",
+  "start": 237,
+  "startMs": 18210,
+  "endMs": 18790,
+  "matched": true
+ },
+ {
+  "text": "правила,",
+  "start": 246,
+  "startMs": 18790,
+  "endMs": 19440,
+  "matched": true
+ },
+ {
+  "text": "керівник",
+  "start": 255,
+  "startMs": 19440,
+  "endMs": 20090,
+  "matched": true
+ },
+ {
+  "text": "їх",
+  "start": 264,
+  "startMs": 20090,
+  "endMs": 20250,
+  "matched": true
+ },
+ {
+  "text": "закріплює.",
+  "start": 267,
+  "startMs": 20250,
+  "endMs": 21160,
+  "matched": true
+ },
+ {
+  "text": "Результативність",
+  "start": 278,
+  "startMs": 21160,
+  "endMs": 22422,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 295,
+  "startMs": 22422,
+  "endMs": 22570,
+  "matched": false
+ },
+ {
+  "text": "злагоджена",
+  "start": 297,
+  "startMs": 22570,
+  "endMs": 23370,
+  "matched": true
+ },
+ {
+  "text": "робота:",
+  "start": 308,
+  "startMs": 23370,
+  "endMs": 24040,
+  "matched": true
+ },
+ {
+  "text": "керівник",
+  "start": 316,
+  "startMs": 24040,
+  "endMs": 24720,
+  "matched": true
+ },
+ {
+  "text": "делегує",
+  "start": 325,
+  "startMs": 24720,
+  "endMs": 25400,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 333,
+  "startMs": 25400,
+  "endMs": 25440,
+  "matched": true
+ },
+ {
+  "text": "підтримує",
+  "start": 335,
+  "startMs": 25440,
+  "endMs": 26170,
+  "matched": true
+ },
+ {
+  "text": "ритм.",
+  "start": 345,
+  "startMs": 26170,
+  "endMs": 26920,
+  "matched": true
+ },
+ {
+  "text": "Конфлікт",
+  "start": 351,
+  "startMs": 26920,
+  "endMs": 27607,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 360,
+  "startMs": 27607,
+  "endMs": 27760,
+  "matched": false
+ },
+ {
+  "text": "не",
+  "start": 362,
+  "startMs": 27760,
+  "endMs": 27870,
+  "matched": true
+ },
+ {
+  "text": "«поломка»,",
+  "start": 365,
+  "startMs": 27870,
+  "endMs": 28670,
+  "matched": true
+ },
+ {
+  "text": "а",
+  "start": 376,
+  "startMs": 28670,
+  "endMs": 28810,
+  "matched": true
+ },
+ {
+  "text": "норма",
+  "start": 378,
+  "startMs": 28810,
+  "endMs": 29270,
+  "matched": true
+ },
+ {
+  "text": "розвитку.",
+  "start": 384,
+  "startMs": 29270,
+  "endMs": 30240,
+  "matched": true
+ },
+ {
+  "text": "А",
+  "start": 394,
+  "startMs": 30240,
+  "endMs": 30490,
+  "matched": true
+ },
+ {
+  "text": "щоб",
+  "start": 396,
+  "startMs": 30490,
+  "endMs": 30570,
+  "matched": true
+ },
+ {
+  "text": "ротація",
+  "start": 400,
+  "startMs": 30570,
+  "endMs": 31220,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 408,
+  "startMs": 31220,
+  "endMs": 31320,
+  "matched": true
+ },
+ {
+  "text": "зупиняла",
+  "start": 411,
+  "startMs": 31320,
+  "endMs": 31990,
+  "matched": true
+ },
+ {
+  "text": "проєкт,",
+  "start": 420,
+  "startMs": 31990,
+  "endMs": 32640,
+  "matched": true
+ },
+ {
+  "text": "знання",
+  "start": 428,
+  "startMs": 32640,
+  "endMs": 33100,
+  "matched": true
+ },
+ {
+  "text": "розподіляють:",
+  "start": 435,
+  "startMs": 33100,
+  "endMs": 34080,
+  "matched": true
+ },
+ {
+  "text": "документація,",
+  "start": 449,
+  "startMs": 34080,
+  "endMs": 35130,
+  "matched": true
+ },
+ {
+  "text": "наставництво,",
+  "start": 463,
+  "startMs": 35130,
+  "endMs": 36290,
+  "matched": true
+ },
+ {
+  "text": "онбординг.",
+  "start": 477,
+  "startMs": 36290,
+  "endMs": 37120,
+  "matched": true
+ }
+]

@@ -1,0 +1,289 @@
+[
+ {
+  "text": "Команда",
+  "start": 0,
+  "startMs": 70,
+  "endMs": 688,
+  "matched": true
+ },
+ {
+  "text": "підрозділу",
+  "start": 8,
+  "startMs": 688,
+  "endMs": 1537,
+  "matched": false
+ },
+ {
+  "text": "це-те",
+  "start": 19,
+  "startMs": 1537,
+  "endMs": 2000,
+  "matched": false
+ },
+ {
+  "text": "веде",
+  "start": 25,
+  "startMs": 2000,
+  "endMs": 2300,
+  "matched": true
+ },
+ {
+  "text": "п’ять",
+  "start": 30,
+  "startMs": 2300,
+  "endMs": 2690,
+  "matched": true
+ },
+ {
+  "text": "проєктів",
+  "start": 36,
+  "startMs": 2690,
+  "endMs": 3200,
+  "matched": true
+ },
+ {
+  "text": "одночасно.",
+  "start": 45,
+  "startMs": 3200,
+  "endMs": 4120,
+  "matched": true
+ },
+ {
+  "text": "Строки",
+  "start": 56,
+  "startMs": 4120,
+  "endMs": 4600,
+  "matched": true
+ },
+ {
+  "text": "зриваються,",
+  "start": 63,
+  "startMs": 4600,
+  "endMs": 5480,
+  "matched": true
+ },
+ {
+  "text": "з’явилися",
+  "start": 75,
+  "startMs": 5480,
+  "endMs": 6160,
+  "matched": true
+ },
+ {
+  "text": "ознаки",
+  "start": 85,
+  "startMs": 6160,
+  "endMs": 6640,
+  "matched": true
+ },
+ {
+  "text": "вигорання.",
+  "start": 92,
+  "startMs": 6640,
+  "endMs": 7500,
+  "matched": true
+ },
+ {
+  "text": "А",
+  "start": 103,
+  "startMs": 7500,
+  "endMs": 7730,
+  "matched": true
+ },
+ {
+  "text": "командування",
+  "start": 105,
+  "startMs": 7730,
+  "endMs": 8620,
+  "matched": true
+ },
+ {
+  "text": "вимагає",
+  "start": 118,
+  "startMs": 8620,
+  "endMs": 9260,
+  "matched": true
+ },
+ {
+  "text": "ще",
+  "start": 126,
+  "startMs": 9260,
+  "endMs": 9380,
+  "matched": true
+ },
+ {
+  "text": "один",
+  "start": 129,
+  "startMs": 9380,
+  "endMs": 9720,
+  "matched": true
+ },
+ {
+  "text": "проєкт.",
+  "start": 134,
+  "startMs": 9720,
+  "endMs": 10480,
+  "matched": true
+ },
+ {
+  "text": "Що",
+  "start": 142,
+  "startMs": 10480,
+  "endMs": 10760,
+  "matched": true
+ },
+ {
+  "text": "робити?",
+  "start": 145,
+  "startMs": 10760,
+  "endMs": 11840,
+  "matched": true
+ },
+ {
+  "text": "Саме",
+  "start": 153,
+  "startMs": 11840,
+  "endMs": 12170,
+  "matched": true
+ },
+ {
+  "text": "такі",
+  "start": 158,
+  "startMs": 12170,
+  "endMs": 12570,
+  "matched": true
+ },
+ {
+  "text": "ситуації",
+  "start": 163,
+  "startMs": 12570,
+  "endMs": 13230,
+  "matched": true
+ },
+ {
+  "text": "ви",
+  "start": 172,
+  "startMs": 13230,
+  "endMs": 13320,
+  "matched": true
+ },
+ {
+  "text": "розбиратимете",
+  "start": 175,
+  "startMs": 13320,
+  "endMs": 14380,
+  "matched": true
+ },
+ {
+  "text": "на",
+  "start": 189,
+  "startMs": 14380,
+  "endMs": 14540,
+  "matched": true
+ },
+ {
+  "text": "семінарі.",
+  "start": 192,
+  "startMs": 14540,
+  "endMs": 15320,
+  "matched": true
+ },
+ {
+  "text": "Далі",
+  "start": 202,
+  "startMs": 15320,
+  "endMs": 15549,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 207,
+  "startMs": 15549,
+  "endMs": 15640,
+  "matched": false
+ },
+ {
+  "text": "шість",
+  "start": 209,
+  "startMs": 15640,
+  "endMs": 16250,
+  "matched": true
+ },
+ {
+  "text": "понять,",
+  "start": 215,
+  "startMs": 16250,
+  "endMs": 16670,
+  "matched": true
+ },
+ {
+  "text": "на",
+  "start": 223,
+  "startMs": 16670,
+  "endMs": 16790,
+  "matched": true
+ },
+ {
+  "text": "які",
+  "start": 226,
+  "startMs": 16790,
+  "endMs": 17100,
+  "matched": true
+ },
+ {
+  "text": "спирається",
+  "start": 230,
+  "startMs": 17100,
+  "endMs": 17860,
+  "matched": true
+ },
+ {
+  "text": "кожна",
+  "start": 241,
+  "startMs": 17860,
+  "endMs": 18270,
+  "matched": true
+ },
+ {
+  "text": "відповідь,",
+  "start": 247,
+  "startMs": 18270,
+  "endMs": 19200,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 258,
+  "startMs": 19200,
+  "endMs": 19300,
+  "matched": true
+ },
+ {
+  "text": "повний",
+  "start": 260,
+  "startMs": 19300,
+  "endMs": 19800,
+  "matched": true
+ },
+ {
+  "text": "розбір",
+  "start": 267,
+  "startMs": 19800,
+  "endMs": 20310,
+  "matched": true
+ },
+ {
+  "text": "цього",
+  "start": 274,
+  "startMs": 20310,
+  "endMs": 20770,
+  "matched": true
+ },
+ {
+  "text": "кейсу.",
+  "start": 280,
+  "startMs": 20770,
+  "endMs": 21360,
+  "matched": true
+ }
+]

@@ -1,0 +1,506 @@
+[
+ {
+  "text": "П’яте",
+  "start": 0,
+  "startMs": 0,
+  "endMs": 345,
+  "matched": false
+ },
+ {
+  "text": "—",
+  "start": 6,
+  "startMs": 345,
+  "endMs": 460,
+  "matched": false
+ },
+ {
+  "text": "фінансовий",
+  "start": 8,
+  "startMs": 460,
+  "endMs": 2170,
+  "matched": true
+ },
+ {
+  "text": "аналіз",
+  "start": 19,
+  "startMs": 2170,
+  "endMs": 2970,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 26,
+  "startMs": 2970,
+  "endMs": 3063,
+  "matched": true
+ },
+ {
+  "text": "ер-оу-ай,",
+  "start": 28,
+  "startMs": 3063,
+  "endMs": 3530,
+  "matched": false
+ },
+ {
+  "text": "окупність",
+  "start": 38,
+  "startMs": 3530,
+  "endMs": 4190,
+  "matched": true
+ },
+ {
+  "text": "інвестицій:",
+  "start": 48,
+  "startMs": 4190,
+  "endMs": 5130,
+  "matched": true
+ },
+ {
+  "text": "вигода",
+  "start": 60,
+  "startMs": 5130,
+  "endMs": 5770,
+  "matched": true
+ },
+ {
+  "text": "мінус",
+  "start": 67,
+  "startMs": 5770,
+  "endMs": 6210,
+  "matched": true
+ },
+ {
+  "text": "витрати,",
+  "start": 73,
+  "startMs": 6210,
+  "endMs": 6930,
+  "matched": true
+ },
+ {
+  "text": "поділені",
+  "start": 82,
+  "startMs": 6930,
+  "endMs": 7650,
+  "matched": true
+ },
+ {
+  "text": "на",
+  "start": 91,
+  "startMs": 7650,
+  "endMs": 7830,
+  "matched": true
+ },
+ {
+  "text": "витрати.",
+  "start": 94,
+  "startMs": 7830,
+  "endMs": 8580,
+  "matched": true
+ },
+ {
+  "text": "Але",
+  "start": 103,
+  "startMs": 8580,
+  "endMs": 8880,
+  "matched": true
+ },
+ {
+  "text": "ефект",
+  "start": 107,
+  "startMs": 8880,
+  "endMs": 9380,
+  "matched": true
+ },
+ {
+  "text": "цифровізації",
+  "start": 113,
+  "startMs": 9380,
+  "endMs": 10600,
+  "matched": true
+ },
+ {
+  "text": "часто",
+  "start": 126,
+  "startMs": 10600,
+  "endMs": 11280,
+  "matched": true
+ },
+ {
+  "text": "негрошовий:",
+  "start": 132,
+  "startMs": 11280,
+  "endMs": 12320,
+  "matched": true
+ },
+ {
+  "text": "зекономлений",
+  "start": 144,
+  "startMs": 12320,
+  "endMs": 13120,
+  "matched": true
+ },
+ {
+  "text": "час",
+  "start": 157,
+  "startMs": 13120,
+  "endMs": 13370,
+  "matched": true
+ },
+ {
+  "text": "особового",
+  "start": 161,
+  "startMs": 13370,
+  "endMs": 13990,
+  "matched": true
+ },
+ {
+  "text": "складу,",
+  "start": 171,
+  "startMs": 13990,
+  "endMs": 14580,
+  "matched": true
+ },
+ {
+  "text": "точність",
+  "start": 179,
+  "startMs": 14580,
+  "endMs": 15150,
+  "matched": true
+ },
+ {
+  "text": "рішень,",
+  "start": 188,
+  "startMs": 15150,
+  "endMs": 15710,
+  "matched": true
+ },
+ {
+  "text": "боєздатність.",
+  "start": 196,
+  "startMs": 15710,
+  "endMs": 16980,
+  "matched": true
+ },
+ {
+  "text": "Його",
+  "start": 210,
+  "startMs": 16980,
+  "endMs": 17290,
+  "matched": true
+ },
+ {
+  "text": "виражають",
+  "start": 215,
+  "startMs": 17290,
+  "endMs": 17980,
+  "matched": true
+ },
+ {
+  "text": "через",
+  "start": 225,
+  "startMs": 17980,
+  "endMs": 18810,
+  "matched": true
+ },
+ {
+  "text": "проксі-показники.",
+  "start": 231,
+  "startMs": 18810,
+  "endMs": 19820,
+  "matched": true
+ },
+ {
+  "text": "Приклад",
+  "start": 249,
+  "startMs": 19820,
+  "endMs": 20270,
+  "matched": true
+ },
+ {
+  "text": "із",
+  "start": 257,
+  "startMs": 20270,
+  "endMs": 20430,
+  "matched": true
+ },
+ {
+  "text": "заняття:",
+  "start": 260,
+  "startMs": 20430,
+  "endMs": 21370,
+  "matched": true
+ },
+ {
+  "text": "проєкт",
+  "start": 269,
+  "startMs": 21370,
+  "endMs": 21620,
+  "matched": true
+ },
+ {
+  "text": "коштував",
+  "start": 276,
+  "startMs": 21620,
+  "endMs": 22260,
+  "matched": true
+ },
+ {
+  "text": "600",
+  "start": 285,
+  "startMs": 22260,
+  "endMs": 22690,
+  "matched": true
+ },
+ {
+  "text": "людино-годин",
+  "start": 289,
+  "startMs": 22690,
+  "endMs": 23520,
+  "matched": true
+ },
+ {
+  "text": "команди,",
+  "start": 302,
+  "startMs": 23520,
+  "endMs": 24260,
+  "matched": true
+ },
+ {
+  "text": "а",
+  "start": 311,
+  "startMs": 24260,
+  "endMs": 24340,
+  "matched": true
+ },
+ {
+  "text": "економить",
+  "start": 313,
+  "startMs": 24340,
+  "endMs": 25000,
+  "matched": true
+ },
+ {
+  "text": "10",
+  "start": 323,
+  "startMs": 25000,
+  "endMs": 25250,
+  "matched": true
+ },
+ {
+  "text": "годин",
+  "start": 326,
+  "startMs": 25250,
+  "endMs": 25660,
+  "matched": true
+ },
+ {
+  "text": "на",
+  "start": 332,
+  "startMs": 25660,
+  "endMs": 25820,
+  "matched": true
+ },
+ {
+  "text": "тиждень",
+  "start": 335,
+  "startMs": 25820,
+  "endMs": 26680,
+  "matched": true
+ },
+ {
+  "text": "у",
+  "start": 343,
+  "startMs": 26680,
+  "endMs": 26730,
+  "matched": true
+ },
+ {
+  "text": "кожній",
+  "start": 345,
+  "startMs": 26730,
+  "endMs": 27460,
+  "matched": true
+ },
+ {
+  "text": "з",
+  "start": 352,
+  "startMs": 27460,
+  "endMs": 27500,
+  "matched": true
+ },
+ {
+  "text": "50",
+  "start": 354,
+  "startMs": 27500,
+  "endMs": 27820,
+  "matched": true
+ },
+ {
+  "text": "частин",
+  "start": 357,
+  "startMs": 27820,
+  "endMs": 28629,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 364,
+  "startMs": 28629,
+  "endMs": 28860,
+  "matched": false
+ },
+ {
+  "text": "500",
+  "start": 366,
+  "startMs": 28860,
+  "endMs": 29180,
+  "matched": true
+ },
+ {
+  "text": "годин",
+  "start": 370,
+  "startMs": 29180,
+  "endMs": 29700,
+  "matched": true
+ },
+ {
+  "text": "щотижня.",
+  "start": 376,
+  "startMs": 29700,
+  "endMs": 30540,
+  "matched": true
+ },
+ {
+  "text": "Окупність",
+  "start": 385,
+  "startMs": 30540,
+  "endMs": 31398,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 395,
+  "startMs": 31398,
+  "endMs": 31570,
+  "matched": false
+ },
+ {
+  "text": "приблизно",
+  "start": 397,
+  "startMs": 31570,
+  "endMs": 32270,
+  "matched": true
+ },
+ {
+  "text": "2",
+  "start": 407,
+  "startMs": 32270,
+  "endMs": 32410,
+  "matched": false
+ },
+ {
+  "text": "тижні.",
+  "start": 409,
+  "startMs": 32410,
+  "endMs": 33090,
+  "matched": true
+ },
+ {
+  "text": "А",
+  "start": 416,
+  "startMs": 33090,
+  "endMs": 33170,
+  "matched": true
+ },
+ {
+  "text": "витрати",
+  "start": 418,
+  "startMs": 33170,
+  "endMs": 33860,
+  "matched": true
+ },
+ {
+  "text": "контролюють",
+  "start": 426,
+  "startMs": 33860,
+  "endMs": 35180,
+  "matched": true
+ },
+ {
+  "text": "завчасно,",
+  "start": 438,
+  "startMs": 35180,
+  "endMs": 35950,
+  "matched": true
+ },
+ {
+  "text": "через",
+  "start": 448,
+  "startMs": 35950,
+  "endMs": 36235,
+  "matched": true
+ },
+ {
+  "text": "сі-пі-ай:",
+  "start": 454,
+  "startMs": 36235,
+  "endMs": 36710,
+  "matched": false
+ },
+ {
+  "text": "менше",
+  "start": 464,
+  "startMs": 36710,
+  "endMs": 37029,
+  "matched": true
+ },
+ {
+  "text": "одиниці",
+  "start": 470,
+  "startMs": 37029,
+  "endMs": 37454,
+  "matched": false
+ },
+ {
+  "text": "—",
+  "start": 478,
+  "startMs": 37454,
+  "endMs": 37560,
+  "matched": false
+ },
+ {
+  "text": "перевитрата,",
+  "start": 480,
+  "startMs": 37560,
+  "endMs": 38900,
+  "matched": true
+ },
+ {
+  "text": "реагуємо",
+  "start": 493,
+  "startMs": 38900,
+  "endMs": 39570,
+  "matched": true
+ },
+ {
+  "text": "до",
+  "start": 502,
+  "startMs": 39570,
+  "endMs": 39740,
+  "matched": true
+ },
+ {
+  "text": "вичерпання",
+  "start": 505,
+  "startMs": 39740,
+  "endMs": 40580,
+  "matched": true
+ },
+ {
+  "text": "бюджету.",
+  "start": 516,
+  "startMs": 40580,
+  "endMs": 41240,
+  "matched": true
+ }
+]

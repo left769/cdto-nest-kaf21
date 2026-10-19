@@ -1,0 +1,478 @@
+[
+ {
+  "text": "Шосте",
+  "start": 0,
+  "startMs": 150,
+  "endMs": 788,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 6,
+  "startMs": 788,
+  "endMs": 1000,
+  "matched": false
+ },
+ {
+  "text": "управління",
+  "start": 8,
+  "startMs": 1000,
+  "endMs": 1710,
+  "matched": true
+ },
+ {
+  "text": "змінами",
+  "start": 19,
+  "startMs": 1710,
+  "endMs": 2210,
+  "matched": true
+ },
+ {
+  "text": "за",
+  "start": 27,
+  "startMs": 2210,
+  "endMs": 2380,
+  "matched": true
+ },
+ {
+  "text": "Коттером.",
+  "start": 30,
+  "startMs": 2380,
+  "endMs": 3000,
+  "matched": true
+ },
+ {
+  "text": "Технічно",
+  "start": 40,
+  "startMs": 3000,
+  "endMs": 3640,
+  "matched": true
+ },
+ {
+  "text": "вдале",
+  "start": 49,
+  "startMs": 3640,
+  "endMs": 3990,
+  "matched": true
+ },
+ {
+  "text": "впровадження",
+  "start": 55,
+  "startMs": 3990,
+  "endMs": 5000,
+  "matched": true
+ },
+ {
+  "text": "може",
+  "start": 68,
+  "startMs": 5000,
+  "endMs": 5270,
+  "matched": true
+ },
+ {
+  "text": "провалитися",
+  "start": 73,
+  "startMs": 5270,
+  "endMs": 6000,
+  "matched": true
+ },
+ {
+  "text": "через",
+  "start": 85,
+  "startMs": 6000,
+  "endMs": 6320,
+  "matched": true
+ },
+ {
+  "text": "опір",
+  "start": 91,
+  "startMs": 6320,
+  "endMs": 6560,
+  "matched": true
+ },
+ {
+  "text": "людей.",
+  "start": 96,
+  "startMs": 6560,
+  "endMs": 7000,
+  "matched": true
+ },
+ {
+  "text": "Тому",
+  "start": 103,
+  "startMs": 7000,
+  "endMs": 7600,
+  "matched": true
+ },
+ {
+  "text": "вісім",
+  "start": 108,
+  "startMs": 7600,
+  "endMs": 8170,
+  "matched": true
+ },
+ {
+  "text": "кроків:",
+  "start": 114,
+  "startMs": 8170,
+  "endMs": 9000,
+  "matched": true
+ },
+ {
+  "text": "створити",
+  "start": 122,
+  "startMs": 9000,
+  "endMs": 9560,
+  "matched": true
+ },
+ {
+  "text": "відчуття",
+  "start": 131,
+  "startMs": 9560,
+  "endMs": 10120,
+  "matched": true
+ },
+ {
+  "text": "терміновості,",
+  "start": 140,
+  "startMs": 10120,
+  "endMs": 11150,
+  "matched": true
+ },
+ {
+  "text": "сформувати",
+  "start": 154,
+  "startMs": 11150,
+  "endMs": 11980,
+  "matched": true
+ },
+ {
+  "text": "коаліцію",
+  "start": 165,
+  "startMs": 11980,
+  "endMs": 12670,
+  "matched": true
+ },
+ {
+  "text": "змін",
+  "start": 174,
+  "startMs": 12670,
+  "endMs": 12956,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 179,
+  "startMs": 12956,
+  "endMs": 13070,
+  "matched": false
+ },
+ {
+  "text": "разом",
+  "start": 181,
+  "startMs": 13070,
+  "endMs": 13500,
+  "matched": true
+ },
+ {
+  "text": "із",
+  "start": 187,
+  "startMs": 13500,
+  "endMs": 13670,
+  "matched": true
+ },
+ {
+  "text": "командуванням,",
+  "start": 190,
+  "startMs": 13670,
+  "endMs": 15000,
+  "matched": true
+ },
+ {
+  "text": "сформувати",
+  "start": 205,
+  "startMs": 15000,
+  "endMs": 15800,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 216,
+  "startMs": 15800,
+  "endMs": 15880,
+  "matched": true
+ },
+ {
+  "text": "донести",
+  "start": 218,
+  "startMs": 15880,
+  "endMs": 16440,
+  "matched": true
+ },
+ {
+  "text": "візію,",
+  "start": 226,
+  "startMs": 16440,
+  "endMs": 17040,
+  "matched": true
+ },
+ {
+  "text": "усунути",
+  "start": 233,
+  "startMs": 17040,
+  "endMs": 17770,
+  "matched": true
+ },
+ {
+  "text": "перешкоди,",
+  "start": 241,
+  "startMs": 17770,
+  "endMs": 19000,
+  "matched": true
+ },
+ {
+  "text": "досягти",
+  "start": 252,
+  "startMs": 19000,
+  "endMs": 19590,
+  "matched": true
+ },
+ {
+  "text": "коротких",
+  "start": 260,
+  "startMs": 19590,
+  "endMs": 20260,
+  "matched": true
+ },
+ {
+  "text": "перемог,",
+  "start": 269,
+  "startMs": 20260,
+  "endMs": 21000,
+  "matched": true
+ },
+ {
+  "text": "закріпити",
+  "start": 278,
+  "startMs": 21000,
+  "endMs": 21833,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 288,
+  "startMs": 21833,
+  "endMs": 22000,
+  "matched": false
+ },
+ {
+  "text": "нарощувати",
+  "start": 290,
+  "startMs": 22000,
+  "endMs": 22650,
+  "matched": true
+ },
+ {
+  "text": "зміни",
+  "start": 301,
+  "startMs": 22650,
+  "endMs": 23000,
+  "matched": true
+ },
+ {
+  "text": "і,",
+  "start": 307,
+  "startMs": 23000,
+  "endMs": 23170,
+  "matched": true
+ },
+ {
+  "text": "нарешті,",
+  "start": 310,
+  "startMs": 23170,
+  "endMs": 23750,
+  "matched": true
+ },
+ {
+  "text": "інституціалізувати",
+  "start": 319,
+  "startMs": 23750,
+  "endMs": 25098,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 338,
+  "startMs": 25098,
+  "endMs": 25240,
+  "matched": false
+ },
+ {
+  "text": "наказом",
+  "start": 340,
+  "startMs": 25240,
+  "endMs": 25850,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 348,
+  "startMs": 25850,
+  "endMs": 25880,
+  "matched": true
+ },
+ {
+  "text": "регламентом,",
+  "start": 350,
+  "startMs": 25880,
+  "endMs": 27000,
+  "matched": true
+ },
+ {
+  "text": "щоб",
+  "start": 363,
+  "startMs": 27000,
+  "endMs": 27290,
+  "matched": true
+ },
+ {
+  "text": "зміни",
+  "start": 367,
+  "startMs": 27290,
+  "endMs": 27730,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 373,
+  "startMs": 27730,
+  "endMs": 27840,
+  "matched": true
+ },
+ {
+  "text": "відкотилися",
+  "start": 376,
+  "startMs": 27840,
+  "endMs": 28780,
+  "matched": true
+ },
+ {
+  "text": "після",
+  "start": 388,
+  "startMs": 28780,
+  "endMs": 29200,
+  "matched": true
+ },
+ {
+  "text": "ротації.",
+  "start": 394,
+  "startMs": 29200,
+  "endMs": 30000,
+  "matched": true
+ },
+ {
+  "text": "Якщо",
+  "start": 403,
+  "startMs": 30000,
+  "endMs": 30580,
+  "matched": true
+ },
+ {
+  "text": "користувачі",
+  "start": 408,
+  "startMs": 30580,
+  "endMs": 31350,
+  "matched": true
+ },
+ {
+  "text": "паралельно",
+  "start": 420,
+  "startMs": 31350,
+  "endMs": 32240,
+  "matched": true
+ },
+ {
+  "text": "ведуть",
+  "start": 431,
+  "startMs": 32240,
+  "endMs": 32790,
+  "matched": true
+ },
+ {
+  "text": "паперовий",
+  "start": 438,
+  "startMs": 32790,
+  "endMs": 33760,
+  "matched": true
+ },
+ {
+  "text": "облік,",
+  "start": 448,
+  "startMs": 33760,
+  "endMs": 34220,
+  "matched": true
+ },
+ {
+  "text": "це",
+  "start": 455,
+  "startMs": 34220,
+  "endMs": 34320,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 458,
+  "startMs": 34320,
+  "endMs": 34500,
+  "matched": true
+ },
+ {
+  "text": "саботаж,",
+  "start": 461,
+  "startMs": 34500,
+  "endMs": 35220,
+  "matched": true
+ },
+ {
+  "text": "а",
+  "start": 470,
+  "startMs": 35220,
+  "endMs": 35330,
+  "matched": true
+ },
+ {
+  "text": "сигнал:",
+  "start": 472,
+  "startMs": 35330,
+  "endMs": 36060,
+  "matched": true
+ },
+ {
+  "text": "управління",
+  "start": 480,
+  "startMs": 36060,
+  "endMs": 36630,
+  "matched": true
+ },
+ {
+  "text": "змінами",
+  "start": 491,
+  "startMs": 36630,
+  "endMs": 37080,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 499,
+  "startMs": 37080,
+  "endMs": 37210,
+  "matched": true
+ },
+ {
+  "text": "спрацювало.",
+  "start": 502,
+  "startMs": 37210,
+  "endMs": 38000,
+  "matched": true
+ }
+]

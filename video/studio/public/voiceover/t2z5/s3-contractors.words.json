@@ -1,0 +1,534 @@
+[
+ {
+  "text": "Третє",
+  "start": 0,
+  "startMs": 90,
+  "endMs": 398,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 6,
+  "startMs": 398,
+  "endMs": 500,
+  "matched": false
+ },
+ {
+  "text": "зовнішні",
+  "start": 8,
+  "startMs": 500,
+  "endMs": 1210,
+  "matched": true
+ },
+ {
+  "text": "ресурси",
+  "start": 17,
+  "startMs": 1210,
+  "endMs": 1917,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 25,
+  "startMs": 1917,
+  "endMs": 2094,
+  "matched": false
+ },
+ {
+  "text": "вендор-лок-ін.",
+  "start": 27,
+  "startMs": 2094,
+  "endMs": 3420,
+  "matched": false
+ },
+ {
+  "text": "Власною",
+  "start": 42,
+  "startMs": 3420,
+  "endMs": 4030,
+  "matched": true
+ },
+ {
+  "text": "командою",
+  "start": 50,
+  "startMs": 4030,
+  "endMs": 4680,
+  "matched": true
+ },
+ {
+  "text": "керують",
+  "start": 59,
+  "startMs": 4680,
+  "endMs": 5270,
+  "matched": true
+ },
+ {
+  "text": "наказом,",
+  "start": 67,
+  "startMs": 5270,
+  "endMs": 5940,
+  "matched": true
+ },
+ {
+  "text": "підрядником",
+  "start": 76,
+  "startMs": 5940,
+  "endMs": 6857,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 88,
+  "startMs": 6857,
+  "endMs": 7010,
+  "matched": false
+ },
+ {
+  "text": "через",
+  "start": 90,
+  "startMs": 7010,
+  "endMs": 7240,
+  "matched": true
+ },
+ {
+  "text": "договір.",
+  "start": 96,
+  "startMs": 7240,
+  "endMs": 7940,
+  "matched": true
+ },
+ {
+  "text": "Тому",
+  "start": 105,
+  "startMs": 7940,
+  "endMs": 8400,
+  "matched": true
+ },
+ {
+  "text": "захисти",
+  "start": 110,
+  "startMs": 8400,
+  "endMs": 9100,
+  "matched": true
+ },
+ {
+  "text": "закладають",
+  "start": 118,
+  "startMs": 9100,
+  "endMs": 10380,
+  "matched": true
+ },
+ {
+  "text": "у",
+  "start": 129,
+  "startMs": 10380,
+  "endMs": 10380,
+  "matched": true
+ },
+ {
+  "text": "те-зе",
+  "start": 131,
+  "startMs": 10380,
+  "endMs": 10750,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 137,
+  "startMs": 10750,
+  "endMs": 10750,
+  "matched": true
+ },
+ {
+  "text": "договір",
+  "start": 139,
+  "startMs": 10750,
+  "endMs": 11380,
+  "matched": true
+ },
+ {
+  "text": "заздалегідь:",
+  "start": 147,
+  "startMs": 11380,
+  "endMs": 12440,
+  "matched": true
+ },
+ {
+  "text": "права",
+  "start": 160,
+  "startMs": 12440,
+  "endMs": 12860,
+  "matched": true
+ },
+ {
+  "text": "на",
+  "start": 166,
+  "startMs": 12860,
+  "endMs": 13090,
+  "matched": true
+ },
+ {
+  "text": "код",
+  "start": 169,
+  "startMs": 13090,
+  "endMs": 13320,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 173,
+  "startMs": 13320,
+  "endMs": 13390,
+  "matched": true
+ },
+ {
+  "text": "документацію",
+  "start": 175,
+  "startMs": 13390,
+  "endMs": 14490,
+  "matched": true
+ },
+ {
+  "text": "або",
+  "start": 188,
+  "startMs": 14490,
+  "endMs": 14822,
+  "matched": true
+ },
+ {
+  "text": "ескроу",
+  "start": 192,
+  "startMs": 14822,
+  "endMs": 15402,
+  "matched": false
+ },
+ {
+  "text": "коду,",
+  "start": 199,
+  "startMs": 15402,
+  "endMs": 15900,
+  "matched": false
+ },
+ {
+  "text": "незалежний",
+  "start": 205,
+  "startMs": 15900,
+  "endMs": 16760,
+  "matched": true
+ },
+ {
+  "text": "аудит",
+  "start": 216,
+  "startMs": 16760,
+  "endMs": 17290,
+  "matched": true
+ },
+ {
+  "text": "безпеки,",
+  "start": 222,
+  "startMs": 17290,
+  "endMs": 17710,
+  "matched": true
+ },
+ {
+  "text": "ес-ел-ей",
+  "start": 231,
+  "startMs": 17710,
+  "endMs": 18130,
+  "matched": false
+ },
+ {
+  "text": "на",
+  "start": 240,
+  "startMs": 18130,
+  "endMs": 18290,
+  "matched": true
+ },
+ {
+  "text": "підтримку,",
+  "start": 243,
+  "startMs": 18290,
+  "endMs": 19340,
+  "matched": true
+ },
+ {
+  "text": "приймальні",
+  "start": 254,
+  "startMs": 19340,
+  "endMs": 20090,
+  "matched": true
+ },
+ {
+  "text": "критерії",
+  "start": 265,
+  "startMs": 20090,
+  "endMs": 20740,
+  "matched": true
+ },
+ {
+  "text": "якості.",
+  "start": 274,
+  "startMs": 20740,
+  "endMs": 21340,
+  "matched": true
+ },
+ {
+  "text": "Без",
+  "start": 282,
+  "startMs": 21340,
+  "endMs": 21760,
+  "matched": true
+ },
+ {
+  "text": "цього",
+  "start": 286,
+  "startMs": 21760,
+  "endMs": 22218,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 292,
+  "startMs": 22218,
+  "endMs": 22370,
+  "matched": false
+ },
+ {
+  "text": "лок-ін:",
+  "start": 294,
+  "startMs": 22370,
+  "endMs": 23080,
+  "matched": true
+ },
+ {
+  "text": "як",
+  "start": 302,
+  "startMs": 23080,
+  "endMs": 23240,
+  "matched": true
+ },
+ {
+  "text": "у",
+  "start": 305,
+  "startMs": 23240,
+  "endMs": 23320,
+  "matched": true
+ },
+ {
+  "text": "кейсі,",
+  "start": 307,
+  "startMs": 23320,
+  "endMs": 23800,
+  "matched": true
+ },
+ {
+  "text": "де",
+  "start": 314,
+  "startMs": 23800,
+  "endMs": 23960,
+  "matched": true
+ },
+ {
+  "text": "підрядник",
+  "start": 317,
+  "startMs": 23960,
+  "endMs": 24690,
+  "matched": true
+ },
+ {
+  "text": "без",
+  "start": 327,
+  "startMs": 24690,
+  "endMs": 24920,
+  "matched": true
+ },
+ {
+  "text": "передачі",
+  "start": 331,
+  "startMs": 24920,
+  "endMs": 25600,
+  "matched": true
+ },
+ {
+  "text": "прав",
+  "start": 340,
+  "startMs": 25600,
+  "endMs": 25990,
+  "matched": true
+ },
+ {
+  "text": "на",
+  "start": 345,
+  "startMs": 25990,
+  "endMs": 26080,
+  "matched": true
+ },
+ {
+  "text": "код",
+  "start": 348,
+  "startMs": 26080,
+  "endMs": 26340,
+  "matched": true
+ },
+ {
+  "text": "підвищив",
+  "start": 352,
+  "startMs": 26340,
+  "endMs": 27060,
+  "matched": true
+ },
+ {
+  "text": "ціну",
+  "start": 361,
+  "startMs": 27060,
+  "endMs": 27350,
+  "matched": true
+ },
+ {
+  "text": "підтримки",
+  "start": 366,
+  "startMs": 27350,
+  "endMs": 28040,
+  "matched": true
+ },
+ {
+  "text": "вдвічі.",
+  "start": 376,
+  "startMs": 28040,
+  "endMs": 28720,
+  "matched": true
+ },
+ {
+  "text": "А",
+  "start": 384,
+  "startMs": 28720,
+  "endMs": 28940,
+  "matched": true
+ },
+ {
+  "text": "профільних",
+  "start": 386,
+  "startMs": 28940,
+  "endMs": 29510,
+  "matched": true
+ },
+ {
+  "text": "експертів",
+  "start": 397,
+  "startMs": 29510,
+  "endMs": 30252,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 407,
+  "startMs": 30252,
+  "endMs": 30400,
+  "matched": false
+ },
+ {
+  "text": "юридичного,",
+  "start": 409,
+  "startMs": 30400,
+  "endMs": 31200,
+  "matched": true
+ },
+ {
+  "text": "безпекового,",
+  "start": 421,
+  "startMs": 31200,
+  "endMs": 32160,
+  "matched": true
+ },
+ {
+  "text": "закупівельного",
+  "start": 434,
+  "startMs": 32160,
+  "endMs": 33042,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 449,
+  "startMs": 33042,
+  "endMs": 33160,
+  "matched": false
+ },
+ {
+  "text": "залучають",
+  "start": 451,
+  "startMs": 33160,
+  "endMs": 34120,
+  "matched": true
+ },
+ {
+  "text": "ще",
+  "start": 461,
+  "startMs": 34120,
+  "endMs": 34330,
+  "matched": true
+ },
+ {
+  "text": "на",
+  "start": 464,
+  "startMs": 34330,
+  "endMs": 34540,
+  "matched": true
+ },
+ {
+  "text": "етапі",
+  "start": 467,
+  "startMs": 34540,
+  "endMs": 35060,
+  "matched": true
+ },
+ {
+  "text": "те-зе:",
+  "start": 473,
+  "startMs": 35060,
+  "endMs": 35480,
+  "matched": true
+ },
+ {
+  "text": "раннє",
+  "start": 480,
+  "startMs": 35480,
+  "endMs": 35880,
+  "matched": true
+ },
+ {
+  "text": "залучення",
+  "start": 486,
+  "startMs": 35880,
+  "endMs": 36640,
+  "matched": true
+ },
+ {
+  "text": "дешевше",
+  "start": 496,
+  "startMs": 36640,
+  "endMs": 37200,
+  "matched": true
+ },
+ {
+  "text": "за",
+  "start": 504,
+  "startMs": 37200,
+  "endMs": 37350,
+  "matched": true
+ },
+ {
+  "text": "пізнє",
+  "start": 507,
+  "startMs": 37350,
+  "endMs": 37760,
+  "matched": true
+ },
+ {
+  "text": "виправлення.",
+  "start": 513,
+  "startMs": 37760,
+  "endMs": 38800,
+  "matched": true
+ }
+]
