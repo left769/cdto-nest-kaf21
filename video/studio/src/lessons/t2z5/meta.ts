@@ -1,0 +1,42 @@
+import type { LessonMeta } from "../../shared/lesson";
+import { PRONUNCIATION, toVoice } from "./pronunciation";
+import { GLOSSARY, LESSON, SCENES } from "./script";
+
+export const T2Z5: LessonMeta = {
+  id: LESSON,
+  label: "Тема 2 · Заняття 5",
+  composition: "T2-Z5-Team",
+  outName: "t2z5-team",
+  videoTitle: "Команда, ресурси, зміни: 6 понять · озвучення: elevenlabs.io",
+  glossary: GLOSSARY,
+  scenes: SCENES,
+  toVoice,
+  pronunciation: PRONUNCIATION,
+  step: "Додатки 1–5",
+  keyframes: [
+    { scene: "s0-intro", name: "a-case", anchor: "title", offset: -14 },
+    { scene: "s0-intro", name: "b-title", anchor: "end", offset: -20 },
+    { scene: "s1-tuckman", name: "a-term", anchor: "start", offset: 30 },
+    { scene: "s1-tuckman", name: "b-stages", anchor: "end", offset: -20 },
+    { scene: "s2-capacity", name: "a-bar", anchor: "signs", offset: -8 },
+    { scene: "s2-capacity", name: "b-reaction", anchor: "end", offset: -20 },
+    { scene: "s3-contractors", name: "a-contract", anchor: "lockin", offset: -10 },
+    { scene: "s3-contractors", name: "b-lockin", anchor: "experts", offset: -10 },
+    { scene: "s3-contractors", name: "c-experts", anchor: "end", offset: -20 },
+    { scene: "s4-bottleneck", name: "a-queue", anchor: "typical", offset: -8 },
+    { scene: "s4-bottleneck", name: "b-focus", anchor: "end", offset: -20 },
+    { scene: "s5-roi", name: "a-proxy", anchor: "example", offset: -8 },
+    { scene: "s5-roi", name: "b-payback", anchor: "end", offset: -20 },
+    { scene: "s6-kotter", name: "a-steps", anchor: "paper", offset: -10 },
+    { scene: "s6-kotter", name: "b-case3", anchor: "end", offset: -20 },
+    { scene: "s7-case1", name: "a-situation", anchor: "problem", offset: -10 },
+    { scene: "s7-case1", name: "b-problem", anchor: "variants", offset: -10 },
+    { scene: "s7-case1", name: "c-variants", anchor: "levels", offset: -10 },
+    { scene: "s7-case1", name: "d-moscow", anchor: "kyiv", offset: -10 },
+    { scene: "s7-case1", name: "e-kyiv", anchor: "apply", offset: -10 },
+    { scene: "s7-case1", name: "f-apply", anchor: "risk", offset: -10 },
+    { scene: "s7-case1", name: "g-risk", anchor: "end", offset: -20 },
+    { scene: "s8-seminar", name: "a-appendices", anchor: "a13", offset: 40 },
+    { scene: "s8-seminar", name: "b-final", anchor: "end", offset: -1 },
+  ],
+};
