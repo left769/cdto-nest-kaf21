@@ -13,6 +13,7 @@ export const T2Z4: LessonMeta = {
   toVoice,
   pronunciation: PRONUNCIATION,
   step: "Крок 4",
+  site: { doc: "CDTO_Meth_T2_Z4_Practical.md", version: "v1", caption: "Відеобрифінг до практичної вправи · 6 понять ризик-менеджменту" },
   keyframes: [
     { scene: "s0-intro", name: "a-futures", anchor: "title", offset: -14 },
     { scene: "s0-intro", name: "b-title", anchor: "end", offset: -20 },

@@ -2,6 +2,29 @@
 
 *Тема 2: Управління проєктами у військовому середовищі · Заняття 5*
 
+<!-- lesson-video:start -->
+
+<figure class="lesson-video" id="video" data-duration="376">
+  <video controls preload="metadata" playsinline poster="../assets/video/t2z5-team-poster.jpg">
+    <source src="https://media.ist.pp.ua/video/t2z5-team-v1.mp4" type="video/mp4">
+    <track kind="captions" src="../assets/video/t2z5-team.uk.vtt" srclang="uk" label="Українська">
+  </video>
+  <div class="lesson-video__chapters" aria-label="Розділи відео">
+    <button type="button" data-t="0">Вступ <span>0:00</span></button>
+    <button type="button" data-t="21.9">Модель Такмана <span>0:21</span></button>
+    <button type="button" data-t="59.8">Capacity planning <span>0:59</span></button>
+    <button type="button" data-t="102.4">Підрядники й експерти <span>1:42</span></button>
+    <button type="button" data-t="141.8">Вузьке місце <span>2:21</span></button>
+    <button type="button" data-t="176.5">ROI і проксі <span>2:56</span></button>
+    <button type="button" data-t="218.4">Коттер <span>3:38</span></button>
+    <button type="button" data-t="257.5">Розбір кейсу 1 <span>4:17</span></button>
+    <button type="button" data-t="343.7">На семінарі <span>5:43</span></button>
+  </div>
+  <figcaption>Відеобрифінг до семінару · 6 понять і розбір кейсу 1 · 6 хв · озвучення: elevenlabs.io</figcaption>
+</figure>
+
+<!-- lesson-video:end -->
+
 ## 1. Формування та розвиток команди проєкту ЦТ у військовому середовищі
 
 ### Опорний конспект

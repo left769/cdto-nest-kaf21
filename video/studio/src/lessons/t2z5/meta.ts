@@ -13,6 +13,7 @@ export const T2Z5: LessonMeta = {
   toVoice,
   pronunciation: PRONUNCIATION,
   step: "Додатки 1–5",
+  site: { doc: "CDTO_Meth_T2_Z5_Seminar.md", version: "v1", caption: "Відеобрифінг до семінару · 6 понять і розбір кейсу 1" },
   keyframes: [
     { scene: "s0-intro", name: "a-case", anchor: "title", offset: -14 },
     { scene: "s0-intro", name: "b-title", anchor: "end", offset: -20 },

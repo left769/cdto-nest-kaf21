@@ -29,5 +29,11 @@ export type LessonMeta = {
   pronunciation: PronunciationTable;
   /** Крок робочого зошита з шаблоном вправи. */
   step: string;
+  /**
+   * Вбудовування на сайт (scripts/embed.ts): сторінка заняття в docs/, версія MP4 у R2
+   * (нова версія — новий файл -v2, бо R2 віддає його з Cache-Control immutable)
+   * і підпис під відео без тривалості й атрибуції — їх додає скрипт.
+   */
+  site: { doc: string; version: string; caption: string };
   keyframes: Keyframe[];
 };

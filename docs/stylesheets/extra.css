@@ -598,6 +598,74 @@ body {
   content: "·";
 }
 
+/* ---------- Відео заняття ---------- */
+
+/* Блок вставляє video/studio/scripts/embed.ts; MP4 — у Cloudflare R2, постер і субтитри — у assets/video/. */
+.md-typeset .lesson-video {
+  display: block;
+  width: 100%;
+  max-width: none;
+  margin: 0 0 2rem;
+}
+
+.md-typeset .lesson-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--portal-line);
+  background: #141414;
+}
+
+.md-typeset .lesson-video__chapters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.7rem;
+}
+
+.md-typeset .lesson-video__chapters button {
+  padding: 0.15rem 0.6rem;
+  border: 1px solid var(--portal-line);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--portal-ink);
+  font: inherit;
+  font-size: 0.64rem;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.md-typeset .lesson-video__chapters button span {
+  margin-left: 0.2rem;
+  color: var(--portal-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset .lesson-video__chapters button:hover,
+.md-typeset .lesson-video__chapters button:focus-visible {
+  border-color: var(--portal-accent);
+}
+
+.md-typeset .lesson-video__chapters button.is-current {
+  border-color: var(--mod-gold, #f39200);
+  background: var(--mod-gold, #f39200);
+  color: #11181c;
+}
+
+.md-typeset .lesson-video__chapters button.is-current span {
+  color: #11181c;
+}
+
+.md-typeset .lesson-video figcaption {
+  max-width: none;
+  margin: 0.6rem 0 0;
+  color: var(--portal-muted);
+  font-size: 0.64rem;
+  font-style: normal;
+  text-align: left;
+}
+
 /* ---------- Тест «Перевірте себе» ---------- */
 
 .md-typeset .lesson-eyebrow__quiz {

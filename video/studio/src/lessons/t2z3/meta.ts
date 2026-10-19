@@ -13,6 +13,7 @@ export const T2Z3: LessonMeta = {
   toVoice,
   pronunciation: PRONUNCIATION,
   step: "Крок 3",
+  site: { doc: "CDTO_Meth_T2_Z3_Practical.md", version: "v1", caption: "Відеобрифінг до практичної вправи · 6 понять" },
   keyframes: [
     { scene: "s0-hook", name: "a-dialogue", anchor: "title", offset: -14 },
     { scene: "s0-hook", name: "b-title", anchor: "end", offset: -20 },

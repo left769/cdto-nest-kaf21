@@ -27,6 +27,7 @@ npx tsx scripts/voiceover-md.ts t2z4      # текст для ElevenLabs у voic
 npx tsx scripts/align.ts t2z4 [id]        # вирівняти голос із текстом → <id>.words.json
 npx tsx scripts/captions.ts t2z4          # субтитри й розділи → out/<outName>.uk.vtt, .chapters.json
 npx tsx scripts/render.ts t2z4 v1 18      # MP4 (CRF 18, faststart, назва з атрибуцією) і постер
+npx tsx scripts/embed.ts t2z4            # блок відео на сторінці заняття, постер і VTT → docs/assets/video/
 npx tsc --noEmit && npx eslint src scripts
 ```
 

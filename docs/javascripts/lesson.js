@@ -23,6 +23,36 @@
     p.childElementCount === 1 && p.firstElementChild.tagName === "EM" &&
     p.textContent.trim() === p.firstElementChild.textContent.trim();
 
+  // Розділи під відео: клік перемотує до початку розділу, поточний підсвічується.
+  const enhanceVideo = (figure) => {
+    const video = figure.querySelector("video");
+    const buttons = [...figure.querySelectorAll(".lesson-video__chapters button")];
+    if (!video || !buttons.length) return;
+    const starts = buttons.map((button) => Number(button.dataset.t) || 0);
+
+    const seek = (time) => {
+      // До завантаження метаданих Safari ігнорує currentTime — чекаємо на них.
+      if (video.readyState >= 1) video.currentTime = time;
+      else video.addEventListener("loadedmetadata", () => { video.currentTime = time; }, { once: true });
+      video.play().catch(() => {});
+    };
+    buttons.forEach((button, i) => button.addEventListener("click", () => seek(starts[i])));
+
+    const mark = () => {
+      const started = video.currentTime > 0 || !video.paused;
+      let current = 0;
+      starts.forEach((start, i) => { if (video.currentTime + 0.25 >= start) current = i; });
+      buttons.forEach((button, i) => {
+        const on = started && i === current;
+        button.classList.toggle("is-current", on);
+        if (on) button.setAttribute("aria-current", "true");
+        else button.removeAttribute("aria-current");
+      });
+    };
+    video.addEventListener("timeupdate", mark);
+    video.addEventListener("seeked", mark);
+  };
+
   const enhanceLesson = (article) => {
     const h1 = article.querySelector("h1");
     const meta = h1?.nextElementSibling;
@@ -55,6 +85,17 @@
     time.className = "lesson-eyebrow__time";
     time.textContent = `≈ ${minutes} хв читання`;
     eyebrow.append(time);
+
+    const video = article.querySelector(".lesson-video");
+    if (video) {
+      const seconds = Number(video.dataset.duration) || 0;
+      const link = document.createElement("a");
+      link.className = "lesson-eyebrow__quiz";
+      link.href = "#video";
+      link.textContent = `Відео · ${Math.max(1, Math.round(seconds / 60))} хв`;
+      eyebrow.append(link);
+      enhanceVideo(video);
+    }
 
     if (quiz) {
       const count = quiz.querySelectorAll(".lesson-quiz__q").length;

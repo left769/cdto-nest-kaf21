@@ -2,6 +2,28 @@
 
 *Тема 2: Управління проєктами у військовому середовищі · Заняття 3*
 
+<!-- lesson-video:start -->
+
+<figure class="lesson-video" id="video" data-duration="314">
+  <video controls preload="metadata" playsinline poster="../assets/video/t2z3-terms-poster.jpg">
+    <source src="https://media.ist.pp.ua/video/t2z3-terms-v1.mp4" type="video/mp4">
+    <track kind="captions" src="../assets/video/t2z3-terms.uk.vtt" srclang="uk" label="Українська">
+  </video>
+  <div class="lesson-video__chapters" aria-label="Розділи відео">
+    <button type="button" data-t="0">Вступ <span>0:00</span></button>
+    <button type="button" data-t="20.9">KPI <span>0:20</span></button>
+    <button type="button" data-t="61.8">Leading / lagging <span>1:01</span></button>
+    <button type="button" data-t="103.1">Earned Value і burn-down <span>1:43</span></button>
+    <button type="button" data-t="153.2">RAID-log <span>2:33</span></button>
+    <button type="button" data-t="199.1">Decision / action log <span>3:19</span></button>
+    <button type="button" data-t="237.2">Дашборд <span>3:57</span></button>
+    <button type="button" data-t="284.7">Що зробити на занятті <span>4:44</span></button>
+  </div>
+  <figcaption>Відеобрифінг до практичної вправи · 6 понять · 5 хв · озвучення: elevenlabs.io</figcaption>
+</figure>
+
+<!-- lesson-video:end -->
+
 ## Теоретична довідка (питання 1–7)
 
 ## 1. Система ключових показників ефективності (KPI) для проєктів ЦТ

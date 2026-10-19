@@ -2,6 +2,28 @@
 
 *Тема 2: Управління проєктами у військовому середовищі · Заняття 4*
 
+<!-- lesson-video:start -->
+
+<figure class="lesson-video" id="video" data-duration="286">
+  <video controls preload="metadata" playsinline poster="../assets/video/t2z4-risks-poster.jpg">
+    <source src="https://media.ist.pp.ua/video/t2z4-risks-v1.mp4" type="video/mp4">
+    <track kind="captions" src="../assets/video/t2z4-risks.uk.vtt" srclang="uk" label="Українська">
+  </video>
+  <div class="lesson-video__chapters" aria-label="Розділи відео">
+    <button type="button" data-t="0">Вступ <span>0:00</span></button>
+    <button type="button" data-t="24.3">Ризик і issue <span>0:24</span></button>
+    <button type="button" data-t="66.2">Ризик-матриця <span>1:06</span></button>
+    <button type="button" data-t="103.8">EMV і резерв <span>1:43</span></button>
+    <button type="button" data-t="144">Risk owner <span>2:24</span></button>
+    <button type="button" data-t="173.4">Mitigation і contingency <span>2:53</span></button>
+    <button type="button" data-t="206.5">Ескалація <span>3:26</span></button>
+    <button type="button" data-t="251">Що зробити на занятті <span>4:11</span></button>
+  </div>
+  <figcaption>Відеобрифінг до практичної вправи · 6 понять ризик-менеджменту · 5 хв · озвучення: elevenlabs.io</figcaption>
+</figure>
+
+<!-- lesson-video:end -->
+
 ## Теоретична довідка (питання 1–7)
 
 ## 1. Ідентифікація та класифікація ризиків: ризик-матриця та RAID-log
