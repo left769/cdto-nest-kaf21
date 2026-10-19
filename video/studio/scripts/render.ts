@@ -10,6 +10,9 @@ import path from "node:path";
 import { FPS, type SceneTiming, sceneStarts } from "../src/shared/timing";
 import { lessonFromArgs } from "../src/lessons/registry";
 
+// Скрипт працює з будь-якої теки: усі шляхи — від кореня Remotion-проєкту.
+process.chdir(path.resolve(__dirname, ".."));
+
 const OUT = path.join(process.cwd(), "out");
 const POSTER_MAX_BYTES = 200 * 1024;
 

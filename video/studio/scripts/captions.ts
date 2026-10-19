@@ -10,6 +10,9 @@ import path from "node:path";
 import { lessonFromArgs } from "../src/lessons/registry";
 import { type AlignedWord, FPS, type SceneTiming, sceneStarts, splitWords, wordsPath } from "../src/shared/timing";
 
+// Скрипт працює з будь-якої теки: усі шляхи — від кореня Remotion-проєкту.
+process.chdir(path.resolve(__dirname, ".."));
+
 const OUT_DIR = path.join(process.cwd(), "out");
 const MAX_LINE = 42;
 const MAX_LINES = 2;

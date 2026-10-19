@@ -11,6 +11,9 @@ import path from "node:path";
 import { lessonFromArgs } from "../src/lessons/registry";
 import { audioPath, type AlignedWord, splitWords } from "../src/shared/timing";
 
+// Скрипт працює з будь-якої теки: усі шляхи — від кореня Remotion-проєкту.
+process.chdir(path.resolve(__dirname, ".."));
+
 const WHISPER_DIR = path.join(process.cwd(), "whisper.cpp");
 // 1.5.5 збирається простим make; новіші версії потребують cmake.
 const WHISPER_VERSION = "1.5.5";

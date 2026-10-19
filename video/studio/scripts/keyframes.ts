@@ -10,6 +10,9 @@ import { lessonFromArgs } from "../src/lessons/registry";
 import type { SceneTiming } from "../src/shared/timing";
 import { sceneStarts } from "../src/shared/timing";
 
+// Скрипт працює з будь-якої теки: усі шляхи — від кореня Remotion-проєкту.
+process.chdir(path.resolve(__dirname, ".."));
+
 const main = async () => {
   const { lesson, rest } = lessonFromArgs();
   const filter = rest[0];

@@ -7,6 +7,9 @@ import { lessonFromArgs } from "../src/lessons/registry";
 import { usedReplacements } from "../src/shared/pronunciation";
 import { audioPath } from "../src/shared/timing";
 
+// Скрипт працює з будь-якої теки: усі шляхи — від кореня Remotion-проєкту.
+process.chdir(path.resolve(__dirname, ".."));
+
 const MONTHLY_CREDITS = 10_000;
 
 const { lesson } = lessonFromArgs();
