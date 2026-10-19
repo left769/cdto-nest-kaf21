@@ -52,404 +52,404 @@
   "text": "само",
   "start": 34,
   "startMs": 2160,
-  "endMs": 2434,
+  "endMs": 2480,
   "matched": true
  },
  {
-  "text": "розбиратимете",
+  "text": "розберіть",
   "start": 39,
-  "startMs": 2434,
+  "startMs": 2480,
   "endMs": 3200,
-  "matched": false
+  "matched": true
  },
  {
   "text": "інші",
-  "start": 53,
+  "start": 49,
   "startMs": 3200,
   "endMs": 3560,
   "matched": true
  },
  {
   "text": "кейси:",
-  "start": 58,
+  "start": 54,
   "startMs": 3560,
   "endMs": 4140,
   "matched": true
  },
  {
   "text": "залежність",
-  "start": 65,
+  "start": 61,
   "startMs": 4140,
   "endMs": 4890,
   "matched": true
  },
  {
   "text": "від",
-  "start": 76,
+  "start": 72,
   "startMs": 4890,
   "endMs": 5090,
   "matched": true
  },
  {
   "text": "підрядника,",
-  "start": 80,
+  "start": 76,
   "startMs": 5090,
   "endMs": 5960,
   "matched": true
  },
  {
   "text": "опір",
-  "start": 92,
+  "start": 88,
   "startMs": 5960,
   "endMs": 6260,
   "matched": true
  },
  {
   "text": "змінам,",
-  "start": 97,
+  "start": 93,
   "startMs": 6260,
   "endMs": 6900,
   "matched": true
  },
  {
   "text": "обмежене",
-  "start": 105,
+  "start": 101,
   "startMs": 6900,
   "endMs": 7550,
   "matched": true
  },
  {
   "text": "фінансування.",
-  "start": 114,
+  "start": 110,
   "startMs": 7550,
   "endMs": 8540,
   "matched": true
  },
  {
   "text": "На",
-  "start": 128,
+  "start": 124,
   "startMs": 8540,
   "endMs": 8890,
   "matched": true
  },
  {
   "text": "обговорення",
-  "start": 131,
+  "start": 127,
   "startMs": 8890,
   "endMs": 9570,
   "matched": true
  },
  {
   "text": "—",
-  "start": 143,
+  "start": 139,
   "startMs": 9570,
   "endMs": 9683,
   "matched": false
  },
  {
   "text": "п’ять–сім",
-  "start": 145,
+  "start": 141,
   "startMs": 9683,
   "endMs": 10250,
   "matched": false
  },
  {
   "text": "хвилин,",
-  "start": 155,
+  "start": 151,
   "startMs": 10250,
   "endMs": 11180,
   "matched": true
  },
  {
   "text": "на",
-  "start": 163,
+  "start": 159,
   "startMs": 11180,
   "endMs": 11240,
   "matched": true
  },
  {
   "text": "представлення",
-  "start": 166,
+  "start": 162,
   "startMs": 11240,
   "endMs": 12326,
   "matched": true
  },
  {
   "text": "—",
-  "start": 180,
+  "start": 176,
   "startMs": 12326,
   "endMs": 12482,
   "matched": false
  },
  {
   "text": "дві–три.",
-  "start": 182,
+  "start": 178,
   "startMs": 12482,
   "endMs": 13180,
   "matched": false
  },
  {
   "text": "Усе",
-  "start": 191,
+  "start": 187,
   "startMs": 13180,
   "endMs": 13450,
   "matched": true
  },
  {
   "text": "потрібне",
-  "start": 195,
+  "start": 191,
   "startMs": 13450,
   "endMs": 14039,
   "matched": true
  },
  {
   "text": "—",
-  "start": 204,
+  "start": 200,
   "startMs": 14039,
   "endMs": 14170,
   "matched": false
  },
  {
   "text": "у",
-  "start": 206,
+  "start": 202,
   "startMs": 14170,
   "endMs": 14260,
   "matched": true
  },
  {
   "text": "додатках",
-  "start": 208,
+  "start": 204,
   "startMs": 14260,
   "endMs": 14980,
   "matched": true
  },
  {
   "text": "до",
-  "start": 217,
+  "start": 213,
   "startMs": 14980,
   "endMs": 15160,
   "matched": true
  },
  {
   "text": "заняття:",
-  "start": 220,
+  "start": 216,
   "startMs": 15160,
   "endMs": 16000,
   "matched": true
  },
  {
   "text": "картки",
-  "start": 229,
+  "start": 225,
   "startMs": 16000,
   "endMs": 16710,
   "matched": true
  },
  {
   "text": "кейсів",
-  "start": 236,
+  "start": 232,
   "startMs": 16710,
   "endMs": 17177,
   "matched": true
  },
  {
   "text": "—",
-  "start": 243,
+  "start": 239,
   "startMs": 17177,
   "endMs": 17310,
   "matched": false
  },
  {
   "text": "у",
-  "start": 245,
+  "start": 241,
   "startMs": 17310,
   "endMs": 17410,
   "matched": true
  },
  {
   "text": "Додатку",
-  "start": 247,
+  "start": 243,
   "startMs": 17410,
   "endMs": 18110,
   "matched": true
  },
  {
   "text": "4,",
-  "start": 255,
+  "start": 251,
   "startMs": 18110,
   "endMs": 18540,
   "matched": true
  },
  {
   "text": "критерії",
-  "start": 258,
+  "start": 254,
   "startMs": 18540,
   "endMs": 19240,
   "matched": true
  },
  {
   "text": "оцінювання",
-  "start": 267,
+  "start": 263,
   "startMs": 19240,
   "endMs": 20002,
   "matched": true
  },
  {
   "text": "—",
-  "start": 278,
+  "start": 274,
   "startMs": 20002,
   "endMs": 20140,
   "matched": false
  },
  {
   "text": "у",
-  "start": 280,
+  "start": 276,
   "startMs": 20140,
   "endMs": 20230,
   "matched": true
  },
  {
   "text": "Додатку",
-  "start": 282,
+  "start": 278,
   "startMs": 20230,
   "endMs": 20870,
   "matched": true
  },
  {
   "text": "5.",
-  "start": 290,
+  "start": 286,
   "startMs": 20870,
   "endMs": 21100,
   "matched": true
  },
  {
   "text": "А",
-  "start": 293,
+  "start": 289,
   "startMs": 21100,
   "endMs": 21180,
   "matched": true
  },
  {
   "text": "шаблони",
-  "start": 295,
+  "start": 291,
   "startMs": 21180,
   "endMs": 21770,
   "matched": true
  },
  {
   "text": "для",
-  "start": 303,
+  "start": 299,
   "startMs": 21770,
   "endMs": 22030,
   "matched": true
  },
  {
   "text": "самостійної",
-  "start": 307,
+  "start": 303,
   "startMs": 22030,
   "endMs": 22970,
   "matched": true
  },
  {
   "text": "роботи",
-  "start": 319,
+  "start": 315,
   "startMs": 22970,
   "endMs": 23437,
   "matched": true
  },
  {
   "text": "—",
-  "start": 326,
+  "start": 322,
   "startMs": 23437,
   "endMs": 23570,
   "matched": false
  },
  {
   "text": "кепесіті-план,",
-  "start": 328,
+  "start": 324,
   "startMs": 23570,
   "endMs": 24570,
   "matched": false
  },
  {
   "text": "фінансовий",
-  "start": 343,
+  "start": 339,
   "startMs": 24570,
   "endMs": 25210,
   "matched": true
  },
  {
   "text": "аналіз",
-  "start": 354,
+  "start": 350,
   "startMs": 25210,
   "endMs": 25720,
   "matched": true
  },
  {
   "text": "і",
-  "start": 361,
+  "start": 357,
   "startMs": 25720,
   "endMs": 25940,
   "matched": true
  },
  {
   "text": "чек-лист",
-  "start": 363,
+  "start": 359,
   "startMs": 25940,
   "endMs": 26240,
   "matched": true
  },
  {
   "text": "Коттера",
-  "start": 372,
+  "start": 368,
   "startMs": 26240,
   "endMs": 26880,
   "matched": true
  },
  {
   "text": "—",
-  "start": 380,
+  "start": 376,
   "startMs": 26880,
   "endMs": 27040,
   "matched": false
  },
  {
   "text": "у",
-  "start": 382,
+  "start": 378,
   "startMs": 27040,
   "endMs": 27210,
   "matched": true
  },
  {
   "text": "Додатках",
-  "start": 384,
+  "start": 380,
   "startMs": 27210,
   "endMs": 27860,
   "matched": true
  },
  {
   "text": "з",
-  "start": 393,
+  "start": 389,
   "startMs": 27860,
   "endMs": 27940,
   "matched": true
  },
  {
   "text": "першого",
-  "start": 395,
+  "start": 391,
   "startMs": 27940,
   "endMs": 28690,
   "matched": true
  },
  {
   "text": "по",
-  "start": 403,
+  "start": 399,
   "startMs": 28690,
   "endMs": 28750,
   "matched": true
  },
  {
   "text": "третій.",
-  "start": 406,
+  "start": 402,
   "startMs": 28750,
   "endMs": 29440,
   "matched": true
