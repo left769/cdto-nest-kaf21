@@ -4,11 +4,13 @@ import type { LessonMeta } from "../shared/lesson";
 import { T2Z3 } from "./t2z3/meta";
 import { T2Z4 } from "./t2z4/meta";
 import { T2Z5 } from "./t2z5/meta";
+import { T2Z6 } from "./t2z6/meta";
 
 export const LESSONS: Record<string, LessonMeta> = {
   [T2Z3.id]: T2Z3,
   [T2Z4.id]: T2Z4,
   [T2Z5.id]: T2Z5,
+  [T2Z6.id]: T2Z6,
 };
 
 /** Урок за першим аргументом командного рядка (npx tsx scripts/… t2z4 …). */
