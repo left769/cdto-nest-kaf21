@@ -10,11 +10,11 @@ import { SceneProps, T2Z6Frame } from "../frame";
 import { GLOSSARY } from "../script";
 
 // Матриця завантаження BA — розділ 3.2 заняття; розв’язання — розділ 3.3 і приклад після 3.4.
-// Після рішення стройова записка зсувається на два місяці (старт з місяця 3), а опис процесів СЕД
+// Після рішення стройова записка зсувається на два місяці (старт з місяця 3), а опис процесів СЕДО
 // іде до Technical Writer; числа «після» в занятті не наведено, тому їх і не показуємо.
 const SERIES = [
   { name: "Облік майна", color: C.gold, values: [40, 40, 10, 0] },
-  { name: "Документообіг у СЕД", color: C.graphite, values: [30, 20, 0, 0] },
+  { name: "Документообіг у СЕДО", color: C.graphite, values: [30, 20, 0, 0] },
   { name: "Стройова записка", color: C.dim, values: [30, 30, 40, 30] },
 ] as const;
 const [OBL, SED, ROLL] = SERIES;
@@ -31,7 +31,7 @@ const WAYS = [
 // Що змінили два кроки — під сходинками, кольором відповідного стовпця.
 const RESULTS = [
   { at: "shift", color: C.dim, text: "Стройова записка — з міс. 3" },
-  { at: "writer", color: C.graphite, text: "СЕД → Technical Writer" },
+  { at: "writer", color: C.graphite, text: "СЕДО → Technical Writer" },
 ];
 
 const BASE_Y = 850;
@@ -84,7 +84,7 @@ export const S4Load: React.FC<SceneProps> = ({ timing }) => {
           70%
         </div>
 
-        {/* Стовпці: облік і СЕД стоять, стройова записка зсувається на два місяці */}
+        {/* Стовпці: облік і СЕДО стоять, стройова записка зсувається на два місяці */}
         {[0, 1, 2, 3].map((m) => {
           const g = grow(m);
           const obl = OBL.values[m] * PX * g;
