@@ -2,428 +2,435 @@
  {
   "text": "У",
   "start": 0,
-  "startMs": 80,
-  "endMs": 90,
+  "startMs": 60,
+  "endMs": 130,
   "matched": true
  },
  {
   "text": "підрозділі",
   "start": 2,
-  "startMs": 90,
-  "endMs": 1300,
+  "startMs": 130,
+  "endMs": 710,
   "matched": true
  },
  {
-  "text": "це-те",
+  "text": "цифрової",
   "start": 13,
-  "startMs": 1300,
-  "endMs": 1490,
+  "startMs": 710,
+  "endMs": 1230,
+  "matched": true
+ },
+ {
+  "text": "трансформації",
+  "start": 22,
+  "startMs": 1230,
+  "endMs": 2170,
   "matched": true
  },
  {
   "text": "шість",
-  "start": 19,
-  "startMs": 1490,
-  "endMs": 1930,
+  "start": 36,
+  "startMs": 2170,
+  "endMs": 2700,
   "matched": true
  },
  {
   "text": "ініціатив",
-  "start": 25,
-  "startMs": 1930,
-  "endMs": 2780,
+  "start": 42,
+  "startMs": 2700,
+  "endMs": 3490,
   "matched": true
  },
  {
   "text": "і",
-  "start": 35,
-  "startMs": 2780,
-  "endMs": 2830,
+  "start": 52,
+  "startMs": 3490,
+  "endMs": 3590,
   "matched": true
  },
  {
   "text": "команда",
-  "start": 37,
-  "startMs": 2830,
-  "endMs": 3320,
+  "start": 54,
+  "startMs": 3590,
+  "endMs": 4120,
   "matched": true
  },
  {
   "text": "з",
-  "start": 45,
-  "startMs": 3320,
-  "endMs": 3360,
+  "start": 62,
+  "startMs": 4120,
+  "endMs": 4200,
   "matched": true
  },
  {
   "text": "чотирьох",
-  "start": 47,
-  "startMs": 3360,
-  "endMs": 3960,
+  "start": 64,
+  "startMs": 4200,
+  "endMs": 4870,
   "matched": true
  },
  {
   "text": "людей.",
-  "start": 56,
-  "startMs": 3960,
-  "endMs": 4400,
+  "start": 73,
+  "startMs": 4870,
+  "endMs": 5400,
   "matched": true
  },
  {
   "text": "Наказ",
-  "start": 63,
-  "startMs": 4400,
-  "endMs": 4810,
+  "start": 80,
+  "startMs": 5400,
+  "endMs": 5820,
   "matched": true
  },
  {
   "text": "вимагає",
-  "start": 69,
-  "startMs": 4810,
-  "endMs": 5360,
+  "start": 86,
+  "startMs": 5820,
+  "endMs": 6410,
   "matched": true
  },
  {
   "text": "документообігу",
-  "start": 77,
-  "startMs": 5360,
-  "endMs": 6500,
+  "start": 94,
+  "startMs": 6410,
+  "endMs": 7378,
   "matched": true
  },
  {
   "text": "в",
-  "start": 92,
-  "startMs": 6500,
-  "endMs": 6580,
-  "matched": true
+  "start": 109,
+  "startMs": 7378,
+  "endMs": 7507,
+  "matched": false
  },
  {
-  "text": "сед",
-  "start": 94,
-  "startMs": 6580,
-  "endMs": 6820,
-  "matched": true
+  "text": "седо",
+  "start": 111,
+  "startMs": 7507,
+  "endMs": 7830,
+  "matched": false
  },
  {
   "text": "до",
-  "start": 98,
-  "startMs": 6820,
-  "endMs": 6980,
+  "start": 116,
+  "startMs": 7830,
+  "endMs": 8010,
   "matched": true
  },
  {
   "text": "кінця",
-  "start": 101,
-  "startMs": 6980,
-  "endMs": 7390,
+  "start": 119,
+  "startMs": 8010,
+  "endMs": 8410,
   "matched": true
  },
  {
   "text": "другого",
-  "start": 107,
-  "startMs": 7390,
-  "endMs": 7960,
+  "start": 125,
+  "startMs": 8410,
+  "endMs": 9000,
   "matched": true
  },
  {
   "text": "кварталу,",
-  "start": 115,
-  "startMs": 7960,
-  "endMs": 8880,
+  "start": 133,
+  "startMs": 9000,
+  "endMs": 9900,
   "matched": true
  },
  {
   "text": "штаб",
-  "start": 125,
-  "startMs": 8880,
-  "endMs": 9200,
+  "start": 143,
+  "startMs": 9900,
+  "endMs": 10230,
   "matched": true
  },
  {
   "text": "чекає",
-  "start": 130,
-  "startMs": 9200,
-  "endMs": 9600,
+  "start": 148,
+  "startMs": 10230,
+  "endMs": 10660,
   "matched": true
  },
  {
   "text": "електронну",
-  "start": 136,
-  "startMs": 9600,
-  "endMs": 10400,
+  "start": 154,
+  "startMs": 10660,
+  "endMs": 11440,
   "matched": true
  },
  {
   "text": "стройову",
-  "start": 147,
-  "startMs": 10400,
-  "endMs": 10960,
+  "start": 165,
+  "startMs": 11440,
+  "endMs": 12010,
   "matched": true
  },
  {
   "text": "записку,",
-  "start": 156,
-  "startMs": 10960,
-  "endMs": 11720,
+  "start": 174,
+  "startMs": 12010,
+  "endMs": 12800,
   "matched": true
  },
  {
   "text": "триває",
-  "start": 165,
-  "startMs": 11720,
-  "endMs": 12200,
+  "start": 183,
+  "startMs": 12800,
+  "endMs": 13280,
   "matched": true
  },
  {
   "text": "система",
-  "start": 172,
-  "startMs": 12200,
-  "endMs": 12790,
+  "start": 190,
+  "startMs": 13280,
+  "endMs": 13850,
   "matched": true
  },
  {
   "text": "обліку",
-  "start": 180,
-  "startMs": 12790,
-  "endMs": 13270,
+  "start": 198,
+  "startMs": 13850,
+  "endMs": 14340,
   "matched": true
  },
  {
   "text": "майна,",
-  "start": 187,
-  "startMs": 13270,
-  "endMs": 13930,
+  "start": 205,
+  "startMs": 14340,
+  "endMs": 14980,
   "matched": true
  },
  {
   "text": "а",
-  "start": 194,
-  "startMs": 13930,
-  "endMs": 13970,
+  "start": 212,
+  "startMs": 14980,
+  "endMs": 15010,
   "matched": true
  },
  {
   "text": "знизу",
-  "start": 196,
-  "startMs": 13970,
-  "endMs": 14380,
+  "start": 214,
+  "startMs": 15010,
+  "endMs": 15400,
   "matched": true
  },
  {
   "text": "пропонують",
-  "start": 202,
-  "startMs": 14380,
-  "endMs": 15370,
+  "start": 220,
+  "startMs": 15400,
+  "endMs": 16320,
   "matched": true
  },
  {
   "text": "чат-бот.",
-  "start": 213,
-  "startMs": 15370,
-  "endMs": 16000,
+  "start": 231,
+  "startMs": 16320,
+  "endMs": 17040,
   "matched": true
  },
  {
   "text": "Усе",
-  "start": 222,
-  "startMs": 16000,
-  "endMs": 16430,
+  "start": 240,
+  "startMs": 17040,
+  "endMs": 17600,
   "matched": true
  },
  {
   "text": "важливе,",
-  "start": 226,
-  "startMs": 16430,
-  "endMs": 17560,
+  "start": 244,
+  "startMs": 17600,
+  "endMs": 18440,
   "matched": true
  },
  {
   "text": "і",
-  "start": 235,
-  "startMs": 17560,
-  "endMs": 17630,
+  "start": 253,
+  "startMs": 18440,
+  "endMs": 18520,
   "matched": true
  },
  {
   "text": "все",
-  "start": 237,
-  "startMs": 17630,
-  "endMs": 17805,
+  "start": 255,
+  "startMs": 18520,
+  "endMs": 18725,
   "matched": true
  },
  {
   "text": "«на",
-  "start": 241,
-  "startMs": 17805,
-  "endMs": 17980,
+  "start": 259,
+  "startMs": 18725,
+  "endMs": 18930,
   "matched": false
  },
  {
   "text": "вчора».",
-  "start": 245,
-  "startMs": 17980,
-  "endMs": 19000,
+  "start": 263,
+  "startMs": 18930,
+  "endMs": 20120,
   "matched": true
  },
  {
   "text": "Що",
-  "start": 253,
-  "startMs": 19000,
-  "endMs": 19410,
+  "start": 271,
+  "startMs": 20120,
+  "endMs": 20460,
   "matched": true
  },
  {
   "text": "робити",
-  "start": 256,
-  "startMs": 19410,
-  "endMs": 19890,
+  "start": 274,
+  "startMs": 20460,
+  "endMs": 21040,
   "matched": true
  },
  {
   "text": "зараз,",
-  "start": 263,
-  "startMs": 19890,
-  "endMs": 20670,
+  "start": 281,
+  "startMs": 21040,
+  "endMs": 21600,
   "matched": true
  },
  {
   "text": "що",
-  "start": 270,
-  "startMs": 20670,
-  "endMs": 20790,
+  "start": 288,
+  "startMs": 21600,
+  "endMs": 21800,
   "matched": true
  },
  {
   "text": "далі,",
-  "start": 273,
-  "startMs": 20790,
-  "endMs": 21310,
+  "start": 291,
+  "startMs": 21800,
+  "endMs": 22320,
   "matched": true
  },
  {
   "text": "а",
-  "start": 279,
-  "startMs": 21310,
-  "endMs": 21550,
+  "start": 297,
+  "startMs": 22320,
+  "endMs": 22510,
   "matched": true
  },
  {
   "text": "що",
-  "start": 281,
-  "startMs": 21550,
-  "endMs": 21640,
+  "start": 299,
+  "startMs": 22510,
+  "endMs": 22670,
   "matched": true
  },
  {
   "text": "закрити?",
-  "start": 284,
-  "startMs": 21640,
-  "endMs": 22550,
+  "start": 302,
+  "startMs": 22670,
+  "endMs": 23520,
   "matched": true
  },
  {
   "text": "Це",
-  "start": 293,
-  "startMs": 22550,
-  "endMs": 22940,
+  "start": 311,
+  "startMs": 23520,
+  "endMs": 23840,
   "matched": true
  },
  {
   "text": "питання",
-  "start": 296,
-  "startMs": 22940,
-  "endMs": 23360,
+  "start": 314,
+  "startMs": 23840,
+  "endMs": 24250,
   "matched": true
  },
  {
   "text": "управління",
-  "start": 304,
-  "startMs": 23360,
-  "endMs": 24200,
+  "start": 322,
+  "startMs": 24250,
+  "endMs": 25060,
   "matched": true
  },
  {
   "text": "портфелем.",
-  "start": 315,
-  "startMs": 24200,
-  "endMs": 25120,
+  "start": 333,
+  "startMs": 25060,
+  "endMs": 26070,
   "matched": true
  },
  {
   "text": "Далі",
-  "start": 326,
-  "startMs": 25120,
-  "endMs": 25484,
+  "start": 344,
+  "startMs": 26070,
+  "endMs": 26341,
   "matched": true
  },
  {
   "text": "—",
-  "start": 331,
-  "startMs": 25484,
-  "endMs": 25630,
+  "start": 349,
+  "startMs": 26341,
+  "endMs": 26450,
   "matched": false
  },
  {
   "text": "шість",
-  "start": 333,
-  "startMs": 25630,
-  "endMs": 26300,
+  "start": 351,
+  "startMs": 26450,
+  "endMs": 27000,
   "matched": true
  },
  {
   "text": "понять,",
-  "start": 339,
-  "startMs": 26300,
-  "endMs": 27160,
+  "start": 357,
+  "startMs": 27000,
+  "endMs": 27800,
   "matched": true
  },
  {
   "text": "з",
-  "start": 347,
-  "startMs": 27160,
-  "endMs": 27230,
+  "start": 365,
+  "startMs": 27800,
+  "endMs": 27880,
   "matched": true
  },
  {
   "text": "якими",
-  "start": 349,
-  "startMs": 27230,
-  "endMs": 27560,
+  "start": 367,
+  "startMs": 27880,
+  "endMs": 28280,
   "matched": true
  },
  {
   "text": "ви",
-  "start": 355,
-  "startMs": 27560,
-  "endMs": 27690,
+  "start": 373,
+  "startMs": 28280,
+  "endMs": 28440,
   "matched": true
  },
  {
   "text": "зберете",
-  "start": 358,
-  "startMs": 27690,
-  "endMs": 28150,
+  "start": 376,
+  "startMs": 28440,
+  "endMs": 29040,
   "matched": true
  },
  {
   "text": "портфель",
-  "start": 366,
-  "startMs": 28150,
-  "endMs": 28690,
+  "start": 384,
+  "startMs": 29040,
+  "endMs": 29620,
   "matched": true
  },
  {
   "text": "свого",
-  "start": 375,
-  "startMs": 28690,
-  "endMs": 29000,
+  "start": 393,
+  "startMs": 29620,
+  "endMs": 29950,
   "matched": true
  },
  {
   "text": "підрозділу.",
-  "start": 381,
-  "startMs": 29000,
-  "endMs": 29920,
+  "start": 399,
+  "startMs": 29950,
+  "endMs": 30760,
   "matched": true
  }
 ]
