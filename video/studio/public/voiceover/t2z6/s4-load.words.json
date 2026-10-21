@@ -1,0 +1,625 @@
+[
+ {
+  "text": "Четверте",
+  "start": 0,
+  "startMs": 80,
+  "endMs": 865,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 9,
+  "startMs": 865,
+  "endMs": 1040,
+  "matched": false
+ },
+ {
+  "text": "матриця",
+  "start": 11,
+  "startMs": 1040,
+  "endMs": 1460,
+  "matched": true
+ },
+ {
+  "text": "завантаження.",
+  "start": 19,
+  "startMs": 1460,
+  "endMs": 2680,
+  "matched": true
+ },
+ {
+  "text": "Вона",
+  "start": 33,
+  "startMs": 2680,
+  "endMs": 3040,
+  "matched": true
+ },
+ {
+  "text": "показує,",
+  "start": 38,
+  "startMs": 3040,
+  "endMs": 3800,
+  "matched": true
+ },
+ {
+  "text": "яку",
+  "start": 47,
+  "startMs": 3800,
+  "endMs": 4040,
+  "matched": true
+ },
+ {
+  "text": "частку",
+  "start": 51,
+  "startMs": 4040,
+  "endMs": 4590,
+  "matched": true
+ },
+ {
+  "text": "часу",
+  "start": 58,
+  "startMs": 4590,
+  "endMs": 5000,
+  "matched": true
+ },
+ {
+  "text": "ключової",
+  "start": 63,
+  "startMs": 5000,
+  "endMs": 5460,
+  "matched": true
+ },
+ {
+  "text": "людини",
+  "start": 72,
+  "startMs": 5460,
+  "endMs": 6000,
+  "matched": true
+ },
+ {
+  "text": "очікують",
+  "start": 79,
+  "startMs": 6000,
+  "endMs": 6730,
+  "matched": true
+ },
+ {
+  "text": "проєкти,",
+  "start": 88,
+  "startMs": 6730,
+  "endMs": 7430,
+  "matched": true
+ },
+ {
+  "text": "по",
+  "start": 97,
+  "startMs": 7430,
+  "endMs": 7550,
+  "matched": true
+ },
+ {
+  "text": "місяцях.",
+  "start": 100,
+  "startMs": 7550,
+  "endMs": 8200,
+  "matched": true
+ },
+ {
+  "text": "Порівнюють",
+  "start": 109,
+  "startMs": 8200,
+  "endMs": 9210,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 120,
+  "startMs": 9210,
+  "endMs": 9410,
+  "matched": true
+ },
+ {
+  "text": "зі",
+  "start": 123,
+  "startMs": 9410,
+  "endMs": 9546,
+  "matched": true
+ },
+ {
+  "text": "ста",
+  "start": 126,
+  "startMs": 9546,
+  "endMs": 9727,
+  "matched": false
+ },
+ {
+  "text": "відсотками,",
+  "start": 130,
+  "startMs": 9727,
+  "endMs": 10270,
+  "matched": false
+ },
+ {
+  "text": "а",
+  "start": 142,
+  "startMs": 10270,
+  "endMs": 10320,
+  "matched": true
+ },
+ {
+  "text": "з",
+  "start": 144,
+  "startMs": 10320,
+  "endMs": 10420,
+  "matched": true
+ },
+ {
+  "text": "реальною",
+  "start": 146,
+  "startMs": 10420,
+  "endMs": 11240,
+  "matched": true
+ },
+ {
+  "text": "доступністю",
+  "start": 155,
+  "startMs": 11240,
+  "endMs": 12491,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 167,
+  "startMs": 12491,
+  "endMs": 12700,
+  "matched": false
+ },
+ {
+  "text": "для",
+  "start": 169,
+  "startMs": 12700,
+  "endMs": 12856,
+  "matched": true
+ },
+ {
+  "text": "бі-ей",
+  "start": 173,
+  "startMs": 12856,
+  "endMs": 13090,
+  "matched": false
+ },
+ {
+  "text": "підрозділу",
+  "start": 179,
+  "startMs": 13090,
+  "endMs": 14620,
+  "matched": true
+ },
+ {
+  "text": "це",
+  "start": 190,
+  "startMs": 14620,
+  "endMs": 14758,
+  "matched": true
+ },
+ {
+  "text": "сімдесят",
+  "start": 193,
+  "startMs": 14758,
+  "endMs": 15173,
+  "matched": false
+ },
+ {
+  "text": "відсотків.",
+  "start": 202,
+  "startMs": 15173,
+  "endMs": 15680,
+  "matched": false
+ },
+ {
+  "text": "Облік",
+  "start": 213,
+  "startMs": 15680,
+  "endMs": 16180,
+  "matched": true
+ },
+ {
+  "text": "майна,",
+  "start": 219,
+  "startMs": 16180,
+  "endMs": 16790,
+  "matched": true
+ },
+ {
+  "text": "сед",
+  "start": 226,
+  "startMs": 16790,
+  "endMs": 17130,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 230,
+  "startMs": 17130,
+  "endMs": 17190,
+  "matched": true
+ },
+ {
+  "text": "стройова",
+  "start": 232,
+  "startMs": 17190,
+  "endMs": 18010,
+  "matched": true
+ },
+ {
+  "text": "записка",
+  "start": 241,
+  "startMs": 18010,
+  "endMs": 18800,
+  "matched": true
+ },
+ {
+  "text": "разом",
+  "start": 249,
+  "startMs": 18800,
+  "endMs": 19230,
+  "matched": true
+ },
+ {
+  "text": "вимагають",
+  "start": 255,
+  "startMs": 19230,
+  "endMs": 20000,
+  "matched": true
+ },
+ {
+  "text": "від",
+  "start": 265,
+  "startMs": 20000,
+  "endMs": 20167,
+  "matched": true
+ },
+ {
+  "text": "бі-ей",
+  "start": 269,
+  "startMs": 20167,
+  "endMs": 20417,
+  "matched": false
+ },
+ {
+  "text": "сто",
+  "start": 275,
+  "startMs": 20417,
+  "endMs": 20583,
+  "matched": false
+ },
+ {
+  "text": "відсотків",
+  "start": 279,
+  "startMs": 20583,
+  "endMs": 21000,
+  "matched": false
+ },
+ {
+  "text": "у",
+  "start": 289,
+  "startMs": 21000,
+  "endMs": 21080,
+  "matched": true
+ },
+ {
+  "text": "першому",
+  "start": 291,
+  "startMs": 21080,
+  "endMs": 21870,
+  "matched": true
+ },
+ {
+  "text": "місяці",
+  "start": 299,
+  "startMs": 21870,
+  "endMs": 22159,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 306,
+  "startMs": 22159,
+  "endMs": 22242,
+  "matched": false
+ },
+ {
+  "text": "дев’яносто",
+  "start": 308,
+  "startMs": 22242,
+  "endMs": 22697,
+  "matched": false
+ },
+ {
+  "text": "відсотків",
+  "start": 319,
+  "startMs": 22697,
+  "endMs": 23110,
+  "matched": false
+ },
+ {
+  "text": "у",
+  "start": 329,
+  "startMs": 23110,
+  "endMs": 23220,
+  "matched": true
+ },
+ {
+  "text": "другому",
+  "start": 331,
+  "startMs": 23220,
+  "endMs": 23916,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 339,
+  "startMs": 23916,
+  "endMs": 24090,
+  "matched": false
+ },
+ {
+  "text": "перевантаження.",
+  "start": 341,
+  "startMs": 24090,
+  "endMs": 25960,
+  "matched": true
+ },
+ {
+  "text": "Конфлікт",
+  "start": 357,
+  "startMs": 25960,
+  "endMs": 26670,
+  "matched": true
+ },
+ {
+  "text": "розв’язує",
+  "start": 366,
+  "startMs": 26670,
+  "endMs": 27180,
+  "matched": true
+ },
+ {
+  "text": "власник",
+  "start": 376,
+  "startMs": 27180,
+  "endMs": 27710,
+  "matched": true
+ },
+ {
+  "text": "портфеля",
+  "start": 384,
+  "startMs": 27710,
+  "endMs": 28310,
+  "matched": true
+ },
+ {
+  "text": "за",
+  "start": 393,
+  "startMs": 28310,
+  "endMs": 28460,
+  "matched": true
+ },
+ {
+  "text": "пріоритетом,",
+  "start": 396,
+  "startMs": 28460,
+  "endMs": 29500,
+  "matched": true
+ },
+ {
+  "text": "від",
+  "start": 409,
+  "startMs": 29500,
+  "endMs": 29760,
+  "matched": true
+ },
+ {
+  "text": "найдешевшого",
+  "start": 413,
+  "startMs": 29760,
+  "endMs": 30870,
+  "matched": true
+ },
+ {
+  "text": "кроку:",
+  "start": 426,
+  "startMs": 30870,
+  "endMs": 31440,
+  "matched": true
+ },
+ {
+  "text": "зсунути",
+  "start": 433,
+  "startMs": 31440,
+  "endMs": 32240,
+  "matched": true
+ },
+ {
+  "text": "в",
+  "start": 441,
+  "startMs": 32240,
+  "endMs": 32260,
+  "matched": true
+ },
+ {
+  "text": "часі,",
+  "start": 443,
+  "startMs": 32260,
+  "endMs": 32880,
+  "matched": true
+ },
+ {
+  "text": "зменшити",
+  "start": 449,
+  "startMs": 32880,
+  "endMs": 33540,
+  "matched": true
+ },
+ {
+  "text": "обсяг,",
+  "start": 458,
+  "startMs": 33540,
+  "endMs": 34150,
+  "matched": true
+ },
+ {
+  "text": "перерозподілити",
+  "start": 465,
+  "startMs": 34150,
+  "endMs": 35180,
+  "matched": true
+ },
+ {
+  "text": "роботу,",
+  "start": 481,
+  "startMs": 35180,
+  "endMs": 35600,
+  "matched": true
+ },
+ {
+  "text": "залучити",
+  "start": 489,
+  "startMs": 35600,
+  "endMs": 36270,
+  "matched": true
+ },
+ {
+  "text": "ресурс,",
+  "start": 498,
+  "startMs": 36270,
+  "endMs": 36850,
+  "matched": true
+ },
+ {
+  "text": "ескалювати",
+  "start": 506,
+  "startMs": 36850,
+  "endMs": 37680,
+  "matched": true
+ },
+ {
+  "text": "командиру.",
+  "start": 517,
+  "startMs": 37680,
+  "endMs": 38640,
+  "matched": true
+ },
+ {
+  "text": "Тут",
+  "start": 528,
+  "startMs": 38640,
+  "endMs": 38890,
+  "matched": true
+ },
+ {
+  "text": "вистачило",
+  "start": 532,
+  "startMs": 38890,
+  "endMs": 39640,
+  "matched": true
+ },
+ {
+  "text": "двох",
+  "start": 542,
+  "startMs": 39640,
+  "endMs": 40050,
+  "matched": true
+ },
+ {
+  "text": "кроків:",
+  "start": 547,
+  "startMs": 40050,
+  "endMs": 40640,
+  "matched": true
+ },
+ {
+  "text": "стройова",
+  "start": 555,
+  "startMs": 40640,
+  "endMs": 41230,
+  "matched": true
+ },
+ {
+  "text": "записка",
+  "start": 564,
+  "startMs": 41230,
+  "endMs": 41800,
+  "matched": true
+ },
+ {
+  "text": "стартує",
+  "start": 572,
+  "startMs": 41800,
+  "endMs": 42280,
+  "matched": true
+ },
+ {
+  "text": "з",
+  "start": 580,
+  "startMs": 42280,
+  "endMs": 42360,
+  "matched": true
+ },
+ {
+  "text": "третього",
+  "start": 582,
+  "startMs": 42360,
+  "endMs": 42860,
+  "matched": true
+ },
+ {
+  "text": "місяця,",
+  "start": 591,
+  "startMs": 42860,
+  "endMs": 43490,
+  "matched": true
+ },
+ {
+  "text": "а",
+  "start": 599,
+  "startMs": 43490,
+  "endMs": 43540,
+  "matched": true
+ },
+ {
+  "text": "опис",
+  "start": 601,
+  "startMs": 43540,
+  "endMs": 43960,
+  "matched": true
+ },
+ {
+  "text": "процесів",
+  "start": 606,
+  "startMs": 43960,
+  "endMs": 44780,
+  "matched": true
+ },
+ {
+  "text": "сед",
+  "start": 615,
+  "startMs": 44780,
+  "endMs": 45120,
+  "matched": true
+ },
+ {
+  "text": "бере",
+  "start": 619,
+  "startMs": 45120,
+  "endMs": 45491,
+  "matched": true
+ },
+ {
+  "text": "текнікал-райтер.",
+  "start": 624,
+  "startMs": 45491,
+  "endMs": 46680,
+  "matched": false
+ }
+]

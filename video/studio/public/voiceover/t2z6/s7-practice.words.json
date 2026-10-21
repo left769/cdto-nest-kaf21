@@ -1,0 +1,471 @@
+[
+ {
+  "text": "На",
+  "start": 0,
+  "startMs": 70,
+  "endMs": 150,
+  "matched": true
+ },
+ {
+  "text": "занятті",
+  "start": 3,
+  "startMs": 150,
+  "endMs": 680,
+  "matched": true
+ },
+ {
+  "text": "ви",
+  "start": 11,
+  "startMs": 680,
+  "endMs": 820,
+  "matched": true
+ },
+ {
+  "text": "зберете",
+  "start": 14,
+  "startMs": 820,
+  "endMs": 1340,
+  "matched": true
+ },
+ {
+  "text": "портфель",
+  "start": 22,
+  "startMs": 1340,
+  "endMs": 1940,
+  "matched": true
+ },
+ {
+  "text": "підрозділу:",
+  "start": 31,
+  "startMs": 1940,
+  "endMs": 2930,
+  "matched": true
+ },
+ {
+  "text": "розкладете",
+  "start": 43,
+  "startMs": 2930,
+  "endMs": 3510,
+  "matched": true
+ },
+ {
+  "text": "ініціативи",
+  "start": 54,
+  "startMs": 3510,
+  "endMs": 4240,
+  "matched": true
+ },
+ {
+  "text": "за",
+  "start": 65,
+  "startMs": 4240,
+  "endMs": 4510,
+  "matched": true
+ },
+ {
+  "text": "кошиками,",
+  "start": 68,
+  "startMs": 4510,
+  "endMs": 5220,
+  "matched": true
+ },
+ {
+  "text": "оціните",
+  "start": 78,
+  "startMs": 5220,
+  "endMs": 6060,
+  "matched": true
+ },
+ {
+  "text": "їх",
+  "start": 86,
+  "startMs": 6060,
+  "endMs": 6300,
+  "matched": true
+ },
+ {
+  "text": "за",
+  "start": 89,
+  "startMs": 6300,
+  "endMs": 6540,
+  "matched": true
+ },
+ {
+  "text": "спільною",
+  "start": 92,
+  "startMs": 6540,
+  "endMs": 7580,
+  "matched": true
+ },
+ {
+  "text": "шкалою",
+  "start": 101,
+  "startMs": 7580,
+  "endMs": 8194,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 108,
+  "startMs": 8194,
+  "endMs": 8370,
+  "matched": false
+ },
+ {
+  "text": "порахуєте",
+  "start": 110,
+  "startMs": 8370,
+  "endMs": 8842,
+  "matched": true
+ },
+ {
+  "text": "дабл-ю-ес-джей-еф,",
+  "start": 120,
+  "startMs": 8842,
+  "endMs": 9740,
+  "matched": false
+ },
+ {
+  "text": "розглянете",
+  "start": 139,
+  "startMs": 9740,
+  "endMs": 10433,
+  "matched": true
+ },
+ {
+  "text": "ем-ві-пі",
+  "start": 150,
+  "startMs": 10433,
+  "endMs": 11000,
+  "matched": false
+ },
+ {
+  "text": "для",
+  "start": 159,
+  "startMs": 11000,
+  "endMs": 11340,
+  "matched": true
+ },
+ {
+  "text": "великих,",
+  "start": 163,
+  "startMs": 11340,
+  "endMs": 12380,
+  "matched": true
+ },
+ {
+  "text": "розв’яжете",
+  "start": 172,
+  "startMs": 12380,
+  "endMs": 12860,
+  "matched": true
+ },
+ {
+  "text": "конфлікти",
+  "start": 183,
+  "startMs": 12860,
+  "endMs": 13500,
+  "matched": true
+ },
+ {
+  "text": "в",
+  "start": 193,
+  "startMs": 13500,
+  "endMs": 13520,
+  "matched": true
+ },
+ {
+  "text": "матриці",
+  "start": 195,
+  "startMs": 13520,
+  "endMs": 13980,
+  "matched": true
+ },
+ {
+  "text": "завантаження,",
+  "start": 203,
+  "startMs": 13980,
+  "endMs": 15000,
+  "matched": true
+ },
+ {
+  "text": "визначите",
+  "start": 217,
+  "startMs": 15000,
+  "endMs": 15750,
+  "matched": true
+ },
+ {
+  "text": "черговість",
+  "start": 227,
+  "startMs": 15750,
+  "endMs": 16630,
+  "matched": true
+ },
+ {
+  "text": "із",
+  "start": 238,
+  "startMs": 16630,
+  "endMs": 16730,
+  "matched": true
+ },
+ {
+  "text": "віп-лімітом,",
+  "start": 241,
+  "startMs": 16730,
+  "endMs": 18020,
+  "matched": true
+ },
+ {
+  "text": "складете",
+  "start": 254,
+  "startMs": 18020,
+  "endMs": 18410,
+  "matched": true
+ },
+ {
+  "text": "дорожню",
+  "start": 263,
+  "startMs": 18410,
+  "endMs": 19020,
+  "matched": true
+ },
+ {
+  "text": "карту",
+  "start": 271,
+  "startMs": 19020,
+  "endMs": 19450,
+  "matched": true
+ },
+ {
+  "text": "«зараз",
+  "start": 277,
+  "startMs": 19450,
+  "endMs": 19956,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 284,
+  "startMs": 19956,
+  "endMs": 20100,
+  "matched": false
+ },
+ {
+  "text": "далі",
+  "start": 286,
+  "startMs": 20100,
+  "endMs": 20543,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 291,
+  "startMs": 20543,
+  "endMs": 20720,
+  "matched": false
+ },
+ {
+  "text": "пізніше»",
+  "start": 293,
+  "startMs": 20720,
+  "endMs": 21440,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 302,
+  "startMs": 21440,
+  "endMs": 21600,
+  "matched": false
+ },
+ {
+  "text": "ухвалите",
+  "start": 304,
+  "startMs": 21600,
+  "endMs": 22200,
+  "matched": true
+ },
+ {
+  "text": "рішення",
+  "start": 313,
+  "startMs": 22200,
+  "endMs": 22800,
+  "matched": true
+ },
+ {
+  "text": "щодо",
+  "start": 321,
+  "startMs": 22800,
+  "endMs": 23130,
+  "matched": true
+ },
+ {
+  "text": "двох",
+  "start": 326,
+  "startMs": 23130,
+  "endMs": 23540,
+  "matched": true
+ },
+ {
+  "text": "ініціатив.",
+  "start": 331,
+  "startMs": 23540,
+  "endMs": 24740,
+  "matched": true
+ },
+ {
+  "text": "Для",
+  "start": 342,
+  "startMs": 24740,
+  "endMs": 24830,
+  "matched": true
+ },
+ {
+  "text": "свого",
+  "start": 346,
+  "startMs": 24830,
+  "endMs": 25140,
+  "matched": true
+ },
+ {
+  "text": "проєкту",
+  "start": 352,
+  "startMs": 25140,
+  "endMs": 25660,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 360,
+  "startMs": 25660,
+  "endMs": 25790,
+  "matched": false
+ },
+ {
+  "text": "оцінка",
+  "start": 362,
+  "startMs": 25790,
+  "endMs": 26220,
+  "matched": true
+ },
+ {
+  "text": "трудовитрат",
+  "start": 369,
+  "startMs": 26220,
+  "endMs": 27160,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 381,
+  "startMs": 27160,
+  "endMs": 27180,
+  "matched": true
+ },
+ {
+  "text": "контрольна",
+  "start": 383,
+  "startMs": 27180,
+  "endMs": 27980,
+  "matched": true
+ },
+ {
+  "text": "точка",
+  "start": 394,
+  "startMs": 27980,
+  "endMs": 28380,
+  "matched": true
+ },
+ {
+  "text": "з",
+  "start": 400,
+  "startMs": 28380,
+  "endMs": 28470,
+  "matched": true
+ },
+ {
+  "text": "числовими",
+  "start": 402,
+  "startMs": 28470,
+  "endMs": 29180,
+  "matched": true
+ },
+ {
+  "text": "критеріями.",
+  "start": 412,
+  "startMs": 29180,
+  "endMs": 30160,
+  "matched": true
+ },
+ {
+  "text": "Шаблон",
+  "start": 424,
+  "startMs": 30160,
+  "endMs": 30580,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 431,
+  "startMs": 30580,
+  "endMs": 30700,
+  "matched": false
+ },
+ {
+  "text": "у",
+  "start": 433,
+  "startMs": 30700,
+  "endMs": 30790,
+  "matched": true
+ },
+ {
+  "text": "робочому",
+  "start": 435,
+  "startMs": 30790,
+  "endMs": 31550,
+  "matched": true
+ },
+ {
+  "text": "зошиті,",
+  "start": 444,
+  "startMs": 31550,
+  "endMs": 32130,
+  "matched": true
+ },
+ {
+  "text": "крок",
+  "start": 452,
+  "startMs": 32130,
+  "endMs": 32540,
+  "matched": true
+ },
+ {
+  "text": "«Проєкт",
+  "start": 457,
+  "startMs": 32540,
+  "endMs": 33080,
+  "matched": true
+ },
+ {
+  "text": "у",
+  "start": 465,
+  "startMs": 33080,
+  "endMs": 33170,
+  "matched": true
+ },
+ {
+  "text": "портфелі",
+  "start": 467,
+  "startMs": 33170,
+  "endMs": 33910,
+  "matched": true
+ },
+ {
+  "text": "підрозділу».",
+  "start": 476,
+  "startMs": 33910,
+  "endMs": 35000,
+  "matched": true
+ }
+]
