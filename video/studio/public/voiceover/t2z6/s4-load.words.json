@@ -231,7 +231,7 @@
   "matched": true
  },
  {
-  "text": "сед",
+  "text": "седо",
   "start": 226,
   "startMs": 16790,
   "endMs": 17130,
@@ -239,385 +239,385 @@
  },
  {
   "text": "і",
-  "start": 230,
+  "start": 231,
   "startMs": 17130,
   "endMs": 17190,
   "matched": true
  },
  {
   "text": "стройова",
-  "start": 232,
+  "start": 233,
   "startMs": 17190,
   "endMs": 18010,
   "matched": true
  },
  {
   "text": "записка",
-  "start": 241,
+  "start": 242,
   "startMs": 18010,
   "endMs": 18800,
   "matched": true
  },
  {
   "text": "разом",
-  "start": 249,
+  "start": 250,
   "startMs": 18800,
   "endMs": 19230,
   "matched": true
  },
  {
   "text": "вимагають",
-  "start": 255,
+  "start": 256,
   "startMs": 19230,
   "endMs": 20000,
   "matched": true
  },
  {
   "text": "від",
-  "start": 265,
+  "start": 266,
   "startMs": 20000,
   "endMs": 20167,
   "matched": true
  },
  {
   "text": "бі-ей",
-  "start": 269,
+  "start": 270,
   "startMs": 20167,
   "endMs": 20417,
   "matched": false
  },
  {
   "text": "сто",
-  "start": 275,
+  "start": 276,
   "startMs": 20417,
   "endMs": 20583,
   "matched": false
  },
  {
   "text": "відсотків",
-  "start": 279,
+  "start": 280,
   "startMs": 20583,
   "endMs": 21000,
   "matched": false
  },
  {
   "text": "у",
-  "start": 289,
+  "start": 290,
   "startMs": 21000,
   "endMs": 21080,
   "matched": true
  },
  {
   "text": "першому",
-  "start": 291,
+  "start": 292,
   "startMs": 21080,
   "endMs": 21870,
   "matched": true
  },
  {
   "text": "місяці",
-  "start": 299,
+  "start": 300,
   "startMs": 21870,
   "endMs": 22159,
   "matched": true
  },
  {
   "text": "й",
-  "start": 306,
+  "start": 307,
   "startMs": 22159,
   "endMs": 22242,
   "matched": false
  },
  {
   "text": "дев’яносто",
-  "start": 308,
+  "start": 309,
   "startMs": 22242,
   "endMs": 22697,
   "matched": false
  },
  {
   "text": "відсотків",
-  "start": 319,
+  "start": 320,
   "startMs": 22697,
   "endMs": 23110,
   "matched": false
  },
  {
   "text": "у",
-  "start": 329,
+  "start": 330,
   "startMs": 23110,
   "endMs": 23220,
   "matched": true
  },
  {
   "text": "другому",
-  "start": 331,
+  "start": 332,
   "startMs": 23220,
   "endMs": 23916,
   "matched": true
  },
  {
   "text": "—",
-  "start": 339,
+  "start": 340,
   "startMs": 23916,
   "endMs": 24090,
   "matched": false
  },
  {
   "text": "перевантаження.",
-  "start": 341,
+  "start": 342,
   "startMs": 24090,
   "endMs": 25960,
   "matched": true
  },
  {
   "text": "Конфлікт",
-  "start": 357,
+  "start": 358,
   "startMs": 25960,
   "endMs": 26670,
   "matched": true
  },
  {
   "text": "розв’язує",
-  "start": 366,
+  "start": 367,
   "startMs": 26670,
   "endMs": 27180,
   "matched": true
  },
  {
   "text": "власник",
-  "start": 376,
+  "start": 377,
   "startMs": 27180,
   "endMs": 27710,
   "matched": true
  },
  {
   "text": "портфеля",
-  "start": 384,
+  "start": 385,
   "startMs": 27710,
   "endMs": 28310,
   "matched": true
  },
  {
   "text": "за",
-  "start": 393,
+  "start": 394,
   "startMs": 28310,
   "endMs": 28460,
   "matched": true
  },
  {
   "text": "пріоритетом,",
-  "start": 396,
+  "start": 397,
   "startMs": 28460,
   "endMs": 29500,
   "matched": true
  },
  {
   "text": "від",
-  "start": 409,
+  "start": 410,
   "startMs": 29500,
   "endMs": 29760,
   "matched": true
  },
  {
   "text": "найдешевшого",
-  "start": 413,
+  "start": 414,
   "startMs": 29760,
   "endMs": 30870,
   "matched": true
  },
  {
   "text": "кроку:",
-  "start": 426,
+  "start": 427,
   "startMs": 30870,
   "endMs": 31440,
   "matched": true
  },
  {
   "text": "зсунути",
-  "start": 433,
+  "start": 434,
   "startMs": 31440,
   "endMs": 32240,
   "matched": true
  },
  {
   "text": "в",
-  "start": 441,
+  "start": 442,
   "startMs": 32240,
   "endMs": 32260,
   "matched": true
  },
  {
   "text": "часі,",
-  "start": 443,
+  "start": 444,
   "startMs": 32260,
   "endMs": 32880,
   "matched": true
  },
  {
   "text": "зменшити",
-  "start": 449,
+  "start": 450,
   "startMs": 32880,
   "endMs": 33540,
   "matched": true
  },
  {
   "text": "обсяг,",
-  "start": 458,
+  "start": 459,
   "startMs": 33540,
   "endMs": 34150,
   "matched": true
  },
  {
   "text": "перерозподілити",
-  "start": 465,
+  "start": 466,
   "startMs": 34150,
   "endMs": 35180,
   "matched": true
  },
  {
   "text": "роботу,",
-  "start": 481,
+  "start": 482,
   "startMs": 35180,
   "endMs": 35600,
   "matched": true
  },
  {
   "text": "залучити",
-  "start": 489,
+  "start": 490,
   "startMs": 35600,
   "endMs": 36270,
   "matched": true
  },
  {
   "text": "ресурс,",
-  "start": 498,
+  "start": 499,
   "startMs": 36270,
   "endMs": 36850,
   "matched": true
  },
  {
   "text": "ескалювати",
-  "start": 506,
+  "start": 507,
   "startMs": 36850,
   "endMs": 37680,
   "matched": true
  },
  {
   "text": "командиру.",
-  "start": 517,
+  "start": 518,
   "startMs": 37680,
   "endMs": 38640,
   "matched": true
  },
  {
   "text": "Тут",
-  "start": 528,
+  "start": 529,
   "startMs": 38640,
   "endMs": 38890,
   "matched": true
  },
  {
   "text": "вистачило",
-  "start": 532,
+  "start": 533,
   "startMs": 38890,
   "endMs": 39640,
   "matched": true
  },
  {
   "text": "двох",
-  "start": 542,
+  "start": 543,
   "startMs": 39640,
   "endMs": 40050,
   "matched": true
  },
  {
   "text": "кроків:",
-  "start": 547,
+  "start": 548,
   "startMs": 40050,
   "endMs": 40640,
   "matched": true
  },
  {
   "text": "стройова",
-  "start": 555,
+  "start": 556,
   "startMs": 40640,
   "endMs": 41230,
   "matched": true
  },
  {
   "text": "записка",
-  "start": 564,
+  "start": 565,
   "startMs": 41230,
   "endMs": 41800,
   "matched": true
  },
  {
   "text": "стартує",
-  "start": 572,
+  "start": 573,
   "startMs": 41800,
   "endMs": 42280,
   "matched": true
  },
  {
   "text": "з",
-  "start": 580,
+  "start": 581,
   "startMs": 42280,
   "endMs": 42360,
   "matched": true
  },
  {
   "text": "третього",
-  "start": 582,
+  "start": 583,
   "startMs": 42360,
   "endMs": 42860,
   "matched": true
  },
  {
   "text": "місяця,",
-  "start": 591,
+  "start": 592,
   "startMs": 42860,
   "endMs": 43490,
   "matched": true
  },
  {
   "text": "а",
-  "start": 599,
+  "start": 600,
   "startMs": 43490,
   "endMs": 43540,
   "matched": true
  },
  {
   "text": "опис",
-  "start": 601,
+  "start": 602,
   "startMs": 43540,
   "endMs": 43960,
   "matched": true
  },
  {
   "text": "процесів",
-  "start": 606,
+  "start": 607,
   "startMs": 43960,
   "endMs": 44780,
   "matched": true
  },
  {
-  "text": "сед",
-  "start": 615,
+  "text": "седо",
+  "start": 616,
   "startMs": 44780,
   "endMs": 45120,
   "matched": true
  },
  {
   "text": "бере",
-  "start": 619,
+  "start": 621,
   "startMs": 45120,
   "endMs": 45491,
   "matched": true
  },
  {
   "text": "текнікал-райтер.",
-  "start": 624,
+  "start": 626,
   "startMs": 45491,
   "endMs": 46680,
   "matched": false

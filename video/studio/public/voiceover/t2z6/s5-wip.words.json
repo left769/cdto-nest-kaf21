@@ -609,7 +609,7 @@
   "matched": false
  },
  {
-  "text": "сед",
+  "text": "седо",
   "start": 609,
   "startMs": 45570,
   "endMs": 46000,
@@ -617,189 +617,189 @@
  },
  {
   "text": "і",
-  "start": 613,
+  "start": 614,
   "startMs": 46000,
   "endMs": 46150,
   "matched": true
  },
  {
   "text": "коротке",
-  "start": 615,
+  "start": 616,
   "startMs": 46150,
   "endMs": 46560,
   "matched": true
  },
  {
   "text": "дослідження",
-  "start": 623,
+  "start": 624,
   "startMs": 46560,
   "endMs": 47340,
   "matched": true
  },
  {
   "text": "чат-бота.",
-  "start": 635,
+  "start": 636,
   "startMs": 47340,
   "endMs": 48000,
   "matched": true
  },
  {
   "text": "Далі",
-  "start": 645,
+  "start": 646,
   "startMs": 48000,
   "endMs": 48321,
   "matched": true
  },
  {
   "text": "—",
-  "start": 650,
+  "start": 651,
   "startMs": 48321,
   "endMs": 48450,
   "matched": false
  },
  {
   "text": "план",
-  "start": 652,
+  "start": 653,
   "startMs": 48450,
   "endMs": 49060,
   "matched": true
  },
  {
   "text": "на",
-  "start": 657,
+  "start": 658,
   "startMs": 49060,
   "endMs": 49070,
   "matched": true
  },
  {
   "text": "один–два",
-  "start": 660,
+  "start": 661,
   "startMs": 49070,
   "endMs": 49820,
   "matched": true
  },
  {
   "text": "квартали:",
-  "start": 669,
+  "start": 670,
   "startMs": 49820,
   "endMs": 50740,
   "matched": true
  },
  {
   "text": "стройова",
-  "start": 679,
+  "start": 680,
   "startMs": 50740,
   "endMs": 51450,
   "matched": true
  },
  {
   "text": "записка",
-  "start": 688,
+  "start": 689,
   "startMs": 51450,
   "endMs": 52162,
   "matched": true
  },
  {
   "text": "й",
-  "start": 696,
+  "start": 697,
   "startMs": 52162,
   "endMs": 52340,
   "matched": false
  },
  {
   "text": "повний",
-  "start": 698,
+  "start": 699,
   "startMs": 52340,
   "endMs": 52880,
   "matched": true
  },
  {
   "text": "облік",
-  "start": 705,
+  "start": 706,
   "startMs": 52880,
   "endMs": 53370,
   "matched": true
  },
  {
   "text": "майна.",
-  "start": 711,
+  "start": 712,
   "startMs": 53370,
   "endMs": 54010,
   "matched": true
  },
  {
   "text": "Пізніше",
-  "start": 718,
+  "start": 719,
   "startMs": 54010,
   "endMs": 54746,
   "matched": true
  },
  {
   "text": "—",
-  "start": 726,
+  "start": 727,
   "startMs": 54746,
   "endMs": 54930,
   "matched": false
  },
  {
   "text": "наміри",
-  "start": 728,
+  "start": 729,
   "startMs": 54930,
   "endMs": 55480,
   "matched": true
  },
  {
   "text": "без",
-  "start": 735,
+  "start": 736,
   "startMs": 55480,
   "endMs": 55830,
   "matched": true
  },
  {
   "text": "дат:",
-  "start": 739,
+  "start": 740,
   "startMs": 55830,
   "endMs": 56190,
   "matched": true
  },
  {
   "text": "дашборд",
-  "start": 744,
+  "start": 745,
   "startMs": 56190,
   "endMs": 56710,
   "matched": true
  },
  {
   "text": "командира",
-  "start": 752,
+  "start": 753,
   "startMs": 56710,
   "endMs": 57427,
   "matched": true
  },
  {
   "text": "й",
-  "start": 762,
+  "start": 763,
   "startMs": 57427,
   "endMs": 57570,
   "matched": false
  },
  {
   "text": "заявки",
-  "start": 764,
+  "start": 765,
   "startMs": 57570,
   "endMs": 58090,
   "matched": true
  },
  {
   "text": "на",
-  "start": 771,
+  "start": 772,
   "startMs": 58090,
   "endMs": 58260,
   "matched": true
  },
  {
   "text": "ремонт.",
-  "start": 774,
+  "start": 775,
   "startMs": 58260,
   "endMs": 58900,
   "matched": true

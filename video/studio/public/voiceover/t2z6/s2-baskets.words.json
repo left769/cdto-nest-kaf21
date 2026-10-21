@@ -497,64 +497,64 @@
   "matched": true
  },
  {
-  "text": "сед",
+  "text": "седо",
   "start": 502,
   "startMs": 36400,
-  "endMs": 36673,
+  "endMs": 36693,
   "matched": true
  },
  {
   "text": "—",
-  "start": 506,
-  "startMs": 36673,
+  "start": 507,
+  "startMs": 36693,
   "endMs": 36810,
   "matched": false
  },
  {
   "text": "обов’язкова,",
-  "start": 508,
+  "start": 509,
   "startMs": 36810,
   "endMs": 37960,
   "matched": true
  },
  {
   "text": "чат-бот",
-  "start": 521,
+  "start": 522,
   "startMs": 37960,
   "endMs": 38328,
   "matched": true
  },
  {
   "text": "—",
-  "start": 529,
+  "start": 530,
   "startMs": 38328,
   "endMs": 38420,
   "matched": false
  },
  {
   "text": "експеримент,",
-  "start": 531,
+  "start": 532,
   "startMs": 38420,
   "endMs": 39640,
   "matched": true
  },
  {
   "text": "решта",
-  "start": 544,
+  "start": 545,
   "startMs": 39640,
   "endMs": 40150,
   "matched": true
  },
  {
   "text": "—",
-  "start": 550,
+  "start": 551,
   "startMs": 40150,
   "endMs": 40320,
   "matched": false
  },
  {
   "text": "ефект.",
-  "start": 552,
+  "start": 553,
   "startMs": 40320,
   "endMs": 41040,
   "matched": true
