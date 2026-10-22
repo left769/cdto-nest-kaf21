@@ -61,10 +61,12 @@ export const Practice: React.FC<{
   lessonLabel: string;
   /** Щільніше компонування для 5 пунктів (4 вміщуються у звичайному). */
   compact?: boolean;
-}> = ({ frame, cue, items, step, lessonLabel, compact = false }) => {
+  /** Кадр появи заголовка, якщо до чек-листа в сцені є інший вміст. */
+  introAt?: number;
+}> = ({ frame, cue, items, step, lessonLabel, compact = false, introAt = 0 }) => {
   return (
     <>
-      <div style={{ position: "absolute", left: 120, top: compact ? 130 : 140, fontSize: compact ? F.body : F.big, fontWeight: 700, ...fadeUp(frame, 0) }}>
+      <div style={{ position: "absolute", left: 120, top: compact ? 130 : 140, fontSize: compact ? F.body : F.big, fontWeight: 700, ...fadeUp(frame, introAt) }}>
         На практичному занятті
       </div>
       <div
