@@ -1,0 +1,765 @@
+[
+ {
+  "text": "П’яте",
+  "start": 0,
+  "startMs": 80,
+  "endMs": 770,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 6,
+  "startMs": 770,
+  "endMs": 1000,
+  "matched": false
+ },
+ {
+  "text": "модель",
+  "start": 8,
+  "startMs": 1000,
+  "endMs": 1665,
+  "matched": true
+ },
+ {
+  "text": "ту-бі,",
+  "start": 15,
+  "startMs": 1665,
+  "endMs": 2330,
+  "matched": false
+ },
+ {
+  "text": "процес",
+  "start": 22,
+  "startMs": 2330,
+  "endMs": 3000,
+  "matched": true
+ },
+ {
+  "text": "«як",
+  "start": 29,
+  "startMs": 3000,
+  "endMs": 3330,
+  "matched": true
+ },
+ {
+  "text": "має",
+  "start": 33,
+  "startMs": 3330,
+  "endMs": 3670,
+  "matched": true
+ },
+ {
+  "text": "бути».",
+  "start": 37,
+  "startMs": 3670,
+  "endMs": 4520,
+  "matched": true
+ },
+ {
+  "text": "Це",
+  "start": 44,
+  "startMs": 4520,
+  "endMs": 4770,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 47,
+  "startMs": 4770,
+  "endMs": 4840,
+  "matched": true
+ },
+ {
+  "text": "той",
+  "start": 50,
+  "startMs": 4840,
+  "endMs": 5070,
+  "matched": true
+ },
+ {
+  "text": "самий",
+  "start": 54,
+  "startMs": 5070,
+  "endMs": 5490,
+  "matched": true
+ },
+ {
+  "text": "процес",
+  "start": 60,
+  "startMs": 5490,
+  "endMs": 5940,
+  "matched": true
+ },
+ {
+  "text": "у",
+  "start": 67,
+  "startMs": 5940,
+  "endMs": 6020,
+  "matched": true
+ },
+ {
+  "text": "комп’ютері,",
+  "start": 69,
+  "startMs": 6020,
+  "endMs": 6930,
+  "matched": true
+ },
+ {
+  "text": "а",
+  "start": 81,
+  "startMs": 6930,
+  "endMs": 6970,
+  "matched": true
+ },
+ {
+  "text": "перепроєктований:",
+  "start": 83,
+  "startMs": 6970,
+  "endMs": 8560,
+  "matched": true
+ },
+ {
+  "text": "прибрати",
+  "start": 101,
+  "startMs": 8560,
+  "endMs": 9160,
+  "matched": true
+ },
+ {
+  "text": "зайві",
+  "start": 110,
+  "startMs": 9160,
+  "endMs": 9530,
+  "matched": true
+ },
+ {
+  "text": "кроки",
+  "start": 116,
+  "startMs": 9530,
+  "endMs": 9815,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 122,
+  "startMs": 9815,
+  "endMs": 9910,
+  "matched": false
+ },
+ {
+  "text": "дублювання,",
+  "start": 124,
+  "startMs": 9910,
+  "endMs": 10860,
+  "matched": true
+ },
+ {
+  "text": "автоматизувати",
+  "start": 136,
+  "startMs": 10860,
+  "endMs": 11900,
+  "matched": true
+ },
+ {
+  "text": "рутину,",
+  "start": 151,
+  "startMs": 11900,
+  "endMs": 12480,
+  "matched": true
+ },
+ {
+  "text": "розпаралелити",
+  "start": 159,
+  "startMs": 12480,
+  "endMs": 13530,
+  "matched": true
+ },
+ {
+  "text": "послідовні",
+  "start": 173,
+  "startMs": 13530,
+  "endMs": 14320,
+  "matched": true
+ },
+ {
+  "text": "дії,",
+  "start": 184,
+  "startMs": 14320,
+  "endMs": 14720,
+  "matched": true
+ },
+ {
+  "text": "скоротити",
+  "start": 189,
+  "startMs": 14720,
+  "endMs": 15270,
+  "matched": true
+ },
+ {
+  "text": "зайві",
+  "start": 199,
+  "startMs": 15270,
+  "endMs": 15610,
+  "matched": true
+ },
+ {
+  "text": "погодження",
+  "start": 205,
+  "startMs": 15610,
+  "endMs": 16320,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 216,
+  "startMs": 16320,
+  "endMs": 16450,
+  "matched": true
+ },
+ {
+  "text": "очікування,",
+  "start": 218,
+  "startMs": 16450,
+  "endMs": 17280,
+  "matched": true
+ },
+ {
+  "text": "запровадити",
+  "start": 230,
+  "startMs": 17280,
+  "endMs": 18270,
+  "matched": true
+ },
+ {
+  "text": "єдине",
+  "start": 242,
+  "startMs": 18270,
+  "endMs": 18720,
+  "matched": true
+ },
+ {
+  "text": "джерело",
+  "start": 248,
+  "startMs": 18720,
+  "endMs": 19350,
+  "matched": true
+ },
+ {
+  "text": "даних.",
+  "start": 256,
+  "startMs": 19350,
+  "endMs": 19960,
+  "matched": true
+ },
+ {
+  "text": "Для",
+  "start": 263,
+  "startMs": 19960,
+  "endMs": 20210,
+  "matched": true
+ },
+ {
+  "text": "інвентаризації:",
+  "start": 267,
+  "startMs": 20210,
+  "endMs": 21560,
+  "matched": true
+ },
+ {
+  "text": "єдиний",
+  "start": 283,
+  "startMs": 21560,
+  "endMs": 22060,
+  "matched": true
+ },
+ {
+  "text": "електронний",
+  "start": 290,
+  "startMs": 22060,
+  "endMs": 22920,
+  "matched": true
+ },
+ {
+  "text": "реєстр",
+  "start": 302,
+  "startMs": 22920,
+  "endMs": 23410,
+  "matched": true
+ },
+ {
+  "text": "замість",
+  "start": 309,
+  "startMs": 23410,
+  "endMs": 23990,
+  "matched": true
+ },
+ {
+  "text": "трьох",
+  "start": 317,
+  "startMs": 23990,
+  "endMs": 24440,
+  "matched": true
+ },
+ {
+  "text": "журналів;",
+  "start": 323,
+  "startMs": 24440,
+  "endMs": 25280,
+  "matched": true
+ },
+ {
+  "text": "комісія",
+  "start": 333,
+  "startMs": 25280,
+  "endMs": 25760,
+  "matched": true
+ },
+ {
+  "text": "вносить",
+  "start": 341,
+  "startMs": 25760,
+  "endMs": 26320,
+  "matched": true
+ },
+ {
+  "text": "фактичну",
+  "start": 349,
+  "startMs": 26320,
+  "endMs": 26960,
+  "matched": true
+ },
+ {
+  "text": "кількість",
+  "start": 358,
+  "startMs": 26960,
+  "endMs": 27685,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 368,
+  "startMs": 27685,
+  "endMs": 27830,
+  "matched": false
+ },
+ {
+  "text": "і",
+  "start": 370,
+  "startMs": 27830,
+  "endMs": 27840,
+  "matched": true
+ },
+ {
+  "text": "система",
+  "start": 372,
+  "startMs": 27840,
+  "endMs": 28410,
+  "matched": true
+ },
+ {
+  "text": "одразу",
+  "start": 380,
+  "startMs": 28410,
+  "endMs": 28880,
+  "matched": true
+ },
+ {
+  "text": "звіряє",
+  "start": 387,
+  "startMs": 28880,
+  "endMs": 29350,
+  "matched": true
+ },
+ {
+  "text": "її",
+  "start": 394,
+  "startMs": 29350,
+  "endMs": 29560,
+  "matched": true
+ },
+ {
+  "text": "з",
+  "start": 397,
+  "startMs": 29560,
+  "endMs": 29630,
+  "matched": true
+ },
+ {
+  "text": "обліком;",
+  "start": 399,
+  "startMs": 29630,
+  "endMs": 30320,
+  "matched": true
+ },
+ {
+  "text": "акт",
+  "start": 408,
+  "startMs": 30320,
+  "endMs": 30550,
+  "matched": true
+ },
+ {
+  "text": "розбіжностей",
+  "start": 412,
+  "startMs": 30550,
+  "endMs": 31460,
+  "matched": true
+ },
+ {
+  "text": "система",
+  "start": 425,
+  "startMs": 31460,
+  "endMs": 32010,
+  "matched": true
+ },
+ {
+  "text": "формує",
+  "start": 433,
+  "startMs": 32010,
+  "endMs": 32560,
+  "matched": true
+ },
+ {
+  "text": "сама,",
+  "start": 440,
+  "startMs": 32560,
+  "endMs": 33020,
+  "matched": true
+ },
+ {
+  "text": "а",
+  "start": 446,
+  "startMs": 33020,
+  "endMs": 33030,
+  "matched": true
+ },
+ {
+  "text": "командир",
+  "start": 448,
+  "startMs": 33030,
+  "endMs": 33680,
+  "matched": true
+ },
+ {
+  "text": "затверджує",
+  "start": 457,
+  "startMs": 33680,
+  "endMs": 34400,
+  "matched": true
+ },
+ {
+  "text": "його",
+  "start": 468,
+  "startMs": 34400,
+  "endMs": 34710,
+  "matched": true
+ },
+ {
+  "text": "в",
+  "start": 473,
+  "startMs": 34710,
+  "endMs": 34780,
+  "matched": true
+ },
+ {
+  "text": "системі.",
+  "start": 475,
+  "startMs": 34780,
+  "endMs": 35480,
+  "matched": true
+ },
+ {
+  "text": "Цільові",
+  "start": 484,
+  "startMs": 35480,
+  "endMs": 35970,
+  "matched": true
+ },
+ {
+  "text": "метрики",
+  "start": 492,
+  "startMs": 35970,
+  "endMs": 36642,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 500,
+  "startMs": 36642,
+  "endMs": 36810,
+  "matched": false
+ },
+ {
+  "text": "не",
+  "start": 502,
+  "startMs": 36810,
+  "endMs": 36830,
+  "matched": true
+ },
+ {
+  "text": "довше",
+  "start": 505,
+  "startMs": 36830,
+  "endMs": 37210,
+  "matched": true
+ },
+ {
+  "text": "одного",
+  "start": 511,
+  "startMs": 37210,
+  "endMs": 37680,
+  "matched": true
+ },
+ {
+  "text": "дня",
+  "start": 518,
+  "startMs": 37680,
+  "endMs": 37910,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 522,
+  "startMs": 37910,
+  "endMs": 37980,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 524,
+  "startMs": 37980,
+  "endMs": 38130,
+  "matched": true
+ },
+ {
+  "text": "більше",
+  "start": 527,
+  "startMs": 38130,
+  "endMs": 38590,
+  "matched": true
+ },
+ {
+  "text": "трьох",
+  "start": 534,
+  "startMs": 38590,
+  "endMs": 38960,
+  "matched": true
+ },
+ {
+  "text": "відсотків",
+  "start": 540,
+  "startMs": 38960,
+  "endMs": 39630,
+  "matched": true
+ },
+ {
+  "text": "розбіжностей.",
+  "start": 550,
+  "startMs": 39630,
+  "endMs": 40840,
+  "matched": true
+ },
+ {
+  "text": "Якщо",
+  "start": 564,
+  "startMs": 40840,
+  "endMs": 41150,
+  "matched": true
+ },
+ {
+  "text": "процес",
+  "start": 569,
+  "startMs": 41150,
+  "endMs": 41650,
+  "matched": true
+ },
+ {
+  "text": "принципово",
+  "start": 576,
+  "startMs": 41650,
+  "endMs": 42400,
+  "matched": true
+ },
+ {
+  "text": "неефективний,",
+  "start": 587,
+  "startMs": 42400,
+  "endMs": 43550,
+  "matched": true
+ },
+ {
+  "text": "його",
+  "start": 601,
+  "startMs": 43550,
+  "endMs": 43800,
+  "matched": true
+ },
+ {
+  "text": "переосмислюють",
+  "start": 606,
+  "startMs": 43800,
+  "endMs": 44870,
+  "matched": true
+ },
+ {
+  "text": "з",
+  "start": 621,
+  "startMs": 44870,
+  "endMs": 44950,
+  "matched": true
+ },
+ {
+  "text": "нуля",
+  "start": 623,
+  "startMs": 44950,
+  "endMs": 45371,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 628,
+  "startMs": 45371,
+  "endMs": 45540,
+  "matched": false
+ },
+ {
+  "text": "це",
+  "start": 630,
+  "startMs": 45540,
+  "endMs": 45580,
+  "matched": true
+ },
+ {
+  "text": "реінжиніринг;",
+  "start": 633,
+  "startMs": 45580,
+  "endMs": 46960,
+  "matched": true
+ },
+ {
+  "text": "якщо",
+  "start": 647,
+  "startMs": 46960,
+  "endMs": 47310,
+  "matched": true
+ },
+ {
+  "text": "загалом",
+  "start": 652,
+  "startMs": 47310,
+  "endMs": 47840,
+  "matched": true
+ },
+ {
+  "text": "робочий",
+  "start": 660,
+  "startMs": 47840,
+  "endMs": 48320,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 668,
+  "startMs": 48320,
+  "endMs": 48440,
+  "matched": false
+ },
+ {
+  "text": "поступово",
+  "start": 670,
+  "startMs": 48440,
+  "endMs": 49170,
+  "matched": true
+ },
+ {
+  "text": "вдосконалюють.",
+  "start": 680,
+  "startMs": 49170,
+  "endMs": 50500,
+  "matched": true
+ },
+ {
+  "text": "І",
+  "start": 695,
+  "startMs": 50500,
+  "endMs": 50600,
+  "matched": true
+ },
+ {
+  "text": "ту-бі",
+  "start": 697,
+  "startMs": 50600,
+  "endMs": 50880,
+  "matched": true
+ },
+ {
+  "text": "має",
+  "start": 703,
+  "startMs": 50880,
+  "endMs": 51160,
+  "matched": true
+ },
+ {
+  "text": "бути",
+  "start": 707,
+  "startMs": 51160,
+  "endMs": 51550,
+  "matched": true
+ },
+ {
+  "text": "реалістичним:",
+  "start": 712,
+  "startMs": 51550,
+  "endMs": 52740,
+  "matched": true
+ },
+ {
+  "text": "у",
+  "start": 726,
+  "startMs": 52740,
+  "endMs": 52940,
+  "matched": true
+ },
+ {
+  "text": "межах",
+  "start": 728,
+  "startMs": 52940,
+  "endMs": 53320,
+  "matched": true
+ },
+ {
+  "text": "нормативів,",
+  "start": 734,
+  "startMs": 53320,
+  "endMs": 54380,
+  "matched": true
+ },
+ {
+  "text": "вимог",
+  "start": 746,
+  "startMs": 54380,
+  "endMs": 54860,
+  "matched": true
+ },
+ {
+  "text": "зе-і",
+  "start": 752,
+  "startMs": 54860,
+  "endMs": 55067,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 757,
+  "startMs": 55067,
+  "endMs": 55150,
+  "matched": false
+ },
+ {
+  "text": "ресурсів.",
+  "start": 759,
+  "startMs": 55150,
+  "endMs": 56280,
+  "matched": true
+ }
+]

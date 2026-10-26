@@ -1,0 +1,583 @@
+[
+ {
+  "text": "Четверте",
+  "start": 0,
+  "startMs": 80,
+  "endMs": 865,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 9,
+  "startMs": 865,
+  "endMs": 1040,
+  "matched": false
+ },
+ {
+  "text": "вузьке",
+  "start": 11,
+  "startMs": 1040,
+  "endMs": 1590,
+  "matched": true
+ },
+ {
+  "text": "місце,",
+  "start": 18,
+  "startMs": 1590,
+  "endMs": 2320,
+  "matched": true
+ },
+ {
+  "text": "етап,",
+  "start": 25,
+  "startMs": 2320,
+  "endMs": 2800,
+  "matched": true
+ },
+ {
+  "text": "що",
+  "start": 31,
+  "startMs": 2800,
+  "endMs": 2990,
+  "matched": true
+ },
+ {
+  "text": "лімітує",
+  "start": 34,
+  "startMs": 2990,
+  "endMs": 3640,
+  "matched": true
+ },
+ {
+  "text": "весь",
+  "start": 42,
+  "startMs": 3640,
+  "endMs": 4050,
+  "matched": true
+ },
+ {
+  "text": "процес:",
+  "start": 47,
+  "startMs": 4050,
+  "endMs": 4720,
+  "matched": true
+ },
+ {
+  "text": "перед",
+  "start": 55,
+  "startMs": 4720,
+  "endMs": 5110,
+  "matched": true
+ },
+ {
+  "text": "ним",
+  "start": 61,
+  "startMs": 5110,
+  "endMs": 5350,
+  "matched": true
+ },
+ {
+  "text": "накопичується",
+  "start": 65,
+  "startMs": 5350,
+  "endMs": 6350,
+  "matched": true
+ },
+ {
+  "text": "черга,",
+  "start": 79,
+  "startMs": 6350,
+  "endMs": 6970,
+  "matched": true
+ },
+ {
+  "text": "після",
+  "start": 86,
+  "startMs": 6970,
+  "endMs": 7330,
+  "matched": true
+ },
+ {
+  "text": "нього",
+  "start": 92,
+  "startMs": 7330,
+  "endMs": 7765,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 98,
+  "startMs": 7765,
+  "endMs": 7910,
+  "matched": false
+ },
+ {
+  "text": "простій.",
+  "start": 100,
+  "startMs": 7910,
+  "endMs": 8600,
+  "matched": true
+ },
+ {
+  "text": "Знаходять",
+  "start": 109,
+  "startMs": 8600,
+  "endMs": 9420,
+  "matched": true
+ },
+ {
+  "text": "його",
+  "start": 119,
+  "startMs": 9420,
+  "endMs": 9760,
+  "matched": true
+ },
+ {
+  "text": "за",
+  "start": 124,
+  "startMs": 9760,
+  "endMs": 10030,
+  "matched": true
+ },
+ {
+  "text": "часом",
+  "start": 127,
+  "startMs": 10030,
+  "endMs": 10390,
+  "matched": true
+ },
+ {
+  "text": "етапів",
+  "start": 133,
+  "startMs": 10390,
+  "endMs": 11012,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 140,
+  "startMs": 11012,
+  "endMs": 11190,
+  "matched": false
+ },
+ {
+  "text": "там,",
+  "start": 142,
+  "startMs": 11190,
+  "endMs": 11290,
+  "matched": true
+ },
+ {
+  "text": "де",
+  "start": 147,
+  "startMs": 11290,
+  "endMs": 11440,
+  "matched": true
+ },
+ {
+  "text": "накопичуються",
+  "start": 150,
+  "startMs": 11440,
+  "endMs": 12410,
+  "matched": true
+ },
+ {
+  "text": "затримки.",
+  "start": 164,
+  "startMs": 12410,
+  "endMs": 13160,
+  "matched": true
+ },
+ {
+  "text": "В",
+  "start": 174,
+  "startMs": 13160,
+  "endMs": 13380,
+  "matched": true
+ },
+ {
+  "text": "інвентаризації",
+  "start": 176,
+  "startMs": 13380,
+  "endMs": 14470,
+  "matched": true
+ },
+ {
+  "text": "це",
+  "start": 191,
+  "startMs": 14470,
+  "endMs": 14540,
+  "matched": true
+ },
+ {
+  "text": "ручне",
+  "start": 194,
+  "startMs": 14540,
+  "endMs": 14940,
+  "matched": true
+ },
+ {
+  "text": "звіряння",
+  "start": 200,
+  "startMs": 14940,
+  "endMs": 15580,
+  "matched": true
+ },
+ {
+  "text": "опису",
+  "start": 209,
+  "startMs": 15580,
+  "endMs": 16030,
+  "matched": true
+ },
+ {
+  "text": "з",
+  "start": 215,
+  "startMs": 16030,
+  "endMs": 16070,
+  "matched": true
+ },
+ {
+  "text": "трьома",
+  "start": 217,
+  "startMs": 16070,
+  "endMs": 16550,
+  "matched": true
+ },
+ {
+  "text": "журналами.",
+  "start": 224,
+  "startMs": 16550,
+  "endMs": 17560,
+  "matched": true
+ },
+ {
+  "text": "Покращення",
+  "start": 235,
+  "startMs": 17560,
+  "endMs": 18370,
+  "matched": true
+ },
+ {
+  "text": "спрямовують",
+  "start": 246,
+  "startMs": 18370,
+  "endMs": 19250,
+  "matched": true
+ },
+ {
+  "text": "саме",
+  "start": 258,
+  "startMs": 19250,
+  "endMs": 19560,
+  "matched": true
+ },
+ {
+  "text": "сюди:",
+  "start": 263,
+  "startMs": 19560,
+  "endMs": 20080,
+  "matched": true
+ },
+ {
+  "text": "прискорення",
+  "start": 269,
+  "startMs": 20080,
+  "endMs": 20900,
+  "matched": true
+ },
+ {
+  "text": "інших",
+  "start": 281,
+  "startMs": 20900,
+  "endMs": 21270,
+  "matched": true
+ },
+ {
+  "text": "етапів",
+  "start": 287,
+  "startMs": 21270,
+  "endMs": 21750,
+  "matched": true
+ },
+ {
+  "text": "процес",
+  "start": 294,
+  "startMs": 21750,
+  "endMs": 22160,
+  "matched": true
+ },
+ {
+  "text": "не",
+  "start": 301,
+  "startMs": 22160,
+  "endMs": 22310,
+  "matched": true
+ },
+ {
+  "text": "пришвидшить.",
+  "start": 304,
+  "startMs": 22310,
+  "endMs": 23280,
+  "matched": true
+ },
+ {
+  "text": "Але",
+  "start": 317,
+  "startMs": 23280,
+  "endMs": 23550,
+  "matched": true
+ },
+ {
+  "text": "спершу",
+  "start": 321,
+  "startMs": 23550,
+  "endMs": 24090,
+  "matched": true
+ },
+ {
+  "text": "шукають",
+  "start": 328,
+  "startMs": 24090,
+  "endMs": 24733,
+  "matched": true
+ },
+ {
+  "text": "першопричину",
+  "start": 336,
+  "startMs": 24733,
+  "endMs": 25779,
+  "matched": false
+ },
+ {
+  "text": "—",
+  "start": 349,
+  "startMs": 25779,
+  "endMs": 25940,
+  "matched": false
+ },
+ {
+  "text": "методом",
+  "start": 351,
+  "startMs": 25940,
+  "endMs": 26689,
+  "matched": true
+ },
+ {
+  "text": "«5",
+  "start": 359,
+  "startMs": 26689,
+  "endMs": 26970,
+  "matched": false
+ },
+ {
+  "text": "чому».",
+  "start": 362,
+  "startMs": 26970,
+  "endMs": 27670,
+  "matched": true
+ },
+ {
+  "text": "Тут",
+  "start": 369,
+  "startMs": 27670,
+  "endMs": 27960,
+  "matched": true
+ },
+ {
+  "text": "вона",
+  "start": 373,
+  "startMs": 27960,
+  "endMs": 28230,
+  "matched": true
+ },
+ {
+  "text": "в",
+  "start": 378,
+  "startMs": 28230,
+  "endMs": 28320,
+  "matched": true
+ },
+ {
+  "text": "тому,",
+  "start": 380,
+  "startMs": 28320,
+  "endMs": 28920,
+  "matched": true
+ },
+ {
+  "text": "що",
+  "start": 386,
+  "startMs": 28920,
+  "endMs": 28960,
+  "matched": true
+ },
+ {
+  "text": "немає",
+  "start": 389,
+  "startMs": 28960,
+  "endMs": 29410,
+  "matched": true
+ },
+ {
+  "text": "єдиного",
+  "start": 395,
+  "startMs": 29410,
+  "endMs": 30040,
+  "matched": true
+ },
+ {
+  "text": "джерела",
+  "start": 403,
+  "startMs": 30040,
+  "endMs": 30670,
+  "matched": true
+ },
+ {
+  "text": "даних,",
+  "start": 411,
+  "startMs": 30670,
+  "endMs": 31320,
+  "matched": true
+ },
+ {
+  "text": "а",
+  "start": 418,
+  "startMs": 31320,
+  "endMs": 31500,
+  "matched": true
+ },
+ {
+  "text": "звіряти",
+  "start": 420,
+  "startMs": 31500,
+  "endMs": 32090,
+  "matched": true
+ },
+ {
+  "text": "частіше",
+  "start": 428,
+  "startMs": 32090,
+  "endMs": 32538,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 436,
+  "startMs": 32538,
+  "endMs": 32650,
+  "matched": false
+ },
+ {
+  "text": "означає",
+  "start": 438,
+  "startMs": 32650,
+  "endMs": 33330,
+  "matched": true
+ },
+ {
+  "text": "лікувати",
+  "start": 446,
+  "startMs": 33330,
+  "endMs": 34050,
+  "matched": true
+ },
+ {
+  "text": "симптом.",
+  "start": 455,
+  "startMs": 34050,
+  "endMs": 34920,
+  "matched": true
+ },
+ {
+  "text": "Першими",
+  "start": 464,
+  "startMs": 34920,
+  "endMs": 35430,
+  "matched": true
+ },
+ {
+  "text": "беруть",
+  "start": 472,
+  "startMs": 35430,
+  "endMs": 35870,
+  "matched": true
+ },
+ {
+  "text": "розшивання",
+  "start": 479,
+  "startMs": 35870,
+  "endMs": 36610,
+  "matched": true
+ },
+ {
+  "text": "вузького",
+  "start": 490,
+  "startMs": 36610,
+  "endMs": 37200,
+  "matched": true
+ },
+ {
+  "text": "місця",
+  "start": 499,
+  "startMs": 37200,
+  "endMs": 37640,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 505,
+  "startMs": 37640,
+  "endMs": 37770,
+  "matched": true
+ },
+ {
+  "text": "«швидкі",
+  "start": 507,
+  "startMs": 37770,
+  "endMs": 38330,
+  "matched": true
+ },
+ {
+  "text": "перемоги»:",
+  "start": 515,
+  "startMs": 38330,
+  "endMs": 39080,
+  "matched": true
+ },
+ {
+  "text": "високу",
+  "start": 526,
+  "startMs": 39080,
+  "endMs": 39620,
+  "matched": true
+ },
+ {
+  "text": "цінність",
+  "start": 533,
+  "startMs": 39620,
+  "endMs": 40380,
+  "matched": true
+ },
+ {
+  "text": "за",
+  "start": 542,
+  "startMs": 40380,
+  "endMs": 40520,
+  "matched": true
+ },
+ {
+  "text": "малих",
+  "start": 545,
+  "startMs": 40520,
+  "endMs": 40970,
+  "matched": true
+ },
+ {
+  "text": "зусиль.",
+  "start": 551,
+  "startMs": 40970,
+  "endMs": 41600,
+  "matched": true
+ }
+]
