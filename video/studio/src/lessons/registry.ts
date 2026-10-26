@@ -6,6 +6,7 @@ import { T2Z4 } from "./t2z4/meta";
 import { T2Z5 } from "./t2z5/meta";
 import { T2Z6 } from "./t2z6/meta";
 import { T2Z7 } from "./t2z7/meta";
+import { T3Z3 } from "./t3z3/meta";
 
 export const LESSONS: Record<string, LessonMeta> = {
   [T2Z3.id]: T2Z3,
@@ -13,6 +14,7 @@ export const LESSONS: Record<string, LessonMeta> = {
   [T2Z5.id]: T2Z5,
   [T2Z6.id]: T2Z6,
   [T2Z7.id]: T2Z7,
+  [T3Z3.id]: T3Z3,
 };
 
 /** Урок за першим аргументом командного рядка (npx tsx scripts/… t2z4 …). */
