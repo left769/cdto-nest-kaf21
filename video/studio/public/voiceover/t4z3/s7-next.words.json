@@ -1,0 +1,492 @@
+[
+ {
+  "text": "Після",
+  "start": 0,
+  "startMs": 80,
+  "endMs": 420,
+  "matched": true
+ },
+ {
+  "text": "лекції",
+  "start": 6,
+  "startMs": 420,
+  "endMs": 1034,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 13,
+  "startMs": 1034,
+  "endMs": 1210,
+  "matched": false
+ },
+ {
+  "text": "самостійна",
+  "start": 15,
+  "startMs": 1210,
+  "endMs": 1830,
+  "matched": true
+ },
+ {
+  "text": "підготовка:",
+  "start": 26,
+  "startMs": 1830,
+  "endMs": 2760,
+  "matched": true
+ },
+ {
+  "text": "опрацюйте",
+  "start": 38,
+  "startMs": 2760,
+  "endMs": 3330,
+  "matched": true
+ },
+ {
+  "text": "роботу",
+  "start": 48,
+  "startMs": 3330,
+  "endMs": 3730,
+  "matched": true
+ },
+ {
+  "text": "зі",
+  "start": 55,
+  "startMs": 3730,
+  "endMs": 3890,
+  "matched": true
+ },
+ {
+  "text": "складними",
+  "start": 58,
+  "startMs": 3890,
+  "endMs": 4440,
+  "matched": true
+ },
+ {
+  "text": "стейкхолдерами",
+  "start": 68,
+  "startMs": 4440,
+  "endMs": 5384,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 83,
+  "startMs": 5384,
+  "endMs": 5510,
+  "matched": false
+ },
+ {
+  "text": "запереченнями",
+  "start": 85,
+  "startMs": 5510,
+  "endMs": 6540,
+  "matched": true
+ },
+ {
+  "text": "та",
+  "start": 99,
+  "startMs": 6540,
+  "endMs": 6700,
+  "matched": true
+ },
+ {
+  "text": "алгоритм",
+  "start": 102,
+  "startMs": 6700,
+  "endMs": 7330,
+  "matched": true
+ },
+ {
+  "text": "управління",
+  "start": 111,
+  "startMs": 7330,
+  "endMs": 8140,
+  "matched": true
+ },
+ {
+  "text": "кризою",
+  "start": 122,
+  "startMs": 8140,
+  "endMs": 8630,
+  "matched": true
+ },
+ {
+  "text": "довіри",
+  "start": 129,
+  "startMs": 8630,
+  "endMs": 9130,
+  "matched": true
+ },
+ {
+  "text": "під",
+  "start": 136,
+  "startMs": 9130,
+  "endMs": 9410,
+  "matched": true
+ },
+ {
+  "text": "час",
+  "start": 140,
+  "startMs": 9410,
+  "endMs": 9760,
+  "matched": true
+ },
+ {
+  "text": "інцидентів",
+  "start": 144,
+  "startMs": 9760,
+  "endMs": 10650,
+  "matched": true
+ },
+ {
+  "text": "в",
+  "start": 155,
+  "startMs": 10650,
+  "endMs": 10750,
+  "matched": true
+ },
+ {
+  "text": "і-ка-ес.",
+  "start": 157,
+  "startMs": 10750,
+  "endMs": 11200,
+  "matched": false
+ },
+ {
+  "text": "І",
+  "start": 166,
+  "startMs": 11200,
+  "endMs": 11500,
+  "matched": true
+ },
+ {
+  "text": "побудуйте",
+  "start": 168,
+  "startMs": 11500,
+  "endMs": 11960,
+  "matched": true
+ },
+ {
+  "text": "матрицю",
+  "start": 178,
+  "startMs": 11960,
+  "endMs": 12480,
+  "matched": true
+ },
+ {
+  "text": "та",
+  "start": 186,
+  "startMs": 12480,
+  "endMs": 12680,
+  "matched": true
+ },
+ {
+  "text": "план",
+  "start": 189,
+  "startMs": 12680,
+  "endMs": 12940,
+  "matched": true
+ },
+ {
+  "text": "управління",
+  "start": 194,
+  "startMs": 12940,
+  "endMs": 13700,
+  "matched": true
+ },
+ {
+  "text": "стейкхолдерами",
+  "start": 205,
+  "startMs": 13700,
+  "endMs": 14880,
+  "matched": true
+ },
+ {
+  "text": "для",
+  "start": 220,
+  "startMs": 14880,
+  "endMs": 15120,
+  "matched": true
+ },
+ {
+  "text": "реального",
+  "start": 224,
+  "startMs": 15120,
+  "endMs": 15800,
+  "matched": true
+ },
+ {
+  "text": "проєкту",
+  "start": 234,
+  "startMs": 15800,
+  "endMs": 16320,
+  "matched": true
+ },
+ {
+  "text": "свого",
+  "start": 242,
+  "startMs": 16320,
+  "endMs": 16700,
+  "matched": true
+ },
+ {
+  "text": "підрозділу.",
+  "start": 248,
+  "startMs": 16700,
+  "endMs": 17560,
+  "matched": true
+ },
+ {
+  "text": "У",
+  "start": 260,
+  "startMs": 17560,
+  "endMs": 17780,
+  "matched": true
+ },
+ {
+  "text": "робочому",
+  "start": 262,
+  "startMs": 17780,
+  "endMs": 18330,
+  "matched": true
+ },
+ {
+  "text": "зошиті",
+  "start": 271,
+  "startMs": 18330,
+  "endMs": 18960,
+  "matched": true
+ },
+ {
+  "text": "це",
+  "start": 278,
+  "startMs": 18960,
+  "endMs": 19040,
+  "matched": true
+ },
+ {
+  "text": "крок",
+  "start": 281,
+  "startMs": 19040,
+  "endMs": 19420,
+  "matched": true
+ },
+ {
+  "text": "«Стейкхолдери",
+  "start": 286,
+  "startMs": 19420,
+  "endMs": 20414,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 300,
+  "startMs": 20414,
+  "endMs": 20557,
+  "matched": false
+ },
+ {
+  "text": "переговори»:",
+  "start": 302,
+  "startMs": 20557,
+  "endMs": 21480,
+  "matched": false
+ },
+ {
+  "text": "щонайменше",
+  "start": 315,
+  "startMs": 21480,
+  "endMs": 22180,
+  "matched": true
+ },
+ {
+  "text": "шість",
+  "start": 326,
+  "startMs": 22180,
+  "endMs": 22530,
+  "matched": true
+ },
+ {
+  "text": "стейкхолдерів,",
+  "start": 332,
+  "startMs": 22530,
+  "endMs": 23820,
+  "matched": true
+ },
+ {
+  "text": "серед",
+  "start": 347,
+  "startMs": 23820,
+  "endMs": 24070,
+  "matched": true
+ },
+ {
+  "text": "них",
+  "start": 353,
+  "startMs": 24070,
+  "endMs": 24350,
+  "matched": true
+ },
+ {
+  "text": "орган",
+  "start": 357,
+  "startMs": 24350,
+  "endMs": 24850,
+  "matched": true
+ },
+ {
+  "text": "зе-і,",
+  "start": 363,
+  "startMs": 24850,
+  "endMs": 25240,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 369,
+  "startMs": 25240,
+  "endMs": 25460,
+  "matched": true
+ },
+ {
+  "text": "для",
+  "start": 371,
+  "startMs": 25460,
+  "endMs": 25600,
+  "matched": true
+ },
+ {
+  "text": "кожного",
+  "start": 375,
+  "startMs": 25600,
+  "endMs": 26136,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 383,
+  "startMs": 26136,
+  "endMs": 26270,
+  "matched": false
+ },
+ {
+  "text": "побоювання",
+  "start": 385,
+  "startMs": 26270,
+  "endMs": 27170,
+  "matched": true
+ },
+ {
+  "text": "та",
+  "start": 396,
+  "startMs": 27170,
+  "endMs": 27350,
+  "matched": true
+ },
+ {
+  "text": "спосіб",
+  "start": 399,
+  "startMs": 27350,
+  "endMs": 27890,
+  "matched": true
+ },
+ {
+  "text": "комунікації.",
+  "start": 406,
+  "startMs": 27890,
+  "endMs": 29060,
+  "matched": true
+ },
+ {
+  "text": "На",
+  "start": 419,
+  "startMs": 29060,
+  "endMs": 29400,
+  "matched": true
+ },
+ {
+  "text": "практичному",
+  "start": 422,
+  "startMs": 29400,
+  "endMs": 30190,
+  "matched": true
+ },
+ {
+  "text": "занятті",
+  "start": 434,
+  "startMs": 30190,
+  "endMs": 30870,
+  "matched": true
+ },
+ {
+  "text": "ви",
+  "start": 442,
+  "startMs": 30870,
+  "endMs": 30960,
+  "matched": true
+ },
+ {
+  "text": "додасте",
+  "start": 445,
+  "startMs": 30960,
+  "endMs": 31380,
+  "matched": true
+ },
+ {
+  "text": "до",
+  "start": 453,
+  "startMs": 31380,
+  "endMs": 31510,
+  "matched": true
+ },
+ {
+  "text": "цього",
+  "start": 456,
+  "startMs": 31510,
+  "endMs": 31820,
+  "matched": true
+ },
+ {
+  "text": "підготовку",
+  "start": 462,
+  "startMs": 31820,
+  "endMs": 32460,
+  "matched": true
+ },
+ {
+  "text": "до",
+  "start": 473,
+  "startMs": 32460,
+  "endMs": 32600,
+  "matched": true
+ },
+ {
+  "text": "переговорів",
+  "start": 476,
+  "startMs": 32600,
+  "endMs": 33370,
+  "matched": true
+ },
+ {
+  "text": "із",
+  "start": 488,
+  "startMs": 33370,
+  "endMs": 33510,
+  "matched": true
+ },
+ {
+  "text": "найскладнішим",
+  "start": 491,
+  "startMs": 33510,
+  "endMs": 34430,
+  "matched": true
+ },
+ {
+  "text": "стейкхолдером.",
+  "start": 505,
+  "startMs": 34430,
+  "endMs": 35460,
+  "matched": true
+ }
+]

@@ -1,0 +1,618 @@
+[
+ {
+  "text": "Друге",
+  "start": 0,
+  "startMs": 50,
+  "endMs": 650,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 6,
+  "startMs": 650,
+  "endMs": 850,
+  "matched": false
+ },
+ {
+  "text": "матриця",
+  "start": 8,
+  "startMs": 850,
+  "endMs": 1380,
+  "matched": true
+ },
+ {
+  "text": "сили",
+  "start": 16,
+  "startMs": 1380,
+  "endMs": 1766,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 21,
+  "startMs": 1766,
+  "endMs": 1920,
+  "matched": false
+ },
+ {
+  "text": "інтересу.",
+  "start": 23,
+  "startMs": 1920,
+  "endMs": 2920,
+  "matched": true
+ },
+ {
+  "text": "Кожного",
+  "start": 33,
+  "startMs": 2920,
+  "endMs": 3440,
+  "matched": true
+ },
+ {
+  "text": "стейкхолдера",
+  "start": 41,
+  "startMs": 3440,
+  "endMs": 4330,
+  "matched": true
+ },
+ {
+  "text": "оцінюють",
+  "start": 54,
+  "startMs": 4330,
+  "endMs": 5000,
+  "matched": true
+ },
+ {
+  "text": "за",
+  "start": 63,
+  "startMs": 5000,
+  "endMs": 5160,
+  "matched": true
+ },
+ {
+  "text": "двома",
+  "start": 66,
+  "startMs": 5160,
+  "endMs": 5560,
+  "matched": true
+ },
+ {
+  "text": "вимірами:",
+  "start": 72,
+  "startMs": 5560,
+  "endMs": 6340,
+  "matched": true
+ },
+ {
+  "text": "вплив",
+  "start": 82,
+  "startMs": 6340,
+  "endMs": 6800,
+  "matched": true
+ },
+ {
+  "text": "на",
+  "start": 88,
+  "startMs": 6800,
+  "endMs": 6980,
+  "matched": true
+ },
+ {
+  "text": "проєкт",
+  "start": 91,
+  "startMs": 6980,
+  "endMs": 7510,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 98,
+  "startMs": 7510,
+  "endMs": 7710,
+  "matched": true
+ },
+ {
+  "text": "інтерес",
+  "start": 100,
+  "startMs": 7710,
+  "endMs": 8260,
+  "matched": true
+ },
+ {
+  "text": "до",
+  "start": 108,
+  "startMs": 8260,
+  "endMs": 8520,
+  "matched": true
+ },
+ {
+  "text": "нього.",
+  "start": 111,
+  "startMs": 8520,
+  "endMs": 9100,
+  "matched": true
+ },
+ {
+  "text": "Високий",
+  "start": 118,
+  "startMs": 9100,
+  "endMs": 9770,
+  "matched": true
+ },
+ {
+  "text": "вплив",
+  "start": 126,
+  "startMs": 9770,
+  "endMs": 10230,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 132,
+  "startMs": 10230,
+  "endMs": 10410,
+  "matched": true
+ },
+ {
+  "text": "високий",
+  "start": 134,
+  "startMs": 10410,
+  "endMs": 10980,
+  "matched": true
+ },
+ {
+  "text": "інтерес",
+  "start": 142,
+  "startMs": 10980,
+  "endMs": 11676,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 150,
+  "startMs": 11676,
+  "endMs": 11850,
+  "matched": false
+ },
+ {
+  "text": "ключові",
+  "start": 152,
+  "startMs": 11850,
+  "endMs": 12390,
+  "matched": true
+ },
+ {
+  "text": "сторони,",
+  "start": 160,
+  "startMs": 12390,
+  "endMs": 13120,
+  "matched": true
+ },
+ {
+  "text": "ними",
+  "start": 169,
+  "startMs": 13120,
+  "endMs": 13480,
+  "matched": true
+ },
+ {
+  "text": "керують",
+  "start": 174,
+  "startMs": 13480,
+  "endMs": 14110,
+  "matched": true
+ },
+ {
+  "text": "тісно.",
+  "start": 182,
+  "startMs": 14110,
+  "endMs": 14700,
+  "matched": true
+ },
+ {
+  "text": "Високий",
+  "start": 189,
+  "startMs": 14700,
+  "endMs": 15360,
+  "matched": true
+ },
+ {
+  "text": "вплив,",
+  "start": 197,
+  "startMs": 15360,
+  "endMs": 15980,
+  "matched": true
+ },
+ {
+  "text": "низький",
+  "start": 204,
+  "startMs": 15980,
+  "endMs": 16600,
+  "matched": true
+ },
+ {
+  "text": "інтерес",
+  "start": 212,
+  "startMs": 16600,
+  "endMs": 17264,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 220,
+  "startMs": 17264,
+  "endMs": 17430,
+  "matched": false
+ },
+ {
+  "text": "тримають",
+  "start": 222,
+  "startMs": 17430,
+  "endMs": 17950,
+  "matched": true
+ },
+ {
+  "text": "задоволеними.",
+  "start": 231,
+  "startMs": 17950,
+  "endMs": 18900,
+  "matched": true
+ },
+ {
+  "text": "Низький",
+  "start": 245,
+  "startMs": 18900,
+  "endMs": 19530,
+  "matched": true
+ },
+ {
+  "text": "вплив,",
+  "start": 253,
+  "startMs": 19530,
+  "endMs": 20110,
+  "matched": true
+ },
+ {
+  "text": "високий",
+  "start": 260,
+  "startMs": 20110,
+  "endMs": 20700,
+  "matched": true
+ },
+ {
+  "text": "інтерес",
+  "start": 268,
+  "startMs": 20700,
+  "endMs": 21388,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 276,
+  "startMs": 21388,
+  "endMs": 21560,
+  "matched": false
+ },
+ {
+  "text": "інформують.",
+  "start": 278,
+  "startMs": 21560,
+  "endMs": 22500,
+  "matched": true
+ },
+ {
+  "text": "Низький",
+  "start": 290,
+  "startMs": 22500,
+  "endMs": 23130,
+  "matched": true
+ },
+ {
+  "text": "вплив",
+  "start": 298,
+  "startMs": 23130,
+  "endMs": 23670,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 304,
+  "startMs": 23670,
+  "endMs": 23720,
+  "matched": true
+ },
+ {
+  "text": "низький",
+  "start": 306,
+  "startMs": 23720,
+  "endMs": 24300,
+  "matched": true
+ },
+ {
+  "text": "інтерес",
+  "start": 314,
+  "startMs": 24300,
+  "endMs": 25004,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 322,
+  "startMs": 25004,
+  "endMs": 25180,
+  "matched": false
+ },
+ {
+  "text": "моніторять.",
+  "start": 324,
+  "startMs": 25180,
+  "endMs": 26100,
+  "matched": true
+ },
+ {
+  "text": "Командування",
+  "start": 336,
+  "startMs": 26100,
+  "endMs": 26990,
+  "matched": true
+ },
+ {
+  "text": "й",
+  "start": 349,
+  "startMs": 26990,
+  "endMs": 27060,
+  "matched": true
+ },
+ {
+  "text": "начальник",
+  "start": 351,
+  "startMs": 27060,
+  "endMs": 27800,
+  "matched": true
+ },
+ {
+  "text": "складу",
+  "start": 361,
+  "startMs": 27800,
+  "endMs": 28220,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 368,
+  "startMs": 28220,
+  "endMs": 28340,
+  "matched": false
+ },
+ {
+  "text": "керувати",
+  "start": 370,
+  "startMs": 28340,
+  "endMs": 29080,
+  "matched": true
+ },
+ {
+  "text": "тісно.",
+  "start": 379,
+  "startMs": 29080,
+  "endMs": 29760,
+  "matched": true
+ },
+ {
+  "text": "Орган",
+  "start": 386,
+  "startMs": 29760,
+  "endMs": 30125,
+  "matched": true
+ },
+ {
+  "text": "зе-і",
+  "start": 392,
+  "startMs": 30125,
+  "endMs": 30430,
+  "matched": false
+ },
+ {
+  "text": "має",
+  "start": 397,
+  "startMs": 30430,
+  "endMs": 30780,
+  "matched": true
+ },
+ {
+  "text": "високий",
+  "start": 401,
+  "startMs": 30780,
+  "endMs": 31610,
+  "matched": true
+ },
+ {
+  "text": "вплив,",
+  "start": 409,
+  "startMs": 31610,
+  "endMs": 32440,
+  "matched": true
+ },
+ {
+  "text": "але",
+  "start": 416,
+  "startMs": 32440,
+  "endMs": 32670,
+  "matched": true
+ },
+ {
+  "text": "помірний",
+  "start": 420,
+  "startMs": 32670,
+  "endMs": 33390,
+  "matched": true
+ },
+ {
+  "text": "інтерес",
+  "start": 429,
+  "startMs": 33390,
+  "endMs": 33958,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 437,
+  "startMs": 33958,
+  "endMs": 34100,
+  "matched": false
+ },
+ {
+  "text": "його",
+  "start": 439,
+  "startMs": 34100,
+  "endMs": 34370,
+  "matched": true
+ },
+ {
+  "text": "тримають",
+  "start": 444,
+  "startMs": 34370,
+  "endMs": 34940,
+  "matched": true
+ },
+ {
+  "text": "задоволеним.",
+  "start": 453,
+  "startMs": 34940,
+  "endMs": 35800,
+  "matched": true
+ },
+ {
+  "text": "Окремий",
+  "start": 466,
+  "startMs": 35800,
+  "endMs": 36400,
+  "matched": true
+ },
+ {
+  "text": "користувач",
+  "start": 474,
+  "startMs": 36400,
+  "endMs": 37195,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 485,
+  "startMs": 37195,
+  "endMs": 37340,
+  "matched": false
+ },
+ {
+  "text": "інформувати.",
+  "start": 487,
+  "startMs": 37340,
+  "endMs": 38420,
+  "matched": true
+ },
+ {
+  "text": "Помилки",
+  "start": 500,
+  "startMs": 38420,
+  "endMs": 39148,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 508,
+  "startMs": 39148,
+  "endMs": 39330,
+  "matched": false
+ },
+ {
+  "text": "однакова",
+  "start": 510,
+  "startMs": 39330,
+  "endMs": 39910,
+  "matched": true
+ },
+ {
+  "text": "увага",
+  "start": 519,
+  "startMs": 39910,
+  "endMs": 40380,
+  "matched": true
+ },
+ {
+  "text": "до",
+  "start": 525,
+  "startMs": 40380,
+  "endMs": 40570,
+  "matched": true
+ },
+ {
+  "text": "всіх",
+  "start": 528,
+  "startMs": 40570,
+  "endMs": 41060,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 533,
+  "startMs": 41060,
+  "endMs": 41160,
+  "matched": true
+ },
+ {
+  "text": "забуті",
+  "start": 535,
+  "startMs": 41160,
+  "endMs": 41790,
+  "matched": true
+ },
+ {
+  "text": "впливові,",
+  "start": 542,
+  "startMs": 41790,
+  "endMs": 42730,
+  "matched": true
+ },
+ {
+  "text": "але",
+  "start": 552,
+  "startMs": 42730,
+  "endMs": 43150,
+  "matched": true
+ },
+ {
+  "text": "«тихі»",
+  "start": 556,
+  "startMs": 43150,
+  "endMs": 43760,
+  "matched": true
+ },
+ {
+  "text": "сторони,",
+  "start": 563,
+  "startMs": 43760,
+  "endMs": 44560,
+  "matched": true
+ },
+ {
+  "text": "як",
+  "start": 572,
+  "startMs": 44560,
+  "endMs": 44740,
+  "matched": true
+ },
+ {
+  "text": "орган",
+  "start": 575,
+  "startMs": 44740,
+  "endMs": 45220,
+  "matched": true
+ },
+ {
+  "text": "зе-і.",
+  "start": 581,
+  "startMs": 45220,
+  "endMs": 45620,
+  "matched": false
+ }
+]

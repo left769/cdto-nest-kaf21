@@ -1,0 +1,415 @@
+[
+ {
+  "text": "Підрозділ",
+  "start": 0,
+  "startMs": 60,
+  "endMs": 700,
+  "matched": true
+ },
+ {
+  "text": "впроваджує",
+  "start": 10,
+  "startMs": 700,
+  "endMs": 1330,
+  "matched": true
+ },
+ {
+  "text": "систему",
+  "start": 21,
+  "startMs": 1330,
+  "endMs": 1830,
+  "matched": true
+ },
+ {
+  "text": "обліку",
+  "start": 29,
+  "startMs": 1830,
+  "endMs": 2250,
+  "matched": true
+ },
+ {
+  "text": "майна,",
+  "start": 36,
+  "startMs": 2250,
+  "endMs": 2840,
+  "matched": true
+ },
+ {
+  "text": "а",
+  "start": 43,
+  "startMs": 2840,
+  "endMs": 2900,
+  "matched": true
+ },
+ {
+  "text": "начальник",
+  "start": 45,
+  "startMs": 2900,
+  "endMs": 3610,
+  "matched": true
+ },
+ {
+  "text": "складу",
+  "start": 55,
+  "startMs": 3610,
+  "endMs": 4180,
+  "matched": true
+ },
+ {
+  "text": "опирається.",
+  "start": 62,
+  "startMs": 4180,
+  "endMs": 5080,
+  "matched": true
+ },
+ {
+  "text": "Здається,",
+  "start": 74,
+  "startMs": 5080,
+  "endMs": 5840,
+  "matched": true
+ },
+ {
+  "text": "він",
+  "start": 84,
+  "startMs": 5840,
+  "endMs": 6130,
+  "matched": true
+ },
+ {
+  "text": "просто",
+  "start": 88,
+  "startMs": 6130,
+  "endMs": 6790,
+  "matched": true
+ },
+ {
+  "text": "«проти",
+  "start": 95,
+  "startMs": 6790,
+  "endMs": 7220,
+  "matched": true
+ },
+ {
+  "text": "цифри».",
+  "start": 102,
+  "startMs": 7220,
+  "endMs": 7880,
+  "matched": true
+ },
+ {
+  "text": "Насправді",
+  "start": 110,
+  "startMs": 7880,
+  "endMs": 8610,
+  "matched": true
+ },
+ {
+  "text": "він",
+  "start": 120,
+  "startMs": 8610,
+  "endMs": 8860,
+  "matched": true
+ },
+ {
+  "text": "побоюється,",
+  "start": 124,
+  "startMs": 8860,
+  "endMs": 9760,
+  "matched": true
+ },
+ {
+  "text": "що",
+  "start": 136,
+  "startMs": 9760,
+  "endMs": 9920,
+  "matched": true
+ },
+ {
+  "text": "система",
+  "start": 139,
+  "startMs": 9920,
+  "endMs": 10500,
+  "matched": true
+ },
+ {
+  "text": "виявить",
+  "start": 147,
+  "startMs": 10500,
+  "endMs": 11090,
+  "matched": true
+ },
+ {
+  "text": "давні",
+  "start": 155,
+  "startMs": 11090,
+  "endMs": 11480,
+  "matched": true
+ },
+ {
+  "text": "розбіжності.",
+  "start": 161,
+  "startMs": 11480,
+  "endMs": 12600,
+  "matched": true
+ },
+ {
+  "text": "Проєкти",
+  "start": 174,
+  "startMs": 12600,
+  "endMs": 13180,
+  "matched": true
+ },
+ {
+  "text": "частіше",
+  "start": 182,
+  "startMs": 13180,
+  "endMs": 13770,
+  "matched": true
+ },
+ {
+  "text": "зупиняють",
+  "start": 190,
+  "startMs": 13770,
+  "endMs": 14520,
+  "matched": true
+ },
+ {
+  "text": "люди,",
+  "start": 200,
+  "startMs": 14520,
+  "endMs": 14930,
+  "matched": true
+ },
+ {
+  "text": "ніж",
+  "start": 206,
+  "startMs": 14930,
+  "endMs": 15190,
+  "matched": true
+ },
+ {
+  "text": "технології.",
+  "start": 210,
+  "startMs": 15190,
+  "endMs": 16240,
+  "matched": true
+ },
+ {
+  "text": "Тому",
+  "start": 222,
+  "startMs": 16240,
+  "endMs": 16520,
+  "matched": true
+ },
+ {
+  "text": "з",
+  "start": 227,
+  "startMs": 16520,
+  "endMs": 16590,
+  "matched": true
+ },
+ {
+  "text": "людьми",
+  "start": 229,
+  "startMs": 16590,
+  "endMs": 17010,
+  "matched": true
+ },
+ {
+  "text": "навколо",
+  "start": 236,
+  "startMs": 17010,
+  "endMs": 17520,
+  "matched": true
+ },
+ {
+  "text": "проєкту",
+  "start": 244,
+  "startMs": 17520,
+  "endMs": 17990,
+  "matched": true
+ },
+ {
+  "text": "працюють",
+  "start": 252,
+  "startMs": 17990,
+  "endMs": 18620,
+  "matched": true
+ },
+ {
+  "text": "так",
+  "start": 261,
+  "startMs": 18620,
+  "endMs": 18770,
+  "matched": true
+ },
+ {
+  "text": "само",
+  "start": 265,
+  "startMs": 18770,
+  "endMs": 19050,
+  "matched": true
+ },
+ {
+  "text": "системно,",
+  "start": 270,
+  "startMs": 19050,
+  "endMs": 19800,
+  "matched": true
+ },
+ {
+  "text": "як",
+  "start": 280,
+  "startMs": 19800,
+  "endMs": 20070,
+  "matched": true
+ },
+ {
+  "text": "із",
+  "start": 283,
+  "startMs": 20070,
+  "endMs": 20150,
+  "matched": true
+ },
+ {
+  "text": "задачами:",
+  "start": 286,
+  "startMs": 20150,
+  "endMs": 21040,
+  "matched": true
+ },
+ {
+  "text": "виявляють,",
+  "start": 296,
+  "startMs": 21040,
+  "endMs": 21880,
+  "matched": true
+ },
+ {
+  "text": "класифікують,",
+  "start": 307,
+  "startMs": 21880,
+  "endMs": 23310,
+  "matched": true
+ },
+ {
+  "text": "планують",
+  "start": 321,
+  "startMs": 23310,
+  "endMs": 23720,
+  "matched": true
+ },
+ {
+  "text": "комунікацію",
+  "start": 330,
+  "startMs": 23720,
+  "endMs": 24660,
+  "matched": true
+ },
+ {
+  "text": "і",
+  "start": 342,
+  "startMs": 24660,
+  "endMs": 24690,
+  "matched": true
+ },
+ {
+  "text": "будують",
+  "start": 344,
+  "startMs": 24690,
+  "endMs": 25290,
+  "matched": true
+ },
+ {
+  "text": "довіру.",
+  "start": 352,
+  "startMs": 25290,
+  "endMs": 26160,
+  "matched": true
+ },
+ {
+  "text": "Далі",
+  "start": 360,
+  "startMs": 26160,
+  "endMs": 26410,
+  "matched": true
+ },
+ {
+  "text": "—",
+  "start": 365,
+  "startMs": 26410,
+  "endMs": 26510,
+  "matched": false
+ },
+ {
+  "text": "шість",
+  "start": 367,
+  "startMs": 26510,
+  "endMs": 27120,
+  "matched": true
+ },
+ {
+  "text": "понять,",
+  "start": 373,
+  "startMs": 27120,
+  "endMs": 27440,
+  "matched": true
+ },
+ {
+  "text": "з",
+  "start": 381,
+  "startMs": 27440,
+  "endMs": 27670,
+  "matched": true
+ },
+ {
+  "text": "якими",
+  "start": 383,
+  "startMs": 27670,
+  "endMs": 27920,
+  "matched": true
+ },
+ {
+  "text": "ви",
+  "start": 389,
+  "startMs": 27920,
+  "endMs": 28120,
+  "matched": true
+ },
+ {
+  "text": "складете",
+  "start": 392,
+  "startMs": 28120,
+  "endMs": 28830,
+  "matched": true
+ },
+ {
+  "text": "карту",
+  "start": 401,
+  "startMs": 28830,
+  "endMs": 29130,
+  "matched": true
+ },
+ {
+  "text": "стейкхолдерів",
+  "start": 407,
+  "startMs": 29130,
+  "endMs": 30170,
+  "matched": true
+ },
+ {
+  "text": "свого",
+  "start": 421,
+  "startMs": 30170,
+  "endMs": 30570,
+  "matched": true
+ },
+ {
+  "text": "проєкту.",
+  "start": 427,
+  "startMs": 30570,
+  "endMs": 31440,
+  "matched": true
+ }
+]
