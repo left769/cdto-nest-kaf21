@@ -63,11 +63,13 @@ export const Practice: React.FC<{
   compact?: boolean;
   /** Кадр появи заголовка, якщо до чек-листа в сцені є інший вміст. */
   introAt?: number;
-}> = ({ frame, cue, items, step, lessonLabel, compact = false, introAt = 0 }) => {
+  /** Заголовок чек-листа: у відео до лекції — «Після лекції». */
+  title?: string;
+}> = ({ frame, cue, items, step, lessonLabel, compact = false, introAt = 0, title = "На практичному занятті" }) => {
   return (
     <>
       <div style={{ position: "absolute", left: 120, top: compact ? 130 : 140, fontSize: compact ? F.body : F.big, fontWeight: 700, ...fadeUp(frame, introAt) }}>
-        На практичному занятті
+        {title}
       </div>
       <div
         style={{

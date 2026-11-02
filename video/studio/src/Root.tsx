@@ -12,6 +12,8 @@ import { T2Z7 } from "./lessons/t2z7/meta";
 import { T2Z7_VIDEO } from "./lessons/t2z7/Video";
 import { T3Z3 } from "./lessons/t3z3/meta";
 import { T3Z3_VIDEO } from "./lessons/t3z3/Video";
+import { T4Z3 } from "./lessons/t4z3/meta";
+import { T4Z3_VIDEO } from "./lessons/t4z3/Video";
 import "./shared/fonts";
 
 const LESSON_VIDEOS = [
@@ -21,6 +23,7 @@ const LESSON_VIDEOS = [
   { meta: T2Z6, video: T2Z6_VIDEO },
   { meta: T2Z7, video: T2Z7_VIDEO },
   { meta: T3Z3, video: T3Z3_VIDEO },
+  { meta: T4Z3, video: T4Z3_VIDEO },
 ];
 
 // Тривалості в <Composition> — заглушки: справжні рахує calculateMetadata
