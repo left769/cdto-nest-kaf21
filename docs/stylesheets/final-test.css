@@ -1,0 +1,295 @@
+/*
+ * Підсумковий тест (/final_test/). Підключає лише шаблон overrides/final_test.html.
+ * Кольори й форма — токени mod-theme.css (--mod-*, --portal-*); геройблок і
+ * цифри — класи головної (.portal-hero, .portal-stats); картки питань — стилі
+ * тесту «Перевірте себе» (.lesson-quiz__*) з extra.css і mod-theme.css.
+ */
+
+/* Тепле тло, як на головній; картки — білі (у темній темі — графітові). */
+body:has(.final-test) {
+  --md-default-bg-color: var(--portal-section);
+}
+
+.final-test-brand {
+  margin-right: auto;
+}
+
+.md-typeset .final-test__card {
+  padding: clamp(1.2rem, 3vw, 2rem);
+  background: var(--portal-card);
+}
+
+.md-typeset .final-test__card h2 {
+  margin: 0 0 0.9rem;
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.md-typeset .final-test__muted {
+  margin: 0;
+  color: var(--portal-muted);
+  font-size: 0.78rem;
+}
+
+/* ---------- Екран 1: правила й дані ---------- */
+
+.md-typeset .final-test__intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.md-typeset .final-test__rules ul {
+  margin: 0;
+}
+
+.md-typeset .final-test__rules li {
+  margin-bottom: 0.6rem;
+  font-size: 0.82rem;
+}
+
+.md-typeset .final-test__rules li::marker {
+  color: var(--mod-gold);
+}
+
+.md-typeset .final-test__field {
+  margin-top: 1.1rem;
+}
+
+.md-typeset .final-test__field label {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: var(--portal-muted);
+  font-size: 0.66rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.md-typeset .final-test__field input {
+  width: 100%;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid var(--portal-line);
+  border-radius: 0;
+  background: var(--portal-subtle);
+  color: var(--portal-ink);
+  font: inherit;
+  font-size: 0.9rem;
+}
+
+.md-typeset .final-test__field input:focus-visible {
+  border-color: var(--portal-ink);
+  outline: 3px solid var(--mod-gold);
+  outline-offset: 0;
+}
+
+.md-typeset .final-test__field input[aria-invalid="true"] {
+  border-color: var(--portal-warn);
+}
+
+.md-typeset .final-test__error {
+  margin: 0.35rem 0 0;
+  color: var(--portal-warn);
+  font-size: 0.72rem;
+}
+
+.md-typeset .final-test__error:empty {
+  display: none;
+}
+
+.md-typeset .final-test__notice {
+  margin: 1.1rem 0 0;
+  padding: 0.6rem 0.9rem;
+  border-left: 3px solid var(--mod-gold);
+  background: var(--portal-subtle);
+  font-size: 0.78rem;
+}
+
+.md-typeset .final-test__notice[hidden] {
+  display: none;
+}
+
+.md-typeset .final-test button.md-button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* .md-button у Material має display: inline-block — атрибут hidden сам не ховає. */
+.md-typeset .final-test .md-button[hidden] {
+  display: none;
+}
+
+.md-typeset .final-test__start .md-button {
+  margin-top: 1.5rem;
+}
+
+/* ---------- Екран 2: питання ---------- */
+
+/* Рядок стану під шапкою: хто проходить і скільки відповідей уже дано. */
+.md-typeset .final-test__bar {
+  position: sticky;
+  z-index: 2;
+  top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.2rem 1rem;
+  margin: 0 0 1.2rem;
+  padding: 0.75rem 1.1rem 0.95rem;
+  background: var(--mod-graphite);
+  color: var(--mod-on-dark);
+  font-size: 0.75rem;
+}
+
+.md-typeset .final-test__who {
+  font-weight: 500;
+}
+
+.md-typeset .final-test__count {
+  margin-left: auto;
+  color: var(--mod-on-dark-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset .final-test__count strong {
+  color: var(--mod-gold);
+}
+
+.md-typeset .final-test__progress {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background: rgb(255 255 255 / 12%);
+}
+
+.md-typeset .final-test__progress > span {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: var(--mod-gold);
+  transition: width 200ms ease;
+}
+
+/* Назва модуля над його питаннями — як підпис «МОДУЛЬ 01» у каталозі. */
+.md-typeset .final-test__module {
+  margin: 2.2rem 0 0.8rem;
+  color: var(--portal-muted);
+  font-size: 0.66rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.md-typeset .final-test__module:first-child {
+  margin-top: 0.4rem;
+}
+
+.md-typeset .final-test .lesson-quiz__q {
+  margin: 0 0 0.8rem;
+  background: var(--portal-card);
+  scroll-margin-top: 7rem;
+}
+
+.md-typeset .final-test .lesson-quiz__opt,
+.md-typeset .final-test .lesson-quiz__opt:hover,
+.md-typeset .final-test .lesson-quiz__opt:has(input:checked) {
+  background: var(--portal-subtle);
+}
+
+/* У темі mod-theme в картки немає рамки — пропущене питання позначаємо смугою. */
+.md-typeset .final-test .lesson-quiz__q.is-missing {
+  box-shadow: inset 3px 0 0 var(--portal-warn);
+}
+
+.md-typeset .final-test .lesson-quiz__summary:not(:empty) {
+  background: var(--portal-card);
+}
+
+.md-typeset .final-test .lesson-quiz__summary.is-warning {
+  border-left-color: var(--mod-gold);
+}
+
+.md-typeset .final-test__actions {
+  margin-top: 1.2rem;
+}
+
+/* ---------- Екран 3: результат ---------- */
+
+.md-typeset .final-test__name {
+  overflow-wrap: anywhere;
+}
+
+.md-typeset .final-test__download-status {
+  margin: 0.8rem 0 0;
+  color: var(--mod-on-dark-muted);
+  font-size: 0.75rem;
+}
+
+.md-typeset .final-test__download-status:empty {
+  display: none;
+}
+
+/* Специфічніше за [dir=ltr] .md-typeset ul / ul li з Material — без відступів маркера. */
+.md-typeset .final-test .final-test__modules {
+  margin: 0 0 1.4rem;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset .final-test .final-test__modules li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.4rem 1rem;
+  margin: 0;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--portal-line);
+  list-style: none;
+}
+
+.md-typeset .final-test__module-title {
+  font-size: 0.82rem;
+}
+
+.md-typeset .final-test__module-score {
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.md-typeset .final-test__meter {
+  grid-column: 1 / -1;
+  height: 4px;
+  background: var(--portal-subtle);
+}
+
+.md-typeset .final-test__meter > span {
+  display: block;
+  height: 100%;
+  background: var(--mod-gold);
+}
+
+/* ---------- Вузькі екрани ---------- */
+
+@media screen and (max-width: 59.9844em) {
+  .md-typeset .final-test__intro {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .md-typeset .final-test__bar {
+    margin-inline: -0.8rem;
+    padding-inline: 0.8rem;
+    font-size: 0.7rem;
+  }
+
+  .md-typeset .final-test__card {
+    padding: 1.2rem 1rem;
+  }
+}

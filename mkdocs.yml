@@ -62,13 +62,16 @@ exclude_docs: |
   program.md
 
 # Сторінка контактів відкривається з шапки, а не з вкладок.
+# Підсумковий тест (/final_test/) — лише за прямим посиланням, без навігації порталу.
 not_in_nav: |
   contacts.md
+  final_test.md
 
 hooks:
   - hooks/cache_bust.py
   - hooks/quiz.py
   - hooks/workbook.py
+  - hooks/final_test.py
 
 # Тести лежать поза docs/ — просимо `mkdocs serve` стежити за ними.
 watch:

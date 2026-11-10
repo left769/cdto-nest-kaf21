@@ -1,0 +1,169 @@
+{#-
+  Підсумковий тест (docs/final_test.md → /final_test/).
+
+  Окрема сторінка без навігації порталу: у шапці лише емблеми й назва курсу
+  (без посилань), немає вкладок, бічного меню, пошуку, «хлібних крихт»
+  і посилань у футері. Сторінки немає в навігації та пошуку порталу.
+
+  Банк питань вбудовує hooks/final_test.py, логіка — javascripts/final-test.js,
+  стилі — stylesheets/final-test.css. Текст правил — тіло docs/final_test.md.
+-#}
+{% extends "main.html" %}
+
+{% macro plural(n, one, few, many) -%}
+  {%- if n % 10 == 1 and n % 100 != 11 -%}{{ one }}
+  {%- elif n % 10 in [2, 3, 4] and n % 100 not in [12, 13, 14] -%}{{ few }}
+  {%- else -%}{{ many }}{%- endif -%}
+{%- endmacro %}
+
+{% block extrahead %}
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="{{ config.extra.final_test.css | url }}">
+{% endblock %}
+
+{% block header %}
+  {% set course = config.extra.course | d({}) %}
+  <header class="md-header" data-md-component="header">
+    <div class="md-header__inner md-grid">
+      <div class="portal-brand-link final-test-brand">
+        {% if config.extra.partner_logo %}
+          <img class="portal-brand-link__partner" src="{{ config.extra.partner_logo | url }}" alt="CDTO Campus">
+          <span class="portal-brand-link__divider" aria-hidden="true"></span>
+        {% endif %}
+        <img class="portal-brand-link__logo" src="{{ config.theme.logo | url }}" alt="{{ config.site_author }}">
+        {% if course.title %}
+          <span class="portal-brand-link__text portal-brand-link__text--full">
+            <span class="portal-brand-link__name">{{ course.title }}</span>
+            <span class="portal-brand-link__sub">{{ course.subtitle }}</span>
+          </span>
+        {% endif %}
+      </div>
+      {% if config.theme.palette and not config.theme.palette is mapping %}
+        {% include "partials/palette.html" %}
+        {% include "partials/javascripts/palette.html" %}
+      {% endif %}
+    </div>
+  </header>
+{% endblock %}
+
+{% block tabs %}{% endblock %}
+{% block site_nav %}{% endblock %}
+
+{% block container %}
+  {% set course = config.extra.course | d({}) %}
+  {% set course_name = (course.title ~ " " ~ course.subtitle) if course.title else config.site_name %}
+  {% set ft = page.meta.final_test %}
+  {% set assets = config.extra.final_test %}
+  <div class="md-content" data-md-component="content">
+    <article class="md-content__inner md-typeset">
+      <div class="final-test"
+        data-course-title="{{ course.title | d(config.site_name) }}"
+        data-course-subtitle="{{ course.subtitle | d('') }}"
+        data-portal="{{ config.site_name }}"
+        data-department="{{ config.site_author }}"
+        data-jspdf="{{ assets.jspdf | url }}"
+        data-logo="{{ assets.logo | url }}"
+        data-font-light="{{ assets.font_light | url }}"
+        data-font-regular="{{ assets.font_regular | url }}"
+        data-font-medium="{{ assets.font_medium | url }}">
+
+        {#- ---------- Екран 1: правила й дані слухача ---------- -#}
+        <section class="final-test__screen" data-screen="intro">
+          <div class="portal-hero">
+            <p class="portal-course">{{ course_name }}</p>
+            <h1>{{ page.title }}</h1>
+            <p class="portal-lead">Перевірка знань за всіма модулями курсу. За результатом ви отримаєте сертифікат у форматі PDF.</p>
+            <div class="portal-stats">
+              <div><strong>{{ "%02d" | format(ft.questions) }}</strong><span>{{ plural(ft.questions, "питання", "питання", "питань") }} у тесті</span></div>
+              <div><strong>{{ "%02d" | format(ft.points) }}</strong><span>{{ plural(ft.points, "бал", "бали", "балів") }} за правильну відповідь</span></div>
+              <div><strong>{{ ft.max }}</strong><span>максимальний бал</span></div>
+              <div><strong>{{ ft.pass }}</strong><span>прохідний бал</span></div>
+              <div><strong>{{ "%02d" | format(ft.modules) }}</strong><span>{{ plural(ft.modules, "модуль", "модулі", "модулів") }} курсу</span></div>
+            </div>
+          </div>
+
+          <div class="final-test__intro">
+            <div class="final-test__card final-test__rules">
+              <h2>Як проходить тест</h2>
+              {{ page.content }}
+            </div>
+
+            <form class="final-test__card final-test__start" novalidate>
+              <h2>Ваші дані для сертифіката</h2>
+              <p class="final-test__muted">Ім’я та прізвище українською мовою — так, як вони мають бути в сертифікаті.</p>
+              <div class="final-test__field">
+                <label for="final-test-first">Ім’я</label>
+                <input id="final-test-first" name="first" type="text" lang="uk" autocomplete="given-name" autocapitalize="words" spellcheck="false" maxlength="40" required aria-describedby="final-test-first-error">
+                <p class="final-test__error" id="final-test-first-error" aria-live="polite"></p>
+              </div>
+              <div class="final-test__field">
+                <label for="final-test-last">Прізвище</label>
+                <input id="final-test-last" name="last" type="text" lang="uk" autocomplete="family-name" autocapitalize="words" spellcheck="false" maxlength="40" required aria-describedby="final-test-last-error">
+                <p class="final-test__error" id="final-test-last-error" aria-live="polite"></p>
+              </div>
+              <p class="final-test__notice" role="status" hidden></p>
+              <button type="submit" class="md-button md-button--primary">Розпочати тест <span aria-hidden="true">→</span></button>
+            </form>
+          </div>
+          <noscript><p class="final-test__card">Для проходження тесту увімкніть JavaScript у браузері.</p></noscript>
+        </section>
+
+        {#- ---------- Екран 2: питання ---------- -#}
+        <section class="final-test__screen" data-screen="test" hidden>
+          <div class="final-test__bar">
+            <span class="final-test__who"></span>
+            <span class="final-test__count">Відповіді: <strong>0</strong> з {{ ft.questions }}</span>
+            <span class="final-test__progress" aria-hidden="true"><span></span></span>
+          </div>
+          <h1 class="portal-sr-only" tabindex="-1">{{ page.title }}</h1>
+          <form class="final-test__questions" novalidate>
+            <div class="final-test__list"></div>
+            <div class="lesson-quiz__summary" tabindex="-1" role="status" aria-live="polite"></div>
+            <div class="final-test__actions">
+              <button type="submit" class="md-button md-button--primary">Завершити тест</button>
+            </div>
+          </form>
+        </section>
+
+        {#- ---------- Екран 3: результат ---------- -#}
+        <section class="final-test__screen" data-screen="result" hidden>
+          <div class="portal-hero">
+            <p class="portal-course">{{ page.title }} · {{ course_name }}</p>
+            <h1 class="final-test__name" tabindex="-1"></h1>
+            <p class="portal-lead final-test__verdict"></p>
+            <div class="portal-stats final-test__stats"></div>
+            <p class="portal-actions">
+              <button type="button" class="md-button md-button--primary final-test__download" hidden>Завантажити результат</button>
+              <button type="button" class="md-button md-button--primary final-test__retake" hidden>Пройти тест ще раз</button>
+            </p>
+            <p class="final-test__download-status" role="status" aria-live="polite"></p>
+          </div>
+
+          <div class="final-test__card">
+            <h2>Результат за модулями</h2>
+            <ul class="final-test__modules"></ul>
+            <p class="final-test__muted final-test__note" data-passed>Сертифікат формується у вашому браузері й нікуди не надсилається. Збережіть його до закриття вкладки: після цього результат не відновиться.</p>
+            <p class="final-test__muted final-test__note" data-failed>Поверніться до матеріалів модулів із найнижчим результатом, а потім пройдіть тест ще раз — питання будуть інші.</p>
+          </div>
+        </section>
+      </div>
+    </article>
+  </div>
+{% endblock %}
+
+{% block footer %}
+  <footer class="md-footer">
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-copyright">
+          <div class="md-copyright__highlight">{{ config.copyright | striptags }}</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ config.extra.final_test.js | url }}"></script>
+{% endblock %}

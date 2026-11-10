@@ -12,7 +12,7 @@ import hashlib
 from pathlib import Path
 
 
-def _fingerprint(docs_dir: Path, path: str) -> str:
+def fingerprint(docs_dir: Path, path: str) -> str:
     if "://" in path or path.startswith("//") or "?" in path:
         return path
     file = docs_dir / path
@@ -24,14 +24,14 @@ def _fingerprint(docs_dir: Path, path: str) -> str:
 
 def on_config(config):
     docs_dir = Path(config.docs_dir)
-    config.extra_css = [_fingerprint(docs_dir, path) for path in config.extra_css]
+    config.extra_css = [fingerprint(docs_dir, path) for path in config.extra_css]
     scripts = []
     for script in config.extra_javascript:
         # Прості записи — рядки, записи з атрибутами (defer, type) — об’єкти.
         if isinstance(script, str):
-            script = _fingerprint(docs_dir, script)
+            script = fingerprint(docs_dir, script)
         else:
-            script.path = _fingerprint(docs_dir, script.path)
+            script.path = fingerprint(docs_dir, script.path)
         scripts.append(script)
     config.extra_javascript = scripts
     return config
