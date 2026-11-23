@@ -1,6 +1,6 @@
 {#-
-  Шапка в стилістиці mod.gov.ua: емблема кафедри, вертикальний розділювач
-  і назва курсу у два рядки (extra.course у mkdocs.yml), яка не змінюється
+  Шапка в стилістиці mod.gov.ua: емблема кафедри й назва курсу у два рядки
+  (extra.course у mkdocs.yml), яка не змінюється
   під час прокручування. На вузьких екранах — коротка назва (site_name).
   Основа — partials/header.html з mkdocs-material 9.7.7.
 -#}
@@ -20,17 +20,9 @@
     </label>
     {% set course = config.extra.course | d({}) %}
     {% set full_name = (course.title ~ " " ~ course.subtitle) if course.title else config.site_name %}
-    <a href="{{ home_url }}" class="portal-brand-link" aria-label="{% if config.extra.partner_logo %}CDTO Campus. {% endif %}{{ full_name }} — на головну" data-md-component="logo">
-      {#- Як «Тризуб | емблема» на mod.gov.ua: CDTO Campus, розділювач, емблема кафедри. -#}
-      {% if config.extra.partner_logo %}
-        <img class="portal-brand-link__partner" src="{{ config.extra.partner_logo | url }}" alt="">
-        {% if config.theme.logo %}
-          <span class="portal-brand-link__divider" aria-hidden="true"></span>
-          <img class="portal-brand-link__logo" src="{{ config.theme.logo | url }}" alt="">
-        {% endif %}
-      {% elif config.theme.logo %}
+    <a href="{{ home_url }}" class="portal-brand-link" aria-label="{{ full_name }} — на головну" data-md-component="logo">
+      {% if config.theme.logo %}
         <img class="portal-brand-link__logo" src="{{ config.theme.logo | url }}" alt="">
-        <span class="portal-brand-link__divider" aria-hidden="true"></span>
       {% endif %}
       {#- Повна назва курсу — на широких екранах; коротка — на планшетах і телефонах. -#}
       {% if course.title %}

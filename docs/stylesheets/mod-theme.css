@@ -623,13 +623,6 @@ body:has(.portal-hero) {
   flex: none;
 }
 
-.portal-brand-link__divider {
-  width: 1px;
-  height: 1.9rem;
-  flex: none;
-  background: rgb(255 255 255 / 35%);
-}
-
 .portal-brand-link__text {
   display: flex;
   min-width: 0;
@@ -693,9 +686,6 @@ body:has(.portal-hero) {
     height: 2rem;
   }
 
-  .portal-brand-link__divider {
-    height: 1.6rem;
-  }
 }
 
 @media screen and (max-width: 600px) {
@@ -781,10 +771,6 @@ body:has(.portal-contacts) {
 }
 
 @media screen and (max-width: 380px) {
-  .portal-brand-link__divider {
-    display: none;
-  }
-
   .portal-brand-link__logo {
     height: 1.6rem;
   }
@@ -846,34 +832,15 @@ body:has(.portal-contacts) {
   padding-inline: 0.8rem;
 }
 
-/* ---------- CDTO Campus поруч з емблемою кафедри ---------- */
-
-.portal-brand-link__partner {
-  width: auto;
-  height: 1.8rem;
-  flex: none;
-}
-
-/* Назва відділена від логотипів відступом, як на mod.gov.ua. */
+/* Назва відділена від логотипа відступом, як на mod.gov.ua. */
 .portal-brand-link img + .portal-brand-link__text {
   margin-left: 0.4rem;
 }
 
-/* Нижче 1024 px текстова назва не вміщується поруч з двома логотипами —
-   лишаємо логотипи («CDTO Campus» на логотипі сам підписує портал). */
+/* Нижче 1024 px приховуємо повну текстову назву. */
 @media screen and (max-width: 63.9844em) {
   .portal-brand-link__text--short {
     display: none;
-  }
-}
-
-@media screen and (max-width: 380px) {
-  .portal-brand-link__divider {
-    display: block;
-  }
-
-  .portal-brand-link__partner {
-    height: 1.5rem;
   }
 }
 
