@@ -7,8 +7,6 @@ extra:
   generator: false
   # Офіційна назва курсу: два рядки в шапці на широких екранах
   # (overrides/partials/header.html). На вузьких — коротка site_name.
-  # Логотип партнера поруч з емблемою кафедри в шапці.
-  partner_logo: assets/cdto_campus_white.png
   course:
     title: Курс підвищення кваліфікації офіцерів
     subtitle: у сфері цифрового розвитку, цифрових трансформацій і цифровізації
