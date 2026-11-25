@@ -100,7 +100,7 @@ mkdocs build --strict
 
 ```markdown
 ---
-lesson: CDTO_Meth_T2_Z2_Practical   # файл заняття без .md
+lesson: CDTO_Meth_T3_Z2_Practical   # файл заняття без .md
 step: 2
 summary: Один рядок — з’являється в блоці на сторінці заняття.
 ---

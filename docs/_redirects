@@ -1,0 +1,21 @@
+# Переадресації Cloudflare Pages (файл копіюється в корінь зібраного сайту).
+# Кроки робочого зошита перенумеровано після перестановки модулів 2 і 3 (2026-11-25):
+# старі адреси кроків ведуть на ті самі кроки під новими номерами.
+/workbook/step-02-charter/ /workbook/step-05-charter/ 301
+/workbook/step-02-charter /workbook/step-05-charter/ 301
+/workbook/step-03-kpi/ /workbook/step-06-kpi/ 301
+/workbook/step-03-kpi /workbook/step-06-kpi/ 301
+/workbook/step-04-risks/ /workbook/step-07-risks/ 301
+/workbook/step-04-risks /workbook/step-07-risks/ 301
+/workbook/step-05-portfolio/ /workbook/step-08-portfolio/ 301
+/workbook/step-05-portfolio /workbook/step-08-portfolio/ 301
+/workbook/step-06-dependencies/ /workbook/step-09-dependencies/ 301
+/workbook/step-06-dependencies /workbook/step-09-dependencies/ 301
+/workbook/step-07-contractor/ /workbook/step-10-contractor/ 301
+/workbook/step-07-contractor /workbook/step-10-contractor/ 301
+/workbook/step-08-process/ /workbook/step-02-process/ 301
+/workbook/step-08-process /workbook/step-02-process/ 301
+/workbook/step-09-to-be/ /workbook/step-03-to-be/ 301
+/workbook/step-09-to-be /workbook/step-03-to-be/ 301
+/workbook/step-10-requirements/ /workbook/step-04-requirements/ 301
+/workbook/step-10-requirements /workbook/step-04-requirements/ 301

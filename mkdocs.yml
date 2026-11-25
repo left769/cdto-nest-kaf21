@@ -122,18 +122,18 @@ nav:
   - Робочий зошит:
       - Про робочий зошит: workbook/index.md
       - Легенда та кейси: workbook/cases.md
-      - Тема 1, 3 · Цілі й управління:
+      - Тема 1–2 · Цілі й аналіз:
           - Крок 1 · Кейс, ролі, OKR: workbook/step-01-okr.md
-          - Крок 2 · Статут і план: workbook/step-02-charter.md
-          - Крок 3 · KPI і RAID-log: workbook/step-03-kpi.md
-          - Крок 4 · Ризики: workbook/step-04-risks.md
-          - Крок 5 · Проєкт у портфелі: workbook/step-05-portfolio.md
-          - Крок 6 · Залежності: workbook/step-06-dependencies.md
-          - Крок 7 · Завдання виконавцю: workbook/step-07-contractor.md
-      - Тема 2 · Аналіз і вимоги:
-          - Крок 8 · Модель процесу: workbook/step-08-process.md
-          - Крок 9 · TO-BE і запит на зміну: workbook/step-09-to-be.md
-          - Крок 10 · Вимоги й ТЗ: workbook/step-10-requirements.md
+          - Крок 2 · Модель процесу: workbook/step-02-process.md
+          - Крок 3 · AS-IS / TO-BE: workbook/step-03-to-be.md
+          - Крок 4 · Вимоги й ТЗ: workbook/step-04-requirements.md
+      - Тема 3 · Управління проєктом:
+          - Крок 5 · Статут і план: workbook/step-05-charter.md
+          - Крок 6 · KPI і RAID-log: workbook/step-06-kpi.md
+          - Крок 7 · Ризики: workbook/step-07-risks.md
+          - Крок 8 · Проєкт у портфелі: workbook/step-08-portfolio.md
+          - Крок 9 · Залежності: workbook/step-09-dependencies.md
+          - Крок 10 · Виконавець і запит на зміну: workbook/step-10-contractor.md
       - Тема 4–5 · Впровадження й документи:
           - Крок 11 · План впровадження: workbook/step-11-rollout.md
           - Крок 12 · Стейкхолдери: workbook/step-12-stakeholders.md

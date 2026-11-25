@@ -3,7 +3,7 @@
 Крок зошита — це сторінка docs/workbook/*.md з метаданими:
 
     ---
-    lesson: CDTO_Meth_T2_Z2_Practical   # файл заняття без .md
+    lesson: CDTO_Meth_T3_Z2_Practical   # файл заняття без .md
     step: 2
     summary: Один рядок про те, що робить команда.
     ---
