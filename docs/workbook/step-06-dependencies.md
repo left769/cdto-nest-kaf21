@@ -7,7 +7,7 @@ summary: Dependency map проєкту, план дій для критични�
 # Крок 6. Dependency map
 
 <div class="workbook-meta" markdown>
-<div markdown>**Заняття**<br>[Тема 2 · Заняття 7. Залежності та міжвідомча інтеграція](../CDTO_Meth_T2_Z7_Practical.md)</div>
+<div markdown>**Заняття**<br>[Тема 3 · Заняття 7. Залежності та міжвідомча інтеграція](../CDTO_Meth_T2_Z7_Practical.md)</div>
 <div markdown>**Веде**<br>PM, за участі BA</div>
 <div markdown>**Обсяг**<br>Середній</div>
 <div markdown>**Результат**<br>`06-zalezhnosti.md`</div>

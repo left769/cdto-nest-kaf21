@@ -7,7 +7,7 @@ summary: Система KPI проєкту, макет дашборда і RAID-
 # Крок 3. KPI, дашборд, RAID-log
 
 <div class="workbook-meta" markdown>
-<div markdown>**Заняття**<br>[Тема 2 · Заняття 3. Моніторинг, контроль і звітність](../CDTO_Meth_T2_Z3_Practical.md)</div>
+<div markdown>**Заняття**<br>[Тема 3 · Заняття 3. Моніторинг, контроль і звітність](../CDTO_Meth_T2_Z3_Practical.md)</div>
 <div markdown>**Веде**<br>Data Analyst і PM</div>
 <div markdown>**Обсяг**<br>Середній</div>
 <div markdown>**Результат**<br>`03-kpi.md`</div>

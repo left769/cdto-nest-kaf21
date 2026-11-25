@@ -7,7 +7,7 @@ summary: Постановка завдання зовнішньому викон
 # Крок 7. Постановка завдання виконавцю і приймальний протокол
 
 <div class="workbook-meta" markdown>
-<div markdown>**Заняття**<br>[Тема 2 · Заняття 8. Супровід зовнішнього виконавця](../CDTO_Meth_T2_Z8_Practical.md)</div>
+<div markdown>**Заняття**<br>[Тема 3 · Заняття 8. Супровід зовнішнього виконавця](../CDTO_Meth_T2_Z8_Practical.md)</div>
 <div markdown>**Веде**<br>PM і BA</div>
 <div markdown>**Обсяг**<br>Середній</div>
 <div markdown>**Результат**<br>`07-vykonavets.md`</div>

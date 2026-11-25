@@ -7,7 +7,7 @@ summary: Місце вашого проєкту в портфелі підроз
 # Крок 5. Проєкт у портфелі підрозділу
 
 <div class="workbook-meta" markdown>
-<div markdown>**Заняття**<br>[Тема 2 · Заняття 6. Управління портфелем ініціатив](../CDTO_Meth_T2_Z6_Lecture_Practical.md)</div>
+<div markdown>**Заняття**<br>[Тема 3 · Заняття 6. Управління портфелем ініціатив](../CDTO_Meth_T2_Z6_Lecture_Practical.md)</div>
 <div markdown>**Веде**<br>DT Lead і PM</div>
 <div markdown>**Обсяг**<br>Великий</div>
 <div markdown>**Результат**<br>`05-portfel.md`</div>

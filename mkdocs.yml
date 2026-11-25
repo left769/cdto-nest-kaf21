@@ -84,7 +84,16 @@ nav:
           - Заняття 2 · Нормативно-правові акти: CDTO_Meth_T1_Z2_Seminar.md
           - Заняття 3 · Організаційна структура: CDTO_Meth_T1_Z3_Lecture.md
           - Заняття 4 · OKR: CDTO_Meth_T1_Z4_Practical_OKR.md
-      - Модуль 2 · Управління проєктами:
+      # Модулі 2 і 3 переставлено: файли T3_* — модуль 2, T2_* — модуль 3.
+      # Імена файлів (і адреси сторінок) лишилися старі, щоб не зламати
+      # закладки слухачів і збережений у браузері прогрес тестів.
+      - Модуль 2 · Бізнес-аналіз:
+          - Заняття 1 · Основи бізнес-аналізу: CDTO_Meth_T3_Z1_Lecture.md
+          - Заняття 2 · Моделювання процесів: CDTO_Meth_T3_Z2_Practical.md
+          - Заняття 3 · Аналіз AS-IS / TO-BE: CDTO_Meth_T3_Z3_Practical.md
+          - Заняття 4 · Вимоги та Use Cases: CDTO_Meth_T3_Z4_Practical.md
+          - Заняття 5 · Аналітика зворотного зв’язку: CDTO_Meth_T3_Z5_Seminar.md
+      - Модуль 3 · Управління проєктами:
           - Заняття 1 · Методології: CDTO_Meth_T2_Z1_Lecture.md
           - Заняття 2 · Ініціювання та планування: CDTO_Meth_T2_Z2_Practical.md
           - Заняття 3 · Моніторинг і контроль: CDTO_Meth_T2_Z3_Practical.md
@@ -93,12 +102,6 @@ nav:
           - Заняття 6 · Портфель ініціатив: CDTO_Meth_T2_Z6_Lecture_Practical.md
           - Заняття 7 · Залежності та інтеграція: CDTO_Meth_T2_Z7_Practical.md
           - Заняття 8 · Супровід виконавця: CDTO_Meth_T2_Z8_Practical.md
-      - Модуль 3 · Бізнес-аналіз:
-          - Заняття 1 · Основи бізнес-аналізу: CDTO_Meth_T3_Z1_Lecture.md
-          - Заняття 2 · Моделювання процесів: CDTO_Meth_T3_Z2_Practical.md
-          - Заняття 3 · Аналіз AS-IS / TO-BE: CDTO_Meth_T3_Z3_Practical.md
-          - Заняття 4 · Вимоги та Use Cases: CDTO_Meth_T3_Z4_Practical.md
-          - Заняття 5 · Аналітика зворотного зв’язку: CDTO_Meth_T3_Z5_Seminar.md
       - Модуль 4 · Впровадження ІКС:
           - Заняття 1 · Організація впровадження: CDTO_Meth_T4_Z1_Lecture.md
           - Заняття 2 · Планування впровадження: CDTO_Meth_T4_Z2_Practical.md
@@ -117,7 +120,7 @@ nav:
   - Робочий зошит:
       - Про робочий зошит: workbook/index.md
       - Легенда та кейси: workbook/cases.md
-      - Тема 1–2 · Цілі й управління:
+      - Тема 1, 3 · Цілі й управління:
           - Крок 1 · Кейс, ролі, OKR: workbook/step-01-okr.md
           - Крок 2 · Статут і план: workbook/step-02-charter.md
           - Крок 3 · KPI і RAID-log: workbook/step-03-kpi.md
@@ -125,7 +128,7 @@ nav:
           - Крок 5 · Проєкт у портфелі: workbook/step-05-portfolio.md
           - Крок 6 · Залежності: workbook/step-06-dependencies.md
           - Крок 7 · Завдання виконавцю: workbook/step-07-contractor.md
-      - Тема 3 · Аналіз і вимоги:
+      - Тема 2 · Аналіз і вимоги:
           - Крок 8 · Модель процесу: workbook/step-08-process.md
           - Крок 9 · TO-BE і запит на зміну: workbook/step-09-to-be.md
           - Крок 10 · Вимоги й ТЗ: workbook/step-10-requirements.md

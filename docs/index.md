@@ -49,6 +49,20 @@ hide:
 
 -   <span class="topic-number">МОДУЛЬ 02</span>
 
+    ### Бізнес-аналіз та вимоги до ІТ-продуктів
+
+    Аналіз потреб, моделювання процесів і формування вимог до рішень.
+
+    **5 занять**
+
+    - [Основи бізнес-аналізу](CDTO_Meth_T3_Z1_Lecture.md)
+    - [Моделювання процесів: IDEF0, BPMN, UML](CDTO_Meth_T3_Z2_Practical.md)
+    - [Аналіз процесів AS-IS / TO-BE](CDTO_Meth_T3_Z3_Practical.md)
+    - [Від потреби до технічного завдання](CDTO_Meth_T3_Z4_Practical.md)
+    - [Аналітика зворотного зв’язку](CDTO_Meth_T3_Z5_Seminar.md)
+
+-   <span class="topic-number">МОДУЛЬ 03</span>
+
     ### Управління проєктами у військовому середовищі
 
     Від ініціювання й планування до управління портфелем, ризиками та роботи з виконавцем.
@@ -63,20 +77,6 @@ hide:
     - [Управління портфелем ініціатив](CDTO_Meth_T2_Z6_Lecture_Practical.md)
     - [Залежності та міжвідомча інтеграція](CDTO_Meth_T2_Z7_Practical.md)
     - [Супровід зовнішнього виконавця](CDTO_Meth_T2_Z8_Practical.md)
-
--   <span class="topic-number">МОДУЛЬ 03</span>
-
-    ### Бізнес-аналіз та вимоги до ІТ-продуктів
-
-    Аналіз потреб, моделювання процесів і формування вимог до рішень.
-
-    **5 занять**
-
-    - [Основи бізнес-аналізу](CDTO_Meth_T3_Z1_Lecture.md)
-    - [Моделювання процесів: IDEF0, BPMN, UML](CDTO_Meth_T3_Z2_Practical.md)
-    - [Аналіз процесів AS-IS / TO-BE](CDTO_Meth_T3_Z3_Practical.md)
-    - [Від потреби до технічного завдання](CDTO_Meth_T3_Z4_Practical.md)
-    - [Аналітика зворотного зв’язку](CDTO_Meth_T3_Z5_Seminar.md)
 
 -   <span class="topic-number">МОДУЛЬ 04</span>
 

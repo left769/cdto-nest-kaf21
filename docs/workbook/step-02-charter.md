@@ -7,7 +7,7 @@ summary: Статут проєкту, WBS, діаграма Ганта й roadma
 # Крок 2. Статут, WBS, Гант, roadmap
 
 <div class="workbook-meta" markdown>
-<div markdown>**Заняття**<br>[Тема 2 · Заняття 2. Ініціювання та планування](../CDTO_Meth_T2_Z2_Practical.md)</div>
+<div markdown>**Заняття**<br>[Тема 3 · Заняття 2. Ініціювання та планування](../CDTO_Meth_T2_Z2_Practical.md)</div>
 <div markdown>**Веде**<br>PM, за участі DT Lead</div>
 <div markdown>**Обсяг**<br>Великий</div>
 <div markdown>**Результат**<br>`02-statut.md`</div>
