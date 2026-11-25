@@ -1,4 +1,8 @@
-"""Підсумковий тест курсу: сторінка docs/final_test.md (адреса /final_test/).
+"""Тести за всім курсом: підсумковий (docs/final_test.md → /final_test/)
+і вхідний контроль (docs/start.md → /start/).
+
+Хук обробляє кожну сторінку, у метаданих якої є розділ final_test. Обидві
+сторінки беруть питання з одного банку й відрізняються лише налаштуваннями.
 
 Банк питань — тести «Перевірте себе» з quizzes/, згруповані за модулями так,
 як заняття стоять у навігації mkdocs.yml: модуль — це розділ навігації, у якому
@@ -15,12 +19,17 @@
 перевірку в браузері без сервера обійти можна завжди.
 
 Кількість питань, бали за питання й прохідний бал (у балах) задаються
-в метаданих docs/final_test.md:
+в метаданих сторінки:
 
     final_test:
+      kind: final     # final — підсумковий тест, entry — вхідний контроль
       questions: 50
       points: 2
-      pass: 70
+      pass: 70        # без pass прохідного бала немає: результат у PDF
+                      # можна завантажити за будь-якого рахунку
+
+Від kind залежать тексти сторінки й PDF (сертифікат чи результат вхідного
+контролю) і ключ, під яким спроба зберігається в браузері.
 """
 
 from __future__ import annotations
@@ -36,10 +45,14 @@ from quiz import QUIZ_DIR, parse_quiz
 
 log = logging.getLogger("mkdocs.hooks.final_test")
 
-PAGE = "final_test.md"
+KINDS = ("final", "entry")
+DEFAULT_KIND = "final"
 DEFAULT_QUESTIONS = 50
 DEFAULT_POINTS = 2
-DEFAULT_PASS = 70
+
+# Попередження про тести поза навігацією — один раз на збирання,
+# а не для кожної сторінки з тестом.
+_warned_unused = False
 
 # Файли, які потрібні лише сторінці тесту: адреси з відбитком вмісту
 # потрапляють у config.extra.final_test і звідти — у шаблон final_test.html.
@@ -55,6 +68,8 @@ ASSETS = {
 
 
 def on_config(config):
+    global _warned_unused
+    _warned_unused = False
     docs_dir = Path(config.docs_dir)
     config.extra["final_test"] = {
         key: fingerprint(docs_dir, path) for key, path in ASSETS.items()
@@ -97,7 +112,9 @@ def find_modules(nav) -> list[tuple[str, list[str]]]:
     return modules
 
 
-def build_bank(config, count: int, points: int, pass_score: int) -> dict:
+def build_bank(page_name: str, config, count: int, points: int,
+               pass_score: int | None) -> dict:
+    global _warned_unused
     modules = []
     used: set[str] = set()
     for title, stems in find_modules(config.nav):
@@ -125,19 +142,21 @@ def build_bank(config, count: int, points: int, pass_score: int) -> dict:
         if lessons:
             modules.append({"title": title, "lessons": lessons})
 
-    for source in sorted(QUIZ_DIR.glob("*.md")):
-        if source.stem not in used:
-            log.warning(
-                "%s: тест не потрапить у підсумковий — заняття немає в жодному "
-                "модулі навігації mkdocs.yml", source.name,
-            )
+    if not _warned_unused:
+        _warned_unused = True
+        for source in sorted(QUIZ_DIR.glob("*.md")):
+            if source.stem not in used:
+                log.warning(
+                    "%s: тест не потрапить у тести за курсом — заняття немає "
+                    "в жодному модулі навігації mkdocs.yml", source.name,
+                )
 
     available = sum(len(l["questions"]) for m in modules for l in m["lessons"])
     if count > available:
-        log.warning("%s: просять %d питань, а в банку лише %d", PAGE, count, available)
+        log.warning("%s: просять %d питань, а в банку лише %d", page_name, count, available)
         count = available
-    if pass_score > count * points:
-        log.warning("%s: прохідний бал %d більший за максимум %d", PAGE, pass_score, count * points)
+    if pass_score is not None and pass_score > count * points:
+        log.warning("%s: прохідний бал %d більший за максимум %d", page_name, pass_score, count * points)
         pass_score = count * points
 
     # Версія банку: змінилися питання — незавершену спробу в браузері почнуть заново.
@@ -153,31 +172,35 @@ def build_bank(config, count: int, points: int, pass_score: int) -> dict:
     }
 
 
-def settings(page) -> tuple[int, int, int]:
+def settings(page) -> tuple[str, int, int, int | None]:
+    name = page.file.src_uri
     meta = page.meta.get("final_test") or {}
-    defaults = DEFAULT_QUESTIONS, DEFAULT_POINTS, DEFAULT_PASS
+    kind = meta.get("kind", DEFAULT_KIND)
+    if kind not in KINDS:
+        log.warning("%s: kind у final_test — одне з %s", name, ", ".join(KINDS))
+        kind = DEFAULT_KIND
     try:
-        values = (
-            int(meta.get("questions", DEFAULT_QUESTIONS)),
-            int(meta.get("points", DEFAULT_POINTS)),
-            int(meta.get("pass", DEFAULT_PASS)),
-        )
+        questions = int(meta.get("questions", DEFAULT_QUESTIONS))
+        points = int(meta.get("points", DEFAULT_POINTS))
+        pass_score = None if meta.get("pass") is None else int(meta["pass"])
     except (TypeError, ValueError):
-        log.warning("%s: questions, points і pass у final_test мають бути цілими числами", PAGE)
-        return defaults
-    if min(values) < 1:
-        log.warning("%s: questions, points і pass у final_test мають бути більші за нуль", PAGE)
-        return defaults
-    return values
+        log.warning("%s: questions, points і pass у final_test мають бути цілими числами", name)
+        return kind, DEFAULT_QUESTIONS, DEFAULT_POINTS, None
+    if min(questions, points, 1 if pass_score is None else pass_score) < 1:
+        log.warning("%s: questions, points і pass у final_test мають бути більші за нуль", name)
+        return kind, DEFAULT_QUESTIONS, DEFAULT_POINTS, None
+    return kind, questions, points, pass_score
 
 
 def on_page_content(html: str, page, config, files) -> str:
-    if page.file.src_uri != PAGE:
+    if "final_test" not in page.meta:
         return html
 
-    bank = build_bank(config, *settings(page))
+    kind, *values = settings(page)
+    bank = build_bank(page.file.src_uri, config, *values)
     # Підсумки для шаблону (перший екран).
     page.meta["final_test"] = {
+        "kind": kind,
         "questions": bank["questions"],
         "points": bank["points"],
         "max": bank["questions"] * bank["points"],

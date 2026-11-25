@@ -4,6 +4,7 @@ template: final_test.html
 search:
   exclude: true
 final_test:
+  kind: final
   questions: 50
   points: 2
   pass: 70  # прохідний бал (у балах, не у відсотках)

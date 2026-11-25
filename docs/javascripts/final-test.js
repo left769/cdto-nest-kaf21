@@ -1,10 +1,11 @@
 /*
- * Підсумковий тест — сторінка /final_test/ (шаблон overrides/final_test.html).
+ * Тести за всім курсом — підсумковий (/final_test/) і вхідний контроль
+ * (/start/); шаблон overrides/final_test.html, вид тесту — data-kind.
  *
  * Банк питань вбудовує hooks/final_test.py у <script id="final-test-data">.
  * Тут — добір питань (порівну з модулів, у модулі — порівну із занять),
- * перевірка, екран результату й PDF-сертифікат (jsPDF + шрифт e-Ukraine +
- * емблема кафедри). Усе відбувається в браузері слухача, на сервер нічого
+ * перевірка, екран результату й PDF — сертифікат підсумкового тесту або
+ * результат вхідного контролю (jsPDF + шрифт e-Ukraine + емблема кафедри). Усе відбувається в браузері слухача, на сервер нічого
  * не надсилається.
  *
  * Спроба й результат зберігаються в sessionStorage: оновлення сторінки їх
@@ -17,7 +18,44 @@
   if (!root || !dataEl) return;
 
   const bank = JSON.parse(dataEl.textContent);
-  const STORE_KEY = "cdto-final-test";
+
+  // Тексти, що залежать від виду тесту. Прохідний бал — окремо (bank.pass):
+  // без нього результат у PDF можна завантажити за будь-якого рахунку.
+  const KINDS = {
+    final: {
+      store: "cdto-final-test",
+      passed: "Тест складено. Завантажте сертифікат із результатом.",
+      failed: "Сертифікат видається після складання тесту.",
+      done: "Тест завершено. Завантажте сертифікат із результатом.",
+      date: "дата складання тесту",
+      pdf: {
+        title: "Сертифікат",
+        kicker: "ПІДСУМКОВЕ ТЕСТУВАННЯ",
+        about: "Підсумковий тест курсу складено",
+        subject: "Результат підсумкового тестування",
+        footer: "Сертифікат сформовано автоматично за результатами підсумкового тестування на навчальному порталі.",
+        file: "Сертифікат_CDTO",
+      },
+    },
+    entry: {
+      store: "cdto-entry-test",
+      passed: "Вхідний контроль складено. Завантажте результат у PDF.",
+      failed: "Результат у PDF видається після складання тесту.",
+      done: "Вхідний контроль завершено. Завантажте результат у PDF.",
+      date: "дата тестування",
+      pdf: {
+        title: "Результат",
+        kicker: "ВХІДНИЙ КОНТРОЛЬ",
+        about: "Вхідний контроль знань за програмою курсу",
+        subject: "Результат вхідного контролю",
+        footer: "Документ сформовано автоматично за результатами вхідного контролю на навчальному порталі.",
+        file: "Вхідний_контроль_CDTO",
+      },
+    },
+  };
+  const TEXT = KINDS[root.dataset.kind] || KINDS.final;
+  const STORE_KEY = TEXT.store;
+  const hasPass = bank.pass !== null && bank.pass !== undefined;
 
   const $ = (selector, scope = root) => scope.querySelector(selector);
   const screens = {
@@ -332,8 +370,8 @@
       score,
       max: total * bank.points,
       points: bank.points,
-      pass: bank.pass,
-      passed: score >= bank.pass,
+      pass: hasPass ? bank.pass : null,
+      passed: !hasPass || score >= bank.pass,
       modules: modules.filter((module) => module.total > 0),
       date: new Date().toISOString(),
     };
@@ -393,22 +431,26 @@
   const showResult = (initial = false) => {
     const { result } = state;
     $(".final-test__name").textContent = fullName(state);
-    $(".final-test__verdict").textContent = result.passed
-      ? "Тест складено. Завантажте сертифікат із результатом."
-      : `Тест не складено: потрібно щонайменше ${result.pass} ${plural(result.pass, "бал", "бали", "балів")}. `
-        + "Сертифікат видається після складання тесту.";
+    const withPass = result.pass !== null && result.pass !== undefined;
+    let verdict = TEXT.done;
+    if (withPass) {
+      verdict = result.passed
+        ? TEXT.passed
+        : `Тест не складено: потрібно щонайменше ${result.pass} ${plural(result.pass, "бал", "бали", "балів")}. ${TEXT.failed}`;
+    }
+    $(".final-test__verdict").textContent = verdict;
     $(".final-test__download").hidden = !result.passed;
     $(".final-test__retake").hidden = result.passed;
     root.querySelectorAll(".final-test__note").forEach((note) => {
       note.hidden = result.passed ? !note.hasAttribute("data-passed") : !note.hasAttribute("data-failed");
     });
     $(".final-test__download-status").textContent = "";
-    $(".final-test__stats").replaceChildren(
+    $(".final-test__stats").replaceChildren(...[
       stat(String(result.score), `${plural(result.score, "бал", "бали", "балів")} ${from(result.max)} ${result.max}`),
       stat(`${result.correct} ${from(result.total)} ${result.total}`, plural(result.total, "правильна відповідь", "правильних відповіді", "правильних відповідей")),
-      stat(String(result.pass), "прохідний бал"),
-      stat(formatDate(result.date), "дата складання тесту"),
-    );
+      withPass ? stat(String(result.pass), "прохідний бал") : null,
+      stat(formatDate(result.date), TEXT.date),
+    ].filter(Boolean));
     $(".final-test__modules").replaceChildren(...result.modules.map((module) => {
       const item = el("li");
       const meter = el("span", "final-test__meter");
@@ -426,6 +468,7 @@
   };
 
   // Тест не складено — нова спроба з новим набором питань; ім’я лишається.
+  // Без прохідного бала (вхідний контроль) кнопки немає: спроба одна.
   $(".final-test__retake").addEventListener("click", () => {
     state = {
       version: bank.version,
@@ -439,7 +482,7 @@
     showTest();
   });
 
-  // ---------- PDF-сертифікат ----------
+  // ---------- PDF: сертифікат або результат вхідного контролю ----------
 
   const download = $(".final-test__download");
   const downloadStatus = $(".final-test__download-status");
@@ -524,9 +567,10 @@
     };
 
     const name = fullName(state);
+    const text = TEXT.pdf;
     doc.setProperties({
-      title: `Сертифікат — ${name}`,
-      subject: `Результат підсумкового тестування: ${result.score} з ${result.max}`,
+      title: `${text.title} — ${name}`,
+      subject: `${text.subject}: ${result.score} з ${result.max}`,
       author: data.department,
       creator: data.portal,
     });
@@ -560,9 +604,9 @@
     const width = W - M - x;
 
     type("medium", 8.5, C.muted);
-    doc.text("ПІДСУМКОВЕ ТЕСТУВАННЯ", x, 56, { charSpace: 0.5 });
+    doc.text(text.kicker, x, 56, { charSpace: 0.5 });
     type("light", 40, C.ink);
-    doc.text("Сертифікат", x, 73);
+    doc.text(text.title, x, 73);
 
     // Ім’я — найбільшим кеглем, що вміщується в колонку; задовге — у два рядки.
     const fit = (lines, from, to) => {
@@ -589,9 +633,10 @@
     doc.rect(x, nameBottom + 5, 24, 1.2, "F");
 
     type("regular", 10, C.muted);
-    const about = `Підсумковий тест курсу складено: ${result.total} ${plural(result.total, "питання", "питання", "питань")} `
-      + `за всіма модулями, ${result.points} ${plural(result.points, "бал", "бали", "балів")} за кожну правильну відповідь, `
-      + `прохідний бал — ${result.pass}.`;
+    const withPass = result.pass !== null && result.pass !== undefined;
+    const about = `${text.about}: ${result.total} ${plural(result.total, "питання", "питання", "питань")} `
+      + `за всіма модулями, ${result.points} ${plural(result.points, "бал", "бали", "балів")} за кожну правильну відповідь`
+      + (withPass ? `, прохідний бал — ${result.pass}.` : ".");
     doc.text(doc.splitTextToSize(about, width), x, nameBottom + 16, { lineHeightFactor: 1.45 });
 
     // Підсумки — як цифри в геройблоці порталу: золоті на графітовому.
@@ -602,7 +647,7 @@
     const boxes = [
       { value: String(result.score), unit: ` / ${result.max}`, label: plural(result.score, "бал", "бали", "балів"), dark: true },
       { value: `${result.correct} ${from(result.total)} ${result.total}`, label: plural(result.total, "правильна відповідь", "правильних відповіді", "правильних відповідей") },
-      { value: formatDate(result.date), label: "дата складання тесту" },
+      { value: formatDate(result.date), label: TEXT.date },
     ];
     boxes.forEach((item, i) => {
       const bx = x + i * (box + gap);
@@ -626,7 +671,7 @@
     doc.setDrawColor(C.line);
     doc.line(M, 186, W - M, 186);
     type("regular", 7.5, C.muted);
-    doc.text("Сертифікат сформовано автоматично за результатами підсумкового тестування на навчальному порталі.", M, 193);
+    doc.text(text.footer, M, 193);
     type("medium", 7.5, C.muted);
     textRight(PORTAL_HOST, 193, 0.15);
 
@@ -636,14 +681,15 @@
   download.addEventListener("click", async () => {
     if (!state?.result?.passed) return;
     download.disabled = true;
-    downloadStatus.textContent = "Готуємо сертифікат…";
+    const what = TEXT.pdf.title.toLocaleLowerCase("uk");
+    downloadStatus.textContent = `Готуємо ${what}…`;
     try {
       const doc = certificate(await loadAssets());
-      doc.save(`Сертифікат_CDTO_${state.last}_${state.first}.pdf`);
-      downloadStatus.textContent = "Сертифікат завантажено.";
+      doc.save(`${TEXT.pdf.file}_${state.last}_${state.first}.pdf`);
+      downloadStatus.textContent = `${TEXT.pdf.title} завантажено.`;
     } catch (error) {
       console.error(error);
-      downloadStatus.textContent = "Не вдалося сформувати сертифікат. Перевірте з’єднання з інтернетом і спробуйте ще раз.";
+      downloadStatus.textContent = `Не вдалося сформувати ${what}. Перевірте з’єднання з інтернетом і спробуйте ще раз.`;
     } finally {
       download.disabled = false;
     }

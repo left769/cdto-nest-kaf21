@@ -1,12 +1,14 @@
 {#-
-  Підсумковий тест (docs/final_test.md → /final_test/).
+  Тести за всім курсом: підсумковий (docs/final_test.md → /final_test/)
+  і вхідний контроль (docs/start.md → /start/). Вид тесту — final_test.kind
+  у метаданих сторінки: final або entry.
 
   Окрема сторінка без навігації порталу: у шапці лише емблеми й назва курсу
   (без посилань), немає вкладок, бічного меню, пошуку, «хлібних крихт»
   і посилань у футері. Сторінки немає в навігації та пошуку порталу.
 
   Банк питань вбудовує hooks/final_test.py, логіка — javascripts/final-test.js,
-  стилі — stylesheets/final-test.css. Текст правил — тіло docs/final_test.md.
+  стилі — stylesheets/final-test.css. Текст правил — тіло сторінки.
 -#}
 {% extends "main.html" %}
 
@@ -53,10 +55,12 @@
   {% set course = config.extra.course | d({}) %}
   {% set course_name = (course.title ~ " " ~ course.subtitle) if course.title else config.site_name %}
   {% set ft = page.meta.final_test %}
+  {% set entry = ft.kind == "entry" %}
   {% set assets = config.extra.final_test %}
   <div class="md-content" data-md-component="content">
     <article class="md-content__inner md-typeset">
       <div class="final-test"
+        data-kind="{{ ft.kind }}"
         data-course-title="{{ course.title | d(config.site_name) }}"
         data-course-subtitle="{{ course.subtitle | d('') }}"
         data-portal="{{ config.site_name }}"
@@ -72,12 +76,18 @@
           <div class="portal-hero">
             <p class="portal-course">{{ course_name }}</p>
             <h1>{{ page.title }}</h1>
-            <p class="portal-lead">Перевірка знань за всіма модулями курсу. За результатом ви отримаєте сертифікат у форматі PDF.</p>
+            {% if entry %}
+              <p class="portal-lead">Перевірка початкового рівня знань за всіма модулями курсу. Результат можна завантажити у форматі PDF.</p>
+            {% else %}
+              <p class="portal-lead">Перевірка знань за всіма модулями курсу. За результатом ви отримаєте сертифікат у форматі PDF.</p>
+            {% endif %}
             <div class="portal-stats">
               <div><strong>{{ "%02d" | format(ft.questions) }}</strong><span>{{ plural(ft.questions, "питання", "питання", "питань") }} у тесті</span></div>
               <div><strong>{{ "%02d" | format(ft.points) }}</strong><span>{{ plural(ft.points, "бал", "бали", "балів") }} за правильну відповідь</span></div>
               <div><strong>{{ ft.max }}</strong><span>максимальний бал</span></div>
-              <div><strong>{{ ft.pass }}</strong><span>прохідний бал</span></div>
+              {% if ft.pass %}
+                <div><strong>{{ ft.pass }}</strong><span>прохідний бал</span></div>
+              {% endif %}
               <div><strong>{{ "%02d" | format(ft.modules) }}</strong><span>{{ plural(ft.modules, "модуль", "модулі", "модулів") }} курсу</span></div>
             </div>
           </div>
@@ -89,8 +99,13 @@
             </div>
 
             <form class="final-test__card final-test__start" novalidate>
-              <h2>Ваші дані для сертифіката</h2>
-              <p class="final-test__muted">Ім’я та прізвище українською мовою — так, як вони мають бути в сертифікаті.</p>
+              {% if entry %}
+                <h2>Ваші дані</h2>
+                <p class="final-test__muted">Ім’я та прізвище українською мовою — так, як вони мають бути в документі з результатом.</p>
+              {% else %}
+                <h2>Ваші дані для сертифіката</h2>
+                <p class="final-test__muted">Ім’я та прізвище українською мовою — так, як вони мають бути в сертифікаті.</p>
+              {% endif %}
               <div class="final-test__field">
                 <label for="final-test-first">Ім’я</label>
                 <input id="final-test-first" name="first" type="text" lang="uk" autocomplete="given-name" autocapitalize="words" spellcheck="false" maxlength="40" required aria-describedby="final-test-first-error">
@@ -142,7 +157,7 @@
           <div class="final-test__card">
             <h2>Результат за модулями</h2>
             <ul class="final-test__modules"></ul>
-            <p class="final-test__muted final-test__note" data-passed>Сертифікат формується у вашому браузері й нікуди не надсилається. Збережіть його до закриття вкладки: після цього результат не відновиться.</p>
+            <p class="final-test__muted final-test__note" data-passed>{{ "Документ із результатом" if entry else "Сертифікат" }} формується у вашому браузері й нікуди не надсилається. Збережіть його до закриття вкладки: після цього результат не відновиться.</p>
             <p class="final-test__muted final-test__note" data-failed>Поверніться до матеріалів модулів із найнижчим результатом, а потім пройдіть тест ще раз — питання будуть інші.</p>
           </div>
         </section>
